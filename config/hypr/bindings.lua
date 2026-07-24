@@ -51,13 +51,16 @@ hl.bind(mainMod .. " + V", hl.dsp.send_shortcut({ mods = "SHIFT", key = "Insert"
 hl.bind(mainMod .. " + X", hl.dsp.send_shortcut({ mods = "CTRL", key = "X", window = "activewindow" }))
 hl.bind(mainMod .. " + SHIFT + V", hl.dsp.exec_cmd("walker -m clipboard"))
 
+-- Audio Output Switch
+hl.bind(mainMod .. " + XF86AudioMute", hl.dsp.exec_cmd("audio-output-switch"), { locked = true})
+
 -- Volume & Mic Controls
 hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd("swayosd-client --output-volume raise"),
   { locked = true, repeating = true, ignore_mods = true })
 hl.bind("XF86AudioLowerVolume", hl.dsp.exec_cmd("swayosd-client --output-volume lower"),
   { locked = true, repeating = true, ignore_mods = true })
 hl.bind("XF86AudioMute", hl.dsp.exec_cmd("swayosd-client --output-volume mute-toggle"),
-  { locked = true, repeating = true, ignore_mods = true })
+  { locked = true })
 hl.bind("XF86AudioMicMute", hl.dsp.exec_cmd([[
     sh -c "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle; \
     if wpctl get-volume @DEFAULT_AUDIO_SOURCE@ | grep -q MUTED; then \
@@ -106,8 +109,6 @@ hl.bind("XF86AudioPause", hl.dsp.exec_cmd("swayosd-client --playerctl play-pause
 hl.bind("XF86AudioPlay", hl.dsp.exec_cmd("swayosd-client --playerctl play-pause"), { locked = true, ignore_mods = true })
 hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("swayosd-client --playerctl previous"), { locked = true, ignore_mods = true })
 
--- Audio Output Switch
-hl.bind(mainMod .. " + XF86AudioMute", hl.dsp.exec_cmd("audio-output-switch"), { locked = true, ignore_mods = true })
 
 -- Monitor Focus
 hl.bind("CTRL + ALT + TAB", hl.dsp.focus({ monitor = "+1" }))
