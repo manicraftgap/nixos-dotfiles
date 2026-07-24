@@ -3,6 +3,7 @@
 {
   programs.librewolf = {
     enable = true;
+    
     policies = {
       ExtensionSettings = {
         "addon@darkreader.org" = {
@@ -33,40 +34,43 @@
           install_url = "https://addons.mozilla.org/firefox/downloads/file/4851750/proton_vpn_firefox_extension-1.3.5.xpi";
           installation_mode = "force_installed";
         };
+        "GXThemeStyles@Godie" = {
+          install_url = "https://addons.mozilla.org/firefox/downloads/file/4703873/gx_theme_styles-1.0.8.xpi";
+          installation_mode = "force_installed";
+        };
       };
     };
 
     profiles.default = {
-      settings = import ./libreprefs.nix
-      bookmarks = [
-        {
-          name = "MCSR";
-          url = "https://mcsrranked.com/stats/manicraftgap";
-          toolbar = true;
-        }
-        {
-          name = "MCSR Stats";
-          url = "https://mcsrstats.netlify.app/";
-          toolbar = true;
-        }
-        {
-          name = "Gapcheck";
-          url = "https://gapcheck.gg/practice";
-          toolbar = true;
-        }
-        {
-          name = "Typeracer";
-          url = "https://play.typeracer.com/";
-          toolbar = true;
-        }
-        {
-          name = "NixDots";
-          url = "https://github.com/manicraftgap/nixos-dotfiles/tree/main";
-          toolbar = true;
-        }
-      ];
+      settings = import ./libreprefs.nix;
+      bookmarks = {
+        force = true;
+        settings = [
+          {
+            name = "MCSR";
+            url = "https://mcsrranked.com/stats/manicraftgap";
+          }
+          {
+            name = "MCSR Stats";
+            url = "https://mcsrstats.netlify.app/";
+          }
+          {
+            name = "Gapcheck";
+            url = "https://gapcheck.gg/practice";
+          }
+          {
+            name = "Typeracer";
+            url = "https://play.typeracer.com/";
+          }
+          {
+            name = "NixDots";
+            url = "https://github.com/manicraftgap/nixos-dotfiles/tree/main";
+          }
+        ];
+      };
     };
   };
+
   home.file.".librewolf/default/chrome" = {
     source = ./config/librewolf/chrome;
     recursive = true;
