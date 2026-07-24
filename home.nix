@@ -21,6 +21,8 @@ let
     startship = "starship.toml";
     fastfetch = "fastfetch";
     icons = "icons";
+    "gtk-3.0" = "gtk-3.0";
+    "gtk-4.0" = "gtk-4.0";
     "vesktop/themes" = "vesktop/themes";
   };
 in

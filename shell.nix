@@ -32,7 +32,7 @@
       btw = "echo i use hyprland btw";
       nrs = "sudo nixos-rebuild switch --flake ~/nixos-dotfiles#hyprnix";
       vim = "nvim";
-      spf = "superfile"
+      spf = "superfile";
 
       # Git Utilities
       g = "git";

@@ -73,13 +73,18 @@
     "x-scheme-handler/http" = "librewolf.desktop";
     "x-scheme-handler/https" = "librewolf.desktop";
   };
- 
-  programs.dconf.enable = true;
 
-  dconf.settings = {
-    "org/gnome/desktop/interface" = {
-      icon-theme = "Yaru-red-dark";
-    };
+  programs.dconf = {
+    enable = true;
+    profiles.user.databases = [
+      {
+        settings = {
+          "org/gnome/desktop/interface" = {
+            icon-theme = "Yaru-red-dark";
+          };
+        };
+      }
+    ];
   };
 
   environment.sessionVariables = {
