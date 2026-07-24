@@ -4,7 +4,7 @@ let
   kbdBacklight = pkgs.writeShellScriptBin "kbd-backlight" ''
     direction="''${1:-up}"
 
-    # Find keyboard backlight device (look for *kbd_backlight* pattern in leds class)
+    # Find keyboard backlight device
     device=""
     for candidate in /sys/class/leds/*kbd_backlight*; do
       if [[ -e $candidate ]]; then
@@ -20,17 +20,16 @@ let
 
     if [[ "$direction" == "off" ]]; then
       ${pkgs.brightnessctl}/bin/brightnessctl -sd "$device" set 0 >/dev/null
+      ${pkgs.swayosd}/bin/swayosd-client --custom-progress 0.0 --custom-icon "keyboard-brightness-symbolic"
       exit 0
     elif [[ "$direction" == "restore" ]]; then
       ${pkgs.brightnessctl}/bin/brightnessctl -rd "$device" >/dev/null
       exit 0
     fi
 
-    # Get current and max brightness to determine step size.
     max_brightness="$(${pkgs.brightnessctl}/bin/brightnessctl -d "$device" max)"
     current_brightness="$(${pkgs.brightnessctl}/bin/brightnessctl -d "$device" get)"
 
-    # Calculate step as 10% of max brightness.
     step=$(( max_brightness / 10 ))
     (( step < 1 )) && step=1
 
@@ -45,19 +44,20 @@ let
       (( new_brightness < 0 )) && new_brightness=0
     fi
 
-    # Set the new brightness.
     ${pkgs.brightnessctl}/bin/brightnessctl -d "$device" set "$new_brightness" >/dev/null
 
-    # Calculate percentage and send directly to SwayOSD
-    percent=$((new_brightness * 100 / max_brightness))
-    ${pkgs.swayosd}/bin/swayosd-client --custom-message "Keyboard Backlight: $percent%"
+    progress=$(awk "BEGIN {print $new_brightness / $max_brightness}")
+
+    ${pkgs.swayosd}/bin/swayosd-client --custom-progress "$progress" --custom-icon "keyboard-brightness-symbolic"
   '';
 
   touchpadToggle = pkgs.writeShellScriptBin "touchpad-toggle" ''
     STATE_CONF="$HOME/.local/state/hypr/touchpad-disabled.conf"
 
-    # Query device list from hyprland directly to find the active touchpad
-    device=$(${pkgs.hyprland}/bin/hyprctl devices -j | ${pkgs.jq}/bin/jq -r '.mice[] | select(.name | ascii_downcase | contains("touchpad")).name' | head -n 1)
+    # Find the exact touchpad device name from hyprctl
+    device=$(${pkgs.hyprland}/bin/hyprctl devices -j | ${pkgs.jq}/bin/jq -r '
+      .mice[] | select(.name | ascii_downcase | contains("touchpad")).name
+    ' | head -n 1)
 
     if [[ -z "$device" ]]; then
       echo "No touchpad device found" >&2
@@ -65,13 +65,15 @@ let
     fi
 
     enable() {
-      ${pkgs.hyprland}/bin/hyprctl keyword "device[$device]:enabled" true >/dev/null
+      # Using 1/true for enabled
+      ${pkgs.hyprland}/bin/hyprctl keyword "device[$device]:enabled" 1 >/dev/null
       rm -f "$STATE_CONF"
       ${pkgs.swayosd}/bin/swayosd-client --custom-icon input-touchpad-symbolic --custom-message "Touchpad Enabled"
     }
 
     disable() {
-      ${pkgs.hyprland}/bin/hyprctl keyword "device[$device]:enabled" false >/dev/null
+      # Using 0/false for disabled
+      ${pkgs.hyprland}/bin/hyprctl keyword "device[$device]:enabled" 0 >/dev/null
       mkdir -p "$(dirname "$STATE_CONF")"
       printf 'device {\n    name = %s\n    enabled = false\n}\n' "$device" > "$STATE_CONF"
       ${pkgs.swayosd}/bin/swayosd-client --custom-icon touchpad-disabled-symbolic --custom-message "Touchpad Disabled"
@@ -80,10 +82,15 @@ let
     case "''${1:-toggle}" in
       on) enable ;;
       off) disable ;;
-      toggle) if [[ -f "$STATE_CONF" ]]; then enable; else disable; fi ;;
+      toggle) 
+        if [[ -f "$STATE_CONF" ]]; then 
+          enable
+        else 
+          disable 
+        fi 
+        ;;
     esac
   '';
-
   audioOutputSwitch = pkgs.writeShellScriptBin "audio-output-switch" ''
     sinks=$(${pkgs.pulseaudio}/bin/pactl -f json list sinks | ${pkgs.jq}/bin/jq '[.[] | select((.ports | length == 0) or ([.ports[]? | .availability != "not available"] | any))]')
     sinks_count=$(echo "$sinks" | ${pkgs.jq}/bin/jq '. | length')

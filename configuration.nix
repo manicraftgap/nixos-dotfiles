@@ -72,6 +72,7 @@
     "text/html" = "librewolf.desktop";
     "x-scheme-handler/http" = "librewolf.desktop";
     "x-scheme-handler/https" = "librewolf.desktop";
+    "inode/directory" = "org.gnome.Nautilus.desktop";
   };
 
   environment.sessionVariables = {

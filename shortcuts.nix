@@ -47,7 +47,7 @@
     youtube = {
       name = "YouTube";
       comment = "YouTube";
-      icon = "./config/icons/YouTube.png";
+      icon = ./config/icons/YouTube.png;
       exec = "uwsm-app -- xdg-open \"https://youtube.com/\"";
       terminal = false;
       settings = {
@@ -58,7 +58,7 @@
     github = {
       name = "GitHub";
       comment = "GitHub";
-      icon = "./config/icons/GitHub.png";
+      icon = ./config/icons/GitHub.png;
       exec = "uwsm-app -- xdg-open \"https://github.com/\"";
       terminal = false;
       settings = {
@@ -69,17 +69,18 @@
     monkeytype = {
       name = "Monkeytype";
       comment = "Monkeytype";
-      icon = "./config/icons/Monkeytype.png";
+      icon = ./config/icons/Monkeytype.png;
       exec = "uwsm-app -- xdg-open \"https://monkeytype.com/\"";
       terminal = false;
       settings = {
         StartupNotify = "true";
       };
+    };
 
     lichess = {
       name = "Lichess";
       comment = "Lichess";
-      icon = "./config/icons/lichess.png";
+      icon = ./config/icons/lichess.png;
       exec = "uwsm-app -- xdg-open \"https://monkeytype.com/\"";
       terminal = false;
       settings = {
