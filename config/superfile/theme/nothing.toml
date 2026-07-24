@@ -1,0 +1,68 @@
+##############################################
+#                                            #
+#               Nothing OS Theme             #
+#                                            #
+##############################################
+
+# Inspired by Nothing OS monochrome + signature dot-red aesthetic
+
+code_syntax_highlight = "monokai"
+
+###############################################################################
+#                                 Base Colors                                 #
+###############################################################################
+
+#-- Full Screen
+full_screen_fg = "#ffffff"
+full_screen_bg = "#000000"
+
+#-- Gradient
+# Sharp red-to-white contrast signature
+gradient_color = ["#D71921", "#ffffff"]
+directory_icon_color = "#D71921"
+
+#-- File Panel
+file_panel_fg = "#e5e5e5"
+file_panel_bg = "#000000"
+file_panel_border = "#333333"
+file_panel_border_active = "#ffffff"
+file_panel_top_directory_icon = "#D71921"
+file_panel_top_path = "#ffffff"
+file_panel_item_selected_fg = "#ffffff"
+file_panel_item_selected_bg = "#1a1a1a"
+
+#-- Footer
+footer_fg = "#888888"
+footer_bg = "#000000"
+footer_border = "#262626"
+footer_border_active = "#D71921"
+
+#-- Sidebar
+sidebar_fg = "#a0a0a0"
+sidebar_bg = "#000000"
+sidebar_title = "#ffffff"
+sidebar_border = "#262626"
+sidebar_border_active = "#ffffff"
+sidebar_item_selected_fg = "#000000"
+sidebar_item_selected_bg = "#ffffff"
+sidebar_divider = "#262626"
+
+#-- Modals
+modal_fg = "#ffffff"
+modal_bg = "#0d0d0d"
+modal_border_active = "#D71921"
+modal_cancel_fg = "#ffffff"
+modal_cancel_bg = "#262626"
+modal_confirm_fg = "#ffffff"
+modal_confirm_bg = "#D71921"
+
+#-- Help Menu
+help_menu_hotkey = "#D71921"
+help_menu_title = "#ffffff"
+
+#-- Special
+cursor = "#D71921"
+correct = "#00e676"
+error = "#D71921"
+hint = "#888888"
+cancel = "#555555"
