@@ -60,6 +60,8 @@
     samrewritten
     cliamp
     nautilus
+    gnome-calculator
+    gnome-disk-utility
     galaxy-buds-client
     gale
     kdePackages.kdenlive
