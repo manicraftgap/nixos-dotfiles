@@ -70,5 +70,6 @@
     mullvad-vpn
     mpv
     inputs.superfile.packages.${pkgs.system}.default
+    yaru-theme
   ];
 }
