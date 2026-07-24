@@ -1,6 +1,13 @@
 { pkgs, ... }: {
   xdg.desktopEntries = {
 
+    Nvim = {
+      name = "Neovim";
+      icon = "nvim";
+      exec = "ghostty -e nvim %F";
+      terminal = false;
+    };
+
     draftout = {
       name = "Draftout";
       comment = "Launch Draftout instance in Prism Launcher";
@@ -13,17 +20,6 @@
       };
     };
 
-    github = {
-      name = "GitHub";
-      comment = "GitHub";
-      icon = "/home/mani/.local/share/applications/icons/GitHub.png";
-      exec = "uwsm-app -- xdg-open \"https://github.com/\"";
-      terminal = false;
-      settings = {
-        StartupNotify = "true";
-      };
-    };
-
     mcsr-ranked = {
       name = "MCSR Ranked";
       comment = "Launch MCSR instance in Prism Launcher";
@@ -33,17 +29,6 @@
       settings = {
         Path = "/home/mani/.local/share/PrismLauncher/instances/MCSRRanked";
         Keywords = "Minecraft;Prism;Launcher;";
-      };
-    };
-
-    monkeytype = {
-      name = "Monkeytype";
-      comment = "Monkeytype";
-      icon = "/home/mani/.local/share/applications/icons/Monkeytype.png";
-      exec = "uwsm-app -- xdg-open \"https://monkeytype.com/\"";
-      terminal = false;
-      settings = {
-        StartupNotify = "true";
       };
     };
 
@@ -62,7 +47,7 @@
     youtube = {
       name = "YouTube";
       comment = "YouTube";
-      icon = "/home/mani/.local/share/applications/icons/YouTube.png";
+      icon = "./config/icons/YouTube.png";
       exec = "uwsm-app -- xdg-open \"https://youtube.com/\"";
       terminal = false;
       settings = {
@@ -70,5 +55,36 @@
       };
     };
 
+    github = {
+      name = "GitHub";
+      comment = "GitHub";
+      icon = "./config/icons/GitHub.png";
+      exec = "uwsm-app -- xdg-open \"https://github.com/\"";
+      terminal = false;
+      settings = {
+        StartupNotify = "true";
+      };
+    };
+
+    monkeytype = {
+      name = "Monkeytype";
+      comment = "Monkeytype";
+      icon = "./config/icons/Monkeytype.png";
+      exec = "uwsm-app -- xdg-open \"https://monkeytype.com/\"";
+      terminal = false;
+      settings = {
+        StartupNotify = "true";
+      };
+
+    lichess = {
+      name = "Lichess";
+      comment = "Lichess";
+      icon = "./config/icons/lichess.png";
+      exec = "uwsm-app -- xdg-open \"https://monkeytype.com/\"";
+      terminal = false;
+      settings = {
+        StartupNotify = "true";
+      };
+    };
   };
 }
