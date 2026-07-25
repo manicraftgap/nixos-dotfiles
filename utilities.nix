@@ -53,29 +53,18 @@ let
 
   touchpadToggle = pkgs.writeShellScriptBin "touchpad-toggle" ''
     STATE_CONF="$HOME/.local/state/hypr/touchpad-disabled.conf"
-
-    # Find the exact touchpad device name from hyprctl
-    device=$(${pkgs.hyprland}/bin/hyprctl devices -j | ${pkgs.jq}/bin/jq -r '
-      .mice[] | select(.name | ascii_downcase | contains("touchpad")).name
-    ' | head -n 1)
-
-    if [[ -z "$device" ]]; then
-      echo "No touchpad device found" >&2
-      exit 1
-    fi
+    TOUCHPAD_NAME="asuf1207:00-2808:0219-touchpad"
 
     enable() {
-      # Using 1/true for enabled
-      ${pkgs.hyprland}/bin/hyprctl keyword "device[$device]:enabled" 1 >/dev/null
+      ${pkgs.hyprland}/bin/hyprctl eval "hl.device({ name = \"$TOUCHPAD_NAME\", enabled = true })" >/dev/null
       rm -f "$STATE_CONF"
       ${pkgs.swayosd}/bin/swayosd-client --custom-icon input-touchpad-symbolic --custom-message "Touchpad Enabled"
     }
 
     disable() {
-      # Using 0/false for disabled
-      ${pkgs.hyprland}/bin/hyprctl keyword "device[$device]:enabled" 0 >/dev/null
+      ${pkgs.hyprland}/bin/hyprctl eval "hl.device({ name = \"$TOUCHPAD_NAME\", enabled = false })" >/dev/null
       mkdir -p "$(dirname "$STATE_CONF")"
-      printf 'device {\n    name = %s\n    enabled = false\n}\n' "$device" > "$STATE_CONF"
+      printf 'hl.device({ name = "%s", enabled = false })\n' "$TOUCHPAD_NAME" > "$STATE_CONF"
       ${pkgs.swayosd}/bin/swayosd-client --custom-icon touchpad-disabled-symbolic --custom-message "Touchpad Disabled"
     }
 
@@ -91,6 +80,7 @@ let
         ;;
     esac
   '';
+
   audioOutputSwitch = pkgs.writeShellScriptBin "audio-output-switch" ''
     sinks=$(${pkgs.pulseaudio}/bin/pactl -f json list sinks | ${pkgs.jq}/bin/jq '[.[] | select((.ports | length == 0) or ([.ports[]? | .availability != "not available"] | any))]')
     sinks_count=$(echo "$sinks" | ${pkgs.jq}/bin/jq '. | length')

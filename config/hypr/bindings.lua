@@ -211,7 +211,7 @@ hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(), { mouse = true })
 hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
 
 -- === Utilities & Walkers ===
-hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd("walker"))
+hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd("walker --width 645 --height 375"))
 hl.bind(mainMod .. " + CTRL + E", hl.dsp.exec_cmd("walker -m symbols"))
 hl.bind(mainMod .. " + SHIFT + SPACE", hl.dsp.exec_cmd("pkill waybar || waybar &"))
 hl.bind(mainMod .. " + CTRL + SPACE", hl.dsp.exec_cmd("walker --provider menus:backgroundSelector"))
