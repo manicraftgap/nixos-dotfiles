@@ -35,7 +35,7 @@
     pvp-plus = {
       name = "PVP+";
       comment = "Launch PVP+ instance in Prism Launcher";
-      icon = "/home/mani/.local/share/PrismLauncher/instances/PVP+/minecraft/icon.png";
+      icon = "/home/mani/.local/share/PrismLauncher/instances/PVP+/minecraft/icon.webp";
       exec = "prismlauncher --launch PVP+";
       categories = [ "Game" ];
       settings = {
