@@ -47,24 +47,30 @@
         force = true;
         settings = [
           {
-            name = "MCSR";
-            url = "https://mcsrranked.com/stats/manicraftgap";
-          }
-          {
-            name = "MCSR Stats";
-            url = "https://mcsrstats.netlify.app/";
-          }
-          {
-            name = "Gapcheck";
-            url = "https://gapcheck.gg/practice";
-          }
-          {
-            name = "Typeracer";
-            url = "https://play.typeracer.com/";
-          }
-          {
-            name = "NixDots";
-            url = "https://github.com/manicraftgap/nixos-dotfiles/tree/main";
+            name = "Bookmarks Toolbar";
+            toolbar = true;
+            bookmarks = [
+              {
+                name = "MCSR";
+                url = "https://mcsrranked.com/stats/manicraftgap";
+              }
+              {
+                name = "MCSR Stats";
+                url = "https://mcsrstats.netlify.app/";
+              }
+              {
+                name = "Gapcheck";
+                url = "https://gapcheck.gg/practice";
+              }
+              {
+                name = "Typeracer";
+                url = "https://play.typeracer.com/";
+              }
+              {
+                name = "NixDots";
+                url = "https://github.com/manicraftgap/nixos-dotfiles/tree/main";
+              }
+            ];
           }
         ];
       };

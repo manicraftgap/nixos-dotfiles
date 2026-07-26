@@ -74,5 +74,20 @@
     mpv
     inputs.superfile.packages.${pkgs.system}.default
     yaru-theme
+    (prismlauncher.override {
+        additionalLibs = [
+          glfw3-minecraft
+        ];
+      })
+    jdk17
+    libxtst
+    libx11
+    libxext
+    libxrender
+    libxi
+    libxkbcommon
+    libXt
+    libxkbfile
+    libXinerama
   ];
 }
