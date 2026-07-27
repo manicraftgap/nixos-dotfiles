@@ -15,17 +15,19 @@
     };
     nix-flatpak.url = "github:gmodena/nix-flatpak";
     helium.url = "github:oxcl/nix-flake-helium-browser";
+    millennium.url = "github:SteamClientHomebrew/Millennium/next?dir=packages/nix";
     superfile = {
-          url = "github:yorukot/superfile";
-          inputs.nixpkgs.follows = "nixpkgs";
-        };
+      url = "github:yorukot/superfile";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = { self, nixpkgs, nixos-hardware, home-manager, ... }@inputs: {
     nixosConfigurations.hyprnix = nixpkgs.lib.nixosSystem {
-      system = "x86_64-linux";
       specialArgs = { inherit inputs; };
       modules = [
+        { nixpkgs.hostPlatform = "x86_64-linux"; }
+        { nixpkgs.overlays = [ inputs.millennium.overlays.default ]; }
         nixos-hardware.nixosModules.asus-zephyrus-gu605my
         inputs.helium.nixosModules.default
         ./configuration.nix

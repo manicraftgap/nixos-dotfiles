@@ -68,6 +68,16 @@
     nerd-fonts.jetbrains-mono
   ];
 
+  hardware.graphics = {
+    enable = true;
+    enable32Bit = true;
+  };
+
+  programs.steam = {
+    enable = true;
+    package = pkgs.millennium-steam;
+  };
+
   programs.nix-ld = {
     enable = true;
     libraries = with pkgs; [

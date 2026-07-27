@@ -57,7 +57,6 @@
     sqlite
     vesktop
     mcpelauncher-ui-qt
-    steam
     steam-run
     samrewritten
     cliamp
