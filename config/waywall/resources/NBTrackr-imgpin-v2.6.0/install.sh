@@ -13,23 +13,23 @@ echo "==================================="
 echo
 
 if command -v python3 &>/dev/null; then
-    PYTHON_BIN="python3"
+  PYTHON_BIN="python3"
 elif command -v python &>/dev/null; then
-    PYTHON_BIN="python"
+  PYTHON_BIN="python"
 else
-    echo -e "${RED}ERROR: Python is not installed.${NC}"
-    echo "Install it via your distro package manager:"
-    echo "  Debian/Ubuntu: sudo apt install python3"
-    echo "  Arch Linux:    sudo pacman -S python"
-    echo "  Fedora:        sudo dnf install python3"
-    exit 1
+  echo -e "${RED}ERROR: Python is not installed.${NC}"
+  echo "Install it via your distro package manager:"
+  echo "  Debian/Ubuntu: sudo apt install python3"
+  echo "  Arch Linux:    sudo pacman -S python"
+  echo "  Fedora:        sudo dnf install python3"
+  exit 1
 fi
 
 if [ ! -d "venv" ]; then
-    echo "Creating virtual environment..."
-    "$PYTHON_BIN" -m venv venv
+  echo "Creating virtual environment..."
+  "$PYTHON_BIN" -m venv --system-site-packages venv
 else
-    echo "Virtual environment already exists."
+  echo "Virtual environment already exists."
 fi
 
 FULL_PATH="$(pwd)/venv/bin/python"
@@ -80,24 +80,24 @@ chmod +x "$LAUNCHER_TARGET"
 mkdir -p "$INSTALL_DIR"
 
 if [ -L "$LAUNCHER_LINK" ] || [ -e "$LAUNCHER_LINK" ]; then
-    echo "Updating existing nbtrackr entry in $INSTALL_DIR..."
-    ln -sf "$LAUNCHER_TARGET" "$LAUNCHER_LINK"
+  echo "Updating existing nbtrackr entry in $INSTALL_DIR..."
+  ln -sf "$LAUNCHER_TARGET" "$LAUNCHER_LINK"
 else
-    ln -sf "$LAUNCHER_TARGET" "$LAUNCHER_LINK"
-    echo -e "${GREEN}NBTrackr added to $INSTALL_DIR${NC}"
+  ln -sf "$LAUNCHER_TARGET" "$LAUNCHER_LINK"
+  echo -e "${GREEN}NBTrackr added to $INSTALL_DIR${NC}"
 fi
 case ":$PATH:" in
-    *":$INSTALL_DIR:"*)
-        ;;
-    *)
-        echo
-        echo -e "${YELLOW}$INSTALL_DIR is not in your PATH.${NC}"
-        echo "Add this line to your shell config (~/.bashrc, ~/.zshrc, etc.):"
-        echo
-        echo -e "  ${CYAN}export PATH=\"\$HOME/.local/bin:\$PATH\"${NC}"
-        echo
-        echo "Then restart your terminal."
-        ;;
+*":$INSTALL_DIR:"*)
+  ;;
+*)
+  echo
+  echo -e "${YELLOW}$INSTALL_DIR is not in your PATH.${NC}"
+  echo "Add this line to your shell config (~/.bashrc, ~/.zshrc, etc.):"
+  echo
+  echo -e "  ${CYAN}export PATH=\"\$HOME/.local/bin:\$PATH\"${NC}"
+  echo
+  echo "Then restart your terminal."
+  ;;
 esac
 echo
 

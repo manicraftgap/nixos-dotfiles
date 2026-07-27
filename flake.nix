@@ -36,7 +36,6 @@
             useUserPackages = true;
             extraSpecialArgs = { inherit inputs; };
             users.mani = import ./home.nix;
-            backupFileExtension = "backup";
           };
         }
       ];

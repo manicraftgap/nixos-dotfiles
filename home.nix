@@ -80,7 +80,10 @@ in
       WantedBy = [ "graphical-session.target" ];
     };
   };
-
+  home.file.".java/.userPrefs/ninjabrainbot/prefs.xml" = {
+    source = ./config/ninjabrainbot/prefs.xml;
+    force = true;
+  };
   home.packages = with pkgs; [
     yazi
     (pkgs.writeShellApplication 

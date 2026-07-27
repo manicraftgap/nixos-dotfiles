@@ -1,6 +1,37 @@
 { pkgs, ... }:
 
 let
+  jarPath = "/home/mani/.config/waywall/resources/Ninjabrain-Bot-1.5.2.jar";
+
+  javaX11LibPath = pkgs.lib.makeLibraryPath [
+      pkgs.libxkbcommon
+      pkgs.libX11
+      pkgs.libxcb
+      pkgs.libXt
+      pkgs.libXtst
+      pkgs.libXi
+      pkgs.libXext
+      pkgs.libXinerama
+      pkgs.libXrender
+      pkgs.libXfixes
+      pkgs.libXrandr
+      pkgs.libXcursor
+    ];
+
+  ninbot = pkgs.writeShellScriptBin "ninbot" ''
+    export LD_LIBRARY_PATH="${javaX11LibPath}:$LD_LIBRARY_PATH"
+    export _JAVA_AWT_WM_NONREPARENTING=1
+    
+    # Strip Wayland display vars so Java falls back to XWayland where JNativeHook works
+    unset WAYLAND_DISPLAY
+    unset WAYLAND_SOCKET
+
+    exec ${pkgs.openjdk17}/bin/java \
+      -Dswing.defaultlaf=javax.swing.plaf.metal.MetalLookAndFeel \
+      -Dawt.useSystemAAFontSettings=on \
+      -jar "${jarPath}" "$@"
+  '';
+
   kbdBacklight = pkgs.writeShellScriptBin "kbd-backlight" ''
     direction="''${1:-up}"
 
@@ -179,70 +210,74 @@ let
       *) echo "Usage: display-mirror {on|off|toggle}" >&2; exit 1 ;;
     esac
   '';
+
   screenshotCapture = pkgs.writeShellScriptBin "screenshot-capture" ''
-      DIR="$HOME/Pictures/Screenshots"
-      mkdir -p "$DIR"
-      
-      FILE="$DIR/Screenshot_$(date +'%Y-%m-%d_%H-%M-%S').png"
-      MODE="''${1:-region}" # Default to region mode
-      EDITOR="satty"        # Change to your preferred editor
+    DIR="$HOME/Pictures/Screenshots"
+    mkdir -p "$DIR"
 
-      case "$MODE" in
-        fullscreen)
-          ${pkgs.grim}/bin/grim "$FILE"
-          ;;
-        region|*)
-          ${pkgs.grim}/bin/grim -g "$(${pkgs.slurp}/bin/slurp)" "$FILE"
-          ;;
-      esac
+    FILE="$DIR/Screenshot_$(date +'%Y-%m-%d_%H-%M-%S').png"
+    MODE="''${1:-region}" # Default to region mode
+    EDITOR="satty"        # Change to your preferred editor
 
-      # Ensure the file was successfully captured
-      if [ -f "$FILE" ]; then
-        ${pkgs.wl-clipboard}/bin/wl-copy < "$FILE"
-        
-        # Clean helper to open the editor cleanly
-        open_editor() {
-          if [ "$EDITOR" = "satty" ]; then
-            ${pkgs.satty}/bin/satty --filename "$FILE" \
-              --output-filename "$FILE" \
-              --actions-on-enter save-to-clipboard \
-              --save-after-copy \
-              --copy-command '${pkgs.wl-clipboard}/bin/wl-copy'
-          else
-            $EDITOR "$FILE"
-          fi
-        }
+    case "$MODE" in
+      fullscreen)
+        ${pkgs.grim}/bin/grim "$FILE"
+        ;;
+      region|*)
+        ${pkgs.grim}/bin/grim -g "$(${pkgs.slurp}/bin/slurp)" "$FILE"
+        ;;
+    esac
 
-        # Send notification with interactive button and capture response
-        ACTION=$(${pkgs.libnotify}/bin/notify-send \
-          "Screenshot saved to clipboard and file" \
-          "Click here or press Super + Alt + , to edit" \
-          -t 10000 \
-          -i "$FILE" \
-          -A "default=edit")
+    # Ensure the file was successfully captured
+    if [ -f "$FILE" ]; then
+      ${pkgs.wl-clipboard}/bin/wl-copy < "$FILE"
 
-        if [ "$ACTION" = "default" ]; then
-          open_editor
+      # Clean helper to open the editor cleanly
+      open_editor() {
+        if [ "$EDITOR" = "satty" ]; then
+          ${pkgs.satty}/bin/satty --filename "$FILE" \
+            --output-filename "$FILE" \
+            --actions-on-enter save-to-clipboard \
+            --save-after-copy \
+            --copy-command '${pkgs.wl-clipboard}/bin/wl-copy'
+        else
+          $EDITOR "$FILE"
         fi
+      }
+
+      # Send notification with interactive button and capture response
+      ACTION=$(${pkgs.libnotify}/bin/notify-send \
+        "Screenshot saved to clipboard and file" \
+        "Click here or press Super + Alt + , to edit" \
+        -t 10000 \
+        -i "$FILE" \
+        -A "default=edit")
+
+      if [ "$ACTION" = "default" ]; then
+        open_editor
       fi
-    '';
+    fi
+  '';
+
   powerMenu = pkgs.writeShellScriptBin "power-menu" ''
-      selected=$(printf " Suspend\n󰍁 Lock\n󰜉 Restart\n󰐥 Shutdown" | ${pkgs.walker}/bin/walker --dmenu -p 'Power Menu…' --width 300 --height 200)
-      case "$selected" in
-          " Suspend")   systemctl suspend ;;
-          "󰍁 Lock")      ${pkgs.hyprlock}/bin/hyprlock ;;
-          "󰜉 Restart")   systemctl reboot ;;
-          "󰐥 Shutdown")  systemctl poweroff ;;
-      esac
-    '';
+    selected=$(printf " Suspend\n󰍁 Lock\n󰜉 Restart\n󰐥 Shutdown" | ${pkgs.walker}/bin/walker --dmenu -p 'Power Menu…' --width 300 --height 200)
+    case "$selected" in
+      " Suspend")   systemctl suspend ;;
+      "󰍁 Lock")      ${pkgs.hyprlock}/bin/hyprlock ;;
+      "󰜉 Restart")   systemctl reboot ;;
+      "󰐥 Shutdown")  systemctl poweroff ;;
+    esac
+  '';
+
   powerProfileMenu = pkgs.writeShellScriptBin "power-profile-menu" ''
-      profile=$(powerprofilesctl list | awk '/^[[:space:]*]*[a-zA-Z0-9\-]+:$/ { gsub(/^[*[:space:]]+|:$/, ""); print }' | walker --dmenu -p 'Power Profile…' --width 300 --height 150)
-      if [ -n "$profile" ]; then
-          powerprofilesctl set "$profile"
-      fi
-    '';
+    profile=$(powerprofilesctl list | awk '/^[[:space:]*]*[a-zA-Z0-9\-]+:$/ { gsub(/^[*[:space:]]+|:$/, ""); print }' | walker --dmenu -p 'Power Profile…' --width 300 --height 150)
+    if [ -n "$profile" ]; then
+        powerprofilesctl set "$profile"
+    fi
+  '';
 in {
   home.packages = [
+    ninbot
     kbdBacklight
     touchpadToggle
     audioOutputSwitch

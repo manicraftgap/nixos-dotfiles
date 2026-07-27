@@ -68,6 +68,20 @@
     nerd-fonts.jetbrains-mono
   ];
 
+  programs.nix-ld = {
+    enable = true;
+    libraries = with pkgs; [
+      libxkbcommon
+      libXtst
+      libX11
+      libXext
+      libXrender
+      libXi
+      libXt
+      libXinerama
+    ];
+  };
+
   xdg.mime.defaultApplications = {
     "text/html" = "librewolf.desktop";
     "x-scheme-handler/http" = "librewolf.desktop";
