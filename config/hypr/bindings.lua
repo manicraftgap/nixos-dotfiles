@@ -31,8 +31,10 @@ hl.bind(mainMod .. " + PRINT", hl.dsp.exec_cmd("pkill hyprpicker || hyprpicker -
 -- --- Web Applications ---
 hl.bind(mainMod .. " + SHIFT + A", hl.dsp.exec_cmd([[uwsm-app -- xdg-open "https://gemini.google.com/app"]]))
 hl.bind(mainMod .. " + SHIFT + Y", hl.dsp.exec_cmd([[uwsm-app -- xdg-open "https://youtube.com/"]]))
-hl.bind(mainMod .. " + SHIFT + CTRL + G",
-  hl.dsp.exec_cmd([[uwsm-app -- xdg-open "https://messages.google.com/web/conversations"]]))
+hl.bind(
+	mainMod .. " + SHIFT + CTRL + G",
+	hl.dsp.exec_cmd([[uwsm-app -- xdg-open "https://messages.google.com/web/conversations"]])
+)
 
 -- --- Window Resizing ---
 local resizeUnit = 30
@@ -52,35 +54,56 @@ hl.bind(mainMod .. " + X", hl.dsp.send_shortcut({ mods = "CTRL", key = "X", wind
 hl.bind(mainMod .. " + SHIFT + V", hl.dsp.exec_cmd("walker -m clipboard"))
 
 -- Audio Output Switch
-hl.bind(mainMod .. " + XF86AudioMute", hl.dsp.exec_cmd("audio-output-switch"), { locked = true})
+hl.bind(mainMod .. " + XF86AudioMute", hl.dsp.exec_cmd("audio-output-switch"), { locked = true })
 
 -- Volume & Mic Controls
-hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd("swayosd-client --output-volume raise"),
-  { locked = true, repeating = true, ignore_mods = true })
-hl.bind("XF86AudioLowerVolume", hl.dsp.exec_cmd("swayosd-client --output-volume lower"),
-  { locked = true, repeating = true, ignore_mods = true })
-hl.bind("XF86AudioMute", hl.dsp.exec_cmd("swayosd-client --output-volume mute-toggle"),
-  { locked = true })
-hl.bind("XF86AudioMicMute", hl.dsp.exec_cmd([[
+hl.bind(
+	"XF86AudioRaiseVolume",
+	hl.dsp.exec_cmd("swayosd-client --output-volume raise"),
+	{ locked = true, repeating = true, ignore_mods = true }
+)
+hl.bind(
+	"XF86AudioLowerVolume",
+	hl.dsp.exec_cmd("swayosd-client --output-volume lower"),
+	{ locked = true, repeating = true, ignore_mods = true }
+)
+hl.bind("XF86AudioMute", hl.dsp.exec_cmd("swayosd-client --output-volume mute-toggle"), { locked = true })
+hl.bind(
+	"XF86AudioMicMute",
+	hl.dsp.exec_cmd([[
     sh -c "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle; \
     if wpctl get-volume @DEFAULT_AUDIO_SOURCE@ | grep -q MUTED; then \
         swayosd-client --custom-message 'Microphone muted' --custom-icon 'microphone-sensitivity-muted-symbolic'; \
     else \
         swayosd-client --custom-message 'Microphone on' --custom-icon 'audio-input-microphone-symbolic'; \
     fi"
-]]), { locked = true, repeating = false, ignore_mods = true })
+]]),
+	{ locked = true, repeating = false, ignore_mods = true }
+)
 
 -- Screen Brightness
-hl.bind("XF86MonBrightnessUp", hl.dsp.exec_cmd("swayosd-client --brightness raise"),
-  { locked = true, repeating = true, ignore_mods = true })
-hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd("swayosd-client --brightness lower"),
-  { locked = true, repeating = true, ignore_mods = true })
+hl.bind(
+	"XF86MonBrightnessUp",
+	hl.dsp.exec_cmd("swayosd-client --brightness raise"),
+	{ locked = true, repeating = true, ignore_mods = true }
+)
+hl.bind(
+	"XF86MonBrightnessDown",
+	hl.dsp.exec_cmd("swayosd-client --brightness lower"),
+	{ locked = true, repeating = true, ignore_mods = true }
+)
 
 -- Keyboard Backlight
-hl.bind("XF86KbdBrightnessUp", hl.dsp.exec_cmd("kbd-backlight up"),
-  { locked = true, repeating = true, ignore_mods = true })
-hl.bind("XF86KbdBrightnessDown", hl.dsp.exec_cmd("kbd-backlight down"),
-  { locked = true, repeating = true, ignore_mods = true })
+hl.bind(
+	"XF86KbdBrightnessUp",
+	hl.dsp.exec_cmd("kbd-backlight up"),
+	{ locked = true, repeating = true, ignore_mods = true }
+)
+hl.bind(
+	"XF86KbdBrightnessDown",
+	hl.dsp.exec_cmd("kbd-backlight down"),
+	{ locked = true, repeating = true, ignore_mods = true }
+)
 hl.bind("XF86KbdLightOnOff", hl.dsp.exec_cmd("kbd-backlight cycle"), { locked = true, ignore_mods = true })
 
 -- Touchpad Controls
@@ -92,23 +115,40 @@ hl.bind("XF86TouchpadOff", hl.dsp.exec_cmd("touchpad-toggle off"), { locked = tr
 hl.bind(mainMod .. " + CTRL + ALT + Delete", hl.dsp.exec_cmd("display-mirror toggle"))
 
 -- Precise 1% Adjustments
-hl.bind("ALT + XF86AudioRaiseVolume",
-  hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%+ && swayosd-client --output-volume raise"),
-  { locked = true, repeating = true, ignore_mods = true })
-hl.bind("ALT + XF86AudioLowerVolume",
-  hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%- && swayosd-client --output-volume lower"),
-  { locked = true, repeating = true, ignore_mods = true })
-hl.bind("ALT + XF86MonBrightnessUp", hl.dsp.exec_cmd("brightnessctl set 1%+ && swayosd-client --brightness raise"),
-  { locked = true, repeating = true, ignore_mods = true })
-hl.bind("ALT + XF86MonBrightnessDown", hl.dsp.exec_cmd("brightnessctl set 1%- && swayosd-client --brightness lower"),
-  { locked = true, repeating = true, ignore_mods = true })
+hl.bind(
+	"ALT + XF86AudioRaiseVolume",
+	hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%+ && swayosd-client --output-volume raise"),
+	{ locked = true, repeating = true, ignore_mods = true }
+)
+hl.bind(
+	"ALT + XF86AudioLowerVolume",
+	hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%- && swayosd-client --output-volume lower"),
+	{ locked = true, repeating = true, ignore_mods = true }
+)
+hl.bind(
+	"ALT + XF86MonBrightnessUp",
+	hl.dsp.exec_cmd("brightnessctl set 1%+ && swayosd-client --brightness raise"),
+	{ locked = true, repeating = true, ignore_mods = true }
+)
+hl.bind(
+	"ALT + XF86MonBrightnessDown",
+	hl.dsp.exec_cmd("brightnessctl set 1%- && swayosd-client --brightness lower"),
+	{ locked = true, repeating = true, ignore_mods = true }
+)
 
 -- Media Player Controls
 hl.bind("XF86AudioNext", hl.dsp.exec_cmd("swayosd-client --playerctl next"), { locked = true, ignore_mods = true })
-hl.bind("XF86AudioPause", hl.dsp.exec_cmd("swayosd-client --playerctl play-pause"), { locked = true, ignore_mods = true })
-hl.bind("XF86AudioPlay", hl.dsp.exec_cmd("swayosd-client --playerctl play-pause"), { locked = true, ignore_mods = true })
+hl.bind(
+	"XF86AudioPause",
+	hl.dsp.exec_cmd("swayosd-client --playerctl play-pause"),
+	{ locked = true, ignore_mods = true }
+)
+hl.bind(
+	"XF86AudioPlay",
+	hl.dsp.exec_cmd("swayosd-client --playerctl play-pause"),
+	{ locked = true, ignore_mods = true }
+)
 hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("swayosd-client --playerctl previous"), { locked = true, ignore_mods = true })
-
 
 -- Monitor Focus
 hl.bind("CTRL + ALT + TAB", hl.dsp.focus({ monitor = "+1" }))
@@ -118,7 +158,9 @@ hl.bind("CTRL + ALT + SHIFT + TAB", hl.dsp.focus({ monitor = "-1" }))
 hl.bind("XF86PowerOff", hl.dsp.exec_cmd("power-menu"))
 
 -- Hyprsunset Toggle --
-hl.bind(mainMod .. " + CTRL + N", hl.dsp.exec_cmd([[
+hl.bind(
+	mainMod .. " + CTRL + N",
+	hl.dsp.exec_cmd([[
   export PATH=$PATH:/run/current-system/sw/bin:$HOME/.nix-profile/bin
 
   if pgrep -x hyprsunset >/dev/null; then
@@ -132,7 +174,8 @@ hl.bind(mainMod .. " + CTRL + N", hl.dsp.exec_cmd([[
   if grep -q "custom/nightlight" ~/.config/waybar/config.jsonc; then
     pkill -SIGUSR2 waybar
   fi
-]]))
+]])
+)
 
 -- === Window Management & Tiling ===
 hl.bind(mainMod .. " + W", hl.dsp.window.close())
@@ -155,10 +198,10 @@ hl.bind(mainMod .. " + J", hl.dsp.focus({ direction = "down" }))
 
 -- Workspaces (1-10)
 for i = 1, 9 do
-  local ws = tostring(i)
-  hl.bind(mainMod .. " + " .. ws, hl.dsp.focus({ workspace = ws }))
-  hl.bind(mainMod .. " + SHIFT + " .. ws, hl.dsp.window.move({ workspace = ws, follow = true }))
-  hl.bind(mainMod .. " + SHIFT + ALT + " .. ws, hl.dsp.window.move({ workspace = ws, follow = false }))
+	local ws = tostring(i)
+	hl.bind(mainMod .. " + " .. ws, hl.dsp.focus({ workspace = ws }))
+	hl.bind(mainMod .. " + SHIFT + " .. ws, hl.dsp.window.move({ workspace = ws, follow = true }))
+	hl.bind(mainMod .. " + SHIFT + ALT + " .. ws, hl.dsp.window.move({ workspace = ws, follow = false }))
 end
 
 -- Workspace 10 (0 Keybind)
@@ -177,13 +220,13 @@ hl.bind(mainMod .. " + CTRL + TAB", hl.dsp.focus({ workspace = "previous" }))
 
 -- Winwdow Cycling
 hl.bind("ALT + TAB", function()
-  hl.dispatch(hl.dsp.window.cycle_next())
-  hl.dispatch(hl.dsp.window.bring_to_top())
+	hl.dispatch(hl.dsp.window.cycle_next())
+	hl.dispatch(hl.dsp.window.bring_to_top())
 end)
 
 hl.bind("ALT + SHIFT + TAB", function()
-  hl.dispatch(hl.dsp.window.cycle_next({ prev = true }))
-  hl.dispatch(hl.dsp.window.bring_to_top())
+	hl.dispatch(hl.dsp.window.cycle_next({ prev = true }))
+	hl.dispatch(hl.dsp.window.bring_to_top())
 end)
 
 -- Swap Windows
@@ -228,6 +271,11 @@ hl.bind(mainMod .. " + F9", hl.dsp.exec_cmd("voxtype record start"))
 hl.bind(mainMod .. " + F9", hl.dsp.exec_cmd("voxtype record stop"), { release = true })
 
 -- Zoom
-hl.bind(mainMod .. " + CTRL + Z",
-  hl.dsp.exec_cmd([[hyprctl keyword cursor:zoom_factor $(hyprctl getoption cursor:zoom_factor -j | jq '.float + 1')]]))
-hl.bind(mainMod .. " + CTRL + ALT + Z", hl.dsp.exec_cmd("hyprctl keyword cursor:zoom_factor 1"))
+hl.bind(mainMod .. " + CTRL + Z", function()
+	local zoom = hl.get_config("cursor.zoom_factor") or 1
+	hl.config({ cursor = { zoom_factor = zoom + 1 } })
+end)
+
+hl.bind(mainMod .. " + CTRL + ALT + Z", function()
+	hl.config({ cursor = { zoom_factor = 1 } })
+end)

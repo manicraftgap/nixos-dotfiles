@@ -26,6 +26,11 @@
     LC_TIME = "en_US.UTF-8";
   };
 
+  swapDevices = [{
+    device = "/swapfile";
+    size = 8 * 1024;
+  }];
+
   services.xserver.xkb = {
     layout = "us";
     variant = "";
