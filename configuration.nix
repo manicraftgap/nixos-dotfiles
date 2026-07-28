@@ -42,6 +42,16 @@
     };
   };
 
+  fileSystems."/mnt/omarch" = {
+    device = "/dev/disk/by-uuid/b0774602-1073-46fa-bf7e-ab998a110cbb";
+    fsType = "luks";
+    options = [
+      "noauto"
+      "x-gvfs-show"
+      "x-udisks-auth"
+    ];
+  };
+
   services.getty.autologinUser ="mani";
   users.users."mani" = {
     isNormalUser = true;

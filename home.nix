@@ -80,6 +80,12 @@ in
     size = 24;
   };
 
+  dconf.settings = {
+    "org/gnome/desktop/interface" = {
+      color-scheme = "prefer-dark";
+    };
+  };
+
   services.swayosd.enable = true;
   systemd.user.services.swayosd = {
     Unit = {
