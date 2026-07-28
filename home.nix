@@ -11,12 +11,12 @@ let
     ghostty = "ghostty";
     NBTrackr = "NBTrackr";
     waywall = "waywall";
-    millennium = "millennium";
     hypr = "hypr";
     btop = "btop";
     mako = "mako";
     swaybg = "swaybg";
     swayosd = "swayosd";
+    millennium = "millennium/millennium";
     yazi = "yazi";
     startship = "starship.toml";
     superfile = "superfile";
@@ -60,6 +60,16 @@ in
       recursive = true;
     })
     configs;
+
+  home.file.".steam/steam/millennium/themes" = {
+    source = create_symlink "${dotfiles}/millennium/themes";
+    recursive = true;
+  };
+
+  xdg.dataFile."millennium/plugins" = {
+    source = create_symlink "${dotfiles}/millennium/plugins";
+    recursive = true;
+  };
 
   home.pointerCursor = {
     gtk.enable = true;

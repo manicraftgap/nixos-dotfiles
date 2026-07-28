@@ -38,6 +38,10 @@
           install_url = "https://addons.mozilla.org/firefox/downloads/file/4703873/gx_theme_styles-1.0.8.xpi";
           installation_mode = "force_installed";
         };
+        "{88ebde3a-4581-4c6b-8019-2a05a9e3e938}" = {
+          install_url = "https://addons.mozilla.org/firefox/downloads/file/4779333/hide_youtube_shorts-1.11.0.xpi";
+          installation_mode = "force_installed";
+        };
       };
     };
 

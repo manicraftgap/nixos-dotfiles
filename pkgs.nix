@@ -4,7 +4,6 @@
   environment.systemPackages = with pkgs; [
     wget
     btop
-    kitty
     impala
     neovim
     tree-sitter
