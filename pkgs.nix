@@ -13,6 +13,7 @@
     wiremix
     ghostty
     librewolf
+    qutebrowser
     waywall
     waybar
     prismlauncher
