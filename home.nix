@@ -32,6 +32,7 @@ in
     ./utilities.nix
     ./shortcuts.nix
     ./librewolf.nix
+    ./prism.nix
     inputs.nix-flatpak.homeManagerModules.nix-flatpak
   ];
   home.username = "mani";

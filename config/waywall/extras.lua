@@ -4,8 +4,8 @@ local helpers = require("waywall.helpers")
 for i = 0, 3, 1 do
 	helpers.res_mirror( -- mob_spawner
 		{
-			src = { x = 2467, y = 1219 + 8 * i, w = 33, h = 9 },
-			dst = { x = 2258, y = 1080, w = 33 * 8, h = 9 * 8 },
+			src = { x = 2467, y = 1379 + 8 * i, w = 33, h = 9 },
+			dst = { x = 2258, y = 1240, w = 33 * 8, h = 9 * 8 },
 			depth = 3,
 			color_key = { input = "#4de1ca", output = "#FFFFFF" },
 		},
@@ -14,8 +14,8 @@ for i = 0, 3, 1 do
 	)
 	helpers.res_mirror( -- mob_spawner
 		{
-			src = { x = 2467, y = 1219 + 8 * i, w = 33, h = 9 },
-			dst = { x = 2258 + 8, y = 1080 + 8, w = 33 * 8, h = 9 * 8 },
+			src = { x = 2467, y = 1379 + 8 * i, w = 33, h = 9 },
+			dst = { x = 2258 + 8, y = 1240 + 8, w = 33 * 8, h = 9 * 8 },
 			depth = 2,
 			color_key = { input = "#4de1ca", output = "#000000" },
 		},
