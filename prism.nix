@@ -7,8 +7,8 @@ in
 {
   xdg.desktopEntries."org.prismlauncher.PrismLauncher" = {
     name = "Prism Launcher";
-    exec = "env QT_SCALE_FACTOR=1.5 prismlauncher %u";
-    icon = "prismlauncher";
+    exec = "env QT_SCALE_FACTOR=1.3 prismlauncher %u";
+    icon = "org.prismlauncher.PrismLauncher";
     terminal = false;
     categories = [ "Game" ];
   };
