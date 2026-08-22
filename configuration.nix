@@ -12,6 +12,7 @@
   networking.hostName = "hyprnix";
   networking.networkmanager.enable = true;
   networking.networkmanager.wifi.backend = "iwd";
+  networking.networkmanager.wifi.powersave = false;
   time.timeZone = "America/Chicago";
   i18n.defaultLocale = "en_US.UTF-8";
   i18n.extraLocaleSettings = {
@@ -41,7 +42,7 @@
       HandlePowerKey = "ignore";
     };
   };
-
+  programs.gamemode.enable = true;
   fileSystems."/mnt/omarch" = {
     device = "/dev/disk/by-uuid/b0774602-1073-46fa-bf7e-ab998a110cbb";
     fsType = "luks";

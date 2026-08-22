@@ -77,6 +77,7 @@
     yaru-theme
     glfw3-minecraft
     jdk21
+    jellyfin
     (python3.withPackages (ps: with ps; [
       tkinter
     ]))

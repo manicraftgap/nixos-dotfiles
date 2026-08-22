@@ -27,17 +27,12 @@
     };
 
   fileSystems."/mnt/games" = {
-    device = "/dev/disk/by-uuid/E69EE9D39EE99C75";
-    fsType = "ntfs3";
+    device = "/dev/disk/by-uuid/7ce4ef74-3af4-456a-bee6-b91e12bcd7b0";
+    fsType = "ext4";
     options = [
       "defaults"
+      "noatime"
       "nofail"
-      "x-gvfs-show"
-      "uid=1000"
-      "gid=100"
-      "dmask=007"
-      "fmask=117"
-      "windows_names"
     ];
   };
 
