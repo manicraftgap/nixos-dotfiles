@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-SCRIPT_DIR="/home/mani/nixos-dotfiles/config/waywall/resources/NBTrackr-imgpin-v2.7.0"
-
-if [[ "$1" == "--settings" ]]; then
-  exec python3 "$SCRIPT_DIR/Customizer-imgpin.py" "${@:2}"
-else
-  exec python3 "$SCRIPT_DIR/NBTrackr-imgpin.py" "$@"
-fi
