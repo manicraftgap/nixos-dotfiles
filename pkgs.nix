@@ -76,13 +76,10 @@
     inputs.superfile.packages.${pkgs.system}.default
     yaru-theme
     glfw3-minecraft
+    jellyfin-desktop
     jdk21
-    jellyfin
     (python3.withPackages (ps: with ps; [
       tkinter
     ]))
-    (pkgs.writeShellScriptBin "nbb" ''
-      NIXPKGS_ALLOW_UNFREE=1 nix-shell -p '(steam.override { extraLibraries = pkgs: with pkgs; [ libxcb libx11 libxrender libxext libxkbcommon libxcursor libglvnd xcb-util-cursor xcbutilwm xcbutilimage xcbutilkeysyms xcbutilrenderutil dbus fontconfig freetype ]; }).run' --run "steam-run ~/.local/bin/nbtrackr"
-    '')
   ];
 }
