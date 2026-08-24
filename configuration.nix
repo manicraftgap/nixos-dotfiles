@@ -13,6 +13,7 @@
   networking.networkmanager.enable = true;
   networking.networkmanager.wifi.backend = "iwd";
   networking.networkmanager.wifi.powersave = false;
+  services.resolved.enable = true;
   time.timeZone = "America/Chicago";
   i18n.defaultLocale = "en_US.UTF-8";
   i18n.extraLocaleSettings = {
@@ -26,6 +27,13 @@
     LC_TELEPHONE = "en_US.UTF-8";
     LC_TIME = "en_US.UTF-8";
   };
+
+  networking.nameservers = [
+    "1.1.1.1"
+    "1.0.0.1"
+    "2606:4700:4700::1111"
+    "2606:4700:4700::1001"
+  ];
 
   swapDevices = [{
     device = "/swapfile";
@@ -73,7 +81,7 @@
       ];
     };
   services.power-profiles-daemon.enable = true;
-  services.ratbagd.enable = true;
+  programs.solaar.enable = true;
   services.flatpak.enable = true;
   hardware.bluetooth.enable = true;
   environment.variables = {
@@ -121,7 +129,7 @@
     DEFAULT_BROWSER = "${pkgs.librewolf}/bin/librewolf";
     BROWSER = "${pkgs.librewolf}/bin/librewolf";
   };
-    nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
   system.autoUpgrade.enable = true;
   system.stateVersion = "26.05"; # Did you read the comment?
 }
