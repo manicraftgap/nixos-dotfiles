@@ -61,6 +61,9 @@
     ];
   };
 
+  services.gvfs.enable = true;
+  services.udisks2.enable = true;
+  services.devmon.enable = true;
   services.getty.autologinUser ="mani";
   users.users."mani" = {
     isNormalUser = true;

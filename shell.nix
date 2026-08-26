@@ -34,6 +34,7 @@
       ncg = "nix-collect-garbage -d && sudo nix-collect-garbage -d";
       vim = "nvim";
       spf = "superfile";
+      nrw = "pkill -f walker; pkill -f elephant; nohup walker >/dev/null 2>&1 & nohup elephant >/dev/null 2>&1 &";
 
       # Git Utilities
       g = "git";

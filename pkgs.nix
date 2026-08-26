@@ -77,6 +77,7 @@
     yaru-theme
     glfw3-minecraft
     jellyfin-desktop
+    claude-code
     jdk21
     (python3.withPackages (ps: with ps; [
       tkinter

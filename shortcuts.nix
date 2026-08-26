@@ -35,11 +35,71 @@
     pvp-plus = {
       name = "PVP+";
       comment = "Launch PVP+ instance in Prism Launcher";
-      icon = "/home/mani/.local/share/PrismLauncher/instances/PVP+/minecraft/icon.png";
-      exec = "prismlauncher --launch PVP+";
+      icon = "/home/mani/.local/share/PrismLauncher/instances/PVP+ (Vulcan)/icon.webp";
+      exec = "prismlauncher --launch \"PVP+ (Vulcan)\"";
       categories = [ "Game" ];
       settings = {
-        Path = "/home/mani/.local/share/PrismLauncher/instances/PVP+";
+        Path = "/home/mani/.local/share/PrismLauncher/instances/PVP+ (Vulcan)";
+        Keywords = "Minecraft;Prism;Launcher;";
+      };
+    };
+
+    Casual = {
+      name = "Casual";
+      comment = "Launch Casual instance in Prism Launcher";
+      icon = "/home/mani/.local/share/PrismLauncher/instances/Casual/icon.webp";
+      exec = "prismlauncher --Casual";
+      categories = [ "Game" ];
+      settings = {
+        Path = "/home/mani/.local/share/PrismLauncher/instances/Casual";
+        Keywords = "Minecraft;Prism;Launcher;";
+      };
+    };
+
+    "Create+" = {
+      name = "Create+";
+      comment = "Launch Create+ instance in Prism Launcher";
+      icon = "/home/mani/.local/share/PrismLauncher/instances/Create+/icon.webp";
+      exec = "prismlauncher --launch \"Create+\"";
+      categories = [ "Game" ];
+      settings = {
+        Path = "/home/mani/.local/share/PrismLauncher/instances/Create+";
+        Keywords = "Minecraft;Prism;Launcher;";
+      };
+    };
+
+    RSG = {
+      name = "RSG";
+      comment = "Launch RSG instance in Prism Launcher";
+      icon = "/home/mani/.local/share/PrismLauncher/instances/RSG/icon.png";
+      exec = "prismlauncher --launch RSG";
+      categories = [ "Game" ];
+      settings = {
+        Path = "/home/mani/.local/share/PrismLauncher/instances/RSG";
+        Keywords = "Minecraft;Prism;Launcher;";
+      };
+    };
+
+    SkyFactory4 = {
+      name = "SkyFactory4";
+      comment = "Launch SkyFactory4 instance in Prism Launcher";
+      icon = "/home/mani/.local/share/PrismLauncher/instances/SkyFactory4/icon.png";
+      exec = "prismlauncher --launch SkyFactory4";
+      categories = [ "Game" ];
+      settings = {
+        Path = "/home/mani/.local/share/PrismLauncher/instances/SkyFactory4";
+        Keywords = "Minecraft;Prism;Launcher;";
+      };
+    };
+
+    "The Broken Script Enhanced" = {
+      name = "The Broken Script Enhanced";
+      comment = "Launch The Broken Script Enhanced instance in Prism Launcher";
+      icon = "/home/mani/.local/share/PrismLauncher/instances/The Broken Script Enhanced/icon.webp";
+      exec = "prismlauncher --launch \"The Broken Script Enhanced\"";
+      categories = [ "Game" ];
+      settings = {
+        Path = "/home/mani/.local/share/PrismLauncher/instances/The Broken Script Enhanced";
         Keywords = "Minecraft;Prism;Launcher;";
       };
     };
