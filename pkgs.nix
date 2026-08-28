@@ -44,6 +44,7 @@
     findutils
     power-profiles-daemon
     piper
+    bottles
     jq
     ripgrep
     fd
@@ -78,6 +79,7 @@
     glfw3-minecraft
     jellyfin-desktop
     claude-code
+    proton-vpn
     jdk21
     (python3.withPackages (ps: with ps; [
       tkinter

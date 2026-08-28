@@ -35,11 +35,11 @@
     pvp-plus = {
       name = "PVP+";
       comment = "Launch PVP+ instance in Prism Launcher";
-      icon = "/home/mani/.local/share/PrismLauncher/instances/PVP+ (Vulcan)/icon.webp";
-      exec = "prismlauncher --launch \"PVP+ (Vulcan)\"";
+      icon = "/home/mani/.local/share/PrismLauncher/instances/PVP+/icon.png";
+      exec = "prismlauncher --launch PVP+";
       categories = [ "Game" ];
       settings = {
-        Path = "/home/mani/.local/share/PrismLauncher/instances/PVP+ (Vulcan)";
+        Path = "/home/mani/.local/share/PrismLauncher/instances/PVP+";
         Keywords = "Minecraft;Prism;Launcher;";
       };
     };
@@ -96,7 +96,7 @@
       name = "The Broken Script Enhanced";
       comment = "Launch The Broken Script Enhanced instance in Prism Launcher";
       icon = "/home/mani/.local/share/PrismLauncher/instances/The Broken Script Enhanced/icon.webp";
-      exec = "prismlauncher --launch \"The Broken Script Enhanced\"";
+      exec = "prismlauncher --launch TBS-Enhanced";
       categories = [ "Game" ];
       settings = {
         Path = "/home/mani/.local/share/PrismLauncher/instances/The Broken Script Enhanced";
