@@ -74,6 +74,7 @@
     libreoffice
     mullvad-vpn
     mpv
+    normcap
     inputs.openlogi.packages.${pkgs.system}.default
     inputs.superfile.packages.${pkgs.system}.default
     yaru-theme

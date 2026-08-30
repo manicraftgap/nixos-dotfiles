@@ -25,8 +25,12 @@ hl.bind(mainMod .. " + SHIFT + G", hl.dsp.exec_cmd("uwsm-app -- vesktop"))
 
 -- --- Screenshots ---
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd("screenshot-capture region"))
+hl.bind(mainMod .. " + ALT + SHIFT + S", hl.dsp.exec_cmd("pkill hyprpicker || hyprpicker -a"))
+hl.bind(mainMod .. " + CTRL + ALT + SHIFT + S", hl.dsp.exec_cmd('normcap --color "#D3D3D3"'))
+
 hl.bind("PRINT", hl.dsp.exec_cmd("screenshot-capture fullscreen"))
 hl.bind(mainMod .. " + PRINT", hl.dsp.exec_cmd("pkill hyprpicker || hyprpicker -a"))
+hl.bind(mainMod .. " + CTRL + PRINT", hl.dsp.exec_cmd('normcap --color "#D3D3D3"'))
 
 -- --- Web Applications ---
 hl.bind(mainMod .. " + SHIFT + A", hl.dsp.exec_cmd([[uwsm-app -- xdg-open "https://gemini.google.com/app"]]))
