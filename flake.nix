@@ -16,6 +16,10 @@
     nix-flatpak.url = "github:gmodena/nix-flatpak";
     helium.url = "github:oxcl/nix-flake-helium-browser";
     millennium.url = "github:SteamClientHomebrew/Millennium/next?dir=packages/nix";
+    openlogi = {
+      url = "github:AprilNEA/OpenLogi";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     superfile = {
       url = "github:yorukot/superfile";
       inputs.nixpkgs.follows = "nixpkgs";

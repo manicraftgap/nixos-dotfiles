@@ -56,11 +56,11 @@
       };
     };
 
-    "Create+" = {
+    Create-plus = {
       name = "Create+";
       comment = "Launch Create+ instance in Prism Launcher";
       icon = "/home/mani/.local/share/PrismLauncher/instances/Create+/icon.webp";
-      exec = "prismlauncher --launch \"Create+\"";
+      exec = "prismlauncher --launch Create+";
       categories = [ "Game" ];
       settings = {
         Path = "/home/mani/.local/share/PrismLauncher/instances/Create+";
@@ -95,11 +95,11 @@
     "The Broken Script Enhanced" = {
       name = "The Broken Script Enhanced";
       comment = "Launch The Broken Script Enhanced instance in Prism Launcher";
-      icon = "/home/mani/.local/share/PrismLauncher/instances/The Broken Script Enhanced/icon.webp";
+      icon = "/home/mani/.local/share/PrismLauncher/instances/TBS-Enhanced/icon.webp";
       exec = "prismlauncher --launch TBS-Enhanced";
       categories = [ "Game" ];
       settings = {
-        Path = "/home/mani/.local/share/PrismLauncher/instances/The Broken Script Enhanced";
+        Path = "/home/mani/.local/share/PrismLauncher/instances/TBS-Enhanced/";
         Keywords = "Minecraft;Prism;Launcher;";
       };
     };
@@ -141,7 +141,7 @@
       name = "Lichess";
       comment = "Lichess";
       icon = ./config/icons/lichess.png;
-      exec = "uwsm-app -- xdg-open \"https://monkeytype.com/\"";
+      exec = "uwsm-app -- xdg-open \"https://lichess.org/\"";
       terminal = false;
       settings = {
         StartupNotify = "true";

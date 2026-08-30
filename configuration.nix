@@ -86,7 +86,6 @@
       ];
     };
   services.power-profiles-daemon.enable = true;
-  programs.solaar.enable = true;
   services.flatpak.enable = true;
   hardware.bluetooth.enable = true;
   environment.variables = {
@@ -100,6 +99,12 @@
   hardware.graphics = {
     enable = true;
     enable32Bit = true;
+  };
+
+  hardware.nvidia = {
+    modesetting.enable = true;
+    powerManagement.enable = true;
+    open = false;
   };
 
   programs.steam = {
