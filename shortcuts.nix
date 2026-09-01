@@ -57,13 +57,13 @@
     };
 
     Create-plus = {
-      name = "Create+";
-      comment = "Launch Create+ instance in Prism Launcher";
-      icon = "/home/mani/.local/share/PrismLauncher/instances/Create+/icon.webp";
-      exec = "prismlauncher --launch Create+";
+      name = "Create";
+      comment = "Launch Create instance in Prism Launcher";
+      icon = "/home/mani/.local/share/PrismLauncher/instances/Create/icon.png";
+      exec = "prismlauncher --launch Create";
       categories = [ "Game" ];
       settings = {
-        Path = "/home/mani/.local/share/PrismLauncher/instances/Create+";
+        Path = "/home/mani/.local/share/PrismLauncher/instances/Create";
         Keywords = "Minecraft;Prism;Launcher;";
       };
     };
@@ -95,7 +95,7 @@
     "The Broken Script Enhanced" = {
       name = "The Broken Script Enhanced";
       comment = "Launch The Broken Script Enhanced instance in Prism Launcher";
-      icon = "/home/mani/.local/share/PrismLauncher/instances/TBS-Enhanced/icon.webp";
+      icon = "/home/mani/.local/share/PrismLauncher/instances/TBS-Enhanced/icon.png";
       exec = "prismlauncher --launch TBS-Enhanced";
       categories = [ "Game" ];
       settings = {
