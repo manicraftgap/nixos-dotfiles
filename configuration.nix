@@ -112,6 +112,14 @@
     package = pkgs.millennium-steam;
   };
 
+  boot.kernelParams = [ "mem_sleep_default=deep" ];
+  services.acpid = {
+    enable = true;
+    lidEventCommands = ''
+      ${pkgs.systemd}/bin/systemctl suspend
+    '';
+  };
+
   programs.nix-ld = {
     enable = true;
     libraries = with pkgs; [
