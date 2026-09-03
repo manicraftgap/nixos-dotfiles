@@ -815,7 +815,8 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     background: var(--minimal_dark_black) !important;
     color: var(--minimal_dark_less_white);
     border-radius: var(--minimal_dark_corner) !important;
-	transition: .25s ease-out !important;
+    transition: .25s ease-out !important;
+    box-shadow: none !important;
 }
 
 .DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz .lYnGtW6EEZqmYUVJH2wLC:hover {
@@ -1991,7 +1992,7 @@ html._14wqdluDeDnnEcg3OSLEmd .PP7LM0Ow1K5qkR8WElLpt {
     backdrop-filter: blur(8px) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: var(--minimal_dark_corner) !important;
-    position: absolute !important;
+    /* position: absolute !important; */
     /* top: 41px !important; */
     /* left: 310px !important; */
 }
@@ -2610,4 +2611,12 @@ margin-bottom: 10px !important;
 ._170Npw5h84elypMSQ8zNDI ._1axoiZsC1RBp22JQmxiBIc.MIMuVt_bcI4rYVo1e14kR ._32e6rHniKd5ztOQ1lYIulu {
     border-radius: var(--minimal_dark_corner) !important;
     background-color: var(--minimal_dark_blacker) !important;
+}
+
+._2tALpM7z8naXJ35Pp5fNAG {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.MillenniumDesktopSidebar ._2tALpM7z8naXJ35Pp5fNAG.FieldLeftColumn {
+    background: transparent !important;
 }

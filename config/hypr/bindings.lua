@@ -9,6 +9,7 @@ hl.bind(mainMod .. " + CTRL + A", hl.dsp.exec_cmd("ghostty --title=wiremix -e wi
 hl.bind(mainMod .. " + CTRL + B", hl.dsp.exec_cmd("ghostty --title=bluetui -e bluetui"))
 hl.bind(mainMod .. " + CTRL + W", hl.dsp.exec_cmd("ghostty --title=impala -e impala"))
 hl.bind(mainMod .. " + CTRL + T", hl.dsp.exec_cmd("ghostty --title=btop -e btop"))
+hl.bind(mainMod .. " + CTRL + P", hl.dsp.exec_cmd("power-profile-menu"))
 
 -- Web Browser
 hl.bind(mainMod .. " + SHIFT + RETURN", hl.dsp.exec_cmd("uwsm-app -- librewolf"))

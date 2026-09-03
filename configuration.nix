@@ -45,11 +45,8 @@
     variant = "";
   };
 
-  services.logind.settings = {
-    Login = {
-      HandlePowerKey = "ignore";
-    };
-  };
+  services.logind.settings.Login.HandleLidSwitch = "poweroff";
+
   programs.gamemode.enable = true;
   fileSystems."/mnt/omarch" = {
     device = "/dev/disk/by-uuid/b0774602-1073-46fa-bf7e-ab998a110cbb";
@@ -110,14 +107,6 @@
   programs.steam = {
     enable = true;
     package = pkgs.millennium-steam;
-  };
-
-  boot.kernelParams = [ "mem_sleep_default=deep" ];
-  services.acpid = {
-    enable = true;
-    lidEventCommands = ''
-      ${pkgs.systemd}/bin/systemctl suspend
-    '';
   };
 
   programs.nix-ld = {

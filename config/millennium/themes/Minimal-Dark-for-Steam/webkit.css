@@ -48,9 +48,11 @@ body.SteamDeckTheme .profile_customization_header, body.SteamDeckTheme .profile_
 }
 /* end profil neon header */
 
-/* ._2MSFQv8F34No-YaWoPUlC_:hover .zOiWIqdjr4HIUZy3CNUuF { */
-    /* fill: var(--minimal_dark_color1) !important; */
-/* } */
+/* Wishlist — neutralise la nouvelle scrollbar Steam */
+html:has(#StoreTemplate) {
+    scrollbar-color: auto !important;
+}
+/* End wishlist — neutralise la nouvelle scrollbar Steam */
 
 ::-webkit-scrollbar {
     width: 12px !important;
@@ -1818,6 +1820,8 @@ body.v6 div#global_header .content {
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     line-height: 28px !important;
+    padding: 0px 10px 0px 10px !important;
+	margin-right: 0px !important;
 }
 
 .apphub_sectionTabsHR {
@@ -2091,6 +2095,10 @@ body.flat_page #footer_spacer, body.headerless_page #footer_spacer {
 
 .apphub_BackToTopButton.rightcap, .apphub_BackToTopButton.leftcap {
     display: none !important;
+}
+
+.discussionSearchTextContainer::before {
+    visibility: hidden !important;
 }
 
 .discussionSearchTextContainer {
@@ -2744,8 +2752,8 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
 .btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
     color: var(--minimal_dark_color1) !important;
     border: 1px solid var(--minimal_dark_color1) !important;
-    border: 1px solid var(--gpColor-Blue) !important;
-    color: var(--gpColor-Blue) !important;
+    border: 1px solid var(--minimal_dark_color1) !important;
+    color: var(--minimal_dark_color1) !important;
 }
 
 .explore_rightcol_box {
@@ -2905,19 +2913,6 @@ body.v6 .discount_block {
 .discount_block.no_discount .discount_prices {
     border-radius: 0px;
     background: 0 0!important;
-}
-
-a.search_result_row.ds_collapse_flag .responsive_search_name_combined .col.search_price_discount_combined.responsive_secondrow .discount_prices {
-    border-radius: var(--minimal_dark_corner) !important;
-    width: auto !important;
-    max-width: fit-content;
-    padding-right: 10px !important;
-    padding-left: 10px !important;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
 }
 
 .discount_block_large .discount_prices {
@@ -3108,16 +3103,27 @@ span#profile_action_dropdown_link img {
 	border-top:0!important;
 }
 
-.game_info_achievements_badge .game_info_badge_border {
-    border-radius: var(--minimal_dark_corner) !important;
-    box-shadow: none !important;
+/* .game_info_achievements_badge .game_info_badge_border { */
+    /* border-radius: var(--minimal_dark_corner) !important; */
+    /* box-shadow: none !important; */
+    /* border: 1px solid var(--minimal_dark_be_grey) !important; */
+/* } */
+
+.game_info_achievement img {
     border: 1px solid var(--minimal_dark_be_grey) !important;
+    transform: translate(0px, -1px) !important;
+}
+
+.game_info_badge {
+    border-radius: var(--minimal_dark_corner) !important;
+    border: none;
 }
 
 .game_info_badge_border {
-	border:0!important;
-	border-radius:0px!important;
-	background-color:rgba(0,0,0,0)!important;
+	border: 0 !important;
+	border-radius: 0px !important;
+	background-color: rgba(0,0,0,0) !important;
+	box-shadow: none !important;
 }
 
 .achievement_progress_bar_ctn {
@@ -3148,6 +3154,8 @@ span#profile_action_dropdown_link img {
 }
 
 .game_info_achievement.plus_more, .showcase_achievement.plus_more {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
     box-shadow: none !important;
 }
 
@@ -3500,15 +3508,6 @@ img.game_header_image_full {
 .game_area_dlc_bubble {
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_be_grey)!important;
-}
-
-.ds_flag.ds_completetheset {
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    color: var(--minimal_dark_color1) !important;
-    font-weight: 700 !important;
-    background: #12121285 !important;
-    backdrop-filter: blur(10px) !important;
 }
 
 .game_description_column h2,.recommendation_bodytext h2 {
@@ -5325,7 +5324,7 @@ h2.pageheader {
     padding: 15px 15px!important;
     border-radius: var(--minimal_dark_corner) !important;
     background: #1212125e !important;
-    border: 1px solid var(--minimal_dark_be_grey);
+    border: none;
 }
 
 body.profile_page #footer {
@@ -5346,7 +5345,8 @@ body.profile_page #footer {
 }
 
 .recent_game .achievement_icons {
-	float:right!important;
+    float: right !important;
+    padding: 2px !important;
 }
 
 .sale_page_background {
@@ -6408,7 +6408,7 @@ a.gutter_item:hover {
 
 body.v6 .game_area_already_owned.page_content {
     background: var(--minimal_dark_blacker) !important;
-    color: var(--minimal_dark_progress_bar) !important;
+    color: #21ced0 !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     margin-bottom: 10px !important;
     border-radius: var(--minimal_dark_corner) !important;
@@ -6417,18 +6417,6 @@ body.v6 .game_area_already_owned.page_content {
 
 .game_area_already_owned .already_in_library {
     transform: translate(12px, -4px) !important;
-}
-
-.package_in_library_flag.in_own_library {
-    background: #1919199c !important;
-    backdrop-filter: blur(8px);
-    border-radius: var(--minimal_dark_corner) !important;
-    color: var(--minimal_dark_browser_overlay_close);
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-}
-
-.package_in_library_flag.in_own_library span {
-    color: var(--minimal_dark_browser_overlay_close) !important;
 }
 
 #home_gutter_recentlyviewed {
@@ -8293,7 +8281,7 @@ body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.D
 
 .achievement_progress_bar_ctn .progress_bar {
     border-radius: var(--minimal_dark_corner) !important;
-    background: linear-gradient(88deg, rgba(25, 175, 255, 0.3) 0%, var(--gpColor-Blue) 80%) !important;
+    background: linear-gradient(88deg, rgba(25, 175, 255, 0.3) 0%, var(--minimal_dark_color1) 80%) !important;
 }
 
 .blotter_appselect {
@@ -8532,7 +8520,7 @@ body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.D
 }
 
 .videoTimelineMain .STV_timelineGhostValue {
-    background: linear-gradient(to right, #368fa7 0%, var(--gpColor-Blue) calc(100% - 4px), var(--gpColor-Blue) calc(100% - 1px), #dcf2ff 100%) !important;
+    background: linear-gradient(to right, #368fa7 0%, var(--minimal_dark_color1) calc(100% - 4px), var(--minimal_dark_color1) calc(100% - 1px), #dcf2ff 100%) !important;
     border-radius: var(--minimal_dark_corner) !important;
 }
 
@@ -8982,7 +8970,7 @@ body.v6 .broadcast_live_stream_icon {
 
 .manage_friends_panel {
     border-radius: var(--minimal_dark_corner) !important;
-	box-shadow: 0 0 0 1px var(--gpColor-Blue) inset !important;
+	box-shadow: 0 0 0 1px var(--minimal_dark_color1) inset !important;
 	background: rgba(25, 175, 255, 0.1) !important;
 }
 
@@ -9244,10 +9232,6 @@ img.communitylink_achievement {
 ._1BxZDLT8KveuJzn-1q4NTP .OS07NfYlp6v-Eh5oQ7dwn {
     color: var(--minimal_dark_color1) !important;
     opacity: .5 !important;
-}
-
-.profile_flag {
-    border-radius: var(--minimal_dark_corner) !important;
 }
 
 .pre_release_review {
@@ -10804,7 +10788,7 @@ div#ReviewText {
 }
 
 .dselect_container a.trigger:hover, .dselect_container .dropcontainer a.highlighted_selection {
-    color: var(--gpColor-Blue) !important;
+    color: var(--minimal_dark_color1) !important;
     background: var(--minimal_dark_be_grey) !important;
 }
 
@@ -12289,6 +12273,7 @@ a.view_inactive:hover {
 
 .apphub_sectionTab.active {
     border: 1px solid var(--minimal_dark_color1) !important;
+    padding: 0px 10px 0px 10px !important;
 }
 
 .store_main_capsule .reason .main .tags > span, .tab_preview .tags > a {
@@ -13516,7 +13501,7 @@ span#VoteDownBtn_4476110736154691403:hover {
 }
 
 .checkout_main .dselect_container a:hover {
-    color: var(--gpColor-Blue) !important;
+    color: var(--minimal_dark_color1) !important;
 }
 
 .checkout_error {
@@ -13563,7 +13548,7 @@ p {
 }
 
 .cart_tab_off {
-    color: var(--gpColor-Blue) !important;
+    color: var(--minimal_dark_color1) !important;
 }
 
 .accountInfoBlock .block_content {
@@ -15169,104 +15154,6 @@ textarea.gLFyf, .YacQv {
 	color: var(--minimal_dark_color1) !important;
 }
 
-.ds_flag {
-    color: var(--minimal_dark_browser_overlay_close) !important;
-}
-
-.ds_flag.ds_incart_flag {
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    color: var(--minimal_dark_status_green) !important;
-    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAtElEQVR4nI2QPQrCQBCFI+zM4hXsVLDwpxcsBMFTWFkoYmdlZyl6hc1MtBD0Cl7BU2Rn4jkiiIEkiuTB18x8zXsBJq4DSgsbu2bwL3VPDevDKSrdgipB5SsqbcuA0KwoCjuMuWs9tzLAux4qUVncWX9u529G3dAIrQsiCM9B6QjKywxUvoBQvyAa4fH7kRPNMxx9t0nTGijfUfkEwgdUepiEVj+bg9AeJBp8VthYjSaVJsvnBft7Wb8WFcRNAAAAAElFTkSuQmCC") no-repeat 4px 4px #12121285 !important;
-    backdrop-filter: blur(10px) !important;
-    border-left: 1px solid var(--minimal_dark_status_green) !important;
-    transform: translate(3px, -12px) !important;
-}
-
-.ds_incart_flag.ds_flag::before {
-    margin-right: 5px !important;
-}
-
-.ds_owned_flag.ds_flag::before {
-    content: "☰" !important;
-    margin-right: 5px !important;
-}
-
-.ds_wishlist_flag.ds_flag::before {
-    margin-right: 5px !important;
-}
-
-.ds_owned_flag.ds_flag {
-    background: #1919199c !important;
-    backdrop-filter: blur(8px);
-    border-radius: var(--minimal_dark_corner) !important;
-    padding: 0 0 0 4px !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    transform: translate(3px, -12px) !important;
-    border-left: 1px solid var(--minimal_dark_browser_overlay_close) !important;
-}
-
-.ds_collapse_flag.ds_collapse_flag_tiny.ds_flagged .ds_flag.ds_owned_flag {
-    top: 4px !important;
-    margin-left: 2px !important;
-    height: 18px !important;
-}
-
-.ds_collapse_flag.ds_collapse_flag_tiny.ds_flagged .ds_flag.ds_wishlist_flag {
-    top: 1px !important;
-    margin-left: 2px !important;
-    height: 18px !important;
-}
-
-.ds_collapse_flag.ds_collapse_flag_tiny .ds_flag.ds_owned_flag {
-    border-left: 1px solid var(--minimal_dark_browser_overlay_close) !important;
-    background: #1919199c !important;
-    backdrop-filter: blur(8px);
-    border-radius: var(--minimal_dark_corner) !important;
-	color: var(--minimal_dark_browser_overlay_close) !important;
-}
-
-.ds_collapse_flag.ds_collapse_flag_tiny .ds_flag.ds_wishlist_flag {
-    border-left: 1px solid #d3deea !important;
-    background: #1919199c !important;
-    backdrop-filter: blur(8px);
-    border-radius: var(--minimal_dark_corner) !important;
-	color: #d3deea !important;
-}
-
-.ds_collapse_flag_tiny.ds_flagged:hover .ds_flag {
-    padding-left: 5px !important;
-}
-
-.ds_flag.ds_wishlist_flag {
-	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAkUlEQVR4nI2OsQkCURBELxIRMRYxEG3DKq4Ar4Grw0JswcBEE0PBTg5M5v0NVxa+4P07xIWBZeYxTFUV5+7TUOkPTlIj6fAP+ACeg8DdJ2a2SSntgRbwrDa8yIIJcA5cv4CeJN27rlt8WmfAZQS8RVFvgpltS9DMdoOtQJ2BV1b89Rh4BM7AWtISOIU3Bq5+eW+QbLpxgzr0LQAAAABJRU5ErkJggg==') no-repeat 4px 4px #1919199c !important;
-    backdrop-filter: blur(8px);
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-left: 1px solid #d3deea !important;
-	color:  #d3deea !important;
-	border-radius: var(--minimal_dark_corner) !important;
-    transform: translate(3px, -12px) !important;
-}
-
-.carousel_items.store_capsule_container.responsive_scroll_snap_ctn .ds_flag.ds_wishlist_flag {
-    /* transform: translate(3px, -26px) !important; */
-	transform: translate(3px, -10px) !important;
-}
-
-.search_suggest .match .ds_flag.ds_wishlist_flag {
-    width: 10px !important;
-    transition: .25s ease-out !important;
-}
-
-.search_suggest .match .ds_flag.ds_incart_flag {
-    border-left: 1px solid var(--minimal_dark_status_green) !important;
-}
-
-.search_area .popup_body .match:hover .ds_flag.ds_wishlist_flag {
-    width: auto !important;
-	transition: .25s ease-out !important;
-}
-
 .game_area_purchase_game_dropdown_menu_items_container tr:first-child td {
     border-top: 1px solid rgb(38,38,38) !important;
 }
@@ -16118,16 +16005,12 @@ div#StoreTemplate .v2uRRqcZpzM-.Panel .ny5zKM3-7ec- a._-4fVuiRLPho-.ZfTk6ryId-Y-
     transition: .25s ease-out !important;
 }
 
-div#StoreTemplate .v2uRRqcZpzM-.Panel .ny5zKM3-7ec- a._-4fVuiRLPho-.ZfTk6ryId-Y-.Focusable {
-
-}
-
 ._16jZ3HEbtaJTl80pQINN2Y.Panel.Focusable a._175B12uOwmeGBNcSaQFe-Z._1tJxbjNzcWSdG2hBsklCTN.Focusable span.BReXgOZvJY6u4htWQn1aF {
     transform: translate(0px, -1px) !important;
 }
 
 ._16jZ3HEbtaJTl80pQINN2Y.Panel.Focusable a._175B12uOwmeGBNcSaQFe-Z.qqQDu9j0LIoK-w06-JxB5.Focusable svg {
-    transform: translate(0px, 1px) !important;
+    transform: translate(0px, -1px) !important;
 }
 
 span.BReXgOZvJY6u4htWQn1aF {
@@ -16932,4 +16815,8 @@ select option:hover {
     background-color: var(--minimal_dark_blacker) !important;
 }
 
+.anticheat_nonkernel_notice {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
 /* end webkit */
