@@ -110,6 +110,7 @@ hl.bind(
 	{ locked = true, repeating = true, ignore_mods = true }
 )
 hl.bind("XF86KbdLightOnOff", hl.dsp.exec_cmd("kbd-backlight cycle"), { locked = true, ignore_mods = true })
+hl.bind("code:246", hl.dsp.exec_cmd("asusctl aura effect --next-mode"))
 
 -- Touchpad Controls
 hl.bind("XF86TouchpadToggle", hl.dsp.exec_cmd("touchpad-toggle"), { locked = true, ignore_mods = true })
