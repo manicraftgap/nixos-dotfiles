@@ -2,14 +2,15 @@ local helpers = require("waywall.helpers")
 
 return {
 	remapped_kb = {
+		["1"] = "backspace",
 		["CapsLock"] = "F3",
 		["mmb"] = "RIGHTSHIFT",
 		["a"] = "o",
-		["d"] = "m",
+		["d"] = "b",
 		["q"] = "a",
-		["m"] = "d",
+		["b"] = "d",
 		["o"] = "q",
-		["grave"] = "0",
+		["grave"] = "grave", -- replace to zero when mb5 is cahnged to pick block
 	},
 
 	normal_kb = {

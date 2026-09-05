@@ -77,7 +77,6 @@
     normcap
     nodejs
     inputs.openlogi.packages.${pkgs.system}.default
-    inputs.superfile.packages.${pkgs.system}.default
     yaru-theme
     glfw3-minecraft
     jellyfin-desktop

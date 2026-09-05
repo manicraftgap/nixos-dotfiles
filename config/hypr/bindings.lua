@@ -110,7 +110,6 @@ hl.bind(
 	{ locked = true, repeating = true, ignore_mods = true }
 )
 hl.bind("XF86KbdLightOnOff", hl.dsp.exec_cmd("kbd-backlight cycle"), { locked = true, ignore_mods = true })
-hl.bind("code:246", hl.dsp.exec_cmd("asusctl aura effect --next-mode"))
 
 -- Touchpad Controls
 hl.bind("XF86TouchpadToggle", hl.dsp.exec_cmd("touchpad-toggle"), { locked = true, ignore_mods = true })
@@ -162,7 +161,12 @@ hl.bind("CTRL + ALT + SHIFT + TAB", hl.dsp.focus({ monitor = "-1" }))
 
 -- Power Menu
 hl.bind("XF86PowerOff", hl.dsp.exec_cmd("power-menu"))
-
+hl.bind(
+	"xF86Launch4",
+	hl.dsp.exec_cmd(
+		'sh -c \'CURRENT=$(powerprofilesctl get) && case "$CURRENT" in balanced) NEXT="performance";; performance) NEXT="power-saver";; *) NEXT="balanced";; esac && powerprofilesctl set "$NEXT" && swayosd-client --custom-message "$NEXT" --custom-icon "ac-adapter-symbolic"\''
+	)
+)
 -- Hyprsunset Toggle --
 hl.bind(
 	mainMod .. " + CTRL + N",
