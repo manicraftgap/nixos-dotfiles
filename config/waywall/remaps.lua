@@ -6,10 +6,11 @@ return {
 		["CapsLock"] = "F3",
 		["mmb"] = "RIGHTSHIFT",
 		["a"] = "o",
-		["d"] = "b",
+		["d"] = "r",
 		["q"] = "a",
 		["b"] = "d",
 		["o"] = "q",
+		["r"] = "b",
 		["grave"] = "grave", -- replace to zero when mb5 is cahnged to pick block
 	},
 

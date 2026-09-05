@@ -49,6 +49,7 @@ in
     ];
     packages = [
       "org.vinegarhq.Sober"
+      "io.mrarm.mcpelauncher"
     ];
     update.auto.enable = true;
   };

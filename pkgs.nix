@@ -57,7 +57,6 @@
     trash-cli
     sqlite
     vesktop
-    mcpelauncher-ui-qt
     steam-run
     inputs.millennium.packages."${pkgs.system}".millennium-steam
     samrewritten
