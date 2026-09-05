@@ -42,7 +42,7 @@ local config = {
 		options = (cfg.xkb_config.enabled and cfg.xkb_config.options) or nil,
 
 		repeat_rate = 40,
-		repeat_delay = 160,
+		repeat_delay = 220,
 		remaps = keyboard_remaps,
 		sensitivity = (cfg.sens_change.enabled and cfg.sens_change.normal) or 1.0,
 		confine_pointer = false,
