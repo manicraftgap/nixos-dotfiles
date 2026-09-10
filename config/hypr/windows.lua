@@ -121,3 +121,8 @@ hl.window_rule({
 	size = "200 110",
 	move = "1400 890",
 })
+hl.window_rule({
+	match = { title = "^(Calculator)$" },
+	float = 1,
+	size = "360 620",
+})

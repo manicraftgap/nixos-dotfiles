@@ -48,7 +48,7 @@
   services.logind.settings.Login = {
     HandleLidSwitch = "poweroff";
     HandlePowerKey = "ignore";
-    HandlePowerKeyLongPress = "poweroff";
+    HandlePowerKeyLongPress = "ignore";
   };
 
   fileSystems."/mnt/omarch" = {

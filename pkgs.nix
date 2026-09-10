@@ -49,6 +49,9 @@
     ripgrep
     fd
     lazygit
+    go
+    gopls
+    gammastep
     lua-language-server
     imagemagick
     ghostscript

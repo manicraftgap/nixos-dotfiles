@@ -89,13 +89,13 @@ hl.bind(
 -- Screen Brightness
 hl.bind(
 	"XF86MonBrightnessUp",
-	hl.dsp.exec_cmd("swayosd-client --brightness raise"),
-	{ locked = true, repeating = true, ignore_mods = true }
+	hl.dsp.exec_cmd("swayosd-client --brightness +5"),
+	{ locked = true, repeating = true, ignore_mods = false }
 )
 hl.bind(
 	"XF86MonBrightnessDown",
-	hl.dsp.exec_cmd("swayosd-client --brightness lower"),
-	{ locked = true, repeating = true, ignore_mods = true }
+	hl.dsp.exec_cmd("swayosd-client --brightness -5"),
+	{ locked = true, repeating = true, ignore_mods = false }
 )
 
 -- Keyboard Backlight
@@ -132,13 +132,13 @@ hl.bind(
 )
 hl.bind(
 	"ALT + XF86MonBrightnessUp",
-	hl.dsp.exec_cmd("brightnessctl set 1%+ && swayosd-client --brightness raise"),
-	{ locked = true, repeating = true, ignore_mods = true }
+	hl.dsp.exec_cmd("swayosd-client --brightness +1"),
+	{ locked = true, repeating = true, ignore_mods = false }
 )
 hl.bind(
 	"ALT + XF86MonBrightnessDown",
-	hl.dsp.exec_cmd("brightnessctl set 1%- && swayosd-client --brightness lower"),
-	{ locked = true, repeating = true, ignore_mods = true }
+	hl.dsp.exec_cmd("swayosd-client --brightness -1"),
+	{ locked = true, repeating = true, ignore_mods = false }
 )
 
 -- Media Player Controls
