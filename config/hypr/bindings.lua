@@ -89,12 +89,12 @@ hl.bind(
 -- Screen Brightness
 hl.bind(
 	"XF86MonBrightnessUp",
-	hl.dsp.exec_cmd("swayosd-client --brightness +5"),
+	hl.dsp.exec_cmd("swayosd-client --brightness +10"),
 	{ locked = true, repeating = true, ignore_mods = false }
 )
 hl.bind(
 	"XF86MonBrightnessDown",
-	hl.dsp.exec_cmd("swayosd-client --brightness -5"),
+	hl.dsp.exec_cmd("swayosd-client --brightness -10"),
 	{ locked = true, repeating = true, ignore_mods = false }
 )
 
@@ -118,6 +118,9 @@ hl.bind("XF86TouchpadOff", hl.dsp.exec_cmd("touchpad-toggle off"), { locked = tr
 
 -- Display Mirroring
 hl.bind(mainMod .. " + CTRL + ALT + Delete", hl.dsp.exec_cmd("display-mirror toggle"))
+
+-- Airplane mode
+hl.bind("XF86RFKill", hl.dsp.exec_cmd("toggle-airplane-mode"), { locked = true, ignore_mods = true })
 
 -- Precise 1% Adjustments
 hl.bind(

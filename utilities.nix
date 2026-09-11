@@ -112,6 +112,22 @@ let
     esac
   '';
 
+  toggle-airplane-mode = pkgs.writeShellApplication {
+    name = "toggle-airplane-mode";
+    text = ''
+      # Check if wireless interfaces are currently blocked
+      if rfkill list all | grep -q "Soft blocked: yes"; then
+        # Unblock both Wi-Fi and Bluetooth
+        rfkill unblock all
+        swayosd-client --custom-icon "airplane-mode-disabled-symbolic" --custom-message "Airplane Mode: Disabled"
+      else
+        # Block both Wi-Fi and Bluetooth
+        rfkill block all
+        swayosd-client --custom-icon "airplane-mode-symbolic" --custom-message "Airplane Mode: Enabled"
+      fi
+    '';
+  };
+
   audioOutputSwitch = pkgs.writeShellScriptBin "audio-output-switch" ''
     sinks=$(${pkgs.pulseaudio}/bin/pactl -f json list sinks | ${pkgs.jq}/bin/jq '[.[] | select((.ports | length == 0) or ([.ports[]? | .availability != "not available"] | any))]')
     sinks_count=$(echo "$sinks" | ${pkgs.jq}/bin/jq '. | length')
@@ -280,6 +296,7 @@ in {
     ninbot
     kbdBacklight
     touchpadToggle
+    toggle-airplane-mode
     audioOutputSwitch
     displayMirror
     screenshotCapture

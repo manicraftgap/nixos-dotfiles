@@ -39,6 +39,7 @@
     jq
     uwsm
     tmux
+    herdr
     libnotify
     dragon-drop
     findutils

@@ -1,0 +1,72 @@
+# NothingOS Yazi Theme
+
+[mgr]
+# Directory & File lists
+cwd = { fg = "#e53935", bold = true }
+
+# Hover / Selection
+hovered         = { fg = "#ffffff", bg = "#1c1c1c" }
+selected        = { fg = "#e53935", bg = "#141414", bold = true }
+
+# Borders
+border_style    = { fg = "#666666" }
+
+# File types
+find_keyword    = { fg = "#e53935", bold = true }
+find_sign       = { fg = "#ffffff" }
+symlink         = { fg = "#ffffff" }
+directory       = { fg = "#eeeeee", bold = true }
+file            = { fg = "#cccccc" }
+
+[status]
+separator_open  = ""
+separator_close = ""
+separator_style = { fg = "#0d0d0d", bg = "#0d0d0d" }
+
+# Mode colors
+mode_normal     = { fg = "#000000", bg = "#e53935", bold = true }
+mode_select     = { fg = "#000000", bg = "#ffffff", bold = true }
+mode_unset      = { fg = "#000000", bg = "#666666", bold = true }
+
+# Progress / Sizes
+permissions_t   = { fg = "#666666" }
+permissions_r   = { fg = "#e53935" }
+permissions_w   = { fg = "#ffffff" }
+permissions_x   = { fg = "#999999" }
+
+[input]
+border   = { fg = "#666666" }
+title    = { fg = "#ffffff", bold = true }
+value    = { fg = "#ffffff" }
+selected = { bg = "#1c1c1c" }
+
+[select]
+border   = { fg = "#666666" }
+active   = { fg = "#e53935", bold = true }
+inactive = { fg = "#999999" }
+
+[tasks]
+border   = { fg = "#666666" }
+title    = { fg = "#ffffff", bold = true }
+hovered  = { fg = "#ffffff", bg = "#1c1c1c" }
+
+[which]
+mask            = { bg = "#0d0d0d" }
+cand            = { fg = "#e53935" }
+rest            = { fg = "#999999" }
+desc            = { fg = "#cccccc" }
+separator       = "  "
+separator_style = { fg = "#666666" }
+
+[help]
+on      = { fg = "#e53935" }
+exec    = { fg = "#ffffff" }
+desc    = { fg = "#999999" }
+hovered = { bg = "#1c1c1c" }
+footer  = { fg = "#666666", bg = "#0d0d0d" }
+
+# Icon overrides
+[icon]
+rules = [
+  { is = "dir", fg = "#ffffff" }
+]

@@ -28,16 +28,9 @@
     LC_TIME = "en_US.UTF-8";
   };
 
-  networking.nameservers = [
-    "1.1.1.1"
-    "1.0.0.1"
-    "2606:4700:4700::1111"
-    "2606:4700:4700::1001"
-  ];
-
   swapDevices = [{
     device = "/swapfile";
-    size = 8 * 1024;
+    size = 16 * 1024;
   }];
 
   services.xserver.xkb = {
@@ -46,7 +39,7 @@
   };
 
   services.logind.settings.Login = {
-    HandleLidSwitch = "poweroff";
+    HandleLidSwitch = "hibernate";
     HandlePowerKey = "ignore";
     HandlePowerKeyLongPress = "ignore";
   };
