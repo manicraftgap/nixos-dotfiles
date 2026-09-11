@@ -163,6 +163,7 @@ hl.bind("CTRL + ALT + TAB", hl.dsp.focus({ monitor = "+1" }))
 hl.bind("CTRL + ALT + SHIFT + TAB", hl.dsp.focus({ monitor = "-1" }))
 
 -- Power Menu
+hl.bind(mainMod .. " + CTRL + SHIFT + L", hl.dsp.exec_cmd("power-menu"))
 hl.bind("XF86PowerOff", hl.dsp.exec_cmd("power-menu"))
 hl.bind(
 	"xF86Launch4",
