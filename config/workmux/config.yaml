@@ -1,0 +1,65 @@
+# ==============================================================================
+# WORKM (WORKMAX) CONFIGURATION
+# ==============================================================================
+
+# Layout & multiplexer mode
+mode: "session" # Options: "session" | "window"
+worktree_dir: "../worktrees"
+
+# Automated file copy & symlink
+copy:
+  - ".env"
+  - ".env.local"
+  - ".env.development"
+
+symlink:
+  - "node_modules"
+  - ".venv"
+
+# Session layout & window definition
+windows:
+  - name: "editor"
+    focus: true
+    panes:
+      - command: "nvim"
+        focus: true
+      - command: "pi"
+        split: "vertical"
+        size: 30
+
+  - name: "server"
+    panes:
+      - command: "pnpm run dev"
+
+agent: "opencode"
+
+# Sidebar & dashboard UI
+sidebar:
+  position: "left"
+  width: 35
+  show_agent_status: true
+  show_git_diff: true
+
+dashboard:
+  preview_position: "right"
+  show_git_metadata: true
+
+nerdfont: true
+
+theme:
+  custom:
+    bg: "#0d0d0d"                  # Surface background (base01)
+    highlight_row_bg: "#1c1c1c"    # Active selected row (base02)
+    current_worktree_fg: "#e53935" # Selected worktree text (Red)
+    dimmed: "#666666"             # Comments / Muted text (base03)
+    fg: "#999999"                 # Normal body text (base05)
+    border: "#1c1c1c"             # Pane borders (base02)
+    help_border: "#e53935"        # Floating popup border (Red)
+    help_muted: "#666666"         # Secondary dialog text
+    header: "#e53935"             # Table/Dashboard headers (Red)
+    keycap: "#e53935"             # Shortcut key hints (Red)
+    info: "#ffffff"               # Bright white text (base06/07)
+    success: "#ffffff"            # Done states
+    warning: "#e53935"            # Warnings (Red accent)
+    danger: "#e53935"             # Errors / Destructive prompts
+    accent: "#e53935"             # Main red accent

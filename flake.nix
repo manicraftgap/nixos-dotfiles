@@ -3,6 +3,7 @@
 
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-unstable";
+    workmux.url = "github:raine/workmux";
     nixos-hardware.url = "github:NixOS/nixos-hardware/master";
     elephant.url = "github:abenz1267/elephant";
     walker = {
@@ -18,10 +19,6 @@
     millennium.url = "github:SteamClientHomebrew/Millennium/next?dir=packages/nix";
     openlogi = {
       url = "github:AprilNEA/OpenLogi";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-    superfile = {
-      url = "github:yorukot/superfile";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };

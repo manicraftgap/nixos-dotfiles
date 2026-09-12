@@ -39,7 +39,7 @@
     jq
     uwsm
     tmux
-    herdr
+    inputs.workmux.packages.${pkgs.system}.default
     libnotify
     dragon-drop
     findutils

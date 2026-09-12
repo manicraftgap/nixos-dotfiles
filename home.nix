@@ -5,6 +5,8 @@ let
 
   configs = {
     nvim = "nvim";
+    tmux = "tmux";
+    workmux = "workmux";
     waybar = "waybar";
     walker = "walker";
     elephant = "elephant";
@@ -19,7 +21,6 @@ let
     millennium = "millennium/millennium";
     yazi = "yazi";
     startship = "starship.toml";
-    superfile = "superfile";
     fastfetch = "fastfetch";
     "gtk-3.0" = "gtk-3.0";
     "gtk-4.0" = "gtk-4.0";
