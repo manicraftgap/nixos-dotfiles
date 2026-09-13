@@ -41,6 +41,7 @@
     tmux
     inputs.workmux.packages.${pkgs.system}.default
     libnotify
+    blesh
     dragon-drop
     findutils
     power-profiles-daemon
