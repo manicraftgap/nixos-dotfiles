@@ -28,6 +28,20 @@
     LC_TIME = "en_US.UTF-8";
   };
 
+  # Enable OpenSSH service for emergency remote access/rebooting
+  services.openssh = {
+    enable = true;
+    settings = {
+      PermitRootLogin = "no";
+      PasswordAuthentication = true;
+    };
+  };
+
+  # Enable Magic SysRq so you can safely reboot using Alt + Fn + F6 / PrtSc
+  boot.kernel.sysctl = {
+    "kernel.sysrq" = 1;
+  };
+
   swapDevices = [{
     device = "/swapfile";
     size = 16 * 1024;
@@ -38,10 +52,11 @@
     variant = "";
   };
 
+  # Re-enabled Power Key for graceful shutdowns if display dies
   services.logind.settings.Login = {
     HandleLidSwitch = "hibernate";
     HandlePowerKey = "ignore";
-    HandlePowerKeyLongPress = "ignore";
+    HandlePowerKeyLongPress = "reboot";
   };
 
   fileSystems."/mnt/omarch" = {
@@ -59,30 +74,36 @@
   services.gvfs.enable = true;
   services.udisks2.enable = true;
   services.devmon.enable = true;
-  services.getty.autologinUser ="mani";
+  services.getty.autologinUser = "mani";
+ 
   users.users."mani" = {
     isNormalUser = true;
     description = "mani";
     extraGroups = [ "networkmanager" "wheel" "input" ];
     packages = with pkgs; [];
   };
+
   services.udev.extraRules = ''
     KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="3434", ATTRS{idProduct}=="0b10", MODE="0660", TAG+="uaccess", TAG+="udev-acl"
   '';
+
   nixpkgs.config.allowUnfree = true;
   programs.hyprland.enable = true;
   programs.localsend.enable = true;
+
   programs.helium = {
-      enable = true;
-      flags = [
-        "--ozone-platform-hint=auto"
-      ];
-    };
+    enable = true;
+    flags = [
+      "--ozone-platform-hint=auto"
+    ];
+  };
+
   services.power-profiles-daemon.enable = true;
   services.flatpak.enable = true;
   hardware.bluetooth.enable = true;
+
   environment.variables = {
-      EDITOR = "nvim";
+    EDITOR = "nvim";
   };
 
   fonts.packages = with pkgs; [
@@ -94,11 +115,15 @@
     enable32Bit = true;
   };
 
+  # Optimized NVIDIA configuration for suspend/resume stability
   hardware.nvidia = {
     modesetting.enable = true;
-    powerManagement.enable = true;
+    powerManagement = {
+      enable = true;
+      finegrained = false;
+      };
     open = false;
-  };
+    };
 
   programs.steam = {
     enable = true;
@@ -132,7 +157,8 @@
     DEFAULT_BROWSER = "${pkgs.librewolf}/bin/librewolf";
     BROWSER = "${pkgs.librewolf}/bin/librewolf";
   };
+
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
-  system.autoUpgrade.enable = true;
-  system.stateVersion = "26.05"; # Did you read the comment?
+  system.autoUpgrade.enable = false;
+  system.stateVersion = "26.05";
 }

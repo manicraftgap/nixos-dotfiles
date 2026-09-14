@@ -120,7 +120,7 @@ hl.bind("XF86TouchpadOff", hl.dsp.exec_cmd("touchpad-toggle off"), { locked = tr
 hl.bind(mainMod .. " + CTRL + ALT + Delete", hl.dsp.exec_cmd("display-mirror toggle"))
 
 -- Airplane mode
-hl.bind("XF86RFKill", hl.dsp.exec_cmd("toggle-airplane-mode"), { locked = true, ignore_mods = true })
+-- hl.bind("XF86RFKill", hl.dsp.exec_cmd("toggle-airplane-mode"), { locked = true, ignore_mods = true })
 
 -- Precise 1% Adjustments
 hl.bind(

@@ -276,9 +276,10 @@ let
   '';
 
   powerMenu = pkgs.writeShellScriptBin "power-menu" ''
-    selected=$(printf " Suspend\n󰍁 Lock\n󰜉 Restart\n󰐥 Shutdown" | ${pkgs.walker}/bin/walker --dmenu -p 'Power Menu…' --width 300 --height 200)
+    selected=$(printf " Suspend\n󰤄 Hibernate\n󰍁 Lock\n󰜉 Restart\n󰐥 Shutdown" | ${pkgs.walker}/bin/walker --dmenu -p 'Power Menu…' --width 300 --height 250)
     case "$selected" in
       " Suspend")   systemctl suspend ;;
+      "󰤄 Hibernate") systemctl hibernate ;;
       "󰍁 Lock")      ${pkgs.hyprlock}/bin/hyprlock ;;
       "󰜉 Restart")   systemctl reboot ;;
       "󰐥 Shutdown")  systemctl poweroff ;;
