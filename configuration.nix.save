@@ -54,7 +54,7 @@
 
   # Re-enabled Power Key for graceful shutdowns if display dies
   services.logind.settings.Login = {
-    HandleLidSwitch = "shudown";
+    HandleLidSwitch = "hibernate";
     HandlePowerKey = "ignore";
     HandlePowerKeyLongPress = "reboot";
   };
@@ -123,7 +123,7 @@
       finegrained = false;
       };
     open = false;
-  };
+    };
 
   programs.steam = {
     enable = true;
@@ -159,6 +159,6 @@
   };
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
-  system.autoUpgrade.enable = true;
+  system.autoUpgrade.enable = false;
   system.stateVersion = "26.05";
 }
