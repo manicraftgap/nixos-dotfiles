@@ -34,6 +34,8 @@ in
     ./shortcuts.nix
     ./librewolf.nix
     ./prism.nix
+    ./kitty.nix
+    #./hyprland.nix
     inputs.nix-flatpak.homeManagerModules.nix-flatpak
   ];
   home.username = "mani";
@@ -56,6 +58,10 @@ in
   };
 
   programs.eza.enable = true;
+  programs.fzf = {
+    enable = true;
+    enableZshIntegration = true;
+  };
 
   xdg.configFile = builtins.mapAttrs
     (name: subpath: {

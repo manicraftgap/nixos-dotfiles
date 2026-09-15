@@ -9,17 +9,19 @@
     starship
   ];
 
-  programs.bash = {
+  programs.zsh = {
     enable = true;
-    historySize = 32768;
-    historyFileSize = 32768;
-    historyControl = [ "ignoreboth" ];
-    bashrcExtra = ''
-      set +h
-      if [[ ! -v BASH_COMPLETION_VERSINFO && -f /usr/share/bash-completion/bash_completion ]]; then
-        source /usr/share/bash-completion/bash_completion
-      fi
-    '';
+    enableCompletion = true;
+    autosuggestion.enable = true;
+    syntaxHighlighting.enable = true;
+
+    history = {
+      size = 32768;
+      save = 32768;
+      ignoreDups = true;
+      ignoreSpace = true;
+      share = true;
+    };
 
     shellAliases = {
       ls = "eza --long --header --icons=auto";
@@ -47,13 +49,16 @@
       nbb = "NIXPKGS_ALLOW_UNFREE=1 nix-shell -p \"(python3.withPackages (ps: with ps; [ requests pyqt5 pyside6 pillow tkinter ps.\\\"sseclient-py\\\" ]))\" steam-run --run \"steam-run \\\$(which python3) /home/mani/nixos-dotfiles/config/waywall/resources/NBTrackr-imgpin-v2.7.0/NBTrackr-imgpin.py\"";
     };
 
-    initExtra = ''
+    initContent = ''
       if [ -f "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh" ]; then
         . "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh"
       fi
-      export PS1='\[\e[38;5;76m\]\u\[\e[0m\] in \[\e[38;5;32m\]\w\[\e[0m\] \\$ '
 
-      n() { 
+      # arrow-key history search, similar to the old readline bindings
+      bindkey "^[[A" history-search-backward
+      bindkey "^[[B" history-search-forward
+
+      n() {
         if [ "$#" -eq 0 ]; then command nvim . ; else command nvim "$@"; fi
       }
 
@@ -66,6 +71,7 @@
         hyprctl reload
       }
     '';
+
     profileExtra = ''
       if [ -z "$WAYLAND_DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
           exec start-hyprland
@@ -112,13 +118,13 @@
 
   programs.zoxide = {
     enable = true;
-    enableBashIntegration = true;
+    enableZshIntegration = true;
     options = [ "--cmd cd" ];
   };
 
   programs.starship = {
     enable = true;
-    enableBashIntegration = true;
+    enableZshIntegration = true;
     settings = builtins.fromTOML (builtins.readFile ./starship.toml);
   };
 }

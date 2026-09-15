@@ -85,6 +85,11 @@
       "keyColor": "blue"
     },
     {
+      "type": "shell",
+      "key": "│ ├󰞷",
+      "keyColor": "blue"
+    },
+    {
       "type": "packages",
       "key": "│ ├󰏖",
       "keyColor": "blue"

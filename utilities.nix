@@ -286,6 +286,17 @@ let
     esac
   '';
 
+  powerProfileCycle = pkgs.writeShellScriptBin "power-profile-cycle" ''
+    CURRENT=$(powerprofilesctl get)
+    case "$CURRENT" in
+      balanced) NEXT="performance" ;;
+      performance) NEXT="power-saver" ;;
+      *) NEXT="balanced" ;;
+    esac
+    powerprofilesctl set "$NEXT"
+    swayosd-client --custom-message "$NEXT" --custom-icon "ac-adapter-symbolic"
+  '';
+
   powerProfileMenu = pkgs.writeShellScriptBin "power-profile-menu" ''
     profile=$(powerprofilesctl list | awk '/^[[:space:]*]*[a-zA-Z0-9\-]+:$/ { gsub(/^[*[:space:]]+|:$/, ""); print }' | walker --dmenu -p 'Power Profile…' --width 300 --height 150)
     if [ -n "$profile" ]; then
@@ -303,5 +314,6 @@ in {
     screenshotCapture
     powerMenu
     powerProfileMenu
+    powerProfileCycle
   ];
 }

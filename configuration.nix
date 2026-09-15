@@ -75,10 +75,11 @@
   services.udisks2.enable = true;
   services.devmon.enable = true;
   services.getty.autologinUser = "mani";
- 
+  programs.zsh.enable = true;
   users.users."mani" = {
     isNormalUser = true;
     description = "mani";
+    shell = pkgs.zsh;
     extraGroups = [ "networkmanager" "wheel" "input" ];
     packages = with pkgs; [];
   };

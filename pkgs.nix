@@ -39,9 +39,9 @@
     jq
     uwsm
     tmux
-    inputs.workmux.packages.${pkgs.system}.default
+    kitty
+    inputs.workmux.packages.${pkgs.pkgs.stdenv.hostPlatform.system}.default
     libnotify
-    blesh
     dragon-drop
     findutils
     power-profiles-daemon
@@ -63,7 +63,7 @@
     sqlite
     vesktop
     steam-run
-    inputs.millennium.packages."${pkgs.system}".millennium-steam
+    inputs.millennium.packages."${pkgs.pkgs.stdenv.hostPlatform.system}".millennium-steam
     samrewritten
     cliamp
     nautilus
@@ -80,7 +80,7 @@
     mpv
     normcap
     nodejs
-    inputs.openlogi.packages.${pkgs.system}.default
+    inputs.openlogi.packages.${pkgs.pkgs.stdenv.hostPlatform.system}.default
     yaru-theme
     glfw3-minecraft
     jellyfin-desktop
