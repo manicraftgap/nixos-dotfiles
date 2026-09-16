@@ -4,17 +4,29 @@
 name = "DuckDuckGo"
 prefix = ""
 url = "https://duckduckgo.com/?q=%TERM%"
-icon = "/home/mani/.config/elephant/icons/duckduckgo.png"
+icon = "/home/mani/nixos-dotfiles/config/icons/duckduckgo.png"
 default = true
 
 [[entries]]
 name = "YouTube"
 prefix = "yt:"
 url = "https://www.youtube.com/results?search_query=%TERM%"
-icon = "/home/mani/.config/elephant/icons/YouTube.webp"
+icon = "/home/mani/nixos-dotfiles/config/icons/YouTube.png"
 
 [[entries]]
 name = "Duck AI"
 prefix = ""
 url = "https://duck.ai/search?q=%TERM%"
-icon = "/home/mani/.config/elephant/icons/duckduckgo.png"
+icon = "/home/mani/nixos-dotfiles/config/icons/duckduckgo.png"
+
+[[entries]]
+name = "Nix Pkgs"
+prefix = "ns:"
+url = "https://search.nixos.org/packages?channel=unstable&query=%TERM%"
+icon = "/home/mani/nixos-dotfiles/config/icons/nixos.png"
+
+[[entries]]
+name = "Dashboard Icons"
+prefix = "ic:"
+url = "https://dashboardicons.com/icons?q=%TERM%"
+icon = "/home/mani/nixos-dotfiles/config/icons/dashboard-icons.png"

@@ -5,6 +5,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       ./pkgs.nix
+      ./kanata.nix
     ];
 
   boot.loader.systemd-boot.enable = true;
@@ -52,9 +53,8 @@
     variant = "";
   };
 
-  # Re-enabled Power Key for graceful shutdowns if display dies
   services.logind.settings.Login = {
-    HandleLidSwitch = "shudown";
+    HandleLidSwitch = "hibernate";
     HandlePowerKey = "ignore";
     HandlePowerKeyLongPress = "reboot";
   };
@@ -75,12 +75,13 @@
   services.udisks2.enable = true;
   services.devmon.enable = true;
   services.getty.autologinUser = "mani";
+  hardware.uinput.enable = true;
   programs.zsh.enable = true;
   users.users."mani" = {
     isNormalUser = true;
     description = "mani";
     shell = pkgs.zsh;
-    extraGroups = [ "networkmanager" "wheel" "input" ];
+    extraGroups = [ "networkmanager" "wheel" "input" "uinput" ];
     packages = with pkgs; [];
   };
 

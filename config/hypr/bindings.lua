@@ -2,13 +2,13 @@
 local mainMod = "SUPER"
 
 -- --- Application Bindings ---
-hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd("ghostty"))
+hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd("kitty"))
 hl.bind(mainMod .. " + ALT + RETURN", hl.dsp.exec_cmd("uwsm-app -- xdg-terminal-exec tmux new"))
 hl.bind(mainMod .. " + CTRL + L", hl.dsp.exec_cmd("uwsm-app -- hyprlock"))
-hl.bind(mainMod .. " + CTRL + A", hl.dsp.exec_cmd("ghostty --title=wiremix -e wiremix"))
-hl.bind(mainMod .. " + CTRL + B", hl.dsp.exec_cmd("ghostty --title=bluetui -e bluetui"))
-hl.bind(mainMod .. " + CTRL + W", hl.dsp.exec_cmd("ghostty --title=impala -e impala"))
-hl.bind(mainMod .. " + CTRL + T", hl.dsp.exec_cmd("ghostty --title=btop -e btop"))
+hl.bind(mainMod .. " + CTRL + A", hl.dsp.exec_cmd("kitty --title=wiremix -e wiremix"))
+hl.bind(mainMod .. " + CTRL + B", hl.dsp.exec_cmd("kitty --title=bluetui -e bluetui"))
+hl.bind(mainMod .. " + CTRL + W", hl.dsp.exec_cmd("kitty --title=impala -e impala"))
+hl.bind(mainMod .. " + CTRL + T", hl.dsp.exec_cmd("kitty --title=btop -e btop"))
 hl.bind(mainMod .. " + CTRL + P", hl.dsp.exec_cmd("power-profile-menu"))
 
 -- Web Browser
@@ -111,6 +111,9 @@ hl.bind(
 )
 hl.bind("XF86KbdLightOnOff", hl.dsp.exec_cmd("kbd-backlight cycle"), { locked = true, ignore_mods = true })
 
+-- Aura Backlight
+hl.bind("F13", hl.dsp.exec_cmd("cycle-aura"), { locked = true, ignore_mods = true })
+
 -- Touchpad Controls
 hl.bind("XF86TouchpadToggle", hl.dsp.exec_cmd("touchpad-toggle"), { locked = true, ignore_mods = true })
 hl.bind("XF86TouchpadOn", hl.dsp.exec_cmd("touchpad-toggle on"), { locked = true, ignore_mods = true })
@@ -120,7 +123,7 @@ hl.bind("XF86TouchpadOff", hl.dsp.exec_cmd("touchpad-toggle off"), { locked = tr
 hl.bind(mainMod .. " + CTRL + ALT + Delete", hl.dsp.exec_cmd("display-mirror toggle"))
 
 -- Airplane mode
--- hl.bind("XF86RFKill", hl.dsp.exec_cmd("toggle-airplane-mode"), { locked = true, ignore_mods = true })
+hl.bind("F14", hl.dsp.exec_cmd("toggle-airplane-mode"), { locked = true, ignore_mods = true })
 
 -- Precise 1% Adjustments
 hl.bind(
@@ -165,12 +168,8 @@ hl.bind("CTRL + ALT + SHIFT + TAB", hl.dsp.focus({ monitor = "-1" }))
 -- Power Menu
 hl.bind(mainMod .. " + CTRL + SHIFT + L", hl.dsp.exec_cmd("power-menu"))
 hl.bind("XF86PowerOff", hl.dsp.exec_cmd("power-menu"))
-hl.bind(
-	"xF86Launch4",
-	hl.dsp.exec_cmd(
-		'sh -c \'CURRENT=$(powerprofilesctl get) && case "$CURRENT" in balanced) NEXT="performance";; performance) NEXT="power-saver";; *) NEXT="balanced";; esac && powerprofilesctl set "$NEXT" && swayosd-client --custom-message "$NEXT" --custom-icon "ac-adapter-symbolic"\''
-	)
-)
+hl.bind("xF86Launch4", hl.dsp.exec_cmd("power-profile-cycle"))
+
 -- Hyprsunset Toggle --
 hl.bind(
 	mainMod .. " + CTRL + N",

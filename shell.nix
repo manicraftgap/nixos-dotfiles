@@ -38,6 +38,7 @@
       nrw = "pkill -f walker; pkill -f elephant; nohup walker >/dev/null 2>&1 & nohup elephant >/dev/null 2>&1 &";
       tm = "tmux";
       wm = "workmux dashboard";
+      yz = "yazi";
 
       # Git Utilities
       g = "git";
@@ -49,14 +50,22 @@
       nbb = "NIXPKGS_ALLOW_UNFREE=1 nix-shell -p \"(python3.withPackages (ps: with ps; [ requests pyqt5 pyside6 pillow tkinter ps.\\\"sseclient-py\\\" ]))\" steam-run --run \"steam-run \\\$(which python3) /home/mani/nixos-dotfiles/config/waywall/resources/NBTrackr-imgpin-v2.7.0/NBTrackr-imgpin.py\"";
     };
 
-    initContent = ''
+    initExtra = ''
       if [ -f "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh" ]; then
         . "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh"
       fi
 
-      # arrow-key history search, similar to the old readline bindings
-      bindkey "^[[A" history-search-backward
-      bindkey "^[[B" history-search-forward
+      autoload -U up-line-or-beginning-search
+      autoload -U down-line-or-beginning-search
+      zle -N up-line-or-beginning-search
+      zle -N down-line-or-beginning-search
+
+      bindkey "^[[A" up-line-or-beginning-search
+      bindkey "^[[B" down-line-or-beginning-search
+      bindkey "^[OA" up-line-or-beginning-search
+      bindkey "^[OB" up-line-or-beginning-search
+      [[ -n "$key[Up]" ]] && bindkey "$key[Up]" up-line-or-beginning-search
+      [[ -n "$key[Down]" ]] && bindkey "$key[Down]" down-line-or-beginning-search
 
       n() {
         if [ "$#" -eq 0 ]; then command nvim . ; else command nvim "$@"; fi

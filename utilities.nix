@@ -297,6 +297,34 @@ let
     swayosd-client --custom-message "$NEXT" --custom-icon "ac-adapter-symbolic"
   '';
 
+  cycleAura = pkgs.writeShellScriptBin "cycle-aura" ''
+    #!/usr/bin/env bash
+
+    ASUSCTL="${pkgs.asusctl}/bin/asusctl"
+    NOTIFY="${pkgs.libnotify}/bin/notify-send"
+
+    # 1. Advance to the next Aura LED mode
+    "$ASUSCTL" aura effect --next-mode > /dev/null
+
+    # 2. Extract current active mode/effect string
+    RAW_OUTPUT=$("$ASUSCTL" aura effect)
+    # Grabs the last word of any line containing "Current" or "Active"
+    MODE=$(echo "$RAW_OUTPUT" | ${pkgs.gnugrep}/bin/grep -iE "current|active" | ${pkgs.gawk}/bin/awk '{print $NF}' | ${pkgs.findutils}/bin/xargs)
+
+    # Secondary fallback: if no keyword matches, grab the second line of raw output
+    if [ -z "$MODE" ]; then
+      MODE=$(echo "$RAW_OUTPUT" | ${pkgs.gnugrep}/bin/grep -v "^$" | ${pkgs.coreutils}/bin/head -n 2 | ${pkgs.coreutils}/bin/tail -n 1 | ${pkgs.findutils}/bin/xargs)
+    fi
+
+    # 3. Trigger desktop notification
+    "$NOTIFY" \
+      -e \
+      -h string:x-canonical-private-synchronous:aura \
+      -i "input-keyboard-symbolic" \
+      "Aura Lighting" \
+      "Mode: $MODE"
+  '';
+
   powerProfileMenu = pkgs.writeShellScriptBin "power-profile-menu" ''
     profile=$(powerprofilesctl list | awk '/^[[:space:]*]*[a-zA-Z0-9\-]+:$/ { gsub(/^[*[:space:]]+|:$/, ""); print }' | walker --dmenu -p 'Power Profile…' --width 300 --height 150)
     if [ -n "$profile" ]; then
@@ -315,5 +343,6 @@ in {
     powerMenu
     powerProfileMenu
     powerProfileCycle
+    cycleAura
   ];
 }

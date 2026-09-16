@@ -42,10 +42,6 @@
           install_url = "https://addons.mozilla.org/firefox/downloads/file/4779333/hide_youtube_shorts-1.11.0.xpi";
           installation_mode = "force_installed";
         };
-        "{d7742d87-e61d-4b78-b8a1-b469842139fa}" = {
-          install_url = "https://addons.mozilla.org/firefox/downloads/file/4717567/vimium_ff-2.4.2.xpi";
-          installation_mode = "force_installed";
-        };
       };
     };
 
