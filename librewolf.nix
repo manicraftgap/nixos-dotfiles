@@ -3,7 +3,6 @@
 {
   programs.librewolf = {
     enable = true;
-    
     policies = {
       ExtensionSettings = {
         "addon@darkreader.org" = { # Addon ID
@@ -42,6 +41,11 @@
           install_url = "https://addons.mozilla.org/firefox/downloads/file/4779333/hide_youtube_shorts-1.11.0.xpi";
           installation_mode = "force_installed";
         };
+        "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}" = {
+          install_url = "https://addons.mozilla.org/firefox/downloads/file/5028285/styl_us-2.4.13.xpi";
+          installation_mode = "force_installed";
+        };
+
       };
     };
 

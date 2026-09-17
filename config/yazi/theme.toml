@@ -65,8 +65,32 @@ desc    = { fg = "#999999" }
 hovered = { bg = "#1c1c1c" }
 footer  = { fg = "#666666", bg = "#0d0d0d" }
 
-# Icon overrides
 [icon]
-rules = [
-  { is = "dir", fg = "#ffffff" }
+prepend_rules = [
+  { is = "dir", fg = "#ffffff" },
+
+  # Media & Images
+  { name = "*.png", fg = "#e53935" },
+  { name = "*.jpg", fg = "#e53935" },
+  { name = "*.jpeg", fg = "#e53935" },
+  { name = "*.svg", fg = "#e53935" },
+  { name = "*.mp4", fg = "#e53935" },
+  { name = "*.mp3", fg = "#e53935" },
+
+  # Text & Documents
+  { name = "*.txt", fg = "#eeeeee" },
+  { name = "*.md", fg = "#eeeeee" },
+  { name = "*.pdf", fg = "#e53935" },
+
+  # Code & Configs
+  { name = "*.toml", fg = "#999999" },
+  { name = "*.json", fg = "#999999" },
+  { name = "*.rs", fg = "#cccccc" },
+  { name = "*.py", fg = "#cccccc" },
+  { name = "*.js", fg = "#cccccc" },
+  { name = "*.nix", fg = "#cccccc" },
+
+  # Archives & System
+  { name = "*.zip", fg = "#666666" },
+  { name = "*.tar*", fg = "#666666" }
 ]

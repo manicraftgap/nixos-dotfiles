@@ -292,3 +292,47 @@ end)
 hl.bind(mainMod .. " + CTRL + ALT + Z", function()
 	hl.config({ cursor = { zoom_factor = 1 } })
 end)
+
+-- Helper function to keep bindings on a single line and delay execution
+local function send(mods, key)
+	return function()
+		hl.dispatch(hl.dsp.send_shortcut({ mods = mods, key = key, window = "activewindow" }))
+	end
+end
+
+-- === Navigation Layer (HJKL, Paging, Jump) ===
+hl.bind("ALT + H", send("", "Left"), { repeating = true })
+hl.bind("ALT + J", send("", "Down"), { repeating = true })
+hl.bind("ALT + K", send("", "Up"), { repeating = true })
+hl.bind("ALT + L", send("", "Right"), { repeating = true })
+
+hl.bind("ALT + U", send("", "Page_Up"), { repeating = true })
+hl.bind("ALT + I", send("", "Page_Down"), { repeating = true })
+hl.bind("ALT + Y", send("", "Home"))
+hl.bind("ALT + O", send("", "End"))
+
+-- === Word Jumping (Vim b/w) ===
+hl.bind("ALT + B", send("CTRL", "Left"), { repeating = true })
+hl.bind("ALT + W", send("CTRL", "Right"), { repeating = true })
+
+-- === Editing Shortcuts (Vim x, n, c, e) ===
+hl.bind("ALT + X", send("", "Delete"), { repeating = true })
+hl.bind("ALT + N", send("", "BackSpace"), { repeating = true })
+hl.bind("ALT + C", send("CTRL", "BackSpace"), { repeating = true })
+hl.bind("ALT + E", send("", "Return"))
+
+local terminalClasses = {
+	kitty = true,
+	ghostty = true,
+}
+
+hl.bind("Caps_Lock", function()
+	local w = hl.get_active_window()
+	if w ~= nil and terminalClasses[w.class] then
+		hl.dispatch(hl.dsp.send_shortcut({ mods = "", key = "space", window = "activewindow" }))
+	else
+		hl.dispatch(hl.dsp.pass({ window = "activewindow" }))
+	end
+end)
+
+hl.bind("SHIFT + Caps_Lock", hl.dsp.send_shortcut({ mods = "", key = "Multi_key", window = "activewindow" }))

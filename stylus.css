@@ -1,0 +1,239 @@
+/* --- Nothing OS Palette & Tokens --- */
+    :root {
+        --noth-bg: #000000;
+        --noth-border: #1c1c1c;
+        --noth-border-focus: #444444;
+
+        /* Text brightened: "sub" and "dim" are now much closer to white,
+           since most copy should read as white/near-white, not gray. */
+        --noth-text-main: #ffffff;
+        --noth-text-sub: #e6e6e6;
+        --noth-text-dim: #a8a8a8;
+
+        --noth-red: #e53935;
+        --noth-red-dim: rgba(229, 57, 53, 0.15);
+
+        /* Uses generic monospace alias for zero font fingerprinting */
+        --noth-font: monospace;
+    }
+
+    /* Tell the browser itself to render native widgets (selects, their
+       dropdown popups, scrollbars, checkboxes, date pickers, etc.) using
+       its built-in DARK theme instead of light. This is what actually
+       fixes things like DuckDuckGo's region selector: that popup list is
+       partly drawn by the browser/OS, not by page CSS, so forcing
+       background:#000 on the closed <select> without this can leave the
+       opened list on its default light rendering underneath our
+       forced-white text -> invisible text either way. */
+    html {
+        color-scheme: dark !important;
+    }
+
+    /* --- Base Elements --- */
+    /* THE KEY FIX: force every element's background transparent by
+       default, then let #000 on html/body show through everywhere.
+       Modern web apps (including this one) use hashed/obfuscated class
+       names and CSS custom properties that generic selectors like
+       [class*="card"] will never reliably match, so any rule that only
+       repaints a hand-picked list of selectors will always leave some
+       wrapper/container showing its original white background through.
+       Painting *everything* transparent first and body black underneath
+       closes that gap completely - it's no longer a whack-a-mole game
+       against unknown class names. Explicit "surface" rules further
+       down then re-opaque the specific boxes that should visually stand
+       out (panels, inputs, code blocks) with their own black + border. */
+    *:not(#___nothing_os___):not(#___nothing_os___):not(#___nothing_os___),
+    *::before,
+    *::after {
+        background-color: transparent !important;
+        background-image: none !important;
+    }
+
+    html, body {
+        background-color: #000000 !important;
+        color: var(--noth-text-main) !important;
+    }
+
+    p:not(#___nothing_os___):not(#___nothing_os___):not(#___nothing_os___),
+    span:not(#___nothing_os___):not(#___nothing_os___):not(#___nothing_os___),
+    li:not(#___nothing_os___):not(#___nothing_os___):not(#___nothing_os___),
+    label:not(#___nothing_os___):not(#___nothing_os___):not(#___nothing_os___),
+    div:not(#___nothing_os___):not(#___nothing_os___):not(#___nothing_os___),
+    td:not(#___nothing_os___):not(#___nothing_os___):not(#___nothing_os___),
+    th:not(#___nothing_os___):not(#___nothing_os___):not(#___nothing_os___) {
+        color: var(--noth-text-main) !important;
+    }
+
+    /* Chat/message composers and rich-text editors are frequently a
+       contenteditable div, not a real <input>/<textarea> - this was
+       exactly why the message box you're typing in went white-on-white:
+       the old div/span text-color rule turned its text white, but
+       nothing gave it a background, so the site's own default (white)
+       showed through underneath. */
+    [contenteditable="true"], [contenteditable=""], [role="textbox"] {
+        background-color: #000000 !important;
+        color: var(--noth-text-main) !important;
+        /* Kill the native focus ring here specifically. With
+           color-scheme: dark set above, browsers switch their default
+           outline to a thick light/white style - and because an outline
+           is drawn as a separate layer outside the box rather than part
+           of it, it can visibly lag or "detach" as a contenteditable
+           composer auto-grows while you type multiple lines. A
+           box-shadow is drawn as part of the element's own box instead,
+           so it always tracks the current size exactly. */
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
+    [contenteditable="true"]:focus, [contenteditable=""]:focus, [role="textbox"]:focus,
+    [contenteditable="true"]:focus-visible, [contenteditable=""]:focus-visible, [role="textbox"]:focus-visible {
+        outline: none !important;
+        box-shadow: 0 0 0 1px var(--noth-red) inset !important;
+    }
+
+    /* Text & Headings */
+    h1, h2, h3, h4, h5, h6, strong, b {
+        color: var(--noth-text-main) !important;
+        font-family: var(--noth-font) !important;
+    }
+
+    /* Most body copy is now near-white (main) rather than muted (sub).
+       Reserve --noth-text-dim for things that are genuinely secondary
+       (timestamps, placeholders, disabled text) via the rule below. */
+    p, span, li, label, div, td, th {
+        color: var(--noth-text-main) !important;
+    }
+
+    ::placeholder,
+    [aria-disabled="true"],
+    [disabled] {
+        color: var(--noth-text-dim) !important;
+    }
+
+    a {
+        color: var(--noth-text-main) !important;
+        text-decoration-color: var(--noth-red) !important;
+    }
+
+    a:hover {
+        color: var(--noth-red) !important;
+    }
+
+    /* --- Selection & Highlights --- */
+    ::selection {
+        background-color: var(--noth-red) !important;
+        color: #ffffff !important;
+    }
+
+    /* --- Panels, Cards, Bars & Containers --- */
+    /* Every selector that forces a black background here now also forces
+       a matching text color in the SAME rule. Previously backgrounds and
+       text colors were declared in separate rule blocks with different
+       selector lists, so any element matched by a background rule but
+       missed by a text rule kept its original (often dark-gray-on-light)
+       text -> effectively invisible against the forced black. Dropdowns,
+       menus, listboxes, popovers and tooltips are now included, since
+       those are exactly the "regions selector"-style widgets that were
+       breaking. */
+    header, nav, footer, sidebar,
+    [class*="header"], [class*="nav"], [class*="sidebar"],
+    [class*="card"], [class*="panel"], [class*="modal"], [class*="bar"],
+    [class*="dropdown"], [class*="menu"], [class*="popover"],
+    [class*="tooltip"], [class*="listbox"], [class*="select"],
+    [role="menu"], [role="listbox"], [role="dialog"], [role="tooltip"] {
+        background-color: #000000 !important;
+        color: var(--noth-text-main) !important;
+        border-color: var(--noth-border) !important;
+    }
+
+    /* --- Specificity escalation for stubborn custom dropdowns --- */
+    /* Sites like DuckDuckGo build their Safe Search / Time / Region
+       menus out of custom markup, and style them with several chained
+       classes plus !important (e.g. ".select .select__item.active").
+       That beats a plain attribute selector like [role="menu"] on
+       specificity even though our rule is also !important - among
+       !important declarations the browser picks the MORE SPECIFIC one,
+       not the later one. Chaining harmless :not(#___...___) clauses
+       inflates our specificity without changing what actually matches
+       (no real element will ever have that id), so this reliably wins
+       against that kind of deeply-nested author CSS. The trailing " *"
+       reaches every descendant inside the menu/dropdown, which is what
+       "text both in and out of the menu" needs. */
+    [role="listbox"] *:not(#___nothing_os___):not(#___nothing_os___):not(#___nothing_os___),
+    [role="menu"] *:not(#___nothing_os___):not(#___nothing_os___):not(#___nothing_os___),
+    [role="option"]:not(#___nothing_os___):not(#___nothing_os___):not(#___nothing_os___),
+    [role="menuitem"]:not(#___nothing_os___):not(#___nothing_os___):not(#___nothing_os___),
+    [role="menuitemradio"]:not(#___nothing_os___):not(#___nothing_os___):not(#___nothing_os___),
+    [role="menuitemcheckbox"]:not(#___nothing_os___):not(#___nothing_os___):not(#___nothing_os___),
+    [class*="dropdown"] *:not(#___nothing_os___):not(#___nothing_os___):not(#___nothing_os___),
+    [class*="select"] *:not(#___nothing_os___):not(#___nothing_os___):not(#___nothing_os___) {
+        color: var(--noth-text-main) !important;
+        background-color: #000000 !important;
+    }
+
+    /* --- Inputs & Interactive Components --- */
+    input, textarea, select, button {
+        background-color: #000000 !important;
+        color: var(--noth-text-main) !important;
+        border: 1px solid var(--noth-border) !important;
+        border-radius: 0px !important;
+        font-family: var(--noth-font) !important;
+    }
+
+    /* Explicit backup for the native <select> popup list itself: some
+       browsers only partially respect color-scheme on <option>, so this
+       forces both sides of the contrast pair together rather than
+       relying on inherited/default colors. */
+    select option, select optgroup {
+        background-color: #000000 !important;
+        color: var(--noth-text-main) !important;
+    }
+
+    input:focus, textarea:focus, select:focus {
+        border-color: var(--noth-red) !important;
+        outline: none !important;
+    }
+
+    button:hover {
+        background-color: #000000 !important;
+        border-color: var(--noth-red) !important;
+        color: var(--noth-red) !important;
+    }
+
+    /* --- Code Blocks & Syntax --- */
+    pre, code, kbd {
+        background-color: #000000 !important;
+        color: var(--noth-text-main) !important;
+        border: 1px solid var(--noth-border) !important;
+        font-family: var(--noth-font) !important;
+    }
+
+    /* --- "White things" stay isolated from the forced palette --- */
+    /* Images, video, canvas and native icon/logo assets are meant to
+       keep their own colors (often intentionally light or full-color) -
+       they were never touched by the rules above, but this makes that
+       explicit and stops any future broad selector from swallowing them. */
+    img, svg, video, canvas, picture {
+        background-color: transparent !important;
+        filter: none !important;
+    }
+
+    /* --- Custom Scrollbar --- */
+    ::-webkit-scrollbar {
+        width: 6px !important;
+        height: 6px !important;
+        background-color: #000000 !important;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: #000000 !important;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: var(--noth-border) !important;
+        border-radius: 0px !important;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: var(--noth-red) !important;
+    }

@@ -42,7 +42,6 @@
     kitty
     inputs.workmux.packages.${pkgs.pkgs.stdenv.hostPlatform.system}.default
     libnotify
-    dragon-drop
     findutils
     power-profiles-daemon
     piper
@@ -85,6 +84,8 @@
     glfw3-minecraft
     jellyfin-desktop
     opencode
+    ollama
+    docker
     proton-vpn
     jdk21
     (python3.withPackages (ps: with ps; [
