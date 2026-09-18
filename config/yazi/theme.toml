@@ -66,31 +66,39 @@ hovered = { bg = "#1c1c1c" }
 footer  = { fg = "#666666", bg = "#0d0d0d" }
 
 [icon]
-prepend_rules = [
-  { is = "dir", fg = "#ffffff" },
+# Generic folder icon (matches any directory that isn't overridden by a
+# more specific `dirs` rule, e.g. a named folder like "Desktop")
+prepend_conds = [
+  { if = "dir", text = "", fg = "#9a9a9a" },
+]
 
+prepend_exts = [
   # Media & Images
-  { name = "*.png", fg = "#e53935" },
-  { name = "*.jpg", fg = "#e53935" },
-  { name = "*.jpeg", fg = "#e53935" },
-  { name = "*.svg", fg = "#e53935" },
-  { name = "*.mp4", fg = "#e53935" },
-  { name = "*.mp3", fg = "#e53935" },
+  { name = "png", text = "", fg = "#e53935" },
+  { name = "jpg", text = "", fg = "#e53935" },
+  { name = "jpeg", text = "", fg = "#e53935" },
+  { name = "svg", text = "", fg = "#e53935" },
+  { name = "mp4", text = "", fg = "#e53935" },
+  { name = "mp3", text = "", fg = "#e53935" },
 
   # Text & Documents
-  { name = "*.txt", fg = "#eeeeee" },
-  { name = "*.md", fg = "#eeeeee" },
-  { name = "*.pdf", fg = "#e53935" },
+  { name = "txt", text = "", fg = "#eeeeee" },
+  { name = "md", text = "", fg = "#eeeeee" },
+  { name = "pdf", text = "", fg = "#e53935" },
 
   # Code & Configs
-  { name = "*.toml", fg = "#999999" },
-  { name = "*.json", fg = "#999999" },
-  { name = "*.rs", fg = "#cccccc" },
-  { name = "*.py", fg = "#cccccc" },
-  { name = "*.js", fg = "#cccccc" },
-  { name = "*.nix", fg = "#cccccc" },
+  { name = "toml", text = "", fg = "#999999" },
+  { name = "json", text = "", fg = "#999999" },
+  { name = "rs", text = "", fg = "#cccccc" },
+  { name = "py", text = "", fg = "#cccccc" },
+  { name = "js", text = "", fg = "#cccccc" },
+  { name = "nix", text = "", fg = "#cccccc" },
 
-  # Archives & System
-  { name = "*.zip", fg = "#666666" },
-  { name = "*.tar*", fg = "#666666" }
+  # Archives
+  { name = "zip", text = "", fg = "#666666" },
+]
+
+prepend_globs = [
+  # Multi-part archive extensions (.tar.gz, .tar.xz, etc.)
+  { url = "*.tar.*", text = "", fg = "#666666" },
 ]

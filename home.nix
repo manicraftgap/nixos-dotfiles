@@ -20,7 +20,7 @@ let
     swayosd = "swayosd";
     millennium = "millennium/millennium";
     yazi = "yazi";
-    startship = "starship.toml";
+    #startship = "starship.toml";
     fastfetch = "fastfetch";
     "gtk-3.0" = "gtk-3.0";
     "gtk-4.0" = "gtk-4.0";
@@ -35,7 +35,7 @@ in
     ./librewolf.nix
     ./prism.nix
     ./kitty.nix
-    #./hyprland.nix
+    ./posh.nix
     inputs.nix-flatpak.homeManagerModules.nix-flatpak
   ];
   home.username = "mani";

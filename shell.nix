@@ -6,7 +6,6 @@
     bat
     fzf
     zoxide
-    starship
   ];
 
   programs.zsh = {
@@ -45,6 +44,7 @@
       gcm = "git commit -m";
       gcam = "git commit -a -m";
       gcad = "git commit -a --amend";
+      lg = "lazygit";
 
       # NBTrackr
       nbb = "NIXPKGS_ALLOW_UNFREE=1 nix-shell -p \"(python3.withPackages (ps: with ps; [ requests pyqt5 pyside6 pillow tkinter ps.\\\"sseclient-py\\\" ]))\" steam-run --run \"steam-run \\\$(which python3) /home/mani/nixos-dotfiles/config/waywall/resources/NBTrackr-imgpin-v2.7.0/NBTrackr-imgpin.py\"";
@@ -129,11 +129,5 @@
     enable = true;
     enableZshIntegration = true;
     options = [ "--cmd cd" ];
-  };
-
-  programs.starship = {
-    enable = true;
-    enableZshIntegration = true;
-    settings = builtins.fromTOML (builtins.readFile ./starship.toml);
   };
 }

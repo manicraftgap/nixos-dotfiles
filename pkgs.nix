@@ -23,6 +23,7 @@
     hypridle
     swaybg
     git
+    lazygit
     clang
     walker
     elephant

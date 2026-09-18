@@ -111,7 +111,7 @@ hl.window_rule({ match = { tag = "default-opacity" }, opacity = "0.97 0.9" })
 hl.window_rule({
 	match = { title = "^(impala|bluetui|wiremix|btop|LocalSend|satty)$" },
 	float = 1,
-	size = "800 500",
+	size = "800 550",
 	center = 1,
 })
 hl.window_rule({

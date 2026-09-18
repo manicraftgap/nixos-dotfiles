@@ -38,16 +38,39 @@
     {
       "type": "disk",
       "key": "│ ├󰋊",
-      "keyColor": "green"
+      "keyColor": "green",
+      "percent": {
+        "type": [
+          "bar-monochrome",
+          "num"
+        ]
+      }
     },
     {
       "type": "memory",
       "key": "│ ├",
-      "keyColor": "green"
+      "keyColor": "green",
+      "percent": {
+        "type": [
+          "bar-monochrome",
+          "num"
+        ]
+      }
     },
     {
       "type": "swap",
-      "key": "└ └󰓡 ",
+      "key": "│ ├󰓡 ",
+      "keyColor": "green",
+      "percent": {
+        "type": [
+          "bar-monochrome",
+          "num"
+        ]
+      }
+    },
+    {
+      "type": "battery",
+      "key": "└ └",
       "keyColor": "green"
     },
     {
@@ -90,6 +113,11 @@
       "keyColor": "blue"
     },
     {
+      "type": "editor",
+      "key": "│ ├",
+      "keyColor": "blue"
+    },
+    {
       "type": "packages",
       "key": "│ ├󰏖",
       "keyColor": "blue"
@@ -120,10 +148,11 @@
       "format": "\u001b[90m┌────────────────Age / Uptime────────────────────────┐"
     },
     {
-      "type": "command",
+      "type": "disk",
       "key": "󱦟 OS Age",
       "keyColor": "magenta",
-      "text": "echo $(( ($(date +%s) - $(stat -c %W /)) / 86400 )) days"
+      "folders": "/",
+      "format": "{years} yr {days-of-year} days"
     },
     {
       "type": "uptime",
