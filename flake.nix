@@ -6,6 +6,7 @@
     workmux.url = "github:raine/workmux";
     nixos-hardware.url = "github:NixOS/nixos-hardware/master";
     elephant.url = "github:abenz1267/elephant";
+    oledctl.url = "path:/home/mani/Documents/go";
     walker = {
       url = "github:abenz1267/walker";
       inputs.elephant.follows = "elephant";
@@ -31,6 +32,7 @@
         { nixpkgs.overlays = [ inputs.millennium.overlays.default ]; }
         nixos-hardware.nixosModules.asus-zephyrus-gu605my
         inputs.helium.nixosModules.default
+        inputs.oledctl.nixosModules.default
         ./configuration.nix
         home-manager.nixosModules.home-manager
         {

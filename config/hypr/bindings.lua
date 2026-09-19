@@ -3,12 +3,12 @@ local mainMod = "SUPER"
 
 -- --- Application Bindings ---
 hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd("kitty"))
-hl.bind(mainMod .. " + ALT + RETURN", hl.dsp.exec_cmd("uwsm-app -- xdg-terminal-exec tmux new"))
-hl.bind(mainMod .. " + CTRL + L", hl.dsp.exec_cmd("uwsm-app -- hyprlock"))
+hl.bind(mainMod .. " + CTRL + RETURN", hl.dsp.exec_cmd("kitty -e tmux"))
 hl.bind(mainMod .. " + CTRL + A", hl.dsp.exec_cmd("kitty --title=wiremix -e wiremix"))
 hl.bind(mainMod .. " + CTRL + B", hl.dsp.exec_cmd("kitty --title=bluetui -e bluetui"))
 hl.bind(mainMod .. " + CTRL + W", hl.dsp.exec_cmd("kitty --title=impala -e impala"))
 hl.bind(mainMod .. " + CTRL + T", hl.dsp.exec_cmd("kitty --title=btop -e btop"))
+hl.bind(mainMod .. " + CTRL + L", hl.dsp.exec_cmd("uwsm-app -- hyprlock"))
 hl.bind(mainMod .. " + CTRL + P", hl.dsp.exec_cmd("power-profile-menu"))
 
 -- Web Browser

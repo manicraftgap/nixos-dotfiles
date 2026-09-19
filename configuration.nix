@@ -100,6 +100,8 @@
     ];
   };
 
+  services.oledctl.enable = true;
+
   services.power-profiles-daemon.enable = true;
   services.flatpak.enable = true;
   hardware.bluetooth.enable = true;
@@ -161,6 +163,6 @@
   };
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
-  system.autoUpgrade.enable = true;
+  system.autoUpgrade.enable = false;
   system.stateVersion = "26.05";
 }

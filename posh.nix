@@ -70,7 +70,15 @@
                 fetch_status = true;
                 cache_duration = "none";
               };
-              template = ''<cyan><i>{{ .HEAD }}</i></cyan> {{ if or .Working.Changed .Staging.Changed }} {{ end }}{{ if gt .Ahead 0 }}⇡{{ .Ahead }} {{ end }}{{ if gt .Behind 0 }}⇣{{ .Behind }} {{ end }}{{ if gt .Working.Untracked 0 }}? {{ end }}{{ if gt .Working.Unmerged 0 }} {{ end }}{{ if and (not .Working.Changed) (not .Staging.Changed) (eq .Ahead 0) (eq .Behind 0) (eq .Working.Untracked 0) (eq .Working.Unmerged 0) }} {{ end }}'';
+              template = ''
+                <i>{{ .HEAD }}</i>
+                {{- if or .Working.Changed .Staging.Changed }}  {{- end }}
+                {{- if gt .Ahead 0 }} ⇡{{ .Ahead }} {{- end }}
+                {{- if gt .Behind 0 }} ⇣{{ .Behind }} {{- end }}
+                {{- if gt .Working.Untracked 0 }} ? {{- end }}
+                {{- if gt .Working.Unmerged 0 }}  {{- end }}
+                {{- if and (not .Working.Changed) (not .Staging.Changed) (eq .Ahead 0) (eq .Behind 0) }}  {{- end }}
+              '';
             }
           ];
         }
