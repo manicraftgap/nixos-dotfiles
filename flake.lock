@@ -258,14 +258,18 @@
         "nixpkgs": "nixpkgs_6"
       },
       "locked": {
-        "lastModified": 1789839612,
-        "narHash": "sha256-/TdmgZhnnAsR/S8MHI0UGSmMsGrsnaJW8MoJWdTtbLs=",
-        "path": "/home/mani/Documents/go",
-        "type": "path"
+        "lastModified": 1789912464,
+        "narHash": "sha256-SMGcqer1q3If21imzfWw06dv9HwOWwGxg4I6anKLABg=",
+        "owner": "manicraftgap",
+        "repo": "oledctl",
+        "rev": "0d772c8ecc12b6f6b39087531973d82ba5a2f07a",
+        "type": "github"
       },
       "original": {
-        "path": "/home/mani/Documents/go",
-        "type": "path"
+        "owner": "manicraftgap",
+        "ref": "hyprsunset",
+        "repo": "oledctl",
+        "type": "github"
       }
     },
     "openlogi": {

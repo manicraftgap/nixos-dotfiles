@@ -6,7 +6,7 @@
     workmux.url = "github:raine/workmux";
     nixos-hardware.url = "github:NixOS/nixos-hardware/master";
     elephant.url = "github:abenz1267/elephant";
-    oledctl.url = "path:/home/mani/Documents/go";
+    oledctl.url = "github:manicraftgap/oledctl/hyprsunset";
     walker = {
       url = "github:abenz1267/walker";
       inputs.elephant.follows = "elephant";
