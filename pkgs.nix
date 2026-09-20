@@ -11,7 +11,6 @@
     fastfetch
     bluetui
     wiremix
-    ghostty
     librewolf
     qutebrowser
     waywall

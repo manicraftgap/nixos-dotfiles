@@ -22,8 +22,3 @@ hl.window_rule({
 	match = { class = "Alacritty|kitty|foot" },
 	scroll_touchpad = 1.5,
 })
-
-hl.window_rule({
-	match = { class = "com.mitchellh.ghostty" },
-	scroll_touchpad = 0.2,
-})

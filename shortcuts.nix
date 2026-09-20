@@ -4,7 +4,7 @@
     Nvim = {
       name = "Neovim";
       icon = "nvim";
-      exec = "ghostty -e nvim %F";
+      exec = "kitty -e nvim %F";
       terminal = false;
     };
 

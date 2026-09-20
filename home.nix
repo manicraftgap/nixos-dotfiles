@@ -10,7 +10,6 @@ let
     waybar = "waybar";
     walker = "walker";
     elephant = "elephant";
-    ghostty = "ghostty";
     NBTrackr = "NBTrackr";
     waywall = "waywall";
     hypr = "hypr";

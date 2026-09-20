@@ -323,7 +323,6 @@ hl.bind("ALT + E", send("", "Return"))
 
 local terminalClasses = {
 	kitty = true,
-	ghostty = true,
 }
 
 hl.bind("Caps_Lock", function()
