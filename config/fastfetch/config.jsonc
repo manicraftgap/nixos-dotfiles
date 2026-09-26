@@ -8,7 +8,6 @@
     }
   },
   "modules": [
-    "break",
     {
       "type": "custom",
       "format": "\u001b[90m┌──────────────────────Hardware──────────────────────┐"
@@ -20,24 +19,29 @@
     },
     {
       "type": "cpu",
-      "key": "│ ├",
+      "key": "│ ├ ",
       "showPeCoreCount": true,
       "keyColor": "green"
     },
     {
       "type": "gpu",
-      "key": "│ ├",
+      "key": "│ ├ ",
       "detectionMethod": "pci",
       "keyColor": "green"
     },
     {
       "type": "display",
-      "key": "│ ├󱄄",
+      "key": "│ ├ 󱄄",
+      "keyColor": "green"
+    },
+    {
+      "type": "bios",
+      "key": "│ ├ 󰍛",
       "keyColor": "green"
     },
     {
       "type": "disk",
-      "key": "│ ├󰋊",
+      "key": "│ ├ 󰋊",
       "keyColor": "green",
       "percent": {
         "type": [
@@ -48,7 +52,7 @@
     },
     {
       "type": "memory",
-      "key": "│ ├",
+      "key": "│ ├ ",
       "keyColor": "green",
       "percent": {
         "type": [
@@ -59,7 +63,7 @@
     },
     {
       "type": "swap",
-      "key": "│ ├󰓡 ",
+      "key": "│ ├ 󰓡",
       "keyColor": "green",
       "percent": {
         "type": [
@@ -69,8 +73,13 @@
       }
     },
     {
+      "type": "sound",
+      "key": "│ ├ 󰓃",
+      "keyColor": "green"
+    },
+    {
       "type": "battery",
-      "key": "└ └",
+      "key": "└ └ ",
       "keyColor": "green"
     },
     {
@@ -89,12 +98,12 @@
     },
     {
       "type": "kernel",
-      "key": "│ ├",
+      "key": "│ ├ ",
       "keyColor": "blue"
     },
     {
       "type": "wm",
-      "key": "│ ├",
+      "key": "│ ├ ",
       "keyColor": "blue"
     },
     {
@@ -104,38 +113,43 @@
     },
     {
       "type": "terminal",
-      "key": "│ ├",
+      "key": "│ ├ ",
       "keyColor": "blue"
     },
     {
       "type": "shell",
-      "key": "│ ├󰞷",
+      "key": "│ ├ 󰞷",
       "keyColor": "blue"
     },
     {
       "type": "editor",
-      "key": "│ ├",
+      "key": "│ ├ ",
       "keyColor": "blue"
     },
     {
       "type": "packages",
-      "key": "│ ├󰏖",
+      "key": "│ ├ 󰏖",
       "keyColor": "blue"
     },
     {
       "type": "wmtheme",
-      "key": "│ ├󰉼",
+      "key": "│ ├ 󰉼",
+      "keyColor": "blue"
+    },
+    {
+      "type": "netio",
+      "key": "│ ├ 󰓅",
       "keyColor": "blue"
     },
     {
       "type": "custom",
-      "key": "│ ├󰸌 Palette",
+      "key": "│ ├ 󰸌",
       "keyColor": "blue",
       "format": "\u001b[31m● \u001b[32m● \u001b[33m● \u001b[34m● \u001b[35m● \u001b[36m● \u001b[37m● \u001b[38m●"
     },
     {
       "type": "terminalfont",
-      "key": "└ └",
+      "key": "└ └ ",
       "keyColor": "blue"
     },
     {
@@ -157,6 +171,11 @@
     {
       "type": "uptime",
       "key": "󱫐 Uptime",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "localip",
+      "key": "󰩟 Local IP",
       "keyColor": "magenta"
     },
     {

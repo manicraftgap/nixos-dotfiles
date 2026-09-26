@@ -12,6 +12,7 @@
     bluetui
     wiremix
     librewolf
+    amberol
     qutebrowser
     waywall
     waybar

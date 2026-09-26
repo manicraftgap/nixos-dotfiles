@@ -17,7 +17,7 @@ hl.bind(mainMod .. " + SHIFT + B", hl.dsp.exec_cmd("uwsm-app -- librewolf"))
 hl.bind(mainMod .. " + SHIFT + ALT + B", hl.dsp.exec_cmd("uwsm-app -- librewolf --private-window"))
 
 -- File Manager
-hl.bind(mainMod .. " + SHIFT + F", hl.dsp.exec_cmd("uwsm-app -- nautilus --new-window"))
+hl.bind(mainMod .. " + SHIFT + F", hl.dsp.exec_cmd("kitty --title=yazi -e yazi"))
 hl.bind(mainMod .. " + ALT + SHIFT + F", hl.dsp.exec_cmd("uwsm-app -- nautilus --new-window ~"))
 
 -- Multimedia / System TUI Launchers
@@ -64,13 +64,13 @@ hl.bind(mainMod .. " + XF86AudioMute", hl.dsp.exec_cmd("audio-output-switch"), {
 -- Volume & Mic Controls
 hl.bind(
 	"XF86AudioRaiseVolume",
-	hl.dsp.exec_cmd("swayosd-client --output-volume raise"),
-	{ locked = true, repeating = true, ignore_mods = true }
+	hl.dsp.exec_cmd("swayosd-client --output-volume +10"),
+	{ locked = true, ignore_mods = true }
 )
 hl.bind(
 	"XF86AudioLowerVolume",
-	hl.dsp.exec_cmd("swayosd-client --output-volume lower"),
-	{ locked = true, repeating = true, ignore_mods = true }
+	hl.dsp.exec_cmd("swayosd-client --output-volume -10"),
+	{ locked = true, ignore_mods = true }
 )
 hl.bind("XF86AudioMute", hl.dsp.exec_cmd("swayosd-client --output-volume mute-toggle"), { locked = true })
 hl.bind(
@@ -129,12 +129,12 @@ hl.bind("F14", hl.dsp.exec_cmd("toggle-airplane-mode"), { locked = true, ignore_
 hl.bind(
 	"ALT + XF86AudioRaiseVolume",
 	hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%+ && swayosd-client --output-volume raise"),
-	{ locked = true, repeating = true, ignore_mods = true }
+	{ locked = true, repeating = true, ignore_mods = false }
 )
 hl.bind(
 	"ALT + XF86AudioLowerVolume",
 	hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%- && swayosd-client --output-volume lower"),
-	{ locked = true, repeating = true, ignore_mods = true }
+	{ locked = true, repeating = true, ignore_mods = false }
 )
 hl.bind(
 	"ALT + XF86MonBrightnessUp",
