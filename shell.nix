@@ -23,18 +23,21 @@
     };
 
     shellAliases = {
-      ls = "eza --long --header --icons=auto";
+      ls = "eza --header --icons=auto";
       lsa = "ls -a";
-      lt = "eza --tree --level=4 --long --icons --git";
+      lt = "eza --tree --level=3 --icons --git";
       lta = "lt -a";
+      lls = "eza --header --long --icons=auto";
+      llsa = "lls -a";
+      llt = "eza --tree --level=3 --long --icons --git";
+      llta = "llt -a";
       ".." = "cd ..";
       "..." = "cd ../..";
       "...." = "cd ../../..";
-      btw = "echo I use hyprland btw";
+      btw = "echo I use nixOS btw";
       nrs = "sudo nixos-rebuild switch --flake ~/nixos-dotfiles#hyprnix";
       ncg = "nix-collect-garbage -d && sudo nix-collect-garbage -d";
       vim = "nvim";
-      nrw = "pkill -f walker; pkill -f elephant; nohup walker >/dev/null 2>&1 & nohup elephant >/dev/null 2>&1 &";
       tm = "tmux";
       wm = "workmux dashboard";
       yz = "yazi";

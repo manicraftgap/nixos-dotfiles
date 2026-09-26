@@ -64,13 +64,13 @@ hl.bind(mainMod .. " + XF86AudioMute", hl.dsp.exec_cmd("audio-output-switch"), {
 -- Volume & Mic Controls
 hl.bind(
 	"XF86AudioRaiseVolume",
-	hl.dsp.exec_cmd("swayosd-client --output-volume +10"),
-	{ locked = true, ignore_mods = true }
+	hl.dsp.exec_cmd("swayosd-client --output-volume +5"),
+	{ locked = true, ignore_mods = false }
 )
 hl.bind(
 	"XF86AudioLowerVolume",
-	hl.dsp.exec_cmd("swayosd-client --output-volume -10"),
-	{ locked = true, ignore_mods = true }
+	hl.dsp.exec_cmd("swayosd-client --output-volume -5"),
+	{ locked = true, ignore_mods = false }
 )
 hl.bind("XF86AudioMute", hl.dsp.exec_cmd("swayosd-client --output-volume mute-toggle"), { locked = true })
 hl.bind(
