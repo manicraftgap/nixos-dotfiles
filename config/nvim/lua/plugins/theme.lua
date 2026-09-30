@@ -1,4 +1,6 @@
 return {
+  { "folke/tokyonight.nvim", enabled = false },
+  { "catppuccin/nvim", enabled = false },
   {
     "rrethy/base16-nvim",
     lazy = false,
