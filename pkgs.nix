@@ -12,8 +12,9 @@
     bluetui
     wiremix
     librewolf
-    amberol
     qutebrowser
+    mpd
+    rmpc
     waywall
     waybar
     prismlauncher

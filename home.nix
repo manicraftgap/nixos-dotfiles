@@ -6,6 +6,8 @@ let
   configs = {
     nvim = "nvim";
     tmux = "tmux";
+    mpd = "mpd";
+    rmpc = "rmpc";
     waybar = "waybar";
     walker = "walker";
     elephant = "elephant";
@@ -18,7 +20,6 @@ let
     swayosd = "swayosd";
     millennium = "millennium/millennium";
     yazi = "yazi";
-    #startship = "starship.toml";
     fastfetch = "fastfetch";
     "gtk-3.0" = "gtk-3.0";
     "gtk-4.0" = "gtk-4.0";
