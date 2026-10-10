@@ -5,11 +5,36 @@ local mainMod = "SUPER"
 hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd("kitty"))
 hl.bind(mainMod .. " + CTRL + RETURN", hl.dsp.exec_cmd("kitty -e tmux"))
 hl.bind(mainMod .. " + CTRL + A", hl.dsp.exec_cmd("kitty --title=wiremix -e wiremix"))
+hl.bind(mainMod .. " + CTRL + M", hl.dsp.exec_cmd("kitty --title=rmpc -e rmpc"))
 hl.bind(mainMod .. " + CTRL + B", hl.dsp.exec_cmd("kitty --title=bluetui -e bluetui"))
 hl.bind(mainMod .. " + CTRL + W", hl.dsp.exec_cmd("kitty --title=impala -e impala"))
 hl.bind(mainMod .. " + CTRL + T", hl.dsp.exec_cmd("kitty --title=btop -e btop"))
 hl.bind(mainMod .. " + CTRL + L", hl.dsp.exec_cmd("uwsm-app -- hyprlock"))
 hl.bind(mainMod .. " + CTRL + P", hl.dsp.exec_cmd("power-profile-menu"))
+
+-- Touchpad Workspace Gestures
+hl.gesture({
+	fingers = 3,
+	direction = "left",
+	action = function()
+		hl.dispatch(hl.dsp.focus({ workspace = "-1" })) -- SUPER+SHIFT+TAB
+	end,
+})
+
+hl.gesture({
+	fingers = 3,
+	direction = "right",
+	action = function()
+		hl.dispatch(hl.dsp.focus({ workspace = "+1" })) -- SUPER+TAB
+	end,
+})
+
+local function toggleScratchpad()
+	hl.dispatch(hl.dsp.workspace.toggle_special("scratchpad")) -- SUPER+S
+end
+
+hl.gesture({ fingers = 3, direction = "up", action = toggleScratchpad })
+hl.gesture({ fingers = 3, direction = "down", action = toggleScratchpad })
 
 -- Web Browser
 hl.bind(mainMod .. " + SHIFT + RETURN", hl.dsp.exec_cmd("uwsm-app -- librewolf"))

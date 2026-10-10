@@ -6,6 +6,7 @@
       ./hardware-configuration.nix
       ./pkgs.nix
       ./kanata.nix
+      ./omnisearch.nix
     ];
 
   boot.loader.systemd-boot.enable = true;

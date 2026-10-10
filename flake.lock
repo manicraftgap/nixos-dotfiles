@@ -237,22 +237,6 @@
         "type": "github"
       }
     },
-    "nixpkgs_8": {
-      "locked": {
-        "lastModified": 1787900134,
-        "narHash": "sha256-VYXO0XZlgj06dxJZRhrD3WoSsvq/c7+/Akyoa22pefw=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "83199d0d373dd3ac2b9a1996b1d0263f76ab7a4c",
-        "type": "github"
-      },
-      "original": {
-        "owner": "NixOS",
-        "ref": "nixos-unstable",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
     "oledctl": {
       "inputs": {
         "nixpkgs": "nixpkgs_6"
@@ -304,8 +288,8 @@
         "nixpkgs": "nixpkgs_5",
         "oledctl": "oledctl",
         "openlogi": "openlogi",
-        "walker": "walker",
         "workmux": "workmux"
+        "walker": "walker"
       }
     },
     "rust-overlay": {
@@ -378,24 +362,6 @@
       "original": {
         "owner": "abenz1267",
         "repo": "walker",
-        "type": "github"
-      }
-    },
-    "workmux": {
-      "inputs": {
-        "nixpkgs": "nixpkgs_8"
-      },
-      "locked": {
-        "lastModified": 1789331757,
-        "narHash": "sha256-PfaolVi904WlP00422uZZ/ibTFM3P7v44ziEP52+k0s=",
-        "owner": "raine",
-        "repo": "workmux",
-        "rev": "b2834949e356be08163e4e05c7944ab3e7a09380",
-        "type": "github"
-      },
-      "original": {
-        "owner": "raine",
-        "repo": "workmux",
         "type": "github"
       }
     }

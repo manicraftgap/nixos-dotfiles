@@ -1,11 +1,17 @@
 # ~/.config/elephant/websearch.toml
 
 [[entries]]
-name = "DuckDuckGo"
+name = "Omnisearch"
 prefix = ""
+url = "http://localhost:5000/search?q=%TERM%"
+icon = "/home/mani/nixos-dotfiles/config/icons/omnisearch.png"
+default = true
+
+[[entries]]
+name = "DuckDuckGo"
+prefix = "d:"
 url = "https://duckduckgo.com/?q=%TERM%"
 icon = "/home/mani/nixos-dotfiles/config/icons/duckduckgo.png"
-default = true
 
 [[entries]]
 name = "YouTube"
