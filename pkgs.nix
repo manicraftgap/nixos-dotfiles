@@ -41,7 +41,6 @@
     uwsm
     tmux
     kitty
-    inputs.workmux.packages.${pkgs.pkgs.stdenv.hostPlatform.system}.default
     libnotify
     findutils
     power-profiles-daemon

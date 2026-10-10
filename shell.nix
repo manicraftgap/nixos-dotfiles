@@ -39,7 +39,6 @@
       ncg = "nix-collect-garbage -d && sudo nix-collect-garbage -d";
       vim = "nvim";
       tm = "tmux";
-      wm = "workmux dashboard";
       yz = "yazi";
 
       # Git Utilities

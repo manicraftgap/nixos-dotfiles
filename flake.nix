@@ -3,7 +3,6 @@
 
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-unstable";
-    workmux.url = "github:raine/workmux";
     nixos-hardware.url = "github:NixOS/nixos-hardware/master";
     elephant.url = "github:abenz1267/elephant";
     oledctl.url = "github:manicraftgap/oledctl/hyprsunset";

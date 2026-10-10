@@ -6,7 +6,6 @@ let
   configs = {
     nvim = "nvim";
     tmux = "tmux";
-    workmux = "workmux";
     waybar = "waybar";
     walker = "walker";
     elephant = "elephant";
@@ -60,6 +59,15 @@ in
   programs.fzf = {
     enable = true;
     enableZshIntegration = true;
+  };
+
+  services.mpd = {
+    enable = true;
+    musicDirectory = "/home/mani/music";
+    extraConfig = ''
+      audio_output {
+        type "pipewire"
+    '';
   };
 
   xdg.configFile = builtins.mapAttrs
