@@ -48,9 +48,4 @@
       settings = import ./libreprefs.nix;
     };
   };
-
-  home.file.".librewolf/default/chrome" = {
-    source = ./config/librewolf/chrome;
-    recursive = true;
-  };
 }

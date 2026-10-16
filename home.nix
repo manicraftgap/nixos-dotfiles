@@ -32,6 +32,7 @@ in
     ./utilities.nix
     ./shortcuts.nix
     ./librewolf.nix
+    ./librewolf-theme.nix
     ./prism.nix
     ./kitty.nix
     ./posh.nix
