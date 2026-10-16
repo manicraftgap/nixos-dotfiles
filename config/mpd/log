@@ -1,0 +1,691 @@
+2026-10-09T16:43:56 exception: Failed to open "/home/mani/.config/mpd/state": No such file or directory
+2026-10-09T16:43:56 exception: inotify_add_watch("/home/mani/Music") failed: No such file or directory
+2026-10-09T16:43:56 exception: Failed to access /home/mani/Music: No such file or directory
+2026-10-09T16:53:38 exception: Failed to access /home/mani/Music: No such file or directory
+2026-10-09T16:55:07 update: added /Te Quiero Así.mp3
+2026-10-09T16:55:07 update: added /Que Sacrificio.mp3
+2026-10-09T16:55:07 update: added /Corrido de Domingo Corrales.mp3
+2026-10-09T16:55:07 update: added /Huracanes Del Norte Mix (Puras Perras).mp3
+2026-10-09T16:55:07 update: added /La Jaula De Oro.mp3
+2026-10-09T16:55:07 update: added /Amor Mío.mp3
+2026-10-09T16:55:07 update: added /Entierrenme Cantando.mp3
+2026-10-09T16:55:07 update: added /Qué te costaba decírmelo.mp3
+2026-10-09T16:55:07 update: added /Ramiro Sierra.mp3
+2026-10-09T16:55:07 update: added /Los Tres Amigos (Album Version).mp3
+2026-10-09T16:55:07 update: added /Regálame.mp3
+2026-10-09T16:55:07 update: added /Macho Remix.mp3
+2026-10-09T16:55:07 update: added /Si Tu No Estas.mp3
+2026-10-09T16:55:07 update: added /Yo Te Necesito.mp3
+2026-10-09T16:55:07 update: added /Dicen Que la Distancia.mp3
+2026-10-09T16:55:07 update: added /No necesitas a Carlo.mp3
+2026-10-09T16:55:07 update: added /Tu Juguete.mp3
+2026-10-09T16:55:07 update: added /Me Caiste Del Cielo.mp3
+2026-10-09T16:55:07 update: added /Mi Chatita.mp3
+2026-10-09T16:55:07 update: added /Ramito de Violetas.mp3
+2026-10-09T16:55:07 update: added /Princesa gitana.mp3
+2026-10-09T16:55:07 update: added /La Mafia Muere (Album Version).mp3
+2026-10-09T16:55:07 update: added /Ay Amigo.mp3
+2026-10-09T16:55:08 update: added /El Ahualulco.mp3
+2026-10-09T16:55:08 update: added /Homenaje a Ramón Ayala y Sus Bravos del Norte.mp3
+2026-10-09T16:55:08 update: added /Cuando Se Llega A Viejo.mp3
+2026-10-09T16:55:08 update: added /Cumbia del Sol.mp3
+2026-10-09T16:55:08 update: added /La Gallina.mp3
+2026-10-09T16:55:08 update: added /Parranda Y Parranda.mp3
+2026-10-09T16:55:08 update: added /Ya Llegó.mp3
+2026-10-09T16:55:08 update: added /Que Poca Suerte (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Déjame Que Me Vaya.mp3
+2026-10-09T16:55:08 update: added /La Banda Dominguera.mp3
+2026-10-09T16:55:08 update: added /Para No Llorar.mp3
+2026-10-09T16:55:08 update: added /Aprendiste a Volar.mp3
+2026-10-09T16:55:08 update: added /Me La Escondieron Sus Padres.mp3
+2026-10-09T16:55:08 update: added /La Pelo De Angel.mp3
+2026-10-09T16:55:08 update: added /A Fuerza Ni Un Zapato.mp3
+2026-10-09T16:55:08 update: added /Cielo Azul, Cielo Nublado.mp3
+2026-10-09T16:55:08 update: added /Y Si Se Quiere Ir (En Vivo).mp3
+2026-10-09T16:55:08 update: added /El Coco Rayado.mp3
+2026-10-09T16:55:08 update: added /La Iguana.mp3
+2026-10-09T16:55:08 update: added /Motivate.mp3
+2026-10-09T16:55:08 update: added /Te Presumo.mp3
+2026-10-09T16:55:08 update: added /Actos De Un Tonto.mp3
+2026-10-09T16:55:08 update: added /Bella Pero Mala.mp3
+2026-10-09T16:55:08 update: added /Reventón Unisex.mp3
+2026-10-09T16:55:08 update: added /Te Quiero, Te Amo, Te Extraño.mp3
+2026-10-09T16:55:08 update: added /Te Esperare.mp3
+2026-10-09T16:55:08 update: added /Si Te Vuelvo A Ver.mp3
+2026-10-09T16:55:08 update: added /Dime Quién Es.mp3
+2026-10-09T16:55:08 update: added /Una Tarde Fue.mp3
+2026-10-09T16:55:08 update: added /Acábame De Matar.mp3
+2026-10-09T16:55:08 update: added /Tiempos De Ayer (Album Version).mp3
+2026-10-09T16:55:08 update: added /Perdóname Mi Amor.mp3
+2026-10-09T16:55:08 update: added /Estás Que Te Pelas.mp3
+2026-10-09T16:55:08 update: added /La Loca.mp3
+2026-10-09T16:55:08 update: added /Dime Que Si.mp3
+2026-10-09T16:55:08 update: added /La Lotería.mp3
+2026-10-09T16:55:08 update: added /Mis Tres Animales.mp3
+2026-10-09T16:55:08 update: added /Ya te velé.mp3
+2026-10-09T16:55:08 update: added /El Viejo Del Sombrerón.mp3
+2026-10-09T16:55:08 update: added /Con El Alma En La Mano.mp3
+2026-10-09T16:55:08 update: added /Reynalda.mp3
+2026-10-09T16:55:08 update: added /Lástima De Amor.mp3
+2026-10-09T16:55:08 update: added /Canción del Mariachi (Ilia Topuria ＂El Matador＂ Anthem).mp3
+2026-10-09T16:55:08 update: added /Compré Una Cantina.mp3
+2026-10-09T16:55:08 update: added /Enséñate a Perder.mp3
+2026-10-09T16:55:08 update: added /El tikita.mp3
+2026-10-09T16:55:08 update: added /El Mero Mero.mp3
+2026-10-09T16:55:08 update: added /No Me Hagas Menos.mp3
+2026-10-09T16:55:08 update: added /Volver a empezar.mp3
+2026-10-09T16:55:08 update: added /Golpes En El Corazón.mp3
+2026-10-09T16:55:08 update: added /Popurrí Al Divo (La Diferencia, Si Quieres, Mi Fracaso).mp3
+2026-10-09T16:55:08 update: added /Cuéntame.mp3
+2026-10-09T16:55:08 update: added /Popurri Chicano： Cariño Santo⧸Mujeres Divinas⧸Urge⧸Aca Entre Nos⧸Pa' Que Sientas Lo Que Siento⧸....mp3
+2026-10-09T16:55:08 update: added /El bilingüe.mp3
+2026-10-09T16:55:08 update: added /CHE CHE.mp3
+2026-10-09T16:55:08 update: added /Sal Con Limon.mp3
+2026-10-09T16:55:08 update: added /Tu Mirada.mp3
+2026-10-09T16:55:08 update: added /Relatos De Mi Vida.mp3
+2026-10-09T16:55:08 update: added /Los Juniors.mp3
+2026-10-09T16:55:08 update: added /Por Primera Vez.mp3
+2026-10-09T16:55:08 update: added /Cruzando Cerros y Arroyos (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Los Mandados.mp3
+2026-10-09T16:55:08 update: added /La nena.mp3
+2026-10-09T16:55:08 update: added /El Zapato Mocho.mp3
+2026-10-09T16:55:08 update: added /Vole Muy Alto.mp3
+2026-10-09T16:55:08 update: added /Popurrí La Culebra⧸El Baile Nuevo⧸La Quebradora⧸La Fea⧸Vámonos De Fiesta (En Vivo).mp3
+2026-10-09T16:55:08 update: added /María Elena.mp3
+2026-10-09T16:55:08 update: added /Amor Prohibido.mp3
+2026-10-09T16:55:08 update: added /Paloma Sin Nido.mp3
+2026-10-09T16:55:08 update: added /Nada Contigo.mp3
+2026-10-09T16:55:08 update: added /Temporada En La Sierra.mp3
+2026-10-09T16:55:08 update: added /La Negrita.mp3
+2026-10-09T16:55:08 update: added /Como Me Duele Perderte.mp3
+2026-10-09T16:55:08 update: added /Tu Amor Barato.mp3
+2026-10-09T16:55:08 update: added /La Emboscada Del Gallo.mp3
+2026-10-09T16:55:08 update: added /Ranchero Enamorado.mp3
+2026-10-09T16:55:08 update: added /Llévate.mp3
+2026-10-09T16:55:08 update: added /La Noche Que Murio Chicago.mp3
+2026-10-09T16:55:08 update: added /El Curioso.mp3
+2026-10-09T16:55:08 update: added /Zapateado Encabronado #6.mp3
+2026-10-09T16:55:08 update: added /Ya Me Voy para Siempre.mp3
+2026-10-09T16:55:08 update: added /Adiós, Adiós Amor.mp3
+2026-10-09T16:55:08 update: added /Apenas Te Fuistes Ayer.mp3
+2026-10-09T16:55:08 update: added /Me a Costumbre a Perder.mp3
+2026-10-09T16:55:08 update: added /Sin Ti Moriría (Sinfónico).mp3
+2026-10-09T16:55:08 update: added /Jambalaya.mp3
+2026-10-09T16:55:08 update: added /Veinticinco Rosas.mp3
+2026-10-09T16:55:08 update: added /Yo Quiero Quebrarte.mp3
+2026-10-09T16:55:08 update: added /Así Se Baila (De Caballito).mp3
+2026-10-09T16:55:08 update: added /La Quebradora.mp3
+2026-10-09T16:55:08 update: added /Las Noches Las Hago Días.mp3
+2026-10-09T16:55:08 update: added /Besando Borrachos.mp3
+2026-10-09T16:55:08 update: added /Con El Alma En Las Manos (Album Version).mp3
+2026-10-09T16:55:08 update: added /Carta Abierta.mp3
+2026-10-09T16:55:08 update: added /Por Amarte Así.mp3
+2026-10-09T16:55:08 update: added /Mi Alma Reclama.mp3
+2026-10-09T16:55:08 update: added /Prohibido.mp3
+2026-10-09T16:55:08 update: added /Bajo Mil Llaves.mp3
+2026-10-09T16:55:08 update: added /El Cachanilla.mp3
+2026-10-09T16:55:08 update: added /Pa´Qué Llorar.mp3
+2026-10-09T16:55:08 update: added /La Puerta Negra.mp3
+2026-10-09T16:55:08 update: added /Quiero Que Canten Conmigo.mp3
+2026-10-09T16:55:08 update: added /El Chubasco.mp3
+2026-10-09T16:55:08 update: added /En las Cantinas.mp3
+2026-10-09T16:55:08 update: added /Laguna De Pesares.mp3
+2026-10-09T16:55:08 update: added /Vestida de Color de Rosa⧸ Amor Vaquero (Live Session).mp3
+2026-10-09T16:55:08 update: added /Con Los Ojos Cerrados.mp3
+2026-10-09T16:55:08 update: added /Sin Conocerte.mp3
+2026-10-09T16:55:08 update: added /Popurrí： Chaparrita de Mi Amor ⧸ Mujer Paseada.mp3
+2026-10-09T16:55:08 update: added /Mis Tres Viejas.mp3
+2026-10-09T16:55:08 update: added /Swing Mix de Cumbias： Sergio el Bailador ⧸ Mariachi Loco ⧸ La Suavecita ⧸ Macarena ⧸ La Bala.mp3
+2026-10-09T16:55:08 update: added /El Tucanazo [En Vivo].mp3
+2026-10-09T16:55:08 update: added /Quiero Que Vuelvas (Ranchera).mp3
+2026-10-09T16:55:08 update: added /Mi Fantasía.mp3
+2026-10-09T16:55:08 update: added /Pa' Que Lo Bailes.mp3
+2026-10-09T16:55:08 update: added /Baraja De Oro.mp3
+2026-10-09T16:55:08 update: added /Pena Tras Pena.mp3
+2026-10-09T16:55:08 update: added /Nuestro Amor.mp3
+2026-10-09T16:55:08 update: added /The One (Pero No Como Yo).mp3
+2026-10-09T16:55:08 update: added /Amanda Cierrale.mp3
+2026-10-09T16:55:08 update: added /Esperando Tu Regreso.mp3
+2026-10-09T16:55:08 update: added /Camarón Pelao.mp3
+2026-10-09T16:55:08 update: added /En la Barra.mp3
+2026-10-09T16:55:08 update: added /Chaparra de mi amor.mp3
+2026-10-09T16:55:08 update: added /Mi Trokita Cumbia.mp3
+2026-10-09T16:55:08 update: added /Los Traficantes.mp3
+2026-10-09T16:55:08 update: added /Desde Que Te Amo.mp3
+2026-10-09T16:55:08 update: added /Mi Pobre Corazón.mp3
+2026-10-09T16:55:08 update: added /Luna llena.mp3
+2026-10-09T16:55:08 update: added /El Ultimo Rodeo.mp3
+2026-10-09T16:55:08 update: added /Necesito Decírtelo.mp3
+2026-10-09T16:55:08 update: added /Si Ya No Te Vuelvo A Ver.mp3
+2026-10-09T16:55:08 update: added /Los Vaqueritos.mp3
+2026-10-09T16:55:08 update: added /Mi Najayita.mp3
+2026-10-09T16:55:08 update: added /Hombre Al Hombre.mp3
+2026-10-09T16:55:08 update: added /Te Quiero Mucho.mp3
+2026-10-09T16:55:08 update: added /La Gitanilla (Album Version).mp3
+2026-10-09T16:55:08 update: added /Y yo que te amo.mp3
+2026-10-09T16:55:08 update: added /40 cartas.mp3
+2026-10-09T16:55:08 update: added /Mi Cómplice.mp3
+2026-10-09T16:55:08 update: added /Más Allá Del Sol.mp3
+2026-10-09T16:55:08 update: added /Supe Perder.mp3
+2026-10-09T16:55:08 update: added /Juré No Tomar.mp3
+2026-10-09T16:55:08 update: added /No Llega El Olvido.mp3
+2026-10-09T16:55:08 update: added /Pasión De Amor.mp3
+2026-10-09T16:55:08 update: added /Tumbando Caña (El Alacrán).mp3
+2026-10-09T16:55:08 update: added /Flor De Capomo.mp3
+2026-10-09T16:55:08 update: added /Tu Mirada, Tu Pelo, Y Tu Boca (La Playa).mp3
+2026-10-09T16:55:08 update: added /La Derrota.mp3
+2026-10-09T16:55:08 update: added /Trono Caído.mp3
+2026-10-09T16:55:08 update: added /Regreso El Sinaloense.mp3
+2026-10-09T16:55:08 update: added /Noches Eternas.mp3
+2026-10-09T16:55:08 update: added /El Ayudante (En Vivo).mp3
+2026-10-09T16:55:08 update: added /El Doctor Del Pueblo.mp3
+2026-10-09T16:55:08 update: added /Mi Vejez.mp3
+2026-10-09T16:55:08 update: added /Un Millón De Lágrimas.mp3
+2026-10-09T16:55:08 update: added /Cumbia torera.mp3
+2026-10-09T16:55:08 update: added /Popurrí Mi Gusto Es⧸El Sauce Y La Palma⧸El Sinaloense (En Vivo).mp3
+2026-10-09T16:55:08 update: added /La Silla Vacia.mp3
+2026-10-09T16:55:08 update: added /Después De Un Adiós.mp3
+2026-10-09T16:55:08 update: added /Ignoraste Mis Lágrimas.mp3
+2026-10-09T16:55:08 update: added /Amor A La 1070.mp3
+2026-10-09T16:55:08 update: added /Me Gusta Estar Contigo.mp3
+2026-10-09T16:55:08 update: added /Popurrí： Pelotero a la Bola⧸Micaela⧸Tri Triki Tri Traka (30 Aniversario En Vivo).mp3
+2026-10-09T16:55:08 update: added /Mi Ironia.mp3
+2026-10-09T16:55:08 update: added /Entre El Cielo Y El Infierno.mp3
+2026-10-09T16:55:08 update: added /El Rey.mp3
+2026-10-09T16:55:08 update: added /Que Te Vaya Bonito.mp3
+2026-10-09T16:55:08 update: added /Me Nortié (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Amor A Primera Vista.mp3
+2026-10-09T16:55:08 update: added /La cuca.mp3
+2026-10-09T16:55:08 update: added /La niña fresa.mp3
+2026-10-09T16:55:08 update: added /Winnona.mp3
+2026-10-09T16:55:08 update: added /Eres un Ángel.mp3
+2026-10-09T16:55:08 update: added /A Quién Quieres Engañar？.mp3
+2026-10-09T16:55:08 update: added /Que Sabrosa.mp3
+2026-10-09T16:55:08 update: added /Prenda Querida.mp3
+2026-10-09T16:55:08 update: added /A Donde Vayas.mp3
+2026-10-09T16:55:08 update: added /Al gato y al ratón.mp3
+2026-10-09T16:55:08 update: added /Niña linda.mp3
+2026-10-09T16:55:08 update: added /La Prietita Que Yo Quiero.mp3
+2026-10-09T16:55:08 update: added /Las Cuentas Claras (Remastered 2024).mp3
+2026-10-09T16:55:08 update: added /Fuerte No Soy.mp3
+2026-10-09T16:55:08 update: added /Viva El Amor.mp3
+2026-10-09T16:55:08 update: added /Mi Banda El Mexicano.mp3
+2026-10-09T16:55:08 update: added /Ya No La Friegues.mp3
+2026-10-09T16:55:08 update: added /Mix De Corridos (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Enséñame.mp3
+2026-10-09T16:55:08 update: added /La Botella (Dos Botellas de Mezcal).mp3
+2026-10-09T16:55:08 update: added /Tumbando Caña (El Alacran).mp3
+2026-10-09T16:55:08 update: added /Ahí Estaré Yo.mp3
+2026-10-09T16:55:08 update: added /Hembras traicioneras.mp3
+2026-10-09T16:55:08 update: added /Llorar.mp3
+2026-10-09T16:55:08 update: added /Cuando Dos Almas.mp3
+2026-10-09T16:55:08 update: added /Amándome.mp3
+2026-10-09T16:55:08 update: added /La Del Moño Colorado.mp3
+2026-10-09T16:55:08 update: added /Amor sin medida.mp3
+2026-10-09T16:55:08 update: added /Dame un Beso y Dime Adios (En Vivo).mp3
+2026-10-09T16:55:08 update: added /La Traicionera.mp3
+2026-10-09T16:55:08 update: added /Como El Primer Día.mp3
+2026-10-09T16:55:08 update: added /Gracias Amor.mp3
+2026-10-09T16:55:08 update: added /Nuevamente Lágrimas.mp3
+2026-10-09T16:55:08 update: added /Aunque Ya Tengas Marido.mp3
+2026-10-09T16:55:08 update: added /Recordándote.mp3
+2026-10-09T16:55:08 update: added /Un Dolor.mp3
+2026-10-09T16:55:08 update: added /La lamparita.mp3
+2026-10-09T16:55:08 update: added /Mi Credo.mp3
+2026-10-09T16:55:08 update: added /Un Día A La Vez.mp3
+2026-10-09T16:55:08 update: added /Leña de pirul.mp3
+2026-10-09T16:55:08 update: added /Popurri de Canciones Norteñas.mp3
+2026-10-09T16:55:08 update: added /Ven y Abrázame.mp3
+2026-10-09T16:55:08 update: added /Amigo Mesero.mp3
+2026-10-09T16:55:08 update: added /Te Ves Buena.mp3
+2026-10-09T16:55:08 update: added /La culebra.mp3
+2026-10-09T16:55:08 update: added /La Suegra.mp3
+2026-10-09T16:55:08 update: added /Corazón Vacío.mp3
+2026-10-09T16:55:08 update: added /La Barbona.mp3
+2026-10-09T16:55:08 update: added /El Caderazo.mp3
+2026-10-09T16:55:08 update: added /Si No Me Querías.mp3
+2026-10-09T16:55:08 update: added /En La Misma Cantina.mp3
+2026-10-09T16:55:08 update: added /Quién.mp3
+2026-10-09T16:55:08 update: added /Te Lavaste la Cara y el Mono No.mp3
+2026-10-09T16:55:08 update: added /Golondrina Viajera.mp3
+2026-10-09T16:55:08 update: added /Vete, Vete.mp3
+2026-10-09T16:55:08 update: added /Arboles De La Barranca.mp3
+2026-10-09T16:55:08 update: added /Encadenada A Mi (Cumbia).mp3
+2026-10-09T16:55:08 update: added /Las calles de mi pueblo.mp3
+2026-10-09T16:55:08 update: added /Ya lo pensé.mp3
+2026-10-09T16:55:08 update: added /La Guitarra y la Mujer.mp3
+2026-10-09T16:55:08 update: added /El Amor No Fue Pa´ Mí (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Me Dicen el Coyote (En VIvo).mp3
+2026-10-09T16:55:08 update: added /Cosas Del Destino (El Divorcio).mp3
+2026-10-09T16:55:08 update: added /Sangre De Indio.mp3
+2026-10-09T16:55:08 update: added /Hermoso Cariño.mp3
+2026-10-09T16:55:08 update: added /Mi Casi Algo.mp3
+2026-10-09T16:55:08 update: added /Es Verdad.mp3
+2026-10-09T16:55:08 update: added /Popurrí Quiero Que Sepas⧸La Gitanilla⧸Una Pura Y Dos Con Sal⧸Por Una Mujer Casada⧸El Corrido De....mp3
+2026-10-09T16:55:08 update: added /Si Te Quedaras.mp3
+2026-10-09T16:55:08 update: added /Mi Mayor Necesidad.mp3
+2026-10-09T16:55:08 update: added /Si Tu Te Fueras De Mi.mp3
+2026-10-09T16:55:08 update: added /Tres minutos.mp3
+2026-10-09T16:55:08 update: added /Es Muy Tu Vida.mp3
+2026-10-09T16:55:08 update: added /Chava Romero (Corrido).mp3
+2026-10-09T16:55:08 update: added /Bailando, Gozando.mp3
+2026-10-09T16:55:08 update: added /Ya Me Voy.mp3
+2026-10-09T16:55:08 update: added /Y Tú Con Él.mp3
+2026-10-09T16:55:08 update: added /Ven Porque Te Necesito.mp3
+2026-10-09T16:55:08 update: added /Al Diablo Tu Ausencia.mp3
+2026-10-09T16:55:08 update: added /Tu Nuevo Cariñito.mp3
+2026-10-09T16:55:08 update: added /Mi Sacrificio.mp3
+2026-10-09T16:55:08 update: added /Descansa General y El Hijo del Palenque (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Quién Ríe al Último.mp3
+2026-10-09T16:55:08 update: added /Ay Mamá.mp3
+2026-10-09T16:55:08 update: added /Ese Señor de las Canas.mp3
+2026-10-09T16:55:08 update: added /Me llamo Raquel.mp3
+2026-10-09T16:55:08 update: added /Entre Más Lejos Me Vaya.mp3
+2026-10-09T16:55:08 update: added /Popurrí Baladas (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Creo Que Voy a Llorar.mp3
+2026-10-09T16:55:08 update: added /Ahora Sí Va En Serio.mp3
+2026-10-09T16:55:08 update: added /No Volveré.mp3
+2026-10-09T16:55:08 update: added /Fue Ayer.mp3
+2026-10-09T16:55:08 update: added /Acá Entre Nos.mp3
+2026-10-09T16:55:08 update: added /Definitivamente Ya No Estoy Enamorado.mp3
+2026-10-09T16:55:08 update: added /Y Las Mariposas.mp3
+2026-10-09T16:55:08 update: added /Quién Me Ha Robado Tu Corazón.mp3
+2026-10-09T16:55:08 update: added /Sentí.mp3
+2026-10-09T16:55:08 update: added /Te Reto A Que Me Olvides.mp3
+2026-10-09T16:55:08 update: added /Paloma Negra.mp3
+2026-10-09T16:55:08 update: added /El Trompo.mp3
+2026-10-09T16:55:08 update: added /Chiquilla Bonita.mp3
+2026-10-09T16:55:08 update: added /El Manicero.mp3
+2026-10-09T16:55:08 update: added /Ebrio De Amor.mp3
+2026-10-09T16:55:08 update: added /Jineteando.mp3
+2026-10-09T16:55:08 update: added /Idos de la Mente.mp3
+2026-10-09T16:55:08 update: added /De Esta Sierra a la Otra Sierra.mp3
+2026-10-09T16:55:08 update: added /Como Tú Decidas.mp3
+2026-10-09T16:55:08 update: added /He Sabido.mp3
+2026-10-09T16:55:08 update: added /Popurrí Repasando A Fito (En Vivo Desde Monterrey, Nuevo León ⧸ 1998).mp3
+2026-10-09T16:55:08 update: added /La Boda del Huitlacoche (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Pachuco Bailarín.mp3
+2026-10-09T16:55:08 update: added /Ay Esther.mp3
+2026-10-09T16:55:08 update: added /La Piñata.mp3
+2026-10-09T16:55:08 update: added /Florita Del Alma.mp3
+2026-10-09T16:55:08 update: added /Embárgame A Mí.mp3
+2026-10-09T16:55:08 update: added /Como Tú.mp3
+2026-10-09T16:55:08 update: added /Yo Quiero Saber de Ti.mp3
+2026-10-09T16:55:08 update: added /Yo Quiero Ser Feliz.mp3
+2026-10-09T16:55:08 update: added /Vamos a Contar Mentiras.mp3
+2026-10-09T16:55:08 update: added /Mi Vida Eres Tú (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Total, ¿Qué Más Da？.mp3
+2026-10-09T16:55:08 update: added /La Cama de Piedra.mp3
+2026-10-09T16:55:08 update: added /Qué Canción Te Canto.mp3
+2026-10-09T16:55:08 update: added /Mi corazón y yo.mp3
+2026-10-09T16:55:08 update: added /Albur Perdido.mp3
+2026-10-09T16:55:08 update: added /6 Pies Boca Abajo (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Vivir sin ella.mp3
+2026-10-09T16:55:08 update: added /Ingratos ojos míos.mp3
+2026-10-09T16:55:08 update: added /Porque Es Amor.mp3
+2026-10-09T16:55:08 update: added /Suspiros - Amor A La Ligera (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Te Ofrezco Un Corazón.mp3
+2026-10-09T16:55:08 update: added /La Chevecha.mp3
+2026-10-09T16:55:08 update: added /La Carta.mp3
+2026-10-09T16:55:08 update: added /Un loco solitario.mp3
+2026-10-09T16:55:08 update: added /Clave Nueva.mp3
+2026-10-09T16:55:08 update: added /Ayúdame A Olvidarte.mp3
+2026-10-09T16:55:08 update: added /Mi Pequeño Amor.mp3
+2026-10-09T16:55:08 update: added /Extrañándote.mp3
+2026-10-09T16:55:08 update: added /90's Mix.mp3
+2026-10-09T16:55:08 update: added /Sí Quiero Volver.mp3
+2026-10-09T16:55:08 update: added /No Tiene Edad.mp3
+2026-10-09T16:55:08 update: added /El Mensajero.mp3
+2026-10-09T16:55:08 update: added /Prisionero de Tus Brazos.mp3
+2026-10-09T16:55:08 update: added /Medley Cumbias Norteñas (En Vivo).mp3
+2026-10-09T16:55:08 update: added /O Él o Yo.mp3
+2026-10-09T16:55:08 update: added /Cumbia Morena.mp3
+2026-10-09T16:55:08 update: added /Te Hice Mal.mp3
+2026-10-09T16:55:08 update: added /Amargo Dolor.mp3
+2026-10-09T16:55:08 update: added /Creiste (Album Version).mp3
+2026-10-09T16:55:08 update: added /Vete Ya.mp3
+2026-10-09T16:55:08 update: added /Que Tristeza Me Acompaña.mp3
+2026-10-09T16:55:08 update: added /Y Llegaste Tú.mp3
+2026-10-09T16:55:08 update: added /El Borrego.mp3
+2026-10-09T16:55:08 update: added /Vete y Aléjate de Mí.mp3
+2026-10-09T16:55:08 update: added /Manuel Juárez.mp3
+2026-10-09T16:55:08 update: added /Teresita.mp3
+2026-10-09T16:55:08 update: added /No Nos Vamos a Olvidar.mp3
+2026-10-09T16:55:08 update: added /Y Te Amo.mp3
+2026-10-09T16:55:08 update: added /La Fea.mp3
+2026-10-09T16:55:08 update: added /A Gozar.mp3
+2026-10-09T16:55:08 update: added /Cuatro Meses (Que Se Te Quite Ese Orgullo) (Album Version).mp3
+2026-10-09T16:55:08 update: added /Presumidas, S.a..mp3
+2026-10-09T16:55:08 update: added /Tu Maquinita.mp3
+2026-10-09T16:55:08 update: added /Dímelo.mp3
+2026-10-09T16:55:08 update: added /Besos De Papel.mp3
+2026-10-09T16:55:08 update: added /Eslabon Por Eslabon (En Vivo Desde Delfos, Guadalajara⧸2002).mp3
+2026-10-09T16:55:08 update: added /Ayúdame.mp3
+2026-10-09T16:55:08 update: added /Corrido del Aguacate y Daniel del Fierro (En Vivo).mp3
+2026-10-09T16:55:08 update: added /El Jaripeo.mp3
+2026-10-09T16:55:08 update: added /Dos Botellas De Mezcal.mp3
+2026-10-09T16:55:08 update: added /No Se Vuelve A Repetir.mp3
+2026-10-09T16:55:08 update: added /Pedro Avilés.mp3
+2026-10-09T16:55:08 update: added /Gracias (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Vuela, vuela.mp3
+2026-10-09T16:55:08 update: added /De Quién Chon.mp3
+2026-10-09T16:55:08 update: added /Mira oye.mp3
+2026-10-09T16:55:08 update: added /Primera Cita.mp3
+2026-10-09T16:55:08 update: added /Tu Ultimo Verano.mp3
+2026-10-09T16:55:08 update: added /Qué Me Vas A Dar Si Vuelvo.mp3
+2026-10-09T16:55:08 update: added /Cumbia sobre el río ⧸ Interludio.mp3
+2026-10-09T16:55:08 update: added /Por Esa Yegia.mp3
+2026-10-09T16:55:08 update: added /Pequeña Y Frágil.mp3
+2026-10-09T16:55:08 update: added /Mira.mp3
+2026-10-09T16:55:08 update: added /Que Solo Estoy Sin Ti.mp3
+2026-10-09T16:55:08 update: added /Si Decides Regresar.mp3
+2026-10-09T16:55:08 update: added /Quiero Que Sepas.mp3
+2026-10-09T16:55:08 update: added /Popurrí Quebraditas： Tumbando Caña ⧸ Como la Luna ⧸ Eva María (30 Aniversario).mp3
+2026-10-09T16:55:08 update: added /El Triste.mp3
+2026-10-09T16:55:08 update: added /Treinta Cartas.mp3
+2026-10-09T16:55:08 update: added /La roncona.mp3
+2026-10-09T16:55:08 update: added /Si Quiere.mp3
+2026-10-09T16:55:08 update: added /Tu Camino y el Mío.mp3
+2026-10-09T16:55:08 update: added /Asesino A Sueldo.mp3
+2026-10-09T16:55:08 update: added /El Perico.mp3
+2026-10-09T16:55:08 update: added /Popurri de Canciones Rancheras.mp3
+2026-10-09T16:55:08 update: added /Quise Olvidarme de Ti.mp3
+2026-10-09T16:55:08 update: added /Eva Maria.mp3
+2026-10-09T16:55:08 update: added /Extraña Manera (Remasterizada).mp3
+2026-10-09T16:55:08 update: added /Qué Bonito Amor.mp3
+2026-10-09T16:55:08 update: added /Qué Puedo Hacer por Ti.mp3
+2026-10-09T16:55:08 update: added /Vuelve por Favor.mp3
+2026-10-09T16:55:08 update: added /La Guera Salome.mp3
+2026-10-09T16:55:08 update: added /Historia sin fin.mp3
+2026-10-09T16:55:08 update: added /La Vecina (Me Puso el Dedo).mp3
+2026-10-09T16:55:08 update: added /Miraron Llorar a un Hombre.mp3
+2026-10-09T16:55:08 update: added /Tragos Amargos.mp3
+2026-10-09T16:55:08 update: added /Botella Envenenada.mp3
+2026-10-09T16:55:08 update: added /Suspiros.mp3
+2026-10-09T16:55:08 update: added /Popurri 2：Piquetes de Hormiga⧸Las Calles de Chihuahua (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Zapateado Encabronado (Remastered 2025).mp3
+2026-10-09T16:55:08 update: added /Morenaza.mp3
+2026-10-09T16:55:08 update: added /Como Tu Decidas.mp3
+2026-10-09T16:55:08 update: added /De Buena Gana.mp3
+2026-10-09T16:55:08 update: added /A Dónde Vas.mp3
+2026-10-09T16:55:08 update: added /Entre Perico Y Perico.mp3
+2026-10-09T16:55:08 update: added /Sueña.mp3
+2026-10-09T16:55:08 update: added /Tu abandono.mp3
+2026-10-09T16:55:08 update: added /Ella.mp3
+2026-10-09T16:55:08 update: added /Palo Bonito.mp3
+2026-10-09T16:55:08 update: added /Las Nachas.mp3
+2026-10-09T16:55:08 update: added /A Través Del Vaso.mp3
+2026-10-09T16:55:08 update: added /Concha Del Alma.mp3
+2026-10-09T16:55:08 update: added /Por una Mujer Casada.mp3
+2026-10-09T16:55:08 update: added /Me Lo Contaron Ayer.mp3
+2026-10-09T16:55:08 update: added /Zapateado Encabronado #3 (Remastered 2025).mp3
+2026-10-09T16:55:08 update: added /Que Casualidad.mp3
+2026-10-09T16:55:08 update: added /Muchacha Bonita.mp3
+2026-10-09T16:55:08 update: added /Sergio el Bailador.mp3
+2026-10-09T16:55:08 update: added /Una Noche Más.mp3
+2026-10-09T16:55:08 update: added /La Banda De La Suburban.mp3
+2026-10-09T16:55:08 update: added /Ramon Arellano (Con Banda Sinaloense).mp3
+2026-10-09T16:55:08 update: added /Ya Te Olvidé.mp3
+2026-10-09T16:55:08 update: added /En toda la chapa.mp3
+2026-10-09T16:55:08 update: added /Música Romántica.mp3
+2026-10-09T16:55:08 update: added /Los machos también lloran.mp3
+2026-10-09T16:55:08 update: added /Vuelve.mp3
+2026-10-09T16:55:08 update: added /Que murmuren.mp3
+2026-10-09T16:55:08 update: added /Ojitos De Golondrina.mp3
+2026-10-09T16:55:08 update: added /El Ilegal.mp3
+2026-10-09T16:55:08 update: added /Si Te Llego a Perder.mp3
+2026-10-09T16:55:08 update: added /Adiós Y Bienvenida.mp3
+2026-10-09T16:55:08 update: added /Porque Tengo Tu Amor.mp3
+2026-10-09T16:55:08 update: added /Amigo Mío.mp3
+2026-10-09T16:55:08 update: added /Dónde Estarás.mp3
+2026-10-09T16:55:08 update: added /La Múcura.mp3
+2026-10-09T16:55:08 update: added /Voy a danzar.mp3
+2026-10-09T16:55:08 update: added /Tus Mentiras (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Poquito A Poco.mp3
+2026-10-09T16:55:08 update: added /Mi otra mitad.mp3
+2026-10-09T16:55:08 update: added /Suena la Banda.mp3
+2026-10-09T16:55:08 update: added /Una Aventura.mp3
+2026-10-09T16:55:08 update: added /Provócame.mp3
+2026-10-09T16:55:08 update: added /Por Tu Maldito Amor.mp3
+2026-10-09T16:55:08 update: added /Vámonos De Fiesta (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Que Tu Vida Es.mp3
+2026-10-09T16:55:08 update: added /Ayer La Vi Por La Calle.mp3
+2026-10-09T16:55:08 update: added /Ay Chave.mp3
+2026-10-09T16:55:08 update: added /Esa Chica Me Vacila.mp3
+2026-10-09T16:55:08 update: added /Aguita de Melon.mp3
+2026-10-09T16:55:08 update: added /Popurri 6：Te Vas Amor⧸Que Casualidad⧸Mi Ranchito (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Santos Cantú.mp3
+2026-10-09T16:55:08 update: added /Dos Cartas y una Flor.mp3
+2026-10-09T16:55:08 update: added /Charanga Costeña.mp3
+2026-10-09T16:55:08 update: added /Qué Sabrosa Está.mp3
+2026-10-09T16:55:08 update: added /Te Traigo Éstas Flores.mp3
+2026-10-09T16:55:08 update: added /No Dejo De Amarte.mp3
+2026-10-09T16:55:08 update: added /Enamorado De Un Fantasma.mp3
+2026-10-09T16:55:08 update: added /Un Rinconcito En El Cielo.mp3
+2026-10-09T16:55:08 update: added /Eso Duele.mp3
+2026-10-09T16:55:08 update: added /Te Ves Bien Buena.mp3
+2026-10-09T16:55:08 update: added /Sangre Potosina.mp3
+2026-10-09T16:55:08 update: added /Tu Lo Decidiste (En VIvo).mp3
+2026-10-09T16:55:08 update: added /Te Quiero Cada Día Mas.mp3
+2026-10-09T16:55:08 update: added /Déjate Querer.mp3
+2026-10-09T16:55:08 update: added /Medley Apache (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Tu Cucu.mp3
+2026-10-09T16:55:08 update: added /Eras Todo para Mí.mp3
+2026-10-09T16:55:08 update: added /Mi Ranchito.mp3
+2026-10-09T16:55:08 update: added /El Desquite.mp3
+2026-10-09T16:55:08 update: added /Yo Sé Que Te Acordarás.mp3
+2026-10-09T16:55:08 update: added /Unidos Para Amarnos.mp3
+2026-10-09T16:55:08 update: added /El Tucanazo (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Felicidad.mp3
+2026-10-09T16:55:08 update: added /Esclavo y amo.mp3
+2026-10-09T16:55:08 update: added /Al Mismo Nivel.mp3
+2026-10-09T16:55:08 update: added /La Misma.mp3
+2026-10-09T16:55:08 update: added /La Negra Catalina.mp3
+2026-10-09T16:55:08 update: added /Mi Última Caravana.mp3
+2026-10-09T16:55:08 update: added /Un indio quiere llorar.mp3
+2026-10-09T16:55:08 update: added /Nomas Por Tu Culpa.mp3
+2026-10-09T16:55:08 update: added /Mary la Orgullosa.mp3
+2026-10-09T16:55:08 update: added /Una Noche Como Esta.mp3
+2026-10-09T16:55:08 update: added /Nubes De Algodón.mp3
+2026-10-09T16:55:08 update: added /Mundo De Amor.mp3
+2026-10-09T16:55:08 update: added /Zapateado Encabronado #7.mp3
+2026-10-09T16:55:08 update: added /Cuatro Meses.mp3
+2026-10-09T16:55:08 update: added /Homenaje a Ramon Ayala (En Vivo).mp3
+2026-10-09T16:55:08 update: added /En La Misma Cama.mp3
+2026-10-09T16:55:08 update: added /El Farolito.mp3
+2026-10-09T16:55:08 update: added /Triste Recuerdo ⧸ Te Ofrezco Un Corazón (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Te Vuelvo A Recordar.mp3
+2026-10-09T16:55:08 update: added /Lágrimas Frente Al Mar.mp3
+2026-10-09T16:55:08 update: added /Rosas Blancas.mp3
+2026-10-09T16:55:08 update: added /Por Qué Volviste A Mi.mp3
+2026-10-09T16:55:08 update: added /Musica Romantica.mp3
+2026-10-09T16:55:08 update: added /No Sólo De Traficante.mp3
+2026-10-09T16:55:08 update: added /Gabino Barrera.mp3
+2026-10-09T16:55:08 update: added /Para Qué He de Volver.mp3
+2026-10-09T16:55:08 update: added /Rosa la de Reynosa.mp3
+2026-10-09T16:55:08 update: added /La Fuga Del Rojo.mp3
+2026-10-09T16:55:08 update: added /Popurri 3：Dos Hojas Sin Rumbo⧸Suspiros (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Tao, Tao.mp3
+2026-10-09T16:55:08 update: added /Y Otra Vez.mp3
+2026-10-09T16:55:08 update: added /Ya Lo Pagaras Con Dios.mp3
+2026-10-09T16:55:08 update: added /Chiquita bonita.mp3
+2026-10-09T16:55:08 update: added /Este Adios.mp3
+2026-10-09T16:55:08 update: added /Si No Me Falla El Corazón (Album Version).mp3
+2026-10-09T16:55:08 update: added /Mambo Lupita.mp3
+2026-10-09T16:55:08 update: added /Candita.mp3
+2026-10-09T16:55:08 update: added /El Colesterol.mp3
+2026-10-09T16:55:08 update: added /Por Esa Calle Vive.mp3
+2026-10-09T16:55:08 update: added /Mis Dos Patrias.mp3
+2026-10-09T16:55:08 update: added /Si No Vas A Volver.mp3
+2026-10-09T16:55:08 update: added /Cuatro Primaveras.mp3
+2026-10-09T16:55:08 update: added /Pero La Recuerdo (Cumbia Santa María).mp3
+2026-10-09T16:55:08 update: added /Sin Fortuna (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Vas a Llorar.mp3
+2026-10-09T16:55:08 update: added /La Prieta Linda.mp3
+2026-10-09T16:55:08 update: added /El Ausente.mp3
+2026-10-09T16:55:08 update: added /La Escalera (Preview).mp3
+2026-10-09T16:55:08 update: added /Dos Hojas Sin Rumbo (Album Version).mp3
+2026-10-09T16:55:08 update: added /El Sonidito.mp3
+2026-10-09T16:55:08 update: added /Mi Buena Suerte.mp3
+2026-10-09T16:55:08 update: added /Cuestión Olvidada.mp3
+2026-10-09T16:55:08 update: added /Como Le Hare Para Olvidarte.mp3
+2026-10-09T16:55:08 update: added /La Novia del Pajarillo.mp3
+2026-10-09T16:55:08 update: added /Los Dichos De Lupita.mp3
+2026-10-09T16:55:08 update: added /La Banda Del Carro Rojo.mp3
+2026-10-09T16:55:08 update: added /El Heredero.mp3
+2026-10-09T16:55:08 update: added /Si una Vez (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Amor Total.mp3
+2026-10-09T16:55:08 update: added /Rama Seca.mp3
+2026-10-09T16:55:08 update: added /Dos Gotas De Agua.mp3
+2026-10-09T16:55:08 update: added /En Nombre De Tu Padre.mp3
+2026-10-09T16:55:08 update: added /El Teterete.mp3
+2026-10-09T16:55:08 update: added /Sangoloteadito.mp3
+2026-10-09T16:55:08 update: added /El viejo joven.mp3
+2026-10-09T16:55:08 update: added /El Tren.mp3
+2026-10-09T16:55:08 update: added /La cosita.mp3
+2026-10-09T16:55:08 update: added /Mi Fracaso (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Popurrí Seis Pies Abajo⧸No Me Sé Rajar (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Ni El Dinero Ni Nada.mp3
+2026-10-09T16:55:08 update: added /La Chona (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Mi Golondrina.mp3
+2026-10-09T16:55:08 update: added /Ya No Quiero Tu Cariño.mp3
+2026-10-09T16:55:08 update: added /Se Me Olvidó Otra Vez.mp3
+2026-10-09T16:55:08 update: added /El Diputado (Eli Camacho).mp3
+2026-10-09T16:55:08 update: added /Juana la Cubana.mp3
+2026-10-09T16:55:08 update: added /Mi Sangre Prisionera.mp3
+2026-10-09T16:55:08 update: added /Como Quisiera Volver.mp3
+2026-10-09T16:55:08 update: added /En Tu Perra Vida.mp3
+2026-10-09T16:55:08 update: added /Mi Vida Eres Tú.mp3
+2026-10-09T16:55:08 update: added /Seis Pies Abajo.mp3
+2026-10-09T16:55:08 update: added /Copa Tras Copa.mp3
+2026-10-09T16:55:08 update: added /No Me Se Rajar.mp3
+2026-10-09T16:55:08 update: added /Dos Pasajes.mp3
+2026-10-09T16:55:08 update: added /El Disgusto.mp3
+2026-10-09T16:55:08 update: added /Cada Vez Te Extraño Mas.mp3
+2026-10-09T16:55:08 update: added /Me Gusta Vivir De Noche.mp3
+2026-10-09T16:55:08 update: added /Bailando de Caballito.mp3
+2026-10-09T16:55:08 update: added /El Catador.mp3
+2026-10-09T16:55:08 update: added /Dime Dónde Y Cuándo.mp3
+2026-10-09T16:55:08 update: added /El Trenecito.mp3
+2026-10-09T16:55:08 update: added /Enamorarse Así.mp3
+2026-10-09T16:55:08 update: added /Yo Ya No Vuelvo Contigo.mp3
+2026-10-09T16:55:08 update: added /Pistoleros famosos.mp3
+2026-10-09T16:55:08 update: added /Porque Extrañas Nuestro Amor.mp3
+2026-10-09T16:55:08 update: added /Piquetes De Hormiga.mp3
+2026-10-09T16:55:08 update: added /Y No Hay Mañana.mp3
+2026-10-09T16:55:08 update: added /Y Por Esa Calle Vive.mp3
+2026-10-09T16:55:08 update: added /Que Más Quisiera (Album Version).mp3
+2026-10-09T16:55:08 update: added /Tu Eterno Enamorado.mp3
+2026-10-09T16:55:08 update: added /Las Animas Del Rio.mp3
+2026-10-09T16:55:08 update: added /Te Perdone Una Vez.mp3
+2026-10-09T16:55:08 update: added /Báilame.mp3
+2026-10-09T16:55:08 update: added /Las Mismas Costumbres.mp3
+2026-10-09T16:55:08 update: added /Amor Limosnero.mp3
+2026-10-09T16:55:08 update: added /¿Qué Me Vas a Dar？.mp3
+2026-10-09T16:55:08 update: added /Echame A Mi La Culpa.mp3
+2026-10-09T16:55:08 update: added /Mi luna, mi estrella.mp3
+2026-10-09T16:55:08 update: added /Y Yo Sin Ti.mp3
+2026-10-09T16:55:08 update: added /Amor de Internet.mp3
+2026-10-09T16:55:08 update: added /La Chona.mp3
+2026-10-09T16:55:08 update: added /Besame Morenita.mp3
+2026-10-09T16:55:08 update: added /La secretaria.mp3
+2026-10-09T16:55:08 update: added /La Negra Colora.mp3
+2026-10-09T16:55:08 update: added /Quien Piensa en Ti.mp3
+2026-10-09T16:55:08 update: added /Chiquilla Cariñosa.mp3
+2026-10-09T16:55:08 update: added /No Hay Necesidad.mp3
+2026-10-09T16:55:08 update: added /Ni por Capricho.mp3
+2026-10-09T16:55:08 update: added /Rosas Rojas.mp3
+2026-10-09T16:55:08 update: added /Alla Tú.mp3
+2026-10-09T16:55:08 update: added /La Hechicera.mp3
+2026-10-09T16:55:08 update: added /Llegaste A Tiempo.mp3
+2026-10-09T16:55:08 update: added /Volveré (Album Version).mp3
+2026-10-09T16:55:08 update: added /Contrabando Y Robo (Album Version).mp3
+2026-10-09T16:55:08 update: added /No Llores Mis Recuerdos.mp3
+2026-10-09T16:55:08 update: added /Atrapado.mp3
+2026-10-09T16:55:08 update: added /Compárame.mp3
+2026-10-09T16:55:08 update: added /El Huerfanito.mp3
+2026-10-09T16:55:08 update: added /En Tu Sonrisa.mp3
+2026-10-09T16:55:08 update: added /Arreando La Mula.mp3
+2026-10-09T16:55:08 update: added /Rey De Oros.mp3
+2026-10-09T16:55:08 update: added /Los Dos Plebes.mp3
+2026-10-09T16:55:08 update: added /Solo Contigo.mp3
+2026-10-09T16:55:08 update: added /Orgullosamente Guerrerense (Amor Limosnero - Sentimental - Me La Escondieron Sus Padres).mp3
+2026-10-09T16:55:08 update: added /La más bonita de todas.mp3
+2026-10-09T16:55:08 update: added /Un Dia Con Otro.mp3
+2026-10-09T16:55:08 update: added /La mujer de Chon.mp3
+2026-10-09T16:55:08 update: added /Entrega total.mp3
+2026-10-09T16:55:08 update: added /Casimira.mp3
+2026-10-09T16:55:08 update: added /Hermoso Cariño (En Vivo [Un Azteca en el Azteca]).mp3
+2026-10-09T16:55:08 update: added /Esos Dos Amigos Brindaron Por Ella.mp3
+2026-10-09T16:55:08 update: added /Triste Recuerdos.mp3
+2026-10-09T16:55:08 update: added /La Reina Del Sur.mp3
+2026-10-09T16:55:08 update: added /El Venadito.mp3
+2026-10-09T16:55:08 update: added /Cuando Era Un Jovencito.mp3
+2026-10-09T16:55:08 update: added /Así Te Quiero.mp3
+2026-10-09T16:55:08 update: added /Díganle.mp3
+2026-10-09T16:55:08 update: added /La Ley del Monte.mp3
+2026-10-09T16:55:08 update: added /La Gitanita.mp3
+2026-10-09T16:55:08 update: added /La Diferencia (Remasterizado).mp3
+2026-10-09T16:55:08 update: added /Si Volviera A Nacer.mp3
+2026-10-09T16:55:08 update: added /Hablando Claro (En Vivo).mp3
+2026-10-09T16:55:08 update: added /Mi Piquito De Oro.mp3
+2026-10-09T16:55:08 update: added /El Águila Blanca.mp3
+2026-10-09T16:55:08 update: added /El Compositor.mp3
+2026-10-09T16:55:08 update: added /Caminos de Guanajuato.mp3
+2026-10-09T16:55:08 update: added /En el Último Trago.mp3
+2026-10-09T16:55:08 update: added /Si Tu Quisieras.mp3
+2026-10-09T16:55:08 update: added /El Chicle.mp3
+2026-10-09T16:55:08 update: added /Fue Tan Poco Tu Cariño.mp3
+2026-10-09T16:55:08 update: added /Al Ver Que Te Vas.mp3
+2026-10-09T16:55:08 update: added /Como Aceite Y Como El Agua.mp3
+2026-10-09T16:55:08 update: added /Tú y las Nubes.mp3
+2026-10-09T16:55:08 update: added /Volveré de Mi Viaje.mp3
+2026-10-09T16:55:09 update: added /Sueños Con Alas.mp3
+2026-10-09T16:55:09 update: added /Hasta la Miel Amarga.mp3
+2026-10-09T16:55:09 update: added /Mi Eterno Amor Secreto (En Vivo).mp3
+2026-10-09T16:55:09 update: added /Los Mendoza.mp3
+2026-10-09T16:55:09 update: added /Cabrón Yo Puedo.mp3
+2026-10-09T16:55:09 update: added /Desatando El Morral.mp3
+2026-10-09T16:55:09 update: added /Ya Lo Pagarás Con Dios.mp3
+2026-10-09T16:55:09 update: added /Prieta Linda.mp3
+2026-10-09T16:55:09 update: added /La Daga.mp3
+2026-10-09T16:55:09 update: added /Usted.mp3
+2026-10-09T16:55:09 update: added /Esta Cobardía.mp3
+2026-10-09T16:55:09 update: added /La Chona Challenge.mp3
+2026-10-09T16:55:09 update: added /Tu Desastre.mp3
+2026-10-09T16:55:09 update: added /Tengo Que Olvidarte.mp3
+2026-10-09T16:55:09 update: added /La Profecía.mp3
+2026-10-09T16:55:09 update: added /El Columpio.mp3
+2026-10-09T16:55:09 update: added /Ni Parientes Somos (En Vivo).mp3
+2026-10-09T16:55:09 update: added /Esa Mujer.mp3
+2026-10-09T16:55:09 update: added /El Tío Borrachales.mp3
+2026-10-09T16:55:09 update: added /Cómo Duele.mp3
+2026-10-09T16:55:09 update: added /Con Mis Propias Manos.mp3
+2026-10-09T16:55:09 update: added /¿Qué Se Siente？.mp3
+2026-10-09T16:55:09 update: added /Paloma Querida.mp3
+2026-10-09T16:55:09 update: added /La Basurita.mp3
+2026-10-09T16:55:09 update: added /Necesito Decirte.mp3
+2026-10-09T16:55:09 update: added /Contrabando Y Traición.mp3
+2026-10-09T16:55:09 update: added /El Peor De Tus Antojos.mp3
+2026-10-09T16:55:09 update: added /Cumbia Del Sol.mp3
+2026-10-09T16:55:09 update: added /El remo de lino.mp3
+2026-10-09T16:55:09 update: added /El Malo (Con Guitarras).mp3
+2026-10-09T16:55:09 update: added /A Cambio De Que.mp3
+2026-10-09T16:55:09 update: added /Tenis mágicos.mp3
+2026-10-09T16:55:09 update: added /En Un Rato Más.mp3
+2026-10-09T16:55:09 update: added /La Que Me Hace Llorar.mp3
+2026-10-09T16:55:09 update: added /Imposible Olvidarte.mp3
+2026-10-09T16:55:09 update: added /Al Otro Lado del Sol.mp3
+2026-10-09T16:55:09 update: added /Hierba Mala Nunca Muere (Música Original de la Serie el Señor de los Cielos 8).mp3
+2026-10-09T16:55:09 update: added /Popurrí Quebradita (En Vivo).mp3
+2026-10-09T16:55:09 update: added /Voy a Quererte Más.mp3
+2026-10-09T16:55:09 update: added /Juliantla.mp3
+2026-10-09T16:55:09 update: added /La Guera Presumida.mp3
+2026-10-09T16:55:09 update: added /No Puedo Olvidar Tu Voz.mp3
+2026-10-09T16:55:09 update: added /Si Le Dices Que Sí.mp3
+2026-10-09T16:55:09 update: added /Ni en Defensa Propia.mp3
+2026-10-09T16:55:09 update: added /El Toro Pinto.mp3
+2026-10-09T16:55:09 update: added /El Ladrón.mp3
+2026-10-09T16:55:09 update: added /Popurrí De Cumbias Tao Tao Y Mas (En Vivo).mp3
+2026-10-09T18:09:23 player: played "Necesito Decirte.mp3"
+2026-10-09T20:58:08 player: played "Necesito Decirte.mp3"

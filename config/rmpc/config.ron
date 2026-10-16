@@ -1,0 +1,26 @@
+#![enable(implicit_some)]
+(
+    default_target: "main",
+    background_color: None,
+    text_color: "#FFFFFF",
+    header_background_color: None,
+    modal_background_color: None,
+    tab_bar: (
+        enabled: true,
+        active_style: (fg: "#FF0000", modifiers: "Bold"),
+        inactive_style: (fg: "#888888"),
+    ),
+    borders: (
+        color: "#333333",
+    ),
+    symbols: (
+        song: "♪",
+        dir: "📁",
+        marker: "░▒▓",
+    ),
+    progress_bar: (
+        symbols: ["░", "▒", "▓", "█"],
+        track_style: (fg: "#333333"),
+        elapsed_style: (fg: "#FF0000"),
+    ),
+)

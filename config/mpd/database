@@ -1,0 +1,7574 @@
+info_begin
+format: 2
+mpd_version: 0.24.15
+fs_charset: UTF-8
+tag: Artist
+tag: ArtistSort
+tag: Album
+tag: AlbumSort
+tag: AlbumArtist
+tag: AlbumArtistSort
+tag: Title
+tag: TitleSort
+tag: Track
+tag: Name
+tag: Genre
+tag: Mood
+tag: Date
+tag: OriginalDate
+tag: Composer
+tag: ComposerSort
+tag: Performer
+tag: Conductor
+tag: Work
+tag: Movement
+tag: MovementNumber
+tag: ShowMovement
+tag: Ensemble
+tag: Location
+tag: Grouping
+tag: Disc
+tag: Label
+tag: MUSICBRAINZ_ARTISTID
+tag: MUSICBRAINZ_ALBUMID
+tag: MUSICBRAINZ_ALBUMARTISTID
+tag: MUSICBRAINZ_TRACKID
+tag: MUSICBRAINZ_RELEASETRACKID
+tag: MUSICBRAINZ_WORKID
+tag: MUSICBRAINZ_RELEASEGROUPID
+info_end
+song_begin: Las Cuentas Claras (Remastered 2024).mp3
+Time: 212.376
+Artist: Chelo, Mariachi Oro Y Plata
+Title: Las Cuentas Claras (Remastered 2024)
+Album: ¡Las Cuentas Claras! Con Chelo
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379302
+added: 1791582908
+song_end
+song_begin: Amor Prohibido.mp3
+Time: 217.626
+Artist: Los Rieleros Del Norte
+Title: Amor Prohibido
+Album: ... En Gira Internacional
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385698
+added: 1791582908
+song_end
+song_begin: Dos Cartas y una Flor.mp3
+Time: 213.84
+Artist: Los Caminantes
+Title: Dos Cartas y una Flor
+Album: 10 Años
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387963
+added: 1791582908
+song_end
+song_begin: Entre Más Lejos Me Vaya.mp3
+Time: 172.04
+Artist: Los Caminantes
+Title: Entre Más Lejos Me Vaya
+Album: 10 Años
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790388012
+added: 1791582908
+song_end
+song_begin: Teresita.mp3
+Time: 172.96
+Artist: Los Caminantes
+Title: Teresita
+Album: 10 Años
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379807
+added: 1791582908
+song_end
+song_begin: Tu Nuevo Cariñito.mp3
+Time: 175.09300000000002
+Artist: Los Caminantes
+Title: Tu Nuevo Cariñito
+Album: 10 Años
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386919
+added: 1791582908
+song_end
+song_begin: Ven y Abrázame.mp3
+Time: 225.826
+Artist: Los Caminantes
+Title: Ven y Abrázame
+Album: 10 Años
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379484
+added: 1791582908
+song_end
+song_begin: La Que Me Hace Llorar.mp3
+Time: 172
+Artist: Banda Arkangel R-15
+Title: La Que Me Hace Llorar
+Album: 12 Kilates Musicales
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387846
+added: 1791582909
+song_end
+song_begin: Desatando El Morral.mp3
+Time: 179.564
+Artist: Los Tucanes De Tijuana
+Title: Desatando El Morral
+Album: 14 Tucanazos Bien Pesados
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379592
+added: 1791582909
+song_end
+song_begin: Amor A Primera Vista.mp3
+Time: 161.648
+Artist: Los Felinos
+Title: Amor A Primera Vista
+Album: 15 Éxitos
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379235
+added: 1791582908
+song_end
+song_begin: Juliantla.mp3
+Time: 204.933
+Artist: Joan Sebastian
+Title: Juliantla
+Album: 15 Éxitos
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380260
+added: 1791582909
+song_end
+song_begin: Ni El Dinero Ni Nada.mp3
+Time: 228.655
+Artist: Eliseo Robles y los Bárbaros del Norte
+Title: Ni El Dinero Ni Nada
+Album: 15 Éxitos De Oro
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385854
+added: 1791582908
+song_end
+song_begin: Pistoleros famosos.mp3
+Time: 164.05700000000002
+Artist: Los capaces de Linares de Rubén Pereyra
+Title: Pistoleros famosos
+Album: 15 Éxitos de Ramón Ayala y los cadetes de Linares
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380353
+added: 1791582908
+song_end
+song_begin: Candita.mp3
+Time: 202.816
+Artist: Fito Olivares y La Pura Sabrosura
+Title: Candita
+Album: 15 Exitos Originales
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379824
+added: 1791582908
+song_end
+song_begin: El Chicle.mp3
+Time: 179.36
+Artist: Fito Olivares y La Pura Sabrosura
+Title: El Chicle
+Album: 15 Exitos Originales
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385903
+added: 1791582908
+song_end
+song_begin: El Mensajero.mp3
+Time: 177.007
+Artist: Fito Olivares y La Pura Sabrosura
+Title: El Mensajero
+Album: 15 Exitos Originales
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387018
+added: 1791582908
+song_end
+song_begin: La Gallina.mp3
+Time: 161.177
+Artist: Fito Olivares y La Pura Sabrosura
+Title: La Gallina
+Album: 15 Exitos Originales
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386401
+added: 1791582908
+song_end
+song_begin: La Guera Salome.mp3
+Time: 187.822
+Artist: Fito Olivares y La Pura Sabrosura
+Title: La Guera Salome
+Album: 15 Exitos Originales
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387475
+added: 1791582908
+song_end
+song_begin: La Negra Catalina.mp3
+Time: 185.419
+Artist: Fito Olivares y La Pura Sabrosura
+Title: La Negra Catalina
+Album: 15 Exitos Originales
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386869
+added: 1791582908
+song_end
+song_begin: Tu Maquinita.mp3
+Time: 158.304
+Artist: Fito Olivares y La Pura Sabrosura
+Title: Tu Maquinita
+Album: 15 Exitos Originales
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387466
+added: 1791582908
+song_end
+song_begin: Adiós Y Bienvenida.mp3
+Time: 138.786
+Artist: Banda R-15
+Title: Adiós Y Bienvenida
+Album: 15 Grandes Exitos
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385821
+added: 1791582908
+song_end
+song_begin: Si Te Quedaras.mp3
+Time: 196.88
+Artist: Industria Del Amor
+Title: Si Te Quedaras
+Album: 20 Aniversario
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380660
+added: 1791582908
+song_end
+song_begin: El Tucanazo (En Vivo).mp3
+Time: 179.52
+Artist: Los Tucanes De Tijuana
+Title: El Tucanazo (En Vivo)
+Album: 20 Aniversario - En Vivo Desde Hollywood
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380586
+added: 1791582908
+song_end
+song_begin: La Chona (En Vivo).mp3
+Time: 265.01300000000003
+Artist: Los Tucanes De Tijuana
+Title: La Chona (En Vivo)
+Album: 20 Aniversario - En Vivo Desde Hollywood
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380366
+added: 1791582908
+song_end
+song_begin: Amor A La 1070.mp3
+Time: 189
+Artist: Banda Machos
+Title: Amor A La 1070
+Album: 20 Años De Exitos En Vivo
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385563
+added: 1791582908
+song_end
+song_begin: María Elena.mp3
+Time: 193.81300000000002
+Artist: Los Caminantes
+Title: María Elena
+Album: 20 Cumbias Sin Parar
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790388085
+added: 1791582908
+song_end
+song_begin: Con El Alma En La Mano.mp3
+Time: 230.106
+Artist: Los Yonic's
+Title: Con El Alma En La Mano
+Album: 20 Éxitos de Oro
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386605
+added: 1791582908
+song_end
+song_begin: En las Cantinas.mp3
+Time: 201.026
+Artist: Los Rieleros del Norte
+Title: En las Cantinas
+Album: 20 Exitos Historicos, Vol. 2
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386851
+added: 1791582908
+song_end
+song_begin: Musica Romantica.mp3
+Time: 216.25300000000001
+Artist: Banda La Tunera
+Title: Musica Romantica
+Album: 20 Exitos Tuneros
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387372
+added: 1791582908
+song_end
+song_begin: Flor De Capomo.mp3
+Time: 166.613
+Artist: Carlos Y José
+Title: Flor De Capomo
+Album: 20 Kilates
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380340
+added: 1791582908
+song_end
+song_begin: Te Ofrezco Un Corazón.mp3
+Time: 148.04
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: Te Ofrezco Un Corazón
+Album: 20 Kilates
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385001
+added: 1791582908
+song_end
+song_begin: Después De Un Adiós.mp3
+Time: 256.36
+Artist: Los Bukis
+Title: Después De Un Adiós
+Album: 20 Kilates Románticos
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380536
+added: 1791582908
+song_end
+song_begin: La lamparita.mp3
+Time: 175.573
+Artist: Banda Machos
+Title: La lamparita
+Album: 20 Mil Heridas
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380327
+added: 1791582908
+song_end
+song_begin: Tu Mirada.mp3
+Time: 209.826
+Artist: Los Caminantes
+Title: Tu Mirada
+Album: 20 Súper Éxitos
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380381
+added: 1791582908
+song_end
+song_begin: Cumbia del Sol.mp3
+Time: 180.56
+Artist: Los Caminantes
+Title: Cumbia del Sol
+Album: 21 Exitos Vol. I
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387353
+added: 1791582908
+song_end
+song_begin: Paloma Negra.mp3
+Time: 194.493
+Artist: Los Caminantes
+Title: Paloma Negra
+Album: 21 Exitos Vol. I
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387484
+added: 1791582908
+song_end
+song_begin: Besando Borrachos.mp3
+Time: 162.793
+Artist: Banda Machos
+Title: Besando Borrachos
+Album: 25 Aniversario: Una Leyenda Viviente
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380514
+added: 1791582908
+song_end
+song_begin: El viejo joven.mp3
+Time: 158.08
+Artist: Banda Machos
+Title: El viejo joven
+Album: 25 Bandazos de Machos (Vol. 1)
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386371
+added: 1791582908
+song_end
+song_begin: La roncona.mp3
+Time: 187.72
+Artist: Banda Machos
+Title: La roncona
+Album: 25 Bandazos de Machos (Vol. 2)
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380322
+added: 1791582908
+song_end
+song_begin: Vivir sin ella.mp3
+Time: 231.453
+Artist: Banda Machos
+Title: Vivir sin ella
+Album: 25 Bandazos de Machos (Vol. 2)
+Date: 2016
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387694
+added: 1791582908
+song_end
+song_begin: La nena.mp3
+Time: 174.106
+Artist: Banda Pequeños Musical
+Title: La nena
+Album: 25 Bandazos de Pequeños Musical (Vol. 1)
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380546
+added: 1791582908
+song_end
+song_begin: Luna llena.mp3
+Time: 180.906
+Artist: Banda Pequeños Musical
+Title: Luna llena
+Album: 25 Bandazos de Pequeños Musical (Vol. 1)
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386495
+added: 1791582908
+song_end
+song_begin: Mi corazón y yo.mp3
+Time: 174.4
+Artist: Banda Pequeños Musical
+Title: Mi corazón y yo
+Album: 25 Bandazos de Pequeños Musical (Vol. 1)
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387983
+added: 1791582908
+song_end
+song_begin: Regálame.mp3
+Time: 188.293
+Artist: Banda Pequeños Musical
+Title: Regálame
+Album: 25 Bandazos de Pequeños Musical (Vol. 1)
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380054
+added: 1791582907
+song_end
+song_begin: Motivate.mp3
+Time: 200.946
+Artist: Los Bukis
+Title: Motivate
+Album: 2En1
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379547
+added: 1791582908
+song_end
+song_begin: Con Los Ojos Cerrados.mp3
+Time: 175.62
+Artist: Alacranes Musical, Gloria De Los Angeles Treviño Ruiz
+Title: Con Los Ojos Cerrados
+Album: 30 Aniversario
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379586
+added: 1791582908
+song_end
+song_begin: Ay Chave.mp3
+Time: 208.826
+Artist: Mi Sonora
+Title: Ay Chave
+Album: 30 Cumbias Colombianas Pegaditas: Lo Nuevo Y Lo Mejor 2006
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380026
+added: 1791582908
+song_end
+song_begin: Rosa la de Reynosa.mp3
+Time: 136.32
+Artist: Fito Olivares y La Pura Sabrosura
+Title: Rosa la de Reynosa
+Album: 30 Exitos Inolvidables
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380595
+added: 1791582908
+song_end
+song_begin: Amanda Cierrale.mp3
+Time: 179
+Artist: Los Huracanes Del Norte
+Title: Amanda Cierrale
+Album: 30 Nortenas Perronas
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379781
+added: 1791582908
+song_end
+song_begin: Esa Chica Me Vacila.mp3
+Time: 220.666
+Artist: Banda Vallarta Show
+Title: Esa Chica Me Vacila
+Album: 35 Años de Fiesta
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379897
+added: 1791582908
+song_end
+song_begin: Que Casualidad.mp3
+Time: 205.266
+Artist: Eliseo Robles y sus Barbaros del Norte
+Title: Que Casualidad
+Album: 40 Aniversario, Vol. 1
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380029
+added: 1791582908
+song_end
+song_begin: A Donde Vayas.mp3
+Time: 210.293
+Artist: Los Bukis
+Title: A Donde Vayas
+Album: 40 Años
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379876
+added: 1791582908
+song_end
+song_begin: Mambo Lupita.mp3
+Time: 214.987
+Artist: Mi Banda El Mexicano
+Title: Mambo Lupita
+Album: A Bailar... De Caballito!!
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385727
+added: 1791582908
+song_end
+song_begin: A Cambio De Que.mp3
+Time: 180.933
+Artist: Alacranes Musical
+Title: A Cambio De Que
+Album: A Cambio De Que
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385681
+added: 1791582909
+song_end
+song_begin: Cuatro Meses (Que Se Te Quite Ese Orgullo) (Album Version).mp3
+Time: 182.133
+Artist: Banda Machos
+Title: Cuatro Meses (Que Se Te Quite Ese Orgullo) (Album Version)
+Album: A Pesar de Todo
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387250
+added: 1791582908
+song_end
+song_begin: Los Mandados.mp3
+Time: 178.44
+Artist: Vicente Fernández
+Title: Los Mandados
+Album: A Pesar De Todo
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379765
+added: 1791582908
+song_end
+song_begin: Miraron Llorar a un Hombre.mp3
+Time: 203.306
+Artist: Vicente Fernández
+Title: Miraron Llorar a un Hombre
+Album: A Pesar De Todo
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380670
+added: 1791582908
+song_end
+song_begin: Popurri de Canciones Rancheras.mp3
+Time: 351.826
+Artist: Los Rieleros del Norte
+Title: Popurri de Canciones Rancheras
+Album: A Toda Maquina
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379173
+added: 1791582908
+song_end
+song_begin: Amor Total.mp3
+Time: 170.96
+Artist: Bronco
+Title: Amor Total
+Album: A Todo Galope
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380725
+added: 1791582908
+song_end
+song_begin: Vuelve.mp3
+Time: 213.333
+Artist: Los Yonic's
+Title: Vuelve
+Album: A Tu Recuerdo
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379778
+added: 1791582908
+song_end
+song_begin: Paloma Sin Nido.mp3
+Time: 195.373
+Artist: Los Barón De Apodaca
+Title: Paloma Sin Nido
+Album: Acá Entre Nos
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379130
+added: 1791582908
+song_end
+song_begin: Entre Perico Y Perico.mp3
+Time: 157.466
+Artist: Los Ex De La Banda
+Title: Entre Perico Y Perico
+Album: Acústicos
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379145
+added: 1791582908
+song_end
+song_begin: Para Qué He de Volver.mp3
+Time: 179.6
+Artist: Los Rieleros Del Norte
+Title: Para Qué He de Volver
+Album: Adelante Caminante
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379905
+added: 1791582908
+song_end
+song_begin: Adiós, Adiós Amor.mp3
+Time: 215.692
+Artist: banda machos
+Title: Adiós, Adiós Amor
+Album: Adiós, Adiós Amor
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379426
+added: 1791582908
+song_end
+song_begin: Así Te Quiero.mp3
+Time: 198.356
+Artist: Joan Sebastian
+Title: Así Te Quiero
+Album: Afortunado
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386841
+added: 1791582908
+song_end
+song_begin: En La Misma Cama.mp3
+Time: 203.293
+Artist: Liberación
+Title: En La Misma Cama
+Album: Ahora Y Siempre
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379713
+added: 1791582908
+song_end
+song_begin: La Barbona.mp3
+Time: 130.653
+Artist: Banda Movil
+Title: La Barbona
+Album: Ahy Te Va Kora
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379305
+added: 1791582908
+song_end
+song_begin: Al Diablo Tu Ausencia.mp3
+Time: 204.413
+Artist: Los Tigres Del Norte
+Title: Al Diablo Tu Ausencia
+Album: Al Diablo Tu Ausencia
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380426
+added: 1791582908
+song_end
+song_begin: El Triste.mp3
+Time: 251.906
+Artist: Conjunto Primavera
+Title: El Triste
+Album: Al Mismo Nivel
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385663
+added: 1791582908
+song_end
+song_begin: Esperando Tu Regreso.mp3
+Time: 194.866
+Artist: Los Yonic's
+Title: Esperando Tu Regreso
+Album: Alma Y Sentimiento
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379939
+added: 1791582908
+song_end
+song_begin: Me Gusta Estar Contigo.mp3
+Time: 168
+Artist: Carín León
+Title: Me Gusta Estar Contigo
+Album: Amanecida Con Todo y Con Todos
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387289
+added: 1791582908
+song_end
+song_begin: Amigo Mesero.mp3
+Time: 224.356
+Artist: Conjunto Primavera
+Title: Amigo Mesero
+Album: Amigo Mesero
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380694
+added: 1791582908
+song_end
+song_begin: Amigo Mío.mp3
+Time: 258.451
+Artist: Los Yonic's, Fidencio Ayala
+Title: Amigo Mío
+Album: Amigo Mío
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379566
+added: 1791582908
+song_end
+song_begin: Mi Última Caravana.mp3
+Time: 338.901
+Artist: Gerardo Díaz y su Gerarquia
+Title: Mi Última Caravana
+Album: Amistad y Pesos
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379723
+added: 1791582908
+song_end
+song_begin: Amor de Internet.mp3
+Time: 230.226
+Artist: Los Socios Del Ritmo
+Title: Amor de Internet
+Album: Amor de Internet
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380223
+added: 1791582908
+song_end
+song_begin: Te Quiero Cada Día Mas.mp3
+Time: 152.093
+Artist: Cardenales De Nuevo León
+Title: Te Quiero Cada Día Mas
+Album: Amor De Unas Horas
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379482
+added: 1791582908
+song_end
+song_begin: Desde Que Te Amo.mp3
+Time: 197.013
+Artist: Los Tucanes De Tijuana
+Title: Desde Que Te Amo
+Album: Amor Platónico
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387278
+added: 1791582908
+song_end
+song_begin: Entre El Cielo Y El Infierno.mp3
+Time: 218.44
+Artist: Bronco
+Title: Entre El Cielo Y El Infierno
+Album: Animal
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379570
+added: 1791582908
+song_end
+song_begin: Si Te Vuelvo A Ver.mp3
+Time: 200.773
+Artist: Conjunto Primavera
+Title: Si Te Vuelvo A Ver
+Album: Ansia De Amar
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380035
+added: 1791582908
+song_end
+song_begin: Imposible Olvidarte.mp3
+Time: 155.693
+Artist: K-Paz De La Sierra
+Title: Imposible Olvidarte
+Album: Arrasando Con Fuego
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380197
+added: 1791582909
+song_end
+song_begin: Arreando La Mula.mp3
+Time: 182.373
+Artist: Banda R-15
+Title: Arreando La Mula
+Album: Arreando La Mula
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380721
+added: 1791582908
+song_end
+song_begin: Un Rinconcito En El Cielo.mp3
+Time: 220.44
+Artist: Eliseo Robles
+Title: Un Rinconcito En El Cielo
+Album: Arriba El Norte
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380402
+added: 1791582908
+song_end
+song_begin: Tus Mentiras (En Vivo).mp3
+Time: 280.25
+Artist: Moy Bobadilla
+Title: Tus Mentiras (En Vivo)
+Album: Arriba La Moyombiza
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379858
+added: 1791582908
+song_end
+song_begin: 6 Pies Boca Abajo (En Vivo).mp3
+Time: 216.546
+Artist: Grupo Firme, Los Tucanes De Tijuana
+Title: 6 Pies Boca Abajo (En Vivo)
+Album: Arriba La Tía, Desde Las Vegas
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386575
+added: 1791582908
+song_end
+song_begin: Si Decides Regresar.mp3
+Time: 208.066
+Artist: Julio Preciado y Su Banda Perla del Pacífico
+Title: Si Decides Regresar
+Album: Arriba Mi Sinaloa
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387505
+added: 1791582908
+song_end
+song_begin: Si Le Dices Que Sí.mp3
+Time: 230.98600000000002
+Artist: Los Yonic's Zamacona, Chucho Rincón, Raúl Jiménez E.
+Title: Si Le Dices Que Sí
+Album: Así Te Quiero Yo
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379396
+added: 1791582909
+song_end
+song_begin: La Noche Que Murio Chicago.mp3
+Time: 162.24
+Artist: Banda Boom
+Title: La Noche Que Murio Chicago
+Album: Banda Boom Si Se Puede Viva la Raza, Vol.2
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380309
+added: 1791582908
+song_end
+song_begin: Vuela, vuela.mp3
+Time: 185.773
+Artist: Banda Pequeños Musical
+Title: Vuela, vuela
+Album: Banda Pequeños Musical
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379479
+added: 1791582908
+song_end
+song_begin: A Gozar.mp3
+Time: 276.54
+Artist: Banda Torera del Valle
+Title: A Gozar
+Album: Banda Torera Del Valle Con Banda La Pirinola
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379761
+added: 1791582908
+song_end
+song_begin: Al Mismo Nivel.mp3
+Time: 185.469
+Artist: Banda Arkangel R-15
+Title: Al Mismo Nivel
+Album: Bandazo Musical
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379621
+added: 1791582908
+song_end
+song_begin: Fue Tan Poco Tu Cariño.mp3
+Time: 213.56
+Artist: Banda Arkangel R-15
+Title: Fue Tan Poco Tu Cariño
+Album: Bandazo Musical
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385298
+added: 1791582908
+song_end
+song_begin: Sangoloteadito.mp3
+Time: 182.559
+Artist: Joan Sebastian
+Title: Sangoloteadito
+Album: Bandido de Amores
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380505
+added: 1791582908
+song_end
+song_begin: Baraja De Oro.mp3
+Time: 180.013
+Artist: Ramon Ayala, Cornelio Reyna
+Title: Baraja De Oro
+Album: Baraja De Oro
+Date: 2016
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386985
+added: 1791582908
+song_end
+song_begin: Cumbia sobre el río ⧸ Interludio.mp3
+Time: 346.8
+Artist: Celso Piña y su Ronda Bogotá
+Title: Cumbia sobre el río / Interludio
+Album: Barrio Bravo
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386429
+added: 1791582908
+song_end
+song_begin: 90's Mix.mp3
+Time: 295.575
+Artist: Alacranes Musical
+Title: 90's Mix
+Album: Bien Machine
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380312
+added: 1791582908
+song_end
+song_begin: Zapateado Encabronado #6.mp3
+Time: 274.1
+Artist: Alacranes Musical
+Title: Zapateado Encabronado #6
+Album: Bien Machine
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379450
+added: 1791582908
+song_end
+song_begin: Si Te Llego a Perder.mp3
+Time: 211.413
+Artist: Bronco, Manuel Adán Contero
+Title: Si Te Llego a Perder
+Album: Bienvenida La Vida
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380157
+added: 1791582908
+song_end
+song_begin: La Boda del Huitlacoche (En Vivo).mp3
+Time: 188.429
+Artist: Carín León, Los Honorables
+Title: La Boda del Huitlacoche (En Vivo)
+Album: Borrachera Con Los Honorables
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387724
+added: 1791582908
+song_end
+song_begin: Si Tu Te Fueras De Mi.mp3
+Time: 187.375
+Artist: Marca MP
+Title: Si Tu Te Fueras De Mi
+Album: Brindo
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379768
+added: 1791582908
+song_end
+song_begin: Atrapado.mp3
+Time: 206.933
+Artist: Bronco
+Title: Atrapado
+Album: Bronco Amigo
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379553
+added: 1791582908
+song_end
+song_begin: No Nos Vamos a Olvidar.mp3
+Time: 215.746
+Artist: Bronco
+Title: No Nos Vamos a Olvidar
+Album: Bronco Súper Bronco
+Date: 2016
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379990
+added: 1791582908
+song_end
+song_begin: Camarón Pelao.mp3
+Time: 177.586
+Artist: Banda Vallarta Show, Juan Morales Medrano
+Title: Camarón Pelao
+Album: Busca Amor
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379253
+added: 1791582908
+song_end
+song_begin: Cabrón Yo Puedo.mp3
+Time: 194.328
+Artist: Luis Angel "El Flaco"
+Title: Cabrón Yo Puedo
+Album: Cabrón Yo Puedo
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379836
+added: 1791582909
+song_end
+song_begin: Prenda Querida.mp3
+Time: 189.386
+Artist: Julio Preciado y Su Banda Perla del Pacífico
+Title: Prenda Querida
+Album: Cadetazos
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385919
+added: 1791582908
+song_end
+song_begin: Caminos de Guanajuato.mp3
+Time: 198.133
+Artist: Los Caminantes
+Title: Caminos de Guanajuato
+Album: Caminantes Sí Hay Camino...Sus Rancheras Más Chulas
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386301
+added: 1791582908
+song_end
+song_begin: Ahí Estaré Yo.mp3
+Time: 200.666
+Artist: Los Temerarios, ADOLFO ANGEL ALBA
+Title: Ahí Estaré Yo
+Album: Camino del Amor
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379311
+added: 1791582908
+song_end
+song_begin: Como Tú.mp3
+Time: 237.4
+Artist: Los Temerarios, ADOLFO ANGEL ALBA
+Title: Como Tú
+Album: Camino del Amor
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387529
+added: 1791582908
+song_end
+song_begin: Eres un Ángel.mp3
+Time: 281.493
+Artist: Los Temerarios, ADOLFO ANGEL ALBA
+Title: Eres un Ángel
+Album: Camino del Amor
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379163
+added: 1791582908
+song_end
+song_begin: Mi Alma Reclama.mp3
+Time: 297.906
+Artist: Los Temerarios, ADOLFO ANGEL ALBA
+Title: Mi Alma Reclama
+Album: Camino del Amor
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379139
+added: 1791582908
+song_end
+song_begin: Este Adios.mp3
+Time: 210.20000000000002
+Artist: Los Bukis, Los Broncos
+Title: Este Adios
+Album: Canta Como Tu Artista Preferido Con Pista Musical De Los Bukis y Los Broncos
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380502
+added: 1791582908
+song_end
+song_begin: La Gitanita.mp3
+Time: 165
+Artist: Banda Arkangel R-15
+Title: La Gitanita
+Album: Canta Corridos
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385127
+added: 1791582908
+song_end
+song_begin: Dime Que Si.mp3
+Time: 190.186
+Artist: Los Caminantes
+Title: Dime Que Si
+Album: Celebrando Nuestro 25 Aniversario
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380216
+added: 1791582908
+song_end
+song_begin: CHE CHE.mp3
+Time: 180.805
+Artist: De Parranda
+Title: CHE CHE
+Album: CHE CHE
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380511
+added: 1791582908
+song_end
+song_begin: Veinticinco Rosas.mp3
+Time: 180.511
+Artist: Joan Sebastian
+Title: Veinticinco Rosas
+Album: Colección De Oro, Vol. 1: Maracas
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379268
+added: 1791582908
+song_end
+song_begin: Pachuco Bailarín.mp3
+Time: 211.739
+Artist: Mi Banda El Mexicano
+Title: Pachuco Bailarín
+Album: Colección De Oro, Vol. 3: Pachuco Bailarín
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379983
+added: 1791582908
+song_end
+song_begin: Primera Cita.mp3
+Time: 186.455
+Artist: Carin Leon
+Title: Primera Cita
+Album: Colmillo De Leche
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379580
+added: 1791582908
+song_end
+song_begin: Copa Tras Copa.mp3
+Time: 208.24
+Artist: Ramon Ayala Y Sus Bravos Del Norte, Sergio Martinez
+Title: Copa Tras Copa
+Album: Como el Topo
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380777
+added: 1791582908
+song_end
+song_begin: Si No Vas A Volver.mp3
+Time: 203.16
+Artist: Julio Preciado y Su Banda Perla del Pacífico
+Title: Si No Vas A Volver
+Album: Como Este Loco
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379618
+added: 1791582908
+song_end
+song_begin: Como Me Duele Perderte.mp3
+Time: 190.053
+Artist: Liberación, Daniel Flores
+Title: Como Me Duele Perderte
+Album: Como Me Duele Perderte
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379700
+added: 1791582908
+song_end
+song_begin: Bella Pero Mala.mp3
+Time: 229.933
+Artist: Los Temerarios, ADOLFO ANGEL ALBA
+Title: Bella Pero Mala
+Album: Como Te Recuerdo
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380232
+added: 1791582908
+song_end
+song_begin: Botella Envenenada.mp3
+Time: 191.333
+Artist: Los Temerarios, CORNELIO REYNA
+Title: Botella Envenenada
+Album: Como Te Recuerdo
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379278
+added: 1791582908
+song_end
+song_begin: Yo Quiero Ser Feliz.mp3
+Time: 229.8
+Artist: Los Temerarios, ADOLFO ANGEL ALBA
+Title: Yo Quiero Ser Feliz
+Album: Como Te Recuerdo
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379314
+added: 1791582908
+song_end
+song_begin: Como Tu Decidas.mp3
+Time: 148.493
+Artist: Banda R-15
+Title: Como Tu Decidas
+Album: Como Tú Decidas
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379223
+added: 1791582908
+song_end
+song_begin: Tu Desastre.mp3
+Time: 157.6
+Artist: Banda R-15
+Title: Tu Desastre
+Album: Como Tú Decidas
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385647
+added: 1791582909
+song_end
+song_begin: Asesino A Sueldo.mp3
+Time: 206.773
+Artist: Cardenales De Nuevo León
+Title: Asesino A Sueldo
+Album: Compraron Una Cantina
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379534
+added: 1791582908
+song_end
+song_begin: Compré Una Cantina.mp3
+Time: 159.466
+Artist: Cardenales De Nuevo León
+Title: Compré Una Cantina
+Album: Compraron Una Cantina
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387342
+added: 1791582908
+song_end
+song_begin: Winnona.mp3
+Time: 195.8
+Artist: Fito Olivares
+Title: Winnona
+Album: Con Amor Y Con Sabor
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380074
+added: 1791582908
+song_end
+song_begin: Nomas Por Tu Culpa.mp3
+Time: 222.08
+Artist: Los Huracanes Del Norte
+Title: Nomas Por Tu Culpa
+Album: Con Fuerza y Sentimiento: Legado Norteño
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380077
+added: 1791582908
+song_end
+song_begin: Cuéntame.mp3
+Time: 215.053
+Artist: Liberación
+Title: Cuéntame
+Album: Con La Fuerza Del Destino
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379787
+added: 1791582908
+song_end
+song_begin: La Fea.mp3
+Time: 174.453
+Artist: Banda El Recodo de Cruz Lizãrraga, D.A.R.
+Title: La Fea
+Album: Con La No. 1: Del Pueblo... y Para El Pueblo
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380572
+added: 1791582908
+song_end
+song_begin: Tengo Que Olvidarte.mp3
+Time: 157.44
+Artist: Los Caminantes
+Title: Tengo Que Olvidarte
+Album: Con Mariachi
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380032
+added: 1791582909
+song_end
+song_begin: Con Mis Propias Manos.mp3
+Time: 169.61
+Artist: Los Huracanes Del Norte
+Title: Con Mis Propias Manos
+Album: Con Mis Propias Manos
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379360
+added: 1791582909
+song_end
+song_begin: El Tren.mp3
+Time: 212.42600000000002
+Artist: Yahari
+Title: El Tren
+Album: Con Mucho Más Sabor
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387219
+added: 1791582908
+song_end
+song_begin: Y yo que te amo.mp3
+Time: 196.92000000000002
+Artist: Banda Pequeños Musical
+Title: Y yo que te amo
+Album: Con paso sensual
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380300
+added: 1791582908
+song_end
+song_begin: Mi Ranchito.mp3
+Time: 142.866
+Artist: El Coyote Y Su Banda Tierra Santa
+Title: Mi Ranchito
+Album: Concedeme
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387269
+added: 1791582908
+song_end
+song_begin: Popurrí La Culebra⧸El Baile Nuevo⧸La Quebradora⧸La Fea⧸Vámonos De Fiesta (En Vivo).mp3
+Time: 433.784
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: Popurrí La Culebra/El Baile Nuevo/La Quebradora/La Fea/Vámonos De Fiesta (En Vivo)
+Album: Concierto Mundial Digital Live
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380563
+added: 1791582908
+song_end
+song_begin: Popurrí Mi Gusto Es⧸El Sauce Y La Palma⧸El Sinaloense (En Vivo).mp3
+Time: 377.49
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: Popurrí Mi Gusto Es/El Sauce Y La Palma/El Sinaloense (En Vivo)
+Album: Concierto Mundial Digital Live
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379318
+added: 1791582908
+song_end
+song_begin: Popurrí Quiero Que Sepas⧸La Gitanilla⧸Una Pura Y Dos Con Sal⧸Por Una Mujer Casada⧸El Corrido De....mp3
+Time: 472.577
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: Popurrí Quiero Que Sepas/La Gitanilla/Una Pura Y Dos Con Sal/Por Una Mujer Casada/El Corrido De Mazatlán (En Vivo)
+Album: Concierto Mundial Digital Live
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380490
+added: 1791582908
+song_end
+song_begin: Popurrí Seis Pies Abajo⧸No Me Sé Rajar (En Vivo).mp3
+Time: 285.221
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: Popurrí Seis Pies Abajo/No Me Sé Rajar (En Vivo)
+Album: Concierto Mundial Digital Live
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380412
+added: 1791582908
+song_end
+song_begin: Suspiros - Amor A La Ligera (En Vivo).mp3
+Time: 270.95300000000003
+Artist: Banda Los Reales
+Title: Suspiros - Amor A La Ligera (En Vivo)
+Album: Concierto Virtual 4
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379917
+added: 1791582908
+song_end
+song_begin: Fuerte No Soy.mp3
+Time: 267.333
+Artist: Intocable
+Title: Fuerte No Soy
+Album: Contigo
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379994
+added: 1791582908
+song_end
+song_begin: Cada Vez Te Extraño Mas.mp3
+Time: 197.56
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: Cada Vez Te Extraño Mas
+Album: Contigo Por Siempre
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379408
+added: 1791582908
+song_end
+song_begin: Mi Ironia.mp3
+Time: 216.66
+Artist: Norteños de Ojinaga
+Title: Mi Ironia
+Album: Contigo Por Siempre
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380362
+added: 1791582908
+song_end
+song_begin: Contrabando Y Traición.mp3
+Time: 206.293
+Artist: Los Tigres Del Norte
+Title: Contrabando Y Traición
+Album: Contrabando Y Traicion
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380789
+added: 1791582909
+song_end
+song_begin: La Banda Dominguera.mp3
+Time: 172.026
+Artist: Control
+Title: La Banda Dominguera
+Album: Control
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387896
+added: 1791582908
+song_end
+song_begin: Pequeña Y Frágil.mp3
+Time: 159.173
+Artist: Control
+Title: Pequeña Y Frágil
+Album: Controlándote
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380226
+added: 1791582908
+song_end
+song_begin: Corazón Vacío.mp3
+Time: 203.6
+Artist: Los Yonic's
+Title: Corazón Vacío
+Album: Corazón Vacío
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379649
+added: 1791582908
+song_end
+song_begin: Lástima De Amor.mp3
+Time: 200.25300000000001
+Artist: Los Yonic's
+Title: Lástima De Amor
+Album: Corazón Vacío
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379514
+added: 1791582908
+song_end
+song_begin: Corrido del Aguacate y Daniel del Fierro (En Vivo).mp3
+Time: 425.6
+Artist: Grupo Manada
+Title: Corrido del Aguacate y Daniel del Fierro (En Vivo)
+Album: Corrido del Aguacate y Daniel del Fierro
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379149
+added: 1791582908
+song_end
+song_begin: El Águila Blanca.mp3
+Time: 140.706
+Artist: Los Tucanes De Tijuana
+Title: El Águila Blanca
+Album: Corridos A Quema Ropa
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379417
+added: 1791582908
+song_end
+song_begin: El Borrego.mp3
+Time: 198.53300000000002
+Artist: Los Tucanes De Tijuana
+Title: El Borrego
+Album: Corridos A Quema Ropa
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380370
+added: 1791582908
+song_end
+song_begin: La Piñata.mp3
+Time: 187.693
+Artist: Los Tucanes De Tijuana
+Title: La Piñata
+Album: Corridos A Quema Ropa
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385248
+added: 1791582908
+song_end
+song_begin: Mis Tres Animales.mp3
+Time: 163.4
+Artist: Los Tucanes De Tijuana
+Title: Mis Tres Animales
+Album: Corridos A Quema Ropa
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380483
+added: 1791582908
+song_end
+song_begin: Mis Tres Viejas.mp3
+Time: 162.586
+Artist: Los Tucanes De Tijuana
+Title: Mis Tres Viejas
+Album: Corridos A Quema Ropa
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379436
+added: 1791582908
+song_end
+song_begin: Regreso El Sinaloense.mp3
+Time: 168.133
+Artist: La Arrolladora Banda El Limon
+Title: Regreso El Sinaloense
+Album: Corridos Arrolladores II
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385437
+added: 1791582908
+song_end
+song_begin: No Sólo De Traficante.mp3
+Time: 186.99
+Artist: Los Tucanes De Tijuana
+Title: No Sólo De Traficante
+Album: Corridos Bravíos - Serie 35
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386321
+added: 1791582908
+song_end
+song_begin: De Esta Sierra a la Otra Sierra.mp3
+Time: 137.933
+Artist: El As De La Sierra
+Title: De Esta Sierra a la Otra Sierra
+Album: Corridos Con Banda Sinaloense
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790384948
+added: 1791582908
+song_end
+song_begin: Sangre Potosina.mp3
+Time: 218.58100000000002
+Artist: Los Tucanes De Tijuana
+Title: Sangre Potosina
+Album: Corridos Del Norte
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379459
+added: 1791582908
+song_end
+song_begin: El Ayudante (En Vivo).mp3
+Time: 185.28
+Artist: Los Huracanes Del Norte
+Title: El Ayudante (En Vivo)
+Album: Corridos Desde El Rancho
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379352
+added: 1791582908
+song_end
+song_begin: Mix De Corridos (En Vivo).mp3
+Time: 356.50100000000003
+Artist: Los Huracanes Del Norte
+Title: Mix De Corridos (En Vivo)
+Album: Corridos Desde El Rancho
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379862
+added: 1791582908
+song_end
+song_begin: La Mafia Muere (Album Version).mp3
+Time: 143.08
+Artist: Los Tigres Del Norte
+Title: La Mafia Muere (Album Version)
+Album: Corridos Prohibidos
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386361
+added: 1791582907
+song_end
+song_begin: La Banda Del Carro Rojo.mp3
+Time: 186.88
+Artist: Los Tigres Del Norte
+Title: La Banda Del Carro Rojo
+Album: Corridos Tumbados
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387756
+added: 1791582908
+song_end
+song_begin: El Ilegal.mp3
+Time: 170.074
+Artist: Joan Sebastian
+Title: El Ilegal
+Album: Corridos Y Algo Más
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385588
+added: 1791582908
+song_end
+song_begin: La Prieta Linda.mp3
+Time: 207.066
+Artist: El Coyote Y Su Banda Tierra Santa
+Title: La Prieta Linda
+Album: Cuando Regreso A Tus Brazos
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379873
+added: 1791582908
+song_end
+song_begin: Cuatro Primaveras.mp3
+Time: 202.733
+Artist: Conjunto Primavera
+Title: Cuatro Primaveras
+Album: Cuatro Primaveras
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379608
+added: 1791582908
+song_end
+song_begin: No Llores Mis Recuerdos.mp3
+Time: 251.994
+Artist: Pancho Barraza
+Title: No Llores Mis Recuerdos
+Album: Cuenta Conmigo
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379386
+added: 1791582908
+song_end
+song_begin: El Manicero.mp3
+Time: 194.52
+Artist: Fito Olivares y La Pura Sabrosura
+Title: El Manicero
+Album: Cumbia Caliente
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386350
+added: 1791582908
+song_end
+song_begin: Mira oye.mp3
+Time: 202.25300000000001
+Artist: Los Tigrillos
+Title: Mira oye
+Album: Cumbias con Garra Vol. IV *
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386733
+added: 1791582908
+song_end
+song_begin: Tao, Tao.mp3
+Time: 172.70600000000002
+Artist: Control
+Title: Tao, Tao
+Album: Cumbias Sin Control
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387973
+added: 1791582908
+song_end
+song_begin: Como Aceite Y Como El Agua.mp3
+Time: 207.88
+Artist: Los Tigres Del Norte
+Title: Como Aceite Y Como El Agua
+Album: Cumbias Y Algo Más...
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379849
+added: 1791582908
+song_end
+song_begin: Ya Llegó.mp3
+Time: 210.407
+Artist: Mexicano
+Title: Ya Llegó
+Album: Cumbias Ya Llegó...
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386681
+added: 1791582908
+song_end
+song_begin: Dame un Beso y Dime Adios (En Vivo).mp3
+Time: 239.31
+Artist: Carin Leon, Grupo Yndio
+Title: Dame un Beso y Dime Adios (En Vivo)
+Album: Cura Local
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379703
+added: 1791582908
+song_end
+song_begin: Zapateado Encabronado (Remastered 2025).mp3
+Time: 188.732
+Artist: Alacranes Musical, Oscar Urbina
+Title: Zapateado Encabronado (Remastered 2025)
+Album: De Durango
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379731
+added: 1791582908
+song_end
+song_begin: Zapateado Encabronado #3 (Remastered 2025).mp3
+Time: 267.65
+Artist: Alacranes Musical, Oscar Urbina
+Title: Zapateado Encabronado #3 (Remastered 2025)
+Album: De Durango
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379238
+added: 1791582908
+song_end
+song_begin: Fue Ayer.mp3
+Time: 164.466
+Artist: Los Caminantes
+Title: Fue Ayer
+Album: De Guanajuato... Para América!
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387047
+added: 1791582908
+song_end
+song_begin: No Me Hagas Menos.mp3
+Time: 217.373
+Artist: Los Rieleros del Norte
+Title: No Me Hagas Menos
+Album: De Lo Bueno Lo Mejor
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385046
+added: 1791582908
+song_end
+song_begin: La Quebradora.mp3
+Time: 187.022
+Artist: Banda El Recodo de Cruz Lizárraga
+Title: La Quebradora
+Album: De Mexico para el Mundo
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380674
+added: 1791582908
+song_end
+song_begin: Necesito Decírtelo.mp3
+Time: 209.613
+Artist: Cardenales De Nuevo León
+Title: Necesito Decírtelo
+Album: De Norte A Sur
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379955
+added: 1791582908
+song_end
+song_begin: Mi Sacrificio.mp3
+Time: 159.613
+Artist: Conjunto Primavera
+Title: Mi Sacrificio
+Album: De Nuevo A Tu Lado
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380112
+added: 1791582908
+song_end
+song_begin: Como El Primer Día.mp3
+Time: 186.25300000000001
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: Como El Primer Día
+Album: De Parranda Con La Banda
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386440
+added: 1791582908
+song_end
+song_begin: En La Misma Cantina.mp3
+Time: 160.25300000000001
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: En La Misma Cantina
+Album: De Parranda Con La Banda
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379667
+added: 1791582908
+song_end
+song_begin: Que Solo Estoy Sin Ti.mp3
+Time: 219.08
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: Que Solo Estoy Sin Ti
+Album: De Parranda Con La Banda
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386743
+added: 1791582908
+song_end
+song_begin: Ya Lo Pagaras Con Dios.mp3
+Time: 193.25300000000001
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: Ya Lo Pagaras Con Dios
+Album: De Parranda Con La Banda
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386252
+added: 1791582908
+song_end
+song_begin: Déjame Que Me Vaya.mp3
+Time: 117.60000000000001
+Artist: Vicente Fernández
+Title: Déjame Que Me Vaya
+Album: De Que Manera Te Olvido
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380048
+added: 1791582908
+song_end
+song_begin: Aprendiste a Volar.mp3
+Time: 163.333
+Artist: Vicente Fernández
+Title: Aprendiste a Volar
+Album: De Un Rancho A Otro
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379747
+added: 1791582908
+song_end
+song_begin: Como Le Hare Para Olvidarte.mp3
+Time: 167.471
+Artist: El Coyote y Su Banda Tierra Santa, Mario Aguilar
+Title: Como Le Hare Para Olvidarte
+Album: Décimo Aniversario
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380060
+added: 1791582908
+song_end
+song_begin: Nada Contigo.mp3
+Time: 172.48
+Artist: Los Huracanes Del Norte
+Title: Nada Contigo
+Album: Dejate Querer
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380194
+added: 1791582908
+song_end
+song_begin: Descansa General y El Hijo del Palenque (En Vivo).mp3
+Time: 404.555
+Artist: Grupo Manada
+Title: Descansa General y El Hijo del Palenque (En Vivo)
+Album: Descansa General y El Hijo del Palenque
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379134
+added: 1791582908
+song_end
+song_begin: Popurrí Quebradita (En Vivo).mp3
+Time: 450.278
+Artist: Banda Machos
+Title: Popurrí Quebradita (En Vivo)
+Album: Desde Guadalajara
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385362
+added: 1791582909
+song_end
+song_begin: Me Dicen el Coyote (En VIvo).mp3
+Time: 163.198
+Artist: Carín León
+Title: Me Dicen el Coyote (En VIvo)
+Album: Desvelada Con Banda Y Mariachi
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380801
+added: 1791582908
+song_end
+song_begin: Amor Mío.mp3
+Time: 188.48
+Artist: Liberación
+Title: Amor Mío
+Album: Directo Al Corazón
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379771
+added: 1791582907
+song_end
+song_begin: Macho Remix.mp3
+Time: 850.133
+Artist: Banda Machos
+Title: Macho Remix
+Album: Disco Macho
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386413
+added: 1791582907
+song_end
+song_begin: Dos Pasajes.mp3
+Time: 142.28900000000002
+Artist: El Coyote Y Su Banda Tierra Santa
+Title: Dos Pasajes
+Album: Échenle Coco
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380306
+added: 1791582908
+song_end
+song_begin: La Novia del Pajarillo.mp3
+Time: 177.763
+Artist: El Coyote Y Su Banda Tierra Santa
+Title: La Novia del Pajarillo
+Album: Échenle Coco
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385391
+added: 1791582908
+song_end
+song_begin: El Amor No Fue Pa´ Mí (En Vivo).mp3
+Time: 226.816
+Artist: Grupo Firme, Banda Coloso
+Title: El Amor No Fue Pa´ Mí (En Vivo)
+Album: El Amor No Fue Pa´ Mí
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387806
+added: 1791582908
+song_end
+song_begin: Pedro Avilés.mp3
+Time: 189.573
+Artist: El Coyote Y Su Banda Tierra Santa
+Title: Pedro Avilés
+Album: El Amor No Tiene Edad
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379469
+added: 1791582908
+song_end
+song_begin: Dos Hojas Sin Rumbo (Album Version).mp3
+Time: 179.186
+Artist: Los Tigres Del Norte
+Title: Dos Hojas Sin Rumbo (Album Version)
+Album: El Cheque
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379640
+added: 1791582908
+song_end
+song_begin: Que Tristeza Me Acompaña.mp3
+Time: 146.28
+Artist: Carlos Y José
+Title: Que Tristeza Me Acompaña
+Album: El Chubasco
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379978
+added: 1791582908
+song_end
+song_begin: El Coco Rayado.mp3
+Time: 175.90800000000002
+Artist: El Coyote y Su Banda Tierra Santa, Marco Antonio Vallejos
+Title: El Coco Rayado
+Album: El Coco Rayado
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380436
+added: 1791582908
+song_end
+song_begin: Golpes En El Corazón.mp3
+Time: 227.96
+Artist: Los Tigres Del Norte
+Title: Golpes En El Corazón
+Album: El Ejemplo
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379577
+added: 1791582908
+song_end
+song_begin: Quién.mp3
+Time: 203.826
+Artist: Los Tigres Del Norte
+Title: Quién
+Album: El Ejemplo
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380063
+added: 1791582908
+song_end
+song_begin: Y Si Se Quiere Ir (En Vivo).mp3
+Time: 187.231
+Artist: Luis Angel "El Flaco"
+Title: Y Si Se Quiere Ir (En Vivo)
+Album: El Flaco y Sus Amigos: Auditorios
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380768
+added: 1791582908
+song_end
+song_begin: La Ley del Monte.mp3
+Time: 203.6
+Artist: Vicente Fernández
+Title: La Ley del Monte
+Album: El Hijo Del Pueblo
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380016
+added: 1791582908
+song_end
+song_begin: Que Te Vaya Bonito.mp3
+Time: 182.44
+Artist: Vicente Fernández
+Title: Que Te Vaya Bonito
+Album: El Idolo De Mexico
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380592
+added: 1791582908
+song_end
+song_begin: El Ladrón.mp3
+Time: 156.618
+Artist: Banda Mach, Juan Manuel Zamudio Lizarraga
+Title: El Ladrón
+Album: El Ladrón
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380359
+added: 1791582909
+song_end
+song_begin: El Malo (Con Guitarras).mp3
+Time: 178.68
+Artist: Carín León
+Title: El Malo (Con Guitarras)
+Album: El Malo
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379962
+added: 1791582909
+song_end
+song_begin: Tu Amor Barato.mp3
+Time: 148.175
+Artist: Carín León
+Title: Tu Amor Barato
+Album: El Malo
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386801
+added: 1791582908
+song_end
+song_begin: Ayer La Vi Por La Calle.mp3
+Time: 188.8
+Artist: Los Rieleros Del Norte
+Title: Ayer La Vi Por La Calle
+Album: El Maquinista
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380236
+added: 1791582908
+song_end
+song_begin: Noches Eternas.mp3
+Time: 170.693
+Artist: Los Rieleros Del Norte
+Title: Noches Eternas
+Album: El Maquinista
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386939
+added: 1791582908
+song_end
+song_begin: Yo Quiero Saber de Ti.mp3
+Time: 191.066
+Artist: Vicente Fernández
+Title: Yo Quiero Saber de Ti
+Album: El Número Uno
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379885
+added: 1791582908
+song_end
+song_begin: El Peor De Tus Antojos.mp3
+Time: 209.77
+Artist: Joan Sebastian
+Title: El Peor De Tus Antojos
+Album: El Peor De Tus Antojos
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380745
+added: 1791582909
+song_end
+song_begin: Esos Dos Amigos Brindaron Por Ella.mp3
+Time: 218.106
+Artist: Armando Montoya
+Title: Esos Dos Amigos Brindaron Por Ella
+Album: El Ser Latino es Mi Orgullo
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380678
+added: 1791582908
+song_end
+song_begin: El Sonidito.mp3
+Time: 199.893
+Artist: Hechizeros Band
+Title: El Sonidito
+Album: El Sonidito
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387576
+added: 1791582908
+song_end
+song_begin: Los Tres Amigos (Album Version).mp3
+Time: 229.946
+Artist: Los Tigres Del Norte
+Title: Los Tres Amigos (Album Version)
+Album: El Tahur
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380691
+added: 1791582907
+song_end
+song_begin: Ya Me Voy para Siempre.mp3
+Time: 206.853
+Artist: Vicente Fernández
+Title: Ya Me Voy para Siempre
+Album: El Tahur
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380486
+added: 1791582908
+song_end
+song_begin: El Toro Pinto.mp3
+Time: 211.306
+Artist: Banda Maguey, Derecho Autoral Reservado
+Title: El Toro Pinto
+Album: El Toro Pinto
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380543
+added: 1791582909
+song_end
+song_begin: El Trenecito.mp3
+Time: 197.112
+Artist: Fito Olivares, Jaime Olivares
+Title: El Trenecito
+Album: El Trenecito
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379936
+added: 1791582908
+song_end
+song_begin: Popurrí Baladas (En Vivo).mp3
+Time: 290.493
+Artist: Liberación
+Title: Popurrí Baladas (En Vivo)
+Album: En Concierto Gira Mex-Usa 2004-2005
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379901
+added: 1791582908
+song_end
+song_begin: Que Poca Suerte (En Vivo).mp3
+Time: 219.56
+Artist: Los Temerarios, ADOLFO ANGEL ALBA
+Title: Que Poca Suerte (En Vivo)
+Album: En Concierto, Vol. 1
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379965
+added: 1791582908
+song_end
+song_begin: Mi Vida Eres Tú (En Vivo).mp3
+Time: 249.573
+Artist: Los Temerarios, ADOLFO ANGEL ALBA
+Title: Mi Vida Eres Tú (En Vivo)
+Album: En Concierto, Vol. 2
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380642
+added: 1791582908
+song_end
+song_begin: Popurri de Canciones Norteñas.mp3
+Time: 269.666
+Artist: Los Rieleros del Norte
+Title: Popurri de Canciones Norteñas
+Album: En la Calle Te Dejo
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386722
+added: 1791582908
+song_end
+song_begin: Dicen Que la Distancia.mp3
+Time: 257.746
+Artist: Los Temerarios, ADOLFO ANGEL ALBA
+Title: Dicen Que la Distancia
+Album: En la Madrugada Se Fue
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380568
+added: 1791582907
+song_end
+song_begin: Eras Todo para Mí.mp3
+Time: 289.06600000000003
+Artist: Los Temerarios, ADOLFO ANGEL ALBA
+Title: Eras Todo para Mí
+Album: En la Madrugada Se Fue
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380373
+added: 1791582908
+song_end
+song_begin: Quise Olvidarme de Ti.mp3
+Time: 234.506
+Artist: Los Temerarios, ADOLFO ANGEL ALBA
+Title: Quise Olvidarme de Ti
+Album: En la Madrugada Se Fue
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380081
+added: 1791582908
+song_end
+song_begin: Te Hice Mal.mp3
+Time: 280.52
+Artist: Los Temerarios, ADOLFO ANGEL ALBA
+Title: Te Hice Mal
+Album: En la Madrugada Se Fue
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380143
+added: 1791582908
+song_end
+song_begin: No Tiene Edad.mp3
+Time: 184.16
+Artist: Liberación
+Title: No Tiene Edad
+Album: En Las Alturas
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380422
+added: 1791582908
+song_end
+song_begin: Ni Parientes Somos (En Vivo).mp3
+Time: 138.624
+Artist: El Mimoso Luis Antonio López
+Title: Ni Parientes Somos (En Vivo)
+Album: En Las Cantinas
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379683
+added: 1791582909
+song_end
+song_begin: En Tu Perra Vida.mp3
+Time: 238.677
+Artist: Grupo Firme, Lenin Ramirez
+Title: En Tu Perra Vida
+Album: En Tu Perra Vida
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387795
+added: 1791582908
+song_end
+song_begin: Popurri Chicano： Cariño Santo⧸Mujeres Divinas⧸Urge⧸Aca Entre Nos⧸Pa' Que Sientas Lo Que Siento⧸....mp3
+Time: 668.666
+Artist: Los Baron de Apodaca
+Title: Popurri Chicano: Cariño Santo/Mujeres Divinas/Urge/Aca Entre Nos/Pa' Que Sientas Lo Que Siento/ La Huella de Mis Besos
+Album: En Vivo Como en Los Años Viejos
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380125
+added: 1791582908
+song_end
+song_begin: Cruzando Cerros y Arroyos (En Vivo).mp3
+Time: 153.441
+Artist: El Coyote Y Su Banda Tierra Santa
+Title: Cruzando Cerros y Arroyos (En Vivo)
+Album: En Vivo Desde El Rancho Para El Rancho
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385806
+added: 1791582908
+song_end
+song_begin: Mi Fracaso (En Vivo).mp3
+Time: 152.946
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: Mi Fracaso (En Vivo)
+Album: En Vivo Desde El Río Nilo
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379652
+added: 1791582908
+song_end
+song_begin: Vámonos De Fiesta (En Vivo).mp3
+Time: 186.653
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: Vámonos De Fiesta (En Vivo)
+Album: En Vivo Desde El Río Nilo
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379720
+added: 1791582908
+song_end
+song_begin: Triste Recuerdo ⧸ Te Ofrezco Un Corazón (En Vivo).mp3
+Time: 336.192
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: Triste Recuerdo / Te Ofrezco Un Corazón (En Vivo)
+Album: En Vivo Desde Japón
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380556
+added: 1791582908
+song_end
+song_begin: Popurri 2：Piquetes de Hormiga⧸Las Calles de Chihuahua (En Vivo).mp3
+Time: 288
+Artist: El Coyote Y Su Banda Tierra Santa
+Title: Popurri 2:Piquetes de Hormiga/Las Calles de Chihuahua (En Vivo)
+Album: En Vivo Desde Mazatlán
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385759
+added: 1791582908
+song_end
+song_begin: Popurri 3：Dos Hojas Sin Rumbo⧸Suspiros (En Vivo).mp3
+Time: 348.5
+Artist: El Coyote Y Su Banda Tierra Santa
+Title: Popurri 3:Dos Hojas Sin Rumbo/Suspiros (En Vivo)
+Album: En Vivo Desde Mazatlán
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380476
+added: 1791582908
+song_end
+song_begin: Popurri 6：Te Vas Amor⧸Que Casualidad⧸Mi Ranchito (En Vivo).mp3
+Time: 463
+Artist: El Coyote Y Su Banda Tierra Santa
+Title: Popurri 6:Te Vas Amor/Que Casualidad/Mi Ranchito (En Vivo)
+Album: En Vivo Desde Mazatlán
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379157
+added: 1791582908
+song_end
+song_begin: Me Nortié (En Vivo).mp3
+Time: 160.186
+Artist: Conjunto Primavera
+Title: Me Nortié (En Vivo)
+Album: En Vivo Para Ti
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380616
+added: 1791582908
+song_end
+song_begin: Una Noche Más.mp3
+Time: 192.666
+Artist: Liberación
+Title: Una Noche Más
+Album: Enamorado De Un Fantasma
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379405
+added: 1791582908
+song_end
+song_begin: Mi Eterno Amor Secreto (En Vivo).mp3
+Time: 235.81300000000002
+Artist: Carín León
+Title: Mi Eterno Amor Secreto (En Vivo)
+Album: Encerrados Pero Enfiestados, Vol. 2
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380114
+added: 1791582909
+song_end
+song_begin: Nubes De Algodón.mp3
+Time: 200.973
+Artist: Liberación
+Title: Nubes De Algodón
+Album: Entre Nubes
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379537
+added: 1791582908
+song_end
+song_begin: Nuevamente Lágrimas.mp3
+Time: 200.733
+Artist: Liberación
+Title: Nuevamente Lágrimas
+Album: Entre Nubes
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379943
+added: 1791582908
+song_end
+song_begin: Estás Que Te Pelas.mp3
+Time: 232.693
+Artist: Intocable
+Title: Estás Que Te Pelas
+Album: Es Para Ti
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387410
+added: 1791582908
+song_end
+song_begin: Charanga Costeña.mp3
+Time: 193.19400000000002
+Artist: Banda Vallarta Show
+Title: Charanga Costeña
+Album: Esa Chica Me Vacila
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387005
+added: 1791582908
+song_end
+song_begin: El Trompo.mp3
+Time: 185.173
+Artist: Banda El Recodo de Cruz Lizárraga
+Title: El Trompo
+Album: Esta...Si! Es Banda! Pegando Con Tubo
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387076
+added: 1791582908
+song_end
+song_begin: Swing Mix de Cumbias： Sergio el Bailador ⧸ Mariachi Loco ⧸ La Suavecita ⧸ Macarena ⧸ La Bala.mp3
+Time: 343
+Artist: Arrecife, José Guadalupe Esparza, Ramón Palomar Arreola, Victor Gutiérrez, Antonio Romero, Rafael Ruiz Perdigones, Arturo Hassan
+Title: Swing Mix de Cumbias: Sergio el Bailador / Mariachi Loco / La Suavecita / Macarena / La Bala
+Album: Este Es el Swing. Música de Guatemala para los Latinos
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387146
+added: 1791582908
+song_end
+song_begin: Aguita de Melon.mp3
+Time: 247.273
+Artist: Fito Olivares, Fito Olivares
+Title: Aguita de Melon
+Album: Éxitos
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385188
+added: 1791582908
+song_end
+song_begin: El Jaripeo.mp3
+Time: 161.70600000000002
+Artist: Banda El Recodo de Cruz Lizãrraga, Julio Preciado
+Title: El Jaripeo
+Album: Exitos 10, Vol. 1: Cumbias & Rancheras
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385775
+added: 1791582908
+song_end
+song_begin: Corrido de Domingo Corrales.mp3
+Time: 178.973
+Artist: Banda El Recodo de Cruz Lizárraga
+Title: Corrido de Domingo Corrales
+Album: Exitos 10, Vol. 9: Puros Corridos
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387240
+added: 1791582907
+song_end
+song_begin: La Del Moño Colorado.mp3
+Time: 301.773
+Artist: Los Pedernales
+Title: La Del Moño Colorado
+Album: Exitos De
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387627
+added: 1791582908
+song_end
+song_begin: Y Por Esa Calle Vive.mp3
+Time: 214.773
+Artist: Los Baron De Apodaca
+Title: Y Por Esa Calle Vive
+Album: Exitos de Los Baron De Apodaca
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386889
+added: 1791582908
+song_end
+song_begin: Te Lavaste la Cara y el Mono No.mp3
+Time: 170.894
+Artist: Banda Maguey
+Title: Te Lavaste la Cara y el Mono No
+Album: Éxitos de Oro
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379968
+added: 1791582908
+song_end
+song_begin: Prohibido.mp3
+Time: 188.372
+Artist: El Coyote y Su Banda Tierra Santa
+Title: Prohibido
+Album: Exitos En Vivo Vol. 1
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379734
+added: 1791582908
+song_end
+song_begin: Felicidad.mp3
+Time: 197.013
+Artist: Los Socios Del Ritmo
+Title: Felicidad
+Album: Felicidad
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379589
+added: 1791582908
+song_end
+song_begin: La niña fresa.mp3
+Time: 160.626
+Artist: Banda Zeta
+Title: La niña fresa
+Album: Fiesta Mexicana Con La Banda
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387867
+added: 1791582908
+song_end
+song_begin: Me La Escondieron Sus Padres.mp3
+Time: 203.778
+Artist: Joan Sebastian
+Title: Me La Escondieron Sus Padres
+Album: Frente A Frente
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379800
+added: 1791582908
+song_end
+song_begin: Quiero Que Vuelvas (Ranchera).mp3
+Time: 169.32
+Artist: Cardenales De Nuevo León
+Title: Quiero Que Vuelvas (Ranchera)
+Album: Frente A Frente "Los Grandes De Nuevo Leon Y San Luis
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379308
+added: 1791582908
+song_end
+song_begin: Seis Pies Abajo.mp3
+Time: 212.32
+Artist: Los Grandes Del Norte
+Title: Seis Pies Abajo
+Album: Frente A Frente Norteño
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385094
+added: 1791582908
+song_end
+song_begin: Manuel Juárez.mp3
+Time: 278.058
+Artist: Joan Sebastian
+Title: Manuel Juárez
+Album: Frente A Frente: Corridos Con Banda
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380581
+added: 1791582908
+song_end
+song_begin: La Prietita Que Yo Quiero.mp3
+Time: 168.542
+Artist: Joan Sebastian
+Title: La Prietita Que Yo Quiero
+Album: Frente A Frente: Norteño
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379573
+added: 1791582908
+song_end
+song_begin: Vete Ya.mp3
+Time: 163.906
+Artist: Intocable
+Title: Vete Ya
+Album: Fuego Eterno
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379326
+added: 1791582908
+song_end
+song_begin: Cumbia Del Sol.mp3
+Time: 194.826
+Artist: Control
+Title: Cumbia Del Sol
+Album: Fuera De Control
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386899
+added: 1791582909
+song_end
+song_begin: Ayúdame.mp3
+Time: 179.768
+Artist: Mi Banda El Mexicano
+Title: Ayúdame
+Album: Fuera de Serie
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387663
+added: 1791582908
+song_end
+song_begin: Dónde Estarás.mp3
+Time: 216.409
+Artist: Mi Banda El Mexicano
+Title: Dónde Estarás
+Album: Fuera de Serie
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387925
+added: 1791582908
+song_end
+song_begin: El Zapato Mocho.mp3
+Time: 220.427
+Artist: Mi Banda El Mexicano
+Title: El Zapato Mocho
+Album: Fuera de Serie
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379958
+added: 1791582908
+song_end
+song_begin: Esta Cobardía.mp3
+Time: 205.31
+Artist: Mi Banda El Mexicano
+Title: Esta Cobardía
+Album: Fuera de Serie
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387937
+added: 1791582909
+song_end
+song_begin: Mi Banda El Mexicano.mp3
+Time: 214.929
+Artist: Mi Banda El Mexicano
+Title: Mi Banda El Mexicano
+Album: Fuera de Serie
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387539
+added: 1791582908
+song_end
+song_begin: Gracias (En Vivo).mp3
+Time: 235.221
+Artist: Grupo Firme, Grupo Codiciado
+Title: Gracias (En Vivo)
+Album: Gracias
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387735
+added: 1791582908
+song_end
+song_begin: La Puerta Negra.mp3
+Time: 203.586
+Artist: Los Tigres Del Norte
+Title: La Puerta Negra
+Album: Gracias America Sin Fronteras
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386340
+added: 1791582908
+song_end
+song_begin: Gracias Amor.mp3
+Time: 185.004
+Artist: Industria Del Amor
+Title: Gracias Amor
+Album: Gracias Amor
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379842
+added: 1791582908
+song_end
+song_begin: Entrega total.mp3
+Time: 140.88
+Artist: Banda Machos
+Title: Entrega total
+Album: Gracias Mujer
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379495
+added: 1791582908
+song_end
+song_begin: Hembras traicioneras.mp3
+Time: 119.066
+Artist: Banda Machos
+Title: Hembras traicioneras
+Album: Gracias Mujer
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387260
+added: 1791582908
+song_end
+song_begin: La más bonita de todas.mp3
+Time: 160.133
+Artist: Banda Machos
+Title: La más bonita de todas
+Album: Gracias Mujer
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379124
+added: 1791582908
+song_end
+song_begin: Mi otra mitad.mp3
+Time: 178.546
+Artist: Banda Machos
+Title: Mi otra mitad
+Album: Gracias Mujer
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379677
+added: 1791582908
+song_end
+song_begin: Princesa gitana.mp3
+Time: 190.866
+Artist: Banda Machos
+Title: Princesa gitana
+Album: Gracias Mujer
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387816
+added: 1791582907
+song_end
+song_begin: Si No Me Querías.mp3
+Time: 157.546
+Artist: Los Yonic's
+Title: Si No Me Querías
+Album: Gran Encuentro
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379220
+added: 1791582908
+song_end
+song_begin: Cómo Duele.mp3
+Time: 199.946
+Artist: Liberación
+Title: Cómo Duele
+Album: Grandes Éxitos Remezclados Y Remasterizados
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380121
+added: 1791582909
+song_end
+song_begin: Enamorado De Un Fantasma.mp3
+Time: 265.226
+Artist: Liberación
+Title: Enamorado De Un Fantasma
+Album: Grandes Éxitos Remezclados Y Remasterizados
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379465
+added: 1791582908
+song_end
+song_begin: Mi Pequeño Amor.mp3
+Time: 189.09300000000002
+Artist: Liberación
+Title: Mi Pequeño Amor
+Album: Grandes Éxitos Remezclados Y Remasterizados
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380356
+added: 1791582908
+song_end
+song_begin: Quién Me Ha Robado Tu Corazón.mp3
+Time: 175.333
+Artist: Liberación
+Title: Quién Me Ha Robado Tu Corazón
+Album: Grandes Éxitos Remezclados Y Remasterizados
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379210
+added: 1791582908
+song_end
+song_begin: Hablando Claro (En Vivo).mp3
+Time: 190.671
+Artist: Grupo Firme, Grupo Recluta
+Title: Hablando Claro (En Vivo)
+Album: Hablando Claro (En Vivo)
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387441
+added: 1791582908
+song_end
+song_begin: Volveré (Album Version).mp3
+Time: 206.346
+Artist: K-Paz De La Sierra
+Title: Volveré (Album Version)
+Album: Hasta El Cielo Lloró
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380646
+added: 1791582908
+song_end
+song_begin: Popurrí Al Divo (La Diferencia, Si Quieres, Mi Fracaso).mp3
+Time: 423.653
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: Popurrí Al Divo (La Diferencia, Si Quieres, Mi Fracaso)
+Album: Hecho En México…Mágico
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379454
+added: 1791582908
+song_end
+song_begin: La Chevecha.mp3
+Time: 177.84
+Artist: Su Majestad Mi Banda el Mexicano de Casimiro Zamudio
+Title: La Chevecha
+Album: Help! Ayudame y 11 Exitos Mas!
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380331
+added: 1791582908
+song_end
+song_begin: Que Sabrosa.mp3
+Time: 240.413
+Artist: Su Majestad Mi Banda el Mexicano de Casimiro Zamudio
+Title: Que Sabrosa
+Album: Help! Ayudame y 11 Exitos Mas!
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379295
+added: 1791582908
+song_end
+song_begin: Hasta la Miel Amarga.mp3
+Time: 216.293
+Artist: Tiranos Del Norte
+Title: Hasta la Miel Amarga
+Album: Hermosa Tirana
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385603
+added: 1791582909
+song_end
+song_begin: Hierba Mala Nunca Muere (Música Original de la Serie el Señor de los Cielos 8).mp3
+Time: 198.975
+Artist: Los Tucanes De Tijuana
+Title: Hierba Mala Nunca Muere (Música Original de la Serie el Señor de los Cielos 8)
+Album: Hierba Mala Nunca Muere (Música Original de la Serie el Señor de los Cielos 8)
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380219
+added: 1791582909
+song_end
+song_begin: Historia sin fin.mp3
+Time: 184.70600000000002
+Artist: Banda Machos
+Title: Historia sin fin
+Album: Historia sin fin
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387993
+added: 1791582908
+song_end
+song_begin: Tres minutos.mp3
+Time: 197.42600000000002
+Artist: Banda Machos
+Title: Tres minutos
+Album: Historia sin fin
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387746
+added: 1791582908
+song_end
+song_begin: Volver a empezar.mp3
+Time: 242.333
+Artist: Banda Machos
+Title: Volver a empezar
+Album: Historia sin fin
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379443
+added: 1791582908
+song_end
+song_begin: Nuestro Amor.mp3
+Time: 211.417
+Artist: Pancho Barraza
+Title: Nuestro Amor
+Album: Hombre Enamorado
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379975
+added: 1791582908
+song_end
+song_begin: Al Ver Que Te Vas.mp3
+Time: 181.226
+Artist: Banda Movil
+Title: Al Ver Que Te Vas
+Album: Homenaje A Chelo (Canciones Rancheras)
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379894
+added: 1791582908
+song_end
+song_begin: Dos Gotas De Agua.mp3
+Time: 177.773
+Artist: Banda Movil
+Title: Dos Gotas De Agua
+Album: Homenaje A Chelo (Canciones Rancheras)
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379810
+added: 1791582908
+song_end
+song_begin: Que Sacrificio.mp3
+Time: 151.066
+Artist: Banda Movil
+Title: Que Sacrificio
+Album: Homenaje A Chelo (Canciones Rancheras)
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379594
+added: 1791582907
+song_end
+song_begin: Homenaje a Ramon Ayala (En Vivo).mp3
+Time: 478
+Artist: Grupo Manada, Grupo La Guerra
+Title: Homenaje a Ramon Ayala (En Vivo)
+Album: Homenaje a Ramon Ayala
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379226
+added: 1791582908
+song_end
+song_begin: Popurrí： Chaparrita de Mi Amor ⧸ Mujer Paseada.mp3
+Time: 208.666
+Artist: Julio Preciado y Su Banda Perla del Pacífico
+Title: Popurrí: Chaparrita de Mi Amor / Mujer Paseada
+Album: Homenaje A Ramon Ayala
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386311
+added: 1791582908
+song_end
+song_begin: Homenaje a Ramón Ayala y Sus Bravos del Norte.mp3
+Time: 337.57800000000003
+Artist: Los Viejones De Linares, Cornelio Reyna Cisneros, Paulino Vargas, Eliseo Róbles
+Title: Homenaje a Ramón Ayala y Sus Bravos del Norte
+Album: Homenaje a Ramón Ayala y Sus Bravos del Norte
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386953
+added: 1791582908
+song_end
+song_begin: Niña linda.mp3
+Time: 188.666
+Artist: Banda Pequeños Musical
+Title: Niña linda
+Album: iCollection
+Date: 2025
+Genre: Music
+Format: 44100:16:2
+mtime: 1790379529
+added: 1791582908
+song_end
+song_begin: A Dónde Vas.mp3
+Time: 242.226
+Artist: Los Bukis
+Title: A Dónde Vas
+Album: Íconos 25 Éxitos
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379998
+added: 1791582908
+song_end
+song_begin: Chiquilla Cariñosa.mp3
+Time: 155.48
+Artist: Banda Movil
+Title: Chiquilla Cariñosa
+Album: Íconos 25 Éxitos
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380248
+added: 1791582908
+song_end
+song_begin: La Gitanilla (Album Version).mp3
+Time: 185.026
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: La Gitanilla (Album Version)
+Album: Íconos 25 Éxitos
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380735
+added: 1791582908
+song_end
+song_begin: Que Más Quisiera (Album Version).mp3
+Time: 163.453
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: Que Más Quisiera (Album Version)
+Album: Íconos 25 Éxitos
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380319
+added: 1791582908
+song_end
+song_begin: Sueña.mp3
+Time: 255.08
+Artist: Intocable
+Title: Sueña
+Album: Íconos 25 Éxitos
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379663
+added: 1791582908
+song_end
+song_begin: Te Quiero Mucho.mp3
+Time: 204.773
+Artist: Los Rieleros Del Norte
+Title: Te Quiero Mucho
+Album: Íconos 25 Éxitos
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379541
+added: 1791582908
+song_end
+song_begin: Y No Hay Mañana.mp3
+Time: 228.92000000000002
+Artist: Liberación
+Title: Y No Hay Mañana
+Album: Íconos 25 Éxitos
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380164
+added: 1791582908
+song_end
+song_begin: Y Te Amo.mp3
+Time: 184.36
+Artist: Los Yonic's
+Title: Y Te Amo
+Album: Íconos 25 Éxitos
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379833
+added: 1791582908
+song_end
+song_begin: Yo Te Necesito.mp3
+Time: 180.12
+Artist: Los Bukis
+Title: Yo Te Necesito
+Album: Íconos 25 Éxitos
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379521
+added: 1791582907
+song_end
+song_begin: Ramon Arellano (Con Banda Sinaloense).mp3
+Time: 170.453
+Artist: Los Tucanes De Tijuana
+Title: Ramon Arellano (Con Banda Sinaloense)
+Album: Imperio
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379462
+added: 1791582908
+song_end
+song_begin: Encadenada A Mi (Cumbia).mp3
+Time: 229.88
+Artist: Los Bukis
+Title: Encadenada A Mi (Cumbia)
+Album: Inalcanzable
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380666
+added: 1791582908
+song_end
+song_begin: Cuando Se Llega A Viejo.mp3
+Time: 173.28
+Artist: Los Tigres Del Norte
+Title: Cuando Se Llega A Viejo
+Album: Incansables
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386976
+added: 1791582908
+song_end
+song_begin: Extraña Manera (Remasterizada).mp3
+Time: 194.877
+Artist: Los Tiranos Del Norte, Lourdes perez
+Title: Extraña Manera (Remasterizada)
+Album: Inolvidables
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380711
+added: 1791582908
+song_end
+song_begin: No Dejo De Amarte.mp3
+Time: 165.88
+Artist: Los Temerarios
+Title: No Dejo De Amarte
+Album: Internacionales Y Románticos
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379440
+added: 1791582908
+song_end
+song_begin: Sí Quiero Volver.mp3
+Time: 179.933
+Artist: Los Temerarios
+Title: Sí Quiero Volver
+Album: Internacionales Y Románticos
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379429
+added: 1791582908
+song_end
+song_begin: Ven Porque Te Necesito.mp3
+Time: 175.013
+Artist: Los Temerarios
+Title: Ven Porque Te Necesito
+Album: Internacionales Y Románticos
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379204
+added: 1791582908
+song_end
+song_begin: Carta Abierta.mp3
+Time: 172.226
+Artist: Los Tigres Del Norte
+Title: Carta Abierta
+Album: Internacionalmente Norteños
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387107
+added: 1791582908
+song_end
+song_begin: Creiste (Album Version).mp3
+Time: 174.186
+Artist: Los Tigres Del Norte
+Title: Creiste (Album Version)
+Album: Internacionalmente Norteños
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385080
+added: 1791582908
+song_end
+song_begin: Ayúdame A Olvidarte.mp3
+Time: 181.96
+Artist: Los Rieleros Del Norte
+Title: Ayúdame A Olvidarte
+Album: Invencible
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386701
+added: 1791582908
+song_end
+song_begin: El Columpio.mp3
+Time: 199.333
+Artist: Los Rieleros Del Norte
+Title: El Columpio
+Album: Invencible
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385143
+added: 1791582909
+song_end
+song_begin: Golondrina Viajera.mp3
+Time: 218.373
+Artist: Los Rieleros Del Norte
+Title: Golondrina Viajera
+Album: Invencible
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386616
+added: 1791582908
+song_end
+song_begin: Pero La Recuerdo (Cumbia Santa María).mp3
+Time: 227.288
+Artist: Pancho Barraza, Mariachi Santa María
+Title: Pero La Recuerdo (Cumbia Santa María)
+Album: Invéntame Un Amor
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380517
+added: 1791582908
+song_end
+song_begin: La Jaula De Oro.mp3
+Time: 162.746
+Artist: Los Tigres Del Norte
+Title: La Jaula De Oro
+Album: Jaula De Oro
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380614
+added: 1791582907
+song_end
+song_begin: Mis Dos Patrias.mp3
+Time: 212.946
+Artist: Los Tigres Del Norte
+Title: Mis Dos Patrias
+Album: Jefe De Jefes
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386792
+added: 1791582908
+song_end
+song_begin: En la Barra.mp3
+Time: 161.367
+Artist: Joan Sebastian
+Title: En la Barra
+Album: Joan Sebastian - Banda
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380346
+added: 1791582908
+song_end
+song_begin: Ojitos De Golondrina.mp3
+Time: 139.691
+Artist: Joan Sebastian
+Title: Ojitos De Golondrina
+Album: Joan Sebastian - Banda
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379492
+added: 1791582908
+song_end
+song_begin: Ahora Sí Va En Serio.mp3
+Time: 163.781
+Artist: Joan Sebastian
+Title: Ahora Sí Va En Serio
+Album: Joan Sebastian Con El Mariachi Vargas
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379655
+added: 1791582908
+song_end
+song_begin: Enamorarse Así.mp3
+Time: 200.24
+Artist: Joan Sebastian
+Title: Enamorarse Así
+Album: Joan Sebastian con Mariachi
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380199
+added: 1791582908
+song_end
+song_begin: Como Tú Decidas.mp3
+Time: 187.368
+Artist: Joan Sebastian
+Title: Como Tú Decidas
+Album: Joan Sebastian Con Mariachi
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379830
+added: 1791582908
+song_end
+song_begin: Aunque Ya Tengas Marido.mp3
+Time: 158.241
+Artist: Joan Sebastian
+Title: Aunque Ya Tengas Marido
+Album: Joan Sebastian Con Tambora
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379263
+added: 1791582908
+song_end
+song_begin: Llegaste A Tiempo.mp3
+Time: 188.429
+Artist: Joan Sebastian
+Title: Llegaste A Tiempo
+Album: Joyas Musicales, Vol. 2: Muchachita Pueblerina
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379888
+added: 1791582908
+song_end
+song_begin: Al Otro Lado del Sol.mp3
+Time: 200.04
+Artist: Los Temerarios, ADOLFO ANGEL ALBA
+Title: Al Otro Lado del Sol
+Album: Joyas, Vol. 1
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379420
+added: 1791582909
+song_end
+song_begin: Volveré de Mi Viaje.mp3
+Time: 196.906
+Artist: Los Temerarios, MIGUEL ANGEL ALFARO
+Title: Volveré de Mi Viaje
+Album: Joyas, Vol. 2
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379980
+added: 1791582909
+song_end
+song_begin: Juana la Cubana.mp3
+Time: 190.68
+Artist: Fito Olivares y La Pura Sabrosura
+Title: Juana la Cubana
+Album: Juana la Cubana
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385344
+added: 1791582908
+song_end
+song_begin: Besame Morenita.mp3
+Time: 192.835
+Artist: Alacranes Musical
+Title: Besame Morenita
+Album: Juntos Mejor
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387362
+added: 1791582908
+song_end
+song_begin: El Viejo Del Sombrerón.mp3
+Time: 255.293
+Artist: La Sonora Dinamita, La Morocha
+Title: El Viejo Del Sombrerón
+Album: Juntos Por La Sonora
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380445
+added: 1791582908
+song_end
+song_begin: A Fuerza Ni Un Zapato.mp3
+Time: 212.42600000000002
+Artist: Banda Arkangel R-15
+Title: A Fuerza Ni Un Zapato
+Album: La 4 x 4
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386243
+added: 1791582908
+song_end
+song_begin: Un Millón De Lágrimas.mp3
+Time: 173.786
+Artist: Tropical Panamá
+Title: Un Millón De Lágrimas
+Album: La Chica Que Soñe
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379476
+added: 1791582908
+song_end
+song_begin: La Chona Challenge.mp3
+Time: 227.794
+Artist: Los Tucanes De Tijuana
+Title: La Chona Challenge
+Album: La Chona Challenge
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380728
+added: 1791582909
+song_end
+song_begin: Jambalaya.mp3
+Time: 205.92600000000002
+Artist: Los Felinos
+Title: Jambalaya
+Album: La Crema de la Crema
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380140
+added: 1791582908
+song_end
+song_begin: Casimira.mp3
+Time: 169.034
+Artist: Banda Mach, Ramiro Pérez Pérez
+Title: Casimira
+Album: La de los Ojos Negros
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380656
+added: 1791582908
+song_end
+song_begin: Si Tu No Estas.mp3
+Time: 210.733
+Artist: Banda Maguey
+Title: Si Tu No Estas
+Album: La Estrella De Los Bailes
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379754
+added: 1791582907
+song_end
+song_begin: El Mero Mero.mp3
+Time: 155
+Artist: Banda Vallarta Show
+Title: El Mero Mero
+Album: La Fiesta
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379643
+added: 1791582908
+song_end
+song_begin: En Nombre De Tu Padre.mp3
+Time: 169.4
+Artist: Los Tigres Del Norte
+Title: En Nombre De Tu Padre
+Album: La Garra De...
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385463
+added: 1791582908
+song_end
+song_begin: Y Yo Sin Ti.mp3
+Time: 223.106
+Artist: Los Bukis
+Title: Y Yo Sin Ti
+Album: La Historia Continua Parte III
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379446
+added: 1791582908
+song_end
+song_begin: El Teterete.mp3
+Time: 182.366
+Artist: Banda Maguey
+Title: El Teterete
+Album: La Historia de Los Exitos
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386753
+added: 1791582908
+song_end
+song_begin: Eva Maria.mp3
+Time: 165.79500000000002
+Artist: Banda Maguey
+Title: Eva Maria
+Album: La Historia de Los Exitos
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790388035
+added: 1791582908
+song_end
+song_begin: Tu Eterno Enamorado.mp3
+Time: 260
+Artist: Banda Maguey
+Title: Tu Eterno Enamorado
+Album: La Historia de Los Exitos
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790388022
+added: 1791582908
+song_end
+song_begin: Tumbando Caña (El Alacran).mp3
+Time: 161.713
+Artist: Banda Maguey
+Title: Tumbando Caña (El Alacran)
+Album: La Historia de Los Exitos
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385496
+added: 1791582908
+song_end
+song_begin: Hermoso Cariño.mp3
+Time: 154.53300000000002
+Artist: Vicente Fernández
+Title: Hermoso Cariño
+Album: La Historia De Un +dolo
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380406
+added: 1791582908
+song_end
+song_begin: Porque Extrañas Nuestro Amor.mp3
+Time: 205.52
+Artist: Luis Angel "El Flaco"
+Title: Porque Extrañas Nuestro Amor
+Album: La Ley de la Vida
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379544
+added: 1791582908
+song_end
+song_begin: Bajo Mil Llaves.mp3
+Time: 137.762
+Artist: Julio Preciado
+Title: Bajo Mil Llaves
+Album: La Leyenda De La Banda
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385951
+added: 1791582908
+song_end
+song_begin: La Loca.mp3
+Time: 247.25
+Artist: Los Ex De La Banda
+Title: La Loca
+Album: La Loca
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379298
+added: 1791582908
+song_end
+song_begin: Cosas Del Destino (El Divorcio).mp3
+Time: 207.32
+Artist: Los Tigres Del Norte
+Title: Cosas Del Destino (El Divorcio)
+Album: La Lotería
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380229
+added: 1791582908
+song_end
+song_begin: La Lotería.mp3
+Time: 182.014
+Artist: Los Tigres Del Norte
+Title: La Lotería
+Album: La Lotería
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386476
+added: 1791582908
+song_end
+song_begin: Temporada En La Sierra.mp3
+Time: 170.066
+Artist: Los Tucanes De Tijuana
+Title: Temporada En La Sierra
+Album: La Mejor Colección De Corridos
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386759
+added: 1791582908
+song_end
+song_begin: La Múcura.mp3
+Time: 235.159
+Artist: Banda Vallarta Show, Arescencio Salcedo
+Title: La Múcura
+Album: La Múcura
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380337
+added: 1791582908
+song_end
+song_begin: Los Dos Plebes.mp3
+Time: 210.106
+Artist: Los Tigres Del Norte
+Title: Los Dos Plebes
+Album: La Muerte Del Soplon
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385062
+added: 1791582908
+song_end
+song_begin: Mi Buena Suerte.mp3
+Time: 189.626
+Artist: Los Tigres Del Norte
+Title: Mi Buena Suerte
+Album: La Muerte Del Soplon
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379557
+added: 1791582908
+song_end
+song_begin: El Caderazo.mp3
+Time: 195.361
+Artist: Banda Maguey, Saúl Lozano
+Title: El Caderazo
+Album: La Nueva Era de la Quebradita
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380206
+added: 1791582908
+song_end
+song_begin: Compárame.mp3
+Time: 225.826
+Artist: La Arrolladora Banda El Limón De René Camacho
+Title: Compárame
+Album: La Otra Cara De La Moneda
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385527
+added: 1791582908
+song_end
+song_begin: La Profecía.mp3
+Time: 158.848
+Artist: Los Tucanes De Tijuana
+Title: La Profecía
+Album: La Profecía
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385837
+added: 1791582909
+song_end
+song_begin: No Hay Necesidad.mp3
+Time: 176.333
+Artist: Banda Arkangel R-15
+Title: No Hay Necesidad
+Album: La Que Me Hace Llorar
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380071
+added: 1791582908
+song_end
+song_begin: Vamos a Contar Mentiras.mp3
+Time: 155.653
+Artist: Banda Arkangel R-15
+Title: Vamos a Contar Mentiras
+Album: La Que Me Hace Llorar
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379924
+added: 1791582908
+song_end
+song_begin: La cosita.mp3
+Time: 186.72
+Artist: Banda Machos
+Title: La cosita
+Album: La reina de las bandas Vol. II
+Date: 2016
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386271
+added: 1791582908
+song_end
+song_begin: Leña de pirul.mp3
+Time: 167.12
+Artist: Banda Machos
+Title: Leña de pirul
+Album: La reina de las bandas Vol. II
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387915
+added: 1791582908
+song_end
+song_begin: La Reina Del Sur.mp3
+Time: 243.666
+Artist: Los Tigres Del Norte
+Title: La Reina Del Sur
+Album: La Reina Del Sur
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379717
+added: 1791582908
+song_end
+song_begin: La Carta.mp3
+Time: 265.106
+Artist: Los Tigres Del Norte
+Title: La Carta
+Album: La Reunión
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379797
+added: 1791582908
+song_end
+song_begin: Un indio quiere llorar.mp3
+Time: 168.6
+Artist: Banda Machos
+Title: Un indio quiere llorar
+Album: La Reunión
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387332
+added: 1791582908
+song_end
+song_begin: Tu Cucu.mp3
+Time: 191.666
+Artist: La Sonora Dinamita
+Title: Tu Cucu
+Album: La Sonora Dinamita
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379908
+added: 1791582908
+song_end
+song_begin: Sin Fortuna (En Vivo).mp3
+Time: 227.393
+Artist: Luis Angel "El Flaco", El Mimoso Luis Antonio López
+Title: Sin Fortuna (En Vivo)
+Album: La Textilera
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380524
+added: 1791582908
+song_end
+song_begin: Ay Esther.mp3
+Time: 195.933
+Artist: Los Tigrillos
+Title: Ay Esther
+Album: Las 20 Poderosas
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379627
+added: 1791582908
+song_end
+song_begin: El tikita.mp3
+Time: 186.893
+Artist: Los Tigrillos
+Title: El tikita
+Album: Las 20 Poderosas
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379605
+added: 1791582908
+song_end
+song_begin: La cuca.mp3
+Time: 175.70600000000002
+Artist: Banda Pequeños Musical
+Title: La cuca
+Album: Las 20 Poderosas
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380681
+added: 1791582908
+song_end
+song_begin: Pena Tras Pena.mp3
+Time: 170.626
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: Pena Tras Pena
+Album: Las Bandas Más Matonas
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380168
+added: 1791582908
+song_end
+song_begin: Tú y las Nubes.mp3
+Time: 192.38400000000001
+Artist: Vicente Fernández
+Title: Tú y las Nubes
+Album: Las Clásicas de José Alfredo Jiménez Vol.2
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380498
+added: 1791582908
+song_end
+song_begin: Y Las Mariposas.mp3
+Time: 229.16
+Artist: Pancho Barraza
+Title: Y Las Mariposas
+Album: Las Consentidas De Pancho Barraza
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380245
+added: 1791582908
+song_end
+song_begin: Me llamo Raquel.mp3
+Time: 163.133
+Artist: Banda Machos
+Title: Me llamo Raquel
+Album: Las Estrellas de la Musica Mexicana
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380589
+added: 1791582908
+song_end
+song_begin: El Chubasco.mp3
+Time: 187.81300000000002
+Artist: Carlos Y José
+Title: El Chubasco
+Album: Las Mas Pedidas
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385234
+added: 1791582908
+song_end
+song_begin: Piquetes De Hormiga.mp3
+Time: 145.25300000000001
+Artist: El Coyote Y Su Banda Tierra Santa
+Title: Piquetes De Hormiga
+Album: Las Mera Buenas
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379914
+added: 1791582908
+song_end
+song_begin: Alla Tú.mp3
+Time: 192.56
+Artist: Los Bukis
+Title: Alla Tú
+Album: Las Movidas
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379563
+added: 1791582908
+song_end
+song_begin: En el Último Trago.mp3
+Time: 115.21300000000001
+Artist: Julio Preciado y Su Banda Perla del Pacífico
+Title: En el Último Trago
+Album: Las Numero 1 De Julio Preciado
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386281
+added: 1791582908
+song_end
+song_begin: Cuando Dos Almas.mp3
+Time: 169.44
+Artist: Los Caminantes
+Title: Cuando Dos Almas
+Album: Las Número 1... De Siempre
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385160
+added: 1791582908
+song_end
+song_begin: Para No Llorar.mp3
+Time: 200.927
+Artist: Banda Pequeños Musical, Natalia Aguilar
+Title: Para No Llorar
+Album: Las Redes Nos Unieron
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385219
+added: 1791582908
+song_end
+song_begin: Te Vuelvo A Recordar.mp3
+Time: 161.703
+Artist: Los Huracanes Del Norte
+Title: Te Vuelvo A Recordar
+Album: Las Románticas De Lupe
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379675
+added: 1791582908
+song_end
+song_begin: Pasión De Amor.mp3
+Time: 218.012
+Artist: Pancho Barraza
+Title: Pasión De Amor
+Album: Las Románticas de Pancho Barraza
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380042
+added: 1791582908
+song_end
+song_begin: Mi Vejez.mp3
+Time: 197.8
+Artist: Vicente Fernández
+Title: Mi Vejez
+Album: Lastima Que Seas Ajena
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379869
+added: 1791582908
+song_end
+song_begin: Entierrenme Cantando.mp3
+Time: 262.6
+Artist: Eliseo Robles
+Title: Entierrenme Cantando
+Album: Leyendas del Pueblo Puros Corridos
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380795
+added: 1791582907
+song_end
+song_begin: La Vecina (Me Puso el Dedo).mp3
+Time: 201.872
+Artist: Ramon Ayala Y Sus Bravos Del Norte, Pedro Reyna
+Title: La Vecina (Me Puso el Dedo)
+Album: Live Session
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379949
+added: 1791582908
+song_end
+song_begin: Vestida de Color de Rosa⧸ Amor Vaquero (Live Session).mp3
+Time: 177.211
+Artist: Ramon Ayala Y Sus Bravos Del Norte, Juan Hernandez Barrón, Enrique Valencia
+Title: Vestida de Color de Rosa/ Amor Vaquero (Live Session)
+Album: Live Session
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387382
+added: 1791582908
+song_end
+song_begin: Embárgame A Mí.mp3
+Time: 205.226
+Artist: Julio Preciado
+Title: Embárgame A Mí
+Album: Llévame Contigo
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386831
+added: 1791582908
+song_end
+song_begin: Llorar.mp3
+Time: 223.16
+Artist: Los Socios Del Ritmo
+Title: Llorar
+Album: Llorar
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380738
+added: 1791582908
+song_end
+song_begin: A Través Del Vaso.mp3
+Time: 182.666
+Artist: Banda Los Sebastianes De Saúl Plata
+Title: A Través Del Vaso
+Album: Lo Más Escuchado De
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379349
+added: 1791582908
+song_end
+song_begin: Chiquilla Bonita.mp3
+Time: 288.653
+Artist: Los Bukis
+Title: Chiquilla Bonita
+Album: Lo Más Escuchado De
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380067
+added: 1791582908
+song_end
+song_begin: La Iguana.mp3
+Time: 201.952
+Artist: Banda Movil
+Title: La Iguana
+Album: Lo Mas Nuevo De Banda Movil Iguana Mania
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380316
+added: 1791582908
+song_end
+song_begin: Recordándote.mp3
+Time: 196.68
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: Recordándote
+Album: Lo Mejor De Mi Vida
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379816
+added: 1791582908
+song_end
+song_begin: Ya Te Olvidé.mp3
+Time: 209.666
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: Ya Te Olvidé
+Album: Lo Mejor De Mi Vida
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387096
+added: 1791582908
+song_end
+song_begin: La Basurita.mp3
+Time: 136.306
+Artist: Banda El Recodo de Cruz Lizárraga
+Title: La Basurita
+Album: Los 20 Mejores Corridos y Rancheras, Vol. 2
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386565
+added: 1791582909
+song_end
+song_begin: Ay Mamá.mp3
+Time: 206.066
+Artist: Los Barón De Apodaca
+Title: Ay Mamá
+Album: Los Años Viejos
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379774
+added: 1791582908
+song_end
+song_begin: Si Tu Quisieras.mp3
+Time: 182.70600000000002
+Artist: Los Bukis
+Title: Si Tu Quisieras
+Album: Los Bukis
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379414
+added: 1791582908
+song_end
+song_begin: Si No Me Falla El Corazón (Album Version).mp3
+Time: 183.8
+Artist: Los Tigres Del Norte
+Title: Si No Me Falla El Corazón (Album Version)
+Album: Los Dos Plebes
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386821
+added: 1791582908
+song_end
+song_begin: Cumbia torera.mp3
+Time: 177.373
+Artist: Banda Machos
+Title: Cumbia torera
+Album: Los machos también lloran
+Date: 2015
+Genre: Music
+Format: 44100:16:2
+mtime: 1790385377
+added: 1791582908
+song_end
+song_begin: Las calles de mi pueblo.mp3
+Time: 127.8
+Artist: Banda Machos
+Title: Las calles de mi pueblo
+Album: Los machos también lloran
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387116
+added: 1791582908
+song_end
+song_begin: Las Nachas.mp3
+Time: 195.92000000000002
+Artist: Banda Machos
+Title: Las Nachas
+Album: Los machos también lloran
+Date: 2015
+Genre: Music
+Format: 44100:16:2
+mtime: 1790388056
+added: 1791582908
+song_end
+song_begin: Los machos también lloran.mp3
+Time: 148.12
+Artist: Banda Machos
+Title: Los machos también lloran
+Album: Los machos también lloran
+Date: 2015
+Genre: Music
+Format: 44100:16:2
+mtime: 1790380533
+added: 1791582908
+song_end
+song_begin: Que murmuren.mp3
+Time: 132.8
+Artist: Banda Machos
+Title: Que murmuren
+Album: Los machos también lloran
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386450
+added: 1791582908
+song_end
+song_begin: Tu abandono.mp3
+Time: 129.733
+Artist: Banda Machos
+Title: Tu abandono
+Album: Los machos también lloran
+Date: 2015
+Genre: Music
+Format: 44100:16:2
+mtime: 1790387157
+added: 1791582908
+song_end
+song_begin: Ya lo pensé.mp3
+Time: 126.2
+Artist: Banda Machos
+Title: Ya lo pensé
+Album: Los machos también lloran
+Date: 2015
+Genre: Music
+Format: 44100:16:2
+mtime: 1790385511
+added: 1791582908
+song_end
+song_begin: El Catador.mp3
+Time: 177.693
+Artist: Los Tucanes De Tijuana
+Title: El Catador
+Album: Los Mas Buscados
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385111
+added: 1791582908
+song_end
+song_begin: El Heredero.mp3
+Time: 206.28
+Artist: Los Tucanes De Tijuana
+Title: El Heredero
+Album: Los Mas Buscados
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379498
+added: 1791582908
+song_end
+song_begin: La Pelo De Angel.mp3
+Time: 168.613
+Artist: Los Tucanes De Tijuana
+Title: La Pelo De Angel
+Album: Los Mas Buscados
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379758
+added: 1791582908
+song_end
+song_begin: Los Juniors.mp3
+Time: 178.08
+Artist: Los Tucanes De Tijuana
+Title: Los Juniors
+Album: Los Mas Buscados
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379987
+added: 1791582908
+song_end
+song_begin: Qué Canción Te Canto.mp3
+Time: 132.306
+Artist: Banda Arkangel R-15
+Title: Qué Canción Te Canto
+Album: Los Reyes de la Quebradita
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379154
+added: 1791582908
+song_end
+song_begin: Los Vaqueritos.mp3
+Time: 212.315
+Artist: Banda Maguey, Fernando Guardado
+Title: Los Vaqueritos
+Album: Los Vaqueritos
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385886
+added: 1791582908
+song_end
+song_begin: Díganle.mp3
+Time: 176.44
+Artist: Los Yonic's
+Title: Díganle
+Album: Los Yonic's
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380663
+added: 1791582908
+song_end
+song_begin: Un Dolor.mp3
+Time: 192.44
+Artist: Los Yonic's
+Title: Un Dolor
+Album: Los Yonic's
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387836
+added: 1791582908
+song_end
+song_begin: Con El Alma En Las Manos (Album Version).mp3
+Time: 186.026
+Artist: Los Yonic's
+Title: Con El Alma En Las Manos (Album Version)
+Album: Mano A Mano Volumen 1
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380097
+added: 1791582908
+song_end
+song_begin: Amor Limosnero.mp3
+Time: 220.616
+Artist: Joan Sebastian
+Title: Amor Limosnero
+Album: Más Allá Del Sol
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387066
+added: 1791582908
+song_end
+song_begin: Más Allá Del Sol.mp3
+Time: 163.654
+Artist: Joan Sebastian
+Title: Más Allá Del Sol
+Album: Más Allá Del Sol
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380088
+added: 1791582908
+song_end
+song_begin: Mi Credo.mp3
+Time: 182.48
+Artist: K-Paz De La Sierra
+Title: Mi Credo
+Album: Más Capaces Que Nunca
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379390
+added: 1791582908
+song_end
+song_begin: Cumbia Morena.mp3
+Time: 194.986
+Artist: Control
+Title: Cumbia Morena
+Album: Mas Control
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385174
+added: 1791582908
+song_end
+song_begin: Dos Botellas De Mezcal.mp3
+Time: 193.44
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: Dos Botellas De Mezcal
+Album: Más Fuerte Que Nunca
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380019
+added: 1791582908
+song_end
+song_begin: Me Gusta Vivir De Noche.mp3
+Time: 215.68
+Artist: Los Tucanes De Tijuana
+Title: Me Gusta Vivir De Noche
+Album: Me Gusta Vivir De Noche
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380399
+added: 1791582908
+song_end
+song_begin: Me Lo Contaron Ayer.mp3
+Time: 183.6
+Artist: Los Rieleros Del Norte
+Title: Me Lo Contaron Ayer
+Album: Me Lo Contaron Ayer
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379524
+added: 1791582908
+song_end
+song_begin: Es Muy Tu Vida.mp3
+Time: 157.36
+Artist: Conjunto Primavera
+Title: Es Muy Tu Vida
+Album: Me Nacio Del Alma
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380333
+added: 1791582908
+song_end
+song_begin: La Chona.mp3
+Time: 198.92000000000002
+Artist: Los Tucanes De Tijuana
+Title: La Chona
+Album: Me Robaste El Corazon
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387953
+added: 1791582908
+song_end
+song_begin: Parranda Y Parranda.mp3
+Time: 183.586
+Artist: Los Tucanes De Tijuana
+Title: Parranda Y Parranda
+Album: Me Robaste El Corazon
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379855
+added: 1791582908
+song_end
+song_begin: Poquito A Poco.mp3
+Time: 147.96
+Artist: Los Bukis
+Title: Poquito A Poco
+Album: Me Siento Solo
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380094
+added: 1791582908
+song_end
+song_begin: Cielo Azul, Cielo Nublado.mp3
+Time: 136.626
+Artist: Carlos Y José
+Title: Cielo Azul, Cielo Nublado
+Album: Me Voy De Estas Tierras
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380527
+added: 1791582908
+song_end
+song_begin: Canción del Mariachi (Ilia Topuria ＂El Matador＂ Anthem).mp3
+Time: 127.226
+Artist: Antonio Banderas, Los Lobos
+Title: Canción del Mariachi (Ilia Topuria "El Matador" Anthem)
+Album: Mexico and Mariachis
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380608
+added: 1791582908
+song_end
+song_begin: Apenas Te Fuistes Ayer.mp3
+Time: 163.68
+Artist: Los Tigres Del Norte
+Title: Apenas Te Fuistes Ayer
+Album: Mi Buena Suerte
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380530
+added: 1791582908
+song_end
+song_begin: El remo de lino.mp3
+Time: 156.6
+Artist: Banda Machos
+Title: El remo de lino
+Album: Mi chica ideal
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379127
+added: 1791582909
+song_end
+song_begin: Ella.mp3
+Time: 178
+Artist: Banda Machos
+Title: Ella
+Album: Mi chica ideal
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387653
+added: 1791582908
+song_end
+song_begin: Jineteando.mp3
+Time: 153.866
+Artist: Banda Machos
+Title: Jineteando
+Album: Mi chica ideal
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379423
+added: 1791582908
+song_end
+song_begin: Qué te costaba decírmelo.mp3
+Time: 176.773
+Artist: Banda Machos
+Title: Qué te costaba decírmelo
+Album: Mi chica ideal
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380540
+added: 1791582907
+song_end
+song_begin: Usted.mp3
+Time: 172.666
+Artist: Banda Machos
+Title: Usted
+Album: Mi chica ideal
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387299
+added: 1791582909
+song_end
+song_begin: Mi Fantasía.mp3
+Time: 203.4
+Artist: Los Bukis
+Title: Mi Fantasía
+Album: Mi Fantasia
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380396
+added: 1791582908
+song_end
+song_begin: Viva El Amor.mp3
+Time: 226.16
+Artist: Los Bukis
+Title: Viva El Amor
+Album: Mi Fantasia
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380377
+added: 1791582908
+song_end
+song_begin: Me a Costumbre a Perder.mp3
+Time: 220.055
+Artist: Banda Machos
+Title: Me a Costumbre a Perder
+Album: Mi Guitarra y Yo
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380552
+added: 1791582908
+song_end
+song_begin: Ignoraste Mis Lágrimas.mp3
+Time: 174.973
+Artist: Pancho Barraza
+Title: Ignoraste Mis Lágrimas
+Album: Mi Historia
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379891
+added: 1791582908
+song_end
+song_begin: Mi Cómplice.mp3
+Time: 187.315
+Artist: Joan Sebastian
+Title: Mi Cómplice
+Album: Mi Mexico Querido
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380239
+added: 1791582908
+song_end
+song_begin: En Un Rato Más.mp3
+Time: 155.133
+Artist: Los Bukis
+Title: En Un Rato Más
+Album: Mi Najayita
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385014
+added: 1791582909
+song_end
+song_begin: Mi Najayita.mp3
+Time: 182.493
+Artist: Los Bukis
+Title: Mi Najayita
+Album: Mi Najayita
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380150
+added: 1791582908
+song_end
+song_begin: Mi Piquito De Oro.mp3
+Time: 162.466
+Artist: Pablo Montero
+Title: Mi Piquito De Oro
+Album: Mi Tesoro Norteño
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386585
+added: 1791582908
+song_end
+song_begin: Mi Trokita Cumbia.mp3
+Time: 134.785
+Artist: Obzesion
+Title: Mi Trokita Cumbia
+Album: Mi Trokita Cumbia
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380051
+added: 1791582908
+song_end
+song_begin: A Quién Quieres Engañar？.mp3
+Time: 253.626
+Artist: Los Temerarios, ADOLFO ANGEL ALBA
+Title: A Quién Quieres Engañar?
+Album: Mi Vida Eres Tú
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379845
+added: 1791582908
+song_end
+song_begin: Esa Mujer.mp3
+Time: 193.666
+Artist: Los Temerarios, GUSTAVO ANGEL ALBA
+Title: Esa Mujer
+Album: Mi Vida Eres Tú
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386331
+added: 1791582909
+song_end
+song_begin: Extrañándote.mp3
+Time: 227.133
+Artist: Los Temerarios, ADOLFO ANGEL ALBA
+Title: Extrañándote
+Album: Mi Vida Eres Tú
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385281
+added: 1791582908
+song_end
+song_begin: Mi Vida Eres Tú.mp3
+Time: 250.026
+Artist: Los Temerarios, ADOLFO ANGEL ALBA
+Title: Mi Vida Eres Tú
+Album: Mi Vida Eres Tú
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379517
+added: 1791582908
+song_end
+song_begin: O Él o Yo.mp3
+Time: 210.213
+Artist: Los Temerarios, ADOLFO ANGEL ALBA
+Title: O Él o Yo
+Album: Mi Vida Eres Tú
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379693
+added: 1791582908
+song_end
+song_begin: Por Primera Vez.mp3
+Time: 203.906
+Artist: Los Temerarios, GUSTAVO ANGEL ALBA
+Title: Por Primera Vez
+Album: Mi Vida Eres Tú
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379623
+added: 1791582908
+song_end
+song_begin: Definitivamente Ya No Estoy Enamorado.mp3
+Time: 306.253
+Artist: Los Temerarios, ADOLFO ANGEL ALBA
+Title: Definitivamente Ya No Estoy Enamorado
+Album: Mi Vida Sin Ti
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379820
+added: 1791582908
+song_end
+song_begin: Música Romántica.mp3
+Time: 232.573
+Artist: Pancho Barraza, Grupo Firme
+Title: Música Romántica
+Album: Mis 30 Aniversario
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387674
+added: 1791582908
+song_end
+song_begin: Vuelve por Favor.mp3
+Time: 200.704
+Artist: Pancho Barraza, Lenin Ramírez
+Title: Vuelve por Favor
+Album: Mis 30 Aniversario
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380649
+added: 1791582908
+song_end
+song_begin: Bailando, Gozando.mp3
+Time: 225.697
+Artist: Pancho Barraza
+Title: Bailando, Gozando
+Album: Mis Canciones de Amor
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380469
+added: 1791582908
+song_end
+song_begin: Tragos Amargos.mp3
+Time: 171.18
+Artist: Eliseo Robles y Los Bárbaros del Norte
+Title: Tragos Amargos
+Album: Mis Éxitos Con el Rey 1
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379866
+added: 1791582908
+song_end
+song_begin: Mi Golondrina.mp3
+Time: 170.736
+Artist: Eliseo Robles y Los Bárbaros del Norte
+Title: Mi Golondrina
+Album: Mis Éxitos Con el Rey 6
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385617
+added: 1791582908
+song_end
+song_begin: Voy a danzar.mp3
+Time: 148.52
+Artist: Banda Pequeños Musical
+Title: Voy a danzar
+Album: Mix movidas románticas
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380005
+added: 1791582908
+song_end
+song_begin: Huracanes Del Norte Mix (Puras Perras).mp3
+Time: 608.731
+Artist: Los Huracanes Del Norte
+Title: Huracanes Del Norte Mix (Puras Perras)
+Album: Mixes Con Categoria
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387771
+added: 1791582907
+song_end
+song_begin: No Se Vuelve A Repetir.mp3
+Time: 194.317
+Artist: Intocable, Pablo Preciado Riojas
+Title: No Se Vuelve A Repetir
+Album: Modus Operandi - Antología
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379911
+added: 1791582908
+song_end
+song_begin: Y Otra Vez.mp3
+Time: 219.386
+Artist: Conjunto Primavera
+Title: Y Otra Vez
+Album: Morir De Amor
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380154
+added: 1791582908
+song_end
+song_begin: Déjate Querer.mp3
+Time: 163.906
+Artist: Los Tucanes De Tijuana
+Title: Déjate Querer
+Album: Mundo De Amor
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379241
+added: 1791582908
+song_end
+song_begin: El Compositor.mp3
+Time: 187.226
+Artist: Los Tucanes De Tijuana
+Title: El Compositor
+Album: Mundo De Amor
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379323
+added: 1791582908
+song_end
+song_begin: Los Dichos De Lupita.mp3
+Time: 180.04
+Artist: Los Tucanes De Tijuana
+Title: Los Dichos De Lupita
+Album: Mundo De Amor
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385406
+added: 1791582908
+song_end
+song_begin: Hombre Al Hombre.mp3
+Time: 160.845
+Artist: El Coyote Y Su Banda Tierra Santa
+Title: Hombre Al Hombre
+Album: Nacimos Pa' Ser Historia
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379207
+added: 1791582908
+song_end
+song_begin: Llévate.mp3
+Time: 211.392
+Artist: El Coyote Y Su Banda Tierra Santa
+Title: Llévate
+Album: Nacimos Pa' Ser Historia
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379510
+added: 1791582908
+song_end
+song_begin: Ranchero Enamorado.mp3
+Time: 177.445
+Artist: El Coyote Y Su Banda Tierra Santa
+Title: Ranchero Enamorado
+Album: Nacimos Pa' Ser Historia
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379550
+added: 1791582908
+song_end
+song_begin: Las Noches Las Hago Días.mp3
+Time: 173.4
+Artist: Conjunto Primavera
+Title: Las Noches Las Hago Días
+Album: Necesito Decirte
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379879
+added: 1791582908
+song_end
+song_begin: Necesito Decirte.mp3
+Time: 224.506
+Artist: Conjunto Primavera
+Title: Necesito Decirte
+Album: Necesito Decirte
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380439
+added: 1791582909
+song_end
+song_begin: Sin Conocerte.mp3
+Time: 163.6
+Artist: Conjunto Primavera
+Title: Sin Conocerte
+Album: Necesito Decirte
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380008
+added: 1791582908
+song_end
+song_begin: Ni en Defensa Propia.mp3
+Time: 144.066
+Artist: Vicente Fernández
+Title: Ni en Defensa Propia
+Album: Ni En Defensa Propia
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379527
+added: 1791582909
+song_end
+song_begin: No Llega El Olvido.mp3
+Time: 217.312
+Artist: Laraim
+Title: No Llega El Olvido
+Album: No Llega El Olvido
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379472
+added: 1791582908
+song_end
+song_begin: Acá Entre Nos.mp3
+Time: 195.373
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: Acá Entre Nos
+Album: No Me Se Rajar
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379660
+added: 1791582908
+song_end
+song_begin: Santos Cantú.mp3
+Time: 156.96
+Artist: Los Ex De La Banda
+Title: Santos Cantú
+Album: No Preguntes Por Mi Ex
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387391
+added: 1791582908
+song_end
+song_begin: Quién Ríe al Último.mp3
+Time: 180.506
+Artist: Banda Arkangel R-15
+Title: Quién Ríe al Último
+Album: No Quiere Conmigo
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380714
+added: 1791582908
+song_end
+song_begin: En Tu Sonrisa.mp3
+Time: 187.431
+Artist: Joan Sebastian
+Title: En Tu Sonrisa
+Album: Norteño
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379402
+added: 1791582908
+song_end
+song_begin: Los Traficantes.mp3
+Time: 213.64000000000001
+Artist: La Original Banda El Limón de Salvador Lizárraga, VARGAS PAULINO
+Title: Los Traficantes
+Album: Nuestra Colección de Oro
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386929
+added: 1791582908
+song_end
+song_begin: Prieta Linda.mp3
+Time: 201.226
+Artist: Los Caminantes
+Title: Prieta Linda
+Album: Nuestras Canciones Rancheras Favoritas-20 EXITAZOS
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386769
+added: 1791582909
+song_end
+song_begin: Quiero Que Sepas.mp3
+Time: 170.84
+Artist: Los Caminantes
+Title: Quiero Que Sepas
+Album: Nuestras Canciones Rancheras Favoritas-20 EXITAZOS
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380324
+added: 1791582908
+song_end
+song_begin: Porque Tengo Tu Amor.mp3
+Time: 192.25300000000001
+Artist: Los Caminantes
+Title: Porque Tengo Tu Amor
+Album: Nuestras Canciones Romanticas Favoritas "20 Exitazos"
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380350
+added: 1791582908
+song_end
+song_begin: Eso Duele.mp3
+Time: 196.213
+Artist: Intocable
+Title: Eso Duele
+Album: Nuestro Destino Estaba Escrito
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379213
+added: 1791582908
+song_end
+song_begin: La Guitarra y la Mujer.mp3
+Time: 206.453
+Artist: Los Caminantes
+Title: La Guitarra y la Mujer
+Album: Nuestros Primeros 20 Éxitos
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385031
+added: 1791582908
+song_end
+song_begin: No Volveré.mp3
+Time: 216.53300000000002
+Artist: Los Caminantes
+Title: No Volveré
+Album: Nuestros Primeros 20 Éxitos
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386995
+added: 1791582908
+song_end
+song_begin: Mi Chatita.mp3
+Time: 187.466
+Artist: Michael Salgado
+Title: Mi Chatita
+Album: Nuevas Y Favoritas
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380203
+added: 1791582907
+song_end
+song_begin: Echame A Mi La Culpa.mp3
+Time: 237.165
+Artist: Los Humildes Hnos. Ayala
+Title: Echame A Mi La Culpa
+Album: Nustras Vivencias
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380773
+added: 1791582908
+song_end
+song_begin: Orgullosamente Guerrerense (Amor Limosnero - Sentimental - Me La Escondieron Sus Padres).mp3
+Time: 507.80400000000003
+Artist: El Mimoso Luis Antonio López
+Title: Orgullosamente Guerrerense (Amor Limosnero - Sentimental - Me La Escondieron Sus Padres)
+Album: Orgullosamente Guerrerense
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379742
+added: 1791582908
+song_end
+song_begin: Tu Lo Decidiste (En VIvo).mp3
+Time: 235.068
+Artist: Carín León
+Title: Tu Lo Decidiste (En VIvo)
+Album: Pa' Las De Vidrio
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380652
+added: 1791582908
+song_end
+song_begin: El Diputado (Eli Camacho).mp3
+Time: 253.632
+Artist: Gerardo Díaz y su Gerarquia
+Title: El Diputado (Eli Camacho)
+Album: Pa' los Mal Agradecidos
+Date: 2019
+Genre: Music
+Format: 44100:16:2
+mtime: 1790379383
+added: 1791582908
+song_end
+song_begin: La Negrita.mp3
+Time: 201.607
+Artist: Mi Banda El Mexicano
+Title: La Negrita
+Album: Pa'que Lo Bailes
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387125
+added: 1791582908
+song_end
+song_begin: Pa' Que Lo Bailes.mp3
+Time: 182.369
+Artist: Mi Banda El Mexicano
+Title: Pa' Que Lo Bailes
+Album: Pa'que Lo Bailes
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387136
+added: 1791582908
+song_end
+song_begin: Pa´Qué Llorar.mp3
+Time: 144.653
+Artist: Vicente Fernández
+Title: Pa´Qué Llorar
+Album: Pa´ la Parranda
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379256
+added: 1791582908
+song_end
+song_begin: Chiquita bonita.mp3
+Time: 148.266
+Artist: Banda Machos
+Title: Chiquita bonita
+Album: Palabra de machos
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379501
+added: 1791582908
+song_end
+song_begin: Mira.mp3
+Time: 183.64000000000001
+Artist: Banda Machos
+Title: Mira
+Album: Palabra de machos
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379689
+added: 1791582908
+song_end
+song_begin: Morenaza.mp3
+Time: 189.866
+Artist: Banda Machos
+Title: Morenaza
+Album: Palabra de machos
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386878
+added: 1791582908
+song_end
+song_begin: Vas a Llorar.mp3
+Time: 180.986
+Artist: Vicente Fernández
+Title: Vas a Llorar
+Album: Palabra De Rey
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380022
+added: 1791582908
+song_end
+song_begin: El Curioso.mp3
+Time: 142.126
+Artist: Carin Leon
+Title: El Curioso
+Album: Palabra De To's
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379393
+added: 1791582908
+song_end
+song_begin: Enséñame.mp3
+Time: 168.6
+Artist: Carin Leon
+Title: Enséñame
+Album: Palabra De To's
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379250
+added: 1791582908
+song_end
+song_begin: La Escalera (Preview).mp3
+Time: 47
+Artist: Carin Leon
+Title: La Escalera (Preview)
+Album: Palabra De To's
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380137
+added: 1791582908
+song_end
+song_begin: Ya No La Friegues.mp3
+Time: 144.175
+Artist: Carin Leon
+Title: Ya No La Friegues
+Album: Palabra De To's
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380242
+added: 1791582908
+song_end
+song_begin: Laguna De Pesares.mp3
+Time: 164.026
+Artist: Banda Movil
+Title: Laguna De Pesares
+Album: Panfilita
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379432
+added: 1791582908
+song_end
+song_begin: Reynalda.mp3
+Time: 219.6
+Artist: Los Tigrillos
+Title: Reynalda
+Album: Para que quieres que vuelva
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386556
+added: 1791582908
+song_end
+song_begin: He Sabido.mp3
+Time: 188.493
+Artist: Los Caminantes
+Title: He Sabido
+Album: Para Recordar
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380508
+added: 1791582908
+song_end
+song_begin: Y Tú Con Él.mp3
+Time: 217.026
+Artist: Industria Del Amor
+Title: Y Tú Con Él
+Album: Para Ti
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380343
+added: 1791582908
+song_end
+song_begin: La Emboscada Del Gallo.mp3
+Time: 174.573
+Artist: Carlos Y José
+Title: La Emboscada Del Gallo
+Album: Patrulla 05 Corridos Con
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379281
+added: 1791582908
+song_end
+song_begin: Enséñate a Perder.mp3
+Time: 149.666
+Artist: Los Rieleros Del Norte
+Title: Enséñate a Perder
+Album: Pecado de Amor
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380131
+added: 1791582908
+song_end
+song_begin: Dímelo.mp3
+Time: 193.586
+Artist: Los Temerarios
+Title: Dímelo
+Album: Pequeña
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380688
+added: 1791582908
+song_end
+song_begin: La Traicionera.mp3
+Time: 202.053
+Artist: Los Temerarios
+Title: La Traicionera
+Album: Pequeña
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387551
+added: 1791582908
+song_end
+song_begin: Suena la Banda.mp3
+Time: 171.853
+Artist: Los Tucanes De Tijuana
+Title: Suena la Banda
+Album: Perdoname Mi Amor
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380109
+added: 1791582908
+song_end
+song_begin: Actos De Un Tonto.mp3
+Time: 225.973
+Artist: Conjunto Primavera
+Title: Actos De Un Tonto
+Album: Perdóname Mi Amor
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379559
+added: 1791582908
+song_end
+song_begin: Si una Vez (En Vivo).mp3
+Time: 174.262
+Artist: Carín León
+Title: Si una Vez (En Vivo)
+Album: Pistiembre Todo El Año
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379696
+added: 1791582908
+song_end
+song_begin: Popurrí De Cumbias Tao Tao Y Mas (En Vivo).mp3
+Time: 398.097
+Artist: Grupo Manada
+Title: Popurrí De Cumbias Tao Tao Y Mas (En Vivo)
+Album: Popurrí De Cumbias Tao Tao Y Mas
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379273
+added: 1791582909
+song_end
+song_begin: Popurrí Quebraditas： Tumbando Caña ⧸ Como la Luna ⧸ Eva María (30 Aniversario).mp3
+Time: 321.91
+Artist: Banda Maguey, Abel Carlos Peña, Alberto Aguilera Valadez, José Luis Armenteros, Pablo Herrero
+Title: Popurrí Quebraditas: Tumbando Caña / Como la Luna / Eva María (30 Aniversario)
+Album: Popurrí Quebraditas: Tumbando Caña / Como la Luna / Eva María
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386381
+added: 1791582908
+song_end
+song_begin: Popurrí： Pelotero a la Bola⧸Micaela⧸Tri Triki Tri Traka (30 Aniversario En Vivo).mp3
+Time: 215.52
+Artist: Banda Maguey, RUIZ ALBERTO, VILORIA ROMERO JUVENAL, GUILLAUME RAUL
+Title: Popurrí: Pelotero a la Bola/Micaela/Tri Triki Tri Traka (30 Aniversario En Vivo)
+Album: Popurrí: Pelotero a la Bola/Micaela/Tri Triki Tri Traka
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385713
+added: 1791582908
+song_end
+song_begin: Si Ya No Te Vuelvo A Ver.mp3
+Time: 228.42600000000002
+Artist: Los Bukis
+Title: Si Ya No Te Vuelvo A Ver
+Album: Por Amor A Mi Pueblo
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385631
+added: 1791582908
+song_end
+song_begin: Florita Del Alma.mp3
+Time: 183.996
+Artist: Ramon Ayala
+Title: Florita Del Alma
+Album: Por Que?
+Date: 2016
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379292
+added: 1791582908
+song_end
+song_begin: Por Tu Maldito Amor.mp3
+Time: 238
+Artist: Vicente Fernández
+Title: Por Tu Maldito Amor
+Album: Por Tu Maldito Amor
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380287
+added: 1791582908
+song_end
+song_begin: Presumidas, S.a..mp3
+Time: 178.314
+Artist: Banda Zeta
+Title: Presumidas, S.a.
+Album: Presumidas, S.a.
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380290
+added: 1791582908
+song_end
+song_begin: Reventón Unisex.mp3
+Time: 244.703
+Artist: Banda Zeta
+Title: Reventón Unisex
+Album: Presumidas, S.a.
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379645
+added: 1791582908
+song_end
+song_begin: No Puedo Olvidar Tu Voz.mp3
+Time: 227.973
+Artist: El Coyote Y Su Banda Tierra Santa
+Title: No Puedo Olvidar Tu Voz
+Album: Profundamente
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387431
+added: 1791582909
+song_end
+song_begin: Un Dia Con Otro.mp3
+Time: 140.306
+Artist: El Coyote Y Su Banda Tierra Santa
+Title: Un Dia Con Otro
+Album: Profundamente
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379852
+added: 1791582908
+song_end
+song_begin: El Farolito.mp3
+Time: 181.933
+Artist: Banda Vallarta Show, Graciela Aragon De Tobon
+Title: El Farolito
+Album: Provócame
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385743
+added: 1791582908
+song_end
+song_begin: El Huerfanito.mp3
+Time: 164.093
+Artist: Banda Vallarta Show, Banda Vallarta Show
+Title: El Huerfanito
+Album: Provócame
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379930
+added: 1791582908
+song_end
+song_begin: El Ultimo Rodeo.mp3
+Time: 194.026
+Artist: Banda Vallarta Show
+Title: El Ultimo Rodeo
+Album: Provócame
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380171
+added: 1791582908
+song_end
+song_begin: La Negra Colora.mp3
+Time: 159.653
+Artist: Banda Vallarta Show
+Title: La Negra Colora
+Album: Provócame
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385790
+added: 1791582908
+song_end
+song_begin: Provócame.mp3
+Time: 180.626
+Artist: Banda Vallarta Show, Jhon Van Katwijk, Marcel Schinmsheimer
+Title: Provócame
+Album: Provócame
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379583
+added: 1791582908
+song_end
+song_begin: Contrabando Y Robo (Album Version).mp3
+Time: 175.76
+Artist: Los Tigres Del Norte
+Title: Contrabando Y Robo (Album Version)
+Album: Pueblo Querido
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379707
+added: 1791582908
+song_end
+song_begin: La mujer de Chon.mp3
+Time: 164.786
+Artist: Banda Machos
+Title: La mujer de Chon
+Album: Pura pasión
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386712
+added: 1791582908
+song_end
+song_begin: Quiero Que Canten Conmigo.mp3
+Time: 180.773
+Artist: Bronco
+Title: Quiero Que Canten Conmigo
+Album: Pura Sangre
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379142
+added: 1791582908
+song_end
+song_begin: Ramiro Sierra.mp3
+Time: 175.09
+Artist: El Coyote Y Su Banda Tierra Santa
+Title: Ramiro Sierra
+Album: Puras Pa Pistear Volumen 1
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380560
+added: 1791582907
+song_end
+song_begin: La Botella (Dos Botellas de Mezcal).mp3
+Time: 174.693
+Artist: Los Morros Del Norte, Moises Alladares
+Title: La Botella (Dos Botellas de Mezcal)
+Album: Puras Pa' La Loquera
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790384965
+added: 1791582908
+song_end
+song_begin: Por Esa Yegia.mp3
+Time: 167.082
+Artist: Conjunto Pasion Ranchera De Fernando Fuerte
+Title: Por Esa Yegia
+Album: Puras Pal Viejon Con Violin
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387057
+added: 1791582908
+song_end
+song_begin: Gabino Barrera.mp3
+Time: 205
+Artist: El Coyote Y Su Banda Tierra Santa
+Title: Gabino Barrera
+Album: Puras Rancheras
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385870
+added: 1791582908
+song_end
+song_begin: Treinta Cartas.mp3
+Time: 148
+Artist: El Coyote Y Su Banda Tierra Santa
+Title: Treinta Cartas
+Album: Puras Rancheras
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387876
+added: 1791582908
+song_end
+song_begin: El Ahualulco.mp3
+Time: 166.093
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: El Ahualulco
+Album: Que Bonito Es Lo Bonito
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380013
+added: 1791582908
+song_end
+song_begin: Sentí.mp3
+Time: 229.906
+Artist: Conjunto Primavera
+Title: Sentí
+Album: Que Ganas De Volver
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380085
+added: 1791582908
+song_end
+song_begin: Te Traigo Éstas Flores.mp3
+Time: 159.764
+Artist: Banda Laberinto
+Title: Te Traigo Éstas Flores
+Album: Que Me Siga la Tambora
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380303
+added: 1791582908
+song_end
+song_begin: Albur Perdido.mp3
+Time: 234.76
+Artist: Julio Preciado y Su Banda Perla del Pacífico
+Title: Albur Perdido
+Album: Que Me Siga La Tambora
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380045
+added: 1791582908
+song_end
+song_begin: Te Reto A Que Me Olvides.mp3
+Time: 173.733
+Artist: Julio Preciado y Su Banda Perla del Pacífico
+Title: Te Reto A Que Me Olvides
+Album: Que Me Siga La Tambora
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387598
+added: 1791582908
+song_end
+song_begin: Qué Me Vas A Dar Si Vuelvo.mp3
+Time: 219.407
+Artist: Grupo Firme
+Title: Qué Me Vas A Dar Si Vuelvo
+Album: Qué Me Vas A Dar Si Vuelvo
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387826
+added: 1791582908
+song_end
+song_begin: El Disgusto.mp3
+Time: 184.466
+Artist: Julio Preciado y Su Banda Perla del Pacífico
+Title: El Disgusto
+Album: Que Puedo Hacer Por Ti
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387562
+added: 1791582908
+song_end
+song_begin: Qué Puedo Hacer por Ti.mp3
+Time: 203.04
+Artist: Julio Preciado y Su Banda Perla del Pacífico
+Title: Qué Puedo Hacer por Ti
+Album: Que Puedo Hacer Por Ti
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387421
+added: 1791582908
+song_end
+song_begin: Sangre De Indio.mp3
+Time: 181.4
+Artist: Banda Boom
+Title: Sangre De Indio
+Album: Quebraditas Y Mas.., Vol. 1
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380442
+added: 1791582908
+song_end
+song_begin: Quien Piensa en Ti.mp3
+Time: 211.693
+Artist: Los Parras, Su Majestad Mi Banda el Mexicano de Casimiro Zamudio, Gonzalo Fernandez Benavides
+Title: Quien Piensa en Ti
+Album: Quien Piensa en Ti
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387886
+added: 1791582908
+song_end
+song_begin: Dime Dónde Y Cuándo.mp3
+Time: 234.413
+Artist: Los Bukis
+Title: Dime Dónde Y Cuándo
+Album: Quiereme
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380697
+added: 1791582908
+song_end
+song_begin: Mi Mayor Necesidad.mp3
+Time: 247.653
+Artist: Los Bukis
+Title: Mi Mayor Necesidad
+Album: Quiereme
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379488
+added: 1791582908
+song_end
+song_begin: De Buena Gana.mp3
+Time: 199.36
+Artist: Julio Preciado y Su Banda Perla del Pacífico
+Title: De Buena Gana
+Album: Quisiera Tener Alas
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385937
+added: 1791582908
+song_end
+song_begin: Rama Seca.mp3
+Time: 176.20000000000002
+Artist: Los Barón De Apodaca
+Title: Rama Seca
+Album: Rama Seca
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380001
+added: 1791582908
+song_end
+song_begin: La Cama de Piedra.mp3
+Time: 184.4
+Artist: Los Caminantes
+Title: La Cama de Piedra
+Album: Rancheras Chulas
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386636
+added: 1791582908
+song_end
+song_begin: Prisionero de Tus Brazos.mp3
+Time: 179.666
+Artist: Los Caminantes
+Title: Prisionero de Tus Brazos
+Album: Rancheras Chulas
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385312
+added: 1791582908
+song_end
+song_begin: Amor sin medida.mp3
+Time: 134.53300000000002
+Artist: Banda Machos
+Title: Amor sin medida
+Album: Rancheras de oro
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379266
+added: 1791582908
+song_end
+song_begin: En toda la chapa.mp3
+Time: 153.013
+Artist: Banda Machos
+Title: En toda la chapa
+Album: Rancheras de oro
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387027
+added: 1791582908
+song_end
+song_begin: Ingratos ojos míos.mp3
+Time: 125.306
+Artist: Banda Machos
+Title: Ingratos ojos míos
+Album: Rancheras de oro
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386670
+added: 1791582908
+song_end
+song_begin: Ya te velé.mp3
+Time: 167.826
+Artist: Banda Machos
+Title: Ya te velé
+Album: Rancheras de oro
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379504
+added: 1791582908
+song_end
+song_begin: Por una Mujer Casada.mp3
+Time: 129.56
+Artist: Banda Sinaloense El Recodo de Cruz Lizárraga
+Title: Por una Mujer Casada
+Album: RCA 100 Años de Música
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380100
+added: 1791582908
+song_end
+song_begin: Concha Del Alma.mp3
+Time: 145.413
+Artist: Carlos Y José
+Title: Concha Del Alma
+Album: Recordando A Los Alegres
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380578
+added: 1791582908
+song_end
+song_begin: Triste Recuerdos.mp3
+Time: 299.261
+Artist: Eliseo Robles
+Title: Triste Recuerdos
+Album: Recordando Los Grandes Exitos
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380385
+added: 1791582908
+song_end
+song_begin: Ay Amigo.mp3
+Time: 182.96
+Artist: Los Temerarios, FELIPE ÏNDIO" JIMENEZ
+Title: Ay Amigo
+Album: Recuerdos del Alma
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386811
+added: 1791582908
+song_end
+song_begin: Solo Contigo.mp3
+Time: 204.44
+Artist: Industria Del Amor
+Title: Solo Contigo
+Album: Reencuentro
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379288
+added: 1791582908
+song_end
+song_begin: Arboles De La Barranca.mp3
+Time: 141.493
+Artist: Carlos Y José
+Title: Arboles De La Barranca
+Album: Regional Mexican 2023
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385421
+added: 1791582908
+song_end
+song_begin: Tu Mirada, Tu Pelo, Y Tu Boca (La Playa).mp3
+Time: 181
+Artist: Valentin Elizalde
+Title: Tu Mirada, Tu Pelo, Y Tu Boca (La Playa)
+Album: Regresan Los Mafiosos
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380417
+added: 1791582908
+song_end
+song_begin: Relatos De Mi Vida.mp3
+Time: 264.375
+Artist: El Mimoso Luis Antonio López
+Title: Relatos De Mi Vida
+Album: Relatos De Mi Vida
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379709
+added: 1791582908
+song_end
+song_begin: Por Amarte Así.mp3
+Time: 177.08
+Artist: Alacranes Musical, Alejandro Montalban, Eduardo Rogelio Reyes Napoles
+Title: Por Amarte Así
+Album: Renacer Duranguense
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379681
+added: 1791582908
+song_end
+song_begin: Las Animas Del Rio.mp3
+Time: 178.81300000000002
+Artist: Renacimiento De Durango
+Title: Las Animas Del Rio
+Album: Renacimiento De Durango
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380392
+added: 1791582908
+song_end
+song_begin: Ni por Capricho.mp3
+Time: 148.066
+Artist: Los Rieleros del Norte
+Title: Ni por Capricho
+Album: Rifare Mi Suerte
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386290
+added: 1791582908
+song_end
+song_begin: Tu Ultimo Verano.mp3
+Time: 181.773
+Artist: Los Rieleros del Norte
+Title: Tu Ultimo Verano
+Album: Rifare Mi Suerte
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379411
+added: 1791582908
+song_end
+song_begin: Mi Pobre Corazón.mp3
+Time: 201.84
+Artist: Los Bukis
+Title: Mi Pobre Corazón
+Album: Rolitas Bien Padres
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380297
+added: 1791582908
+song_end
+song_begin: Es Verdad.mp3
+Time: 168.96
+Artist: Los Tucanes De Tijuana
+Title: Es Verdad
+Album: Romance Norteño
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387519
+added: 1791582908
+song_end
+song_begin: Mundo De Amor.mp3
+Time: 169.28
+Artist: Los Tucanes De Tijuana
+Title: Mundo De Amor
+Album: Romance Norteño
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379882
+added: 1791582908
+song_end
+song_begin: Perdóname Mi Amor.mp3
+Time: 223.773
+Artist: Conjunto Primavera
+Title: Perdóname Mi Amor
+Album: Romances
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379971
+added: 1791582908
+song_end
+song_begin: Te Esperare.mp3
+Time: 222.306
+Artist: Los Bukis
+Title: Te Esperare
+Album: Romances
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379216
+added: 1791582908
+song_end
+song_begin: Rosas Blancas.mp3
+Time: 266.649
+Artist: Los Yonic's, Javier Santos
+Title: Rosas Blancas
+Album: Rosas Blancas
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379284
+added: 1791582908
+song_end
+song_begin: Chava Romero (Corrido).mp3
+Time: 178.04
+Artist: Banda La Tunera
+Title: Chava Romero (Corrido)
+Album: Sabor A Tuna
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385204
+added: 1791582908
+song_end
+song_begin: Total, ¿Qué Más Da？.mp3
+Time: 197.853
+Artist: Bronco
+Title: Total, ¿Qué Más Da?
+Album: Salvaje Y Tierno
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379399
+added: 1791582908
+song_end
+song_begin: 40 cartas.mp3
+Time: 129.906
+Artist: Banda Machos
+Title: 40 cartas
+Album: Sangre de indio
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386691
+added: 1791582908
+song_end
+song_begin: Al gato y al ratón.mp3
+Time: 162.8
+Artist: Banda Machos
+Title: Al gato y al ratón
+Album: Sangre de indio
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387684
+added: 1791582908
+song_end
+song_begin: Chaparra de mi amor.mp3
+Time: 108.133
+Artist: Banda Machos
+Title: Chaparra de mi amor
+Album: Sangre de indio
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790388003
+added: 1791582908
+song_end
+song_begin: El bilingüe.mp3
+Time: 135.333
+Artist: Banda Machos
+Title: El bilingüe
+Album: Sangre de indio
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386546
+added: 1791582908
+song_end
+song_begin: La secretaria.mp3
+Time: 173.546
+Artist: Banda Machos
+Title: La secretaria
+Album: Sangre de indio
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790388098
+added: 1791582908
+song_end
+song_begin: De Quién Chon.mp3
+Time: 137.76
+Artist: Banda R-15
+Title: De Quién Chon
+Album: Sangre De Rey
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379921
+added: 1791582908
+song_end
+song_begin: Se Me Olvidó Otra Vez.mp3
+Time: 176.741
+Artist: Majo Aguilar
+Title: Se Me Olvidó Otra Vez
+Album: Se Me Olvidó Otra Vez
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387309
+added: 1791582908
+song_end
+song_begin: La Daga.mp3
+Time: 149.413
+Artist: Banda R-15
+Title: La Daga
+Album: Se Vende Esta Banda
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379611
+added: 1791582909
+song_end
+song_begin: Sergio el Bailador.mp3
+Time: 169.6
+Artist: Bronco
+Title: Sergio el Bailador
+Album: Sergio El Bailador
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386963
+added: 1791582908
+song_end
+song_begin: Las Mismas Costumbres.mp3
+Time: 149.946
+Artist: Banda la Costeña
+Title: Las Mismas Costumbres
+Album: Serie 2000
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380010
+added: 1791582908
+song_end
+song_begin: Clave Nueva.mp3
+Time: 164.805
+Artist: Los Tucanes De Tijuana
+Title: Clave Nueva
+Album: Serie Diamante / 30 Megacorridos
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386660
+added: 1791582908
+song_end
+song_begin: La Suegra.mp3
+Time: 196.404
+Artist: Banda Los Dorados
+Title: La Suegra
+Album: Serie Homenaje: Guerra de Bandas
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380575
+added: 1791582908
+song_end
+song_begin: El Ausente.mp3
+Time: 181.20000000000002
+Artist: Lorenzo De Monteclaro
+Title: El Ausente
+Album: Serie Raices De La Musica Norteña Volumen 1
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380409
+added: 1791582908
+song_end
+song_begin: Sueños Con Alas.mp3
+Time: 195.441
+Artist: La Arrolladora Banda El Limón De René Camacho
+Title: Sueños Con Alas
+Album: Si Las Miradas Mataran
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379170
+added: 1791582909
+song_end
+song_begin: La Misma.mp3
+Time: 189.96
+Artist: Vicente Fernández
+Title: La Misma
+Album: Si No Te Quisiera
+Date: 2016
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380091
+added: 1791582908
+song_end
+song_begin: Si Volviera A Nacer.mp3
+Time: 167.8
+Artist: Industria Del Amor
+Title: Si Volviera A Nacer
+Album: Si Te Quedaras
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379686
+added: 1791582908
+song_end
+song_begin: Te Perdone Una Vez.mp3
+Time: 173.68
+Artist: Los Huracanes Del Norte
+Title: Te Perdone Una Vez
+Album: Siempre Con Su Gente
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380106
+added: 1791582908
+song_end
+song_begin: El Tucanazo [En Vivo].mp3
+Time: 193.018
+Artist: Los Tucanes De Tijuana
+Title: El Tucanazo [En Vivo]
+Album: Siempre Contigo - En Vivo
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379728
+added: 1791582908
+song_end
+song_begin: Dime Quién Es.mp3
+Time: 174.333
+Artist: Los Rieleros Del Norte
+Title: Dime Quién Es
+Album: Siempre Imitado, Jamas Igualado
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379657
+added: 1791582908
+song_end
+song_begin: La Silla Vacia.mp3
+Time: 167.333
+Artist: Los Baron de Apodaca
+Title: La Silla Vacia
+Album: Siguen Siendo Los Ases
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380611
+added: 1791582908
+song_end
+song_begin: ¿Qué Me Vas a Dar？.mp3
+Time: 207.186
+Artist: La Arrolladora Banda el Limón de René Camacho
+Title: ¿Qué Me Vas a Dar?
+Album: Simplemente Arrolladora
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387451
+added: 1791582908
+song_end
+song_begin: El Desquite.mp3
+Time: 171.32
+Artist: La Arrolladora Banda el Limón de René Camacho
+Title: El Desquite
+Album: Simplemente Arrolladora
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386595
+added: 1791582908
+song_end
+song_begin: Sin Ti Moriría (Sinfónico).mp3
+Time: 312.746
+Artist: Los Temerarios, Gustavo Angel Alba
+Title: Sin Ti Moriría (Sinfónico)
+Album: Sin4onico
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379356
+added: 1791582908
+song_end
+song_begin: Unidos Para Amarnos.mp3
+Time: 206.84300000000002
+Artist: Pancho Barraza
+Title: Unidos Para Amarnos
+Album: Sinvergüenza Y Mujeriego
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379813
+added: 1791582908
+song_end
+song_begin: Si Quiere.mp3
+Time: 218.04
+Artist: Banda el Recodo
+Title: Si Quiere
+Album: Solo Para Enamorados, Vol. 1
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380602
+added: 1791582908
+song_end
+song_begin: Yo Quiero Quebrarte.mp3
+Time: 186.247
+Artist: Los Felinos
+Title: Yo Quiero Quebrarte
+Album: Soy El Aventurero
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380294
+added: 1791582908
+song_end
+song_begin: Me Caiste Del Cielo.mp3
+Time: 199.933
+Artist: Los Huracanes Del Norte
+Title: Me Caiste Del Cielo
+Album: Soy Mexicano
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379804
+added: 1791582907
+song_end
+song_begin: El Tío Borrachales.mp3
+Time: 178.48
+Artist: Los Tucanes De Tijuana
+Title: El Tío Borrachales
+Album: Soy Todo Tuyo
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387318
+added: 1791582909
+song_end
+song_begin: Así Se Baila (De Caballito).mp3
+Time: 188.338
+Artist: Mi Banda El Mexicano
+Title: Así Se Baila (De Caballito)
+Album: Su Majestad con Ustedes
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386505
+added: 1791582908
+song_end
+song_begin: Bailando de Caballito.mp3
+Time: 244.322
+Artist: Mi Banda El Mexicano
+Title: Bailando de Caballito
+Album: Su Majestad con Ustedes
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386781
+added: 1791582908
+song_end
+song_begin: Mary la Orgullosa.mp3
+Time: 209.214
+Artist: Mi Banda El Mexicano
+Title: Mary la Orgullosa
+Album: Su Majestad con Ustedes
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380103
+added: 1791582908
+song_end
+song_begin: Qué Sabrosa Está.mp3
+Time: 241.149
+Artist: Mi Banda El Mexicano
+Title: Qué Sabrosa Está
+Album: Su Majestad con Ustedes
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387643
+added: 1791582908
+song_end
+song_begin: Ramito de Violetas.mp3
+Time: 213.936
+Artist: Mi Banda El Mexicano
+Title: Ramito de Violetas
+Album: Su Majestad con Ustedes
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790388045
+added: 1791582907
+song_end
+song_begin: Sal Con Limon.mp3
+Time: 181.498
+Artist: Banda La Pinera
+Title: Sal Con Limon
+Album: Suenan Los Tambores
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380549
+added: 1791582908
+song_end
+song_begin: Ya Me Voy.mp3
+Time: 189.24
+Artist: Banda Arkangel R-15
+Title: Ya Me Voy
+Album: Suerte Traicionera
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387230
+added: 1791582908
+song_end
+song_begin: Suspiros.mp3
+Time: 176.764
+Artist: El Coyote y Su Banda Tierra Santa, Oliver Ochoa
+Title: Suspiros
+Album: Suspiros
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380701
+added: 1791582908
+song_end
+song_begin: El Colesterol.mp3
+Time: 199.209
+Artist: Fito Olivares
+Title: El Colesterol
+Album: Tambores Y Sabor
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380520
+added: 1791582908
+song_end
+song_begin: Trono Caído.mp3
+Time: 144.822
+Artist: Joan Sebastian
+Title: Trono Caído
+Album: Tatuajes
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386909
+added: 1791582908
+song_end
+song_begin: Acábame De Matar.mp3
+Time: 188.4
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: Acábame De Matar
+Album: Te Presumo
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387495
+added: 1791582908
+song_end
+song_begin: No Me Se Rajar.mp3
+Time: 171.986
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: No Me Se Rajar
+Album: Te Presumo
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379181
+added: 1791582908
+song_end
+song_begin: Te Presumo.mp3
+Time: 192.973
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: Te Presumo
+Album: Te Presumo
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380283
+added: 1791582908
+song_end
+song_begin: Y Llegaste Tú.mp3
+Time: 196.25300000000001
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: Y Llegaste Tú
+Album: Te Presumo
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379260
+added: 1791582908
+song_end
+song_begin: Yo Sé Que Te Acordarás.mp3
+Time: 190.81300000000002
+Artist: Banda El Recodo De Cruz Lizárraga
+Title: Yo Sé Que Te Acordarás
+Album: Te Presumo
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379838
+added: 1791582908
+song_end
+song_begin: Como Quisiera Volver.mp3
+Time: 180.52
+Artist: Los Temerarios, ADOLFO ANGEL ALBA
+Title: Como Quisiera Volver
+Album: Te Quiero
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380684
+added: 1791582908
+song_end
+song_begin: Creo Que Voy a Llorar.mp3
+Time: 193.4
+Artist: Los Temerarios, GUSTAVO ANGEL ALBA
+Title: Creo Que Voy a Llorar
+Album: Te Quiero
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379793
+added: 1791582908
+song_end
+song_begin: Te Quiero, Te Amo, Te Extraño.mp3
+Time: 230.42600000000002
+Artist: Banda Los Lagos
+Title: Te Quiero, Te Amo, Te Extraño
+Album: Te Quiero, Te Amo, Te Extrano
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790388066
+added: 1791582908
+song_end
+song_begin: El Cachanilla.mp3
+Time: 209.76
+Artist: El Coyote Y Su Banda Tierra Santa
+Title: El Cachanilla
+Album: Te Soñé
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387086
+added: 1791582908
+song_end
+song_begin: Una Noche Como Esta.mp3
+Time: 172.786
+Artist: Los Bukis
+Title: Una Noche Como Esta
+Album: Te Tuve Y Te Perdí
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379826
+added: 1791582908
+song_end
+song_begin: Te Ves Bien Buena.mp3
+Time: 168.8
+Artist: Banda Vallarta Show, El General
+Title: Te Ves Bien Buena
+Album: Te Ves Bien Buena...
+Date: 2022
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387400
+added: 1791582908
+song_end
+song_begin: Te Ves Buena.mp3
+Time: 195.866
+Artist: Banda Vallarta Show
+Title: Te Ves Buena
+Album: Te Ves Bien Buena....
+Date: 2021
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379507
+added: 1791582908
+song_end
+song_begin: Amándome.mp3
+Time: 183.973
+Artist: Banda Pequeños Musical
+Title: Amándome
+Album: Tenis Mágicos
+Date: 2014
+Genre: Music
+Format: 44100:16:2
+mtime: 1790380495
+added: 1791582908
+song_end
+song_begin: Tenis mágicos.mp3
+Time: 154.693
+Artist: Banda Pequeños Musical
+Title: Tenis mágicos
+Album: Tenis Mágicos
+Date: 2014
+Genre: Music
+Format: 44100:16:2
+mtime: 1790387514
+added: 1791582909
+song_end
+song_begin: Qué Bonito Amor.mp3
+Time: 155.25300000000001
+Artist: Banda Maguey
+Title: Qué Bonito Amor
+Album: Tesoros de Coleccion
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380161
+added: 1791582908
+song_end
+song_begin: Ya No Quiero Tu Cariño.mp3
+Time: 168.333
+Artist: Los Caminantes
+Title: Ya No Quiero Tu Cariño
+Album: Tesoros de Colección
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380619
+added: 1791582908
+song_end
+song_begin: Juré No Tomar.mp3
+Time: 180.52
+Artist: Los Caminantes
+Title: Juré No Tomar
+Album: Tesoros de Colección - Ranchero
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386261
+added: 1791582908
+song_end
+song_begin: Supe Perder.mp3
+Time: 177.386
+Artist: Los Caminantes
+Title: Supe Perder
+Album: Tesoros de Colección: Lo Romantico de...
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379244
+added: 1791582908
+song_end
+song_begin: Por Esa Calle Vive.mp3
+Time: 226.37300000000002
+Artist: Los Barón De Apodaca
+Title: Por Esa Calle Vive
+Album: THE BEST OF
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380732
+added: 1791582908
+song_end
+song_begin: El Rey.mp3
+Time: 188.746
+Artist: Banda Maguey
+Title: El Rey
+Album: The Best Of - Ultimate Collection
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380780
+added: 1791582908
+song_end
+song_begin: La Diferencia (Remasterizado).mp3
+Time: 168.053
+Artist: Vicente Fernández
+Title: La Diferencia (Remasterizado)
+Album: The Living Legend
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380389
+added: 1791582908
+song_end
+song_begin: The One (Pero No Como Yo).mp3
+Time: 176.8
+Artist: Carin Leon, Kane Brown
+Title: The One (Pero No Como Yo)
+Album: The One (Pero No Como Yo)
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380605
+added: 1791582908
+song_end
+song_begin: Popurrí Repasando A Fito (En Vivo Desde Monterrey, Nuevo León ⧸ 1998).mp3
+Time: 328.493
+Artist: Yahari
+Title: Popurrí Repasando A Fito (En Vivo Desde Monterrey, Nuevo León / 1998)
+Album: Tocando La Campana
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387586
+added: 1791582908
+song_end
+song_begin: Ebrio De Amor.mp3
+Time: 166.773
+Artist: Valentin Elizalde
+Title: Ebrio De Amor
+Album: Traicion Federal
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387608
+added: 1791582908
+song_end
+song_begin: La culebra.mp3
+Time: 189
+Artist: Banda Machos
+Title: La culebra
+Album: Trayectoria
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386645
+added: 1791582908
+song_end
+song_begin: Mi luna, mi estrella.mp3
+Time: 207.293
+Artist: Banda Machos
+Title: Mi luna, mi estrella
+Album: Trayectoria
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790388075
+added: 1791582908
+song_end
+song_begin: Un loco solitario.mp3
+Time: 191.013
+Artist: Banda Pequeños Musical
+Title: Un loco solitario
+Album: Trayectoria
+Date: 2017
+Genre: Music
+Format: 44100:16:2
+mtime: 1790380599
+added: 1791582908
+song_end
+song_begin: Cuando Era Un Jovencito.mp3
+Time: 168.013
+Artist: Vizzio
+Title: Cuando Era Un Jovencito
+Album: Tributo Norteño
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387705
+added: 1791582908
+song_end
+song_begin: Porque Es Amor.mp3
+Time: 150.695
+Artist: Banda Maguey
+Title: Porque Es Amor
+Album: Tu Eterno Enamorado
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386655
+added: 1791582908
+song_end
+song_begin: Una Tarde Fue.mp3
+Time: 234.693
+Artist: Los Temerarios, ADOLFO ANGEL ALBA
+Title: Una Tarde Fue
+Album: Tu Última Canción
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380431
+added: 1791582908
+song_end
+song_begin: Voy a Quererte Más.mp3
+Time: 215.906
+Artist: Los Temerarios, GUSTAVO ANGEL ALBA
+Title: Voy a Quererte Más
+Album: Tu Última Canción
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379737
+added: 1791582909
+song_end
+song_begin: Amargo Dolor.mp3
+Time: 204.16
+Artist: Julio Preciado y Su Banda Perla del Pacífico
+Title: Amargo Dolor
+Album: Tu Ya Lo Conoces
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386860
+added: 1791582908
+song_end
+song_begin: El Doctor Del Pueblo.mp3
+Time: 164.32
+Artist: Los Tucanes De Tijuana
+Title: El Doctor Del Pueblo
+Album: Tucanes De Plata ... Tucanazos Censurados
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379933
+added: 1791582908
+song_end
+song_begin: La Banda De La Suburban.mp3
+Time: 182.386
+Artist: Los Tucanes De Tijuana
+Title: La Banda De La Suburban
+Album: Tucanes De Plata ... Tucanazos Censurados
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379784
+added: 1791582908
+song_end
+song_begin: Tumbando Caña (El Alacrán).mp3
+Time: 150.294
+Artist: Banda Maguey, Julián Got
+Title: Tumbando Caña (El Alacrán)
+Album: Tumbando Caña (Serie Clásica)
+Date: 2016
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387905
+added: 1791582908
+song_end
+song_begin: Báilame.mp3
+Time: 179.506
+Artist: Los Tigrillos
+Title: Báilame
+Album: Tus favorita de...
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790384983
+added: 1791582908
+song_end
+song_begin: Esclavo y amo.mp3
+Time: 155.266
+Artist: Banda Machos
+Title: Esclavo y amo
+Album: Ultra Romantic Mexico
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386392
+added: 1791582908
+song_end
+song_begin: Besos De Papel.mp3
+Time: 165.173
+Artist: Banda Movil
+Title: Besos De Papel
+Album: Un Amor...
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379166
+added: 1791582908
+song_end
+song_begin: Hermoso Cariño (En Vivo [Un Azteca en el Azteca]).mp3
+Time: 156.986
+Artist: Vicente Fernández
+Title: Hermoso Cariño (En Vivo [Un Azteca en el Azteca])
+Album: Un Azteca en el Azteca
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379598
+added: 1791582908
+song_end
+song_begin: La Fuga Del Rojo.mp3
+Time: 192.493
+Artist: Los Tigres Del Norte
+Title: La Fuga Del Rojo
+Album: Un Dia A La Vez
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380472
+added: 1791582908
+song_end
+song_begin: Un Día A La Vez.mp3
+Time: 186.413
+Artist: Los Tigres Del Norte
+Title: Un Día A La Vez
+Album: Un Dia A La Vez
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387714
+added: 1791582908
+song_end
+song_begin: La Hechicera.mp3
+Time: 181.08
+Artist: Bronco
+Title: La Hechicera
+Album: Un Golpe Más
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386467
+added: 1791582908
+song_end
+song_begin: No necesitas a Carlo.mp3
+Time: 188.653
+Artist: Banda Pequeños Musical
+Title: No necesitas a Carlo
+Album: Un loco solitario
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380118
+added: 1791582907
+song_end
+song_begin: Tu Camino y el Mío.mp3
+Time: 177.04
+Artist: Vicente Fernández
+Title: Tu Camino y el Mío
+Album: Un Mexicano en la México
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379946
+added: 1791582908
+song_end
+song_begin: Paloma Querida.mp3
+Time: 162.957
+Artist: Banda La Costeña
+Title: Paloma Querida
+Album: Una Aventura
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380420
+added: 1791582909
+song_end
+song_begin: Una Aventura.mp3
+Time: 215.169
+Artist: Banda La Costeña
+Title: Una Aventura
+Album: Una Aventura
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385480
+added: 1791582908
+song_end
+song_begin: Mi Casi Algo.mp3
+Time: 188.50900000000001
+Artist: La Arrolladora Banda El Limón De René Camacho
+Title: Mi Casi Algo
+Album: Una Historia Mal Contada
+Date: 2025
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379927
+added: 1791582908
+song_end
+song_begin: Que Tu Vida Es.mp3
+Time: 237.493
+Artist: Los Temerarios, ADOLFO ANGEL ALBA
+Title: Que Tu Vida Es
+Album: Una Lágrima No Basta
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379601
+added: 1791582908
+song_end
+song_begin: Cuestión Olvidada.mp3
+Time: 208.333
+Artist: Los Tigres Del Norte
+Title: Cuestión Olvidada
+Album: Unidos Para Siempre
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387857
+added: 1791582908
+song_end
+song_begin: Mi Sangre Prisionera.mp3
+Time: 181.306
+Artist: Los Tigres Del Norte
+Title: Mi Sangre Prisionera
+Album: Unidos Para Siempre
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386626
+added: 1791582908
+song_end
+song_begin: Tiempos De Ayer (Album Version).mp3
+Time: 189.693
+Artist: Los Tigres Del Norte
+Title: Tiempos De Ayer (Album Version)
+Album: Unidos Para Siempre
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387037
+added: 1791582908
+song_end
+song_begin: Rosas Rojas.mp3
+Time: 219.662
+Artist: Industria Del Amor
+Title: Rosas Rojas
+Album: Unplugged Vol.1
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380134
+added: 1791582908
+song_end
+song_begin: Medley Apache (En Vivo).mp3
+Time: 709.545
+Artist: Carin Leon
+Title: Medley Apache (En Vivo)
+Album: UVV Vol. 8
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380253
+added: 1791582908
+song_end
+song_begin: Medley Cumbias Norteñas (En Vivo).mp3
+Time: 385.22700000000003
+Artist: Carin Leon
+Title: Medley Cumbias Norteñas (En Vivo)
+Album: UVV Vol. 8
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379671
+added: 1791582908
+song_end
+song_begin: Eslabon Por Eslabon (En Vivo Desde Delfos, Guadalajara⧸2002).mp3
+Time: 148.04
+Artist: Valentín Elizalde
+Title: Eslabon Por Eslabon (En Vivo Desde Delfos, Guadalajara/2002)
+Album: Valentin Elizalde En Vivo
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387617
+added: 1791582908
+song_end
+song_begin: Tu Juguete.mp3
+Time: 228.066
+Artist: La Arrolladora Banda el Limón de René Camacho
+Title: Tu Juguete
+Album: Valió La Pena Equivocarme
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379614
+added: 1791582907
+song_end
+song_begin: La Guera Presumida.mp3
+Time: 187.68
+Artist: Fito Olivares y La Pura Sabrosura
+Title: La Guera Presumida
+Album: Veinte Anos de Sabrosura
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379952
+added: 1791582909
+song_end
+song_begin: Idos de la Mente.mp3
+Time: 176.626
+Artist: Los Temerarios, CORNELIO REYNA CISNEROS
+Title: Idos de la Mente
+Album: Veintisiete
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386486
+added: 1791582908
+song_end
+song_begin: Te Quiero Así.mp3
+Time: 170.96
+Artist: Valentín Elizalde
+Title: Te Quiero Así
+Album: Vencedor
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380039
+added: 1791582907
+song_end
+song_begin: Rey De Oros.mp3
+Time: 174.573
+Artist: Industria Del Amor
+Title: Rey De Oros
+Album: Verano De Amor
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380717
+added: 1791582908
+song_end
+song_begin: Vete y Aléjate de Mí.mp3
+Time: 276.84000000000003
+Artist: Antony Santos, Raul Gil
+Title: Vete y Aléjate de Mí
+Album: Vete
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379751
+added: 1791582908
+song_end
+song_begin: Vete, Vete.mp3
+Time: 218.42600000000002
+Artist: Luis Angel "El Flaco"
+Title: Vete, Vete
+Album: Vete, Vete
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379636
+added: 1791582908
+song_end
+song_begin: Los Mendoza.mp3
+Time: 213.266
+Artist: Los Rieleros Del Norte
+Title: Los Mendoza
+Album: Vias Por Conocer
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379630
+added: 1791582909
+song_end
+song_begin: Ya Lo Pagarás Con Dios.mp3
+Time: 190.317
+Artist: Vicente Fernández
+Title: Ya Lo Pagarás Con Dios
+Album: Vicente Fernández Con Banda
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380147
+added: 1791582909
+song_end
+song_begin: La Derrota.mp3
+Time: 196.25300000000001
+Artist: Vicente Fernández
+Title: La Derrota
+Album: Vicente Fernandez Para Siempre
+Date: 2015
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380213
+added: 1791582908
+song_end
+song_begin: Vole Muy Alto.mp3
+Time: 191.085
+Artist: Los Huracanes Del Norte
+Title: Vole Muy Alto
+Album: Vientos Huracanados
+Date: 2020
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379633
+added: 1791582908
+song_end
+song_begin: El Venadito.mp3
+Time: 233.853
+Artist: Valentín Elizalde
+Title: El Venadito
+Album: Volveré A Amar
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379247
+added: 1791582908
+song_end
+song_begin: Lágrimas Frente Al Mar.mp3
+Time: 186.826
+Artist: Los Yonic's
+Title: Lágrimas Frente Al Mar
+Album: Volveré A Conquistarte
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379232
+added: 1791582908
+song_end
+song_begin: Palo Bonito.mp3
+Time: 182
+Artist: Banda Maguey, PETITON RAFAEL GUZMAN, RICO RICARDO H
+Title: Palo Bonito
+Album: XV+2
+Date: 2023
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385328
+added: 1791582908
+song_end
+song_begin: Ese Señor de las Canas.mp3
+Time: 166.16
+Artist: Conjunto Primavera
+Title: Ese Señor de las Canas
+Album: Y Otra Vez
+Date: 2017
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379178
+added: 1791582908
+song_end
+song_begin: Por Qué Volviste A Mi.mp3
+Time: 188.88
+Artist: Los Barón De Apodaca
+Title: Por Qué Volviste A Mi
+Album: Y Por Esa Calle Vive
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380057
+added: 1791582908
+song_end
+song_begin: Muchacha Bonita.mp3
+Time: 155.453
+Artist: Cardenales De Nuevo León
+Title: Muchacha Bonita
+Album: Y Qué Más Da
+Date: 2018
+Genre: Music
+Format: 48000:16:2
+mtime: 1790379791
+added: 1791582908
+song_end
+song_begin: Cuatro Meses.mp3
+Time: 167.026
+Artist: La Arrolladora Banda El Limon
+Title: Cuatro Meses
+Album: Ya Pa'que
+Date: 2014
+Genre: Music
+Format: 48000:16:2
+mtime: 1790385265
+added: 1791582908
+song_end
+song_begin: ¿Qué Se Siente？.mp3
+Time: 176.306
+Artist: Luis Angel "El Flaco"
+Title: ¿Qué Se Siente?
+Album: Yo Te Extrañaré
+Date: 2024
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380209
+added: 1791582909
+song_end
+song_begin: Yo Ya No Vuelvo Contigo.mp3
+Time: 240.45600000000002
+Artist: Lenin Ramirez, Grupo Firme
+Title: Yo Ya No Vuelvo Contigo
+Album: Yo Ya No Vuelvo Contigo
+Date: 2019
+Genre: Music
+Format: 48000:16:2
+mtime: 1790387780
+added: 1791582908
+song_end
+song_begin: Zapateado Encabronado #7.mp3
+Time: 201.377
+Artist: Alacranes Musical, Oscar Urbina Jr., René Urbina, Erik Urbina
+Title: Zapateado Encabronado #7
+Album: Zapateado Encabronado #7
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790380480
+added: 1791582908
+song_end
+song_begin: El Perico.mp3
+Time: 179.16
+Artist: Fito Olivares y La Pura Sabrosura
+Title: El Perico
+Album: Zoologico Tropical
+Date: 2026
+Genre: Music
+Format: 48000:16:2
+mtime: 1790386535
+added: 1791582908
+song_end

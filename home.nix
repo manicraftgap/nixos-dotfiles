@@ -65,7 +65,7 @@ in
 
   services.mpd = {
     enable = true;
-    musicDirectory = "/home/mani/music";
+    musicDirectory = "/home/mani/Music";
     extraConfig = ''
       audio_output {
         type "pipewire"
