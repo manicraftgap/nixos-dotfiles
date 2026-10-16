@@ -1,35 +1,216 @@
-/* Source file made available under Mozilla Public License v. 2.0 See the main repository for updates as well as full license text. 
-   https://github.com/Godiesc/firefox-gx */
+/* ==========================================================================
+   userChrome.css  -  minimal Nothing-style LibreWolf
+   Layout: native tab strip hidden, tabs live in Sidebery, flat black UI,
+   square corners, red accent. Change the palette in :root only.
+   ========================================================================== */
 
-/* ############# Required files ############## */
+:root {
+  --nt-bg:     #000000;
+  --nt-raised: #0d0d0d;
+  --nt-hover:  #141414;
+  --nt-fg:     #ffffff;
+  --nt-dim:    #8a8a8a;
+  --nt-line:   #262626;
+  --nt-accent: #d71921;
+  --nt-font:   "JetBrainsMono Nerd Font", monospace;
 
-@import url('components/ogx_root.css');
-@import url('components/ogx_root-personal.css');
-@import url('components/ogx_containers.css');
-@import url('components/ogx_tabs-bar.css');
-@import url('components/ogx_urlbar-searchbar.css');
-@import url('components/ogx_windows-controls.css');
-@import url('components/ogx_customize-styles.css');
-@import url('components/ogx_sound.css');
-@import url('components/ogx_arrowpanel.css');
-@import url('components/ogx_contextual-menu.css');
-@import url('components/ogx_notifications.css');
-@import url('components/ogx_close-button.css');
-@import url('components/ogx_button-styles.css');
-@import url('components/ogx_library.css');
-@import url('components/ogx_hamburger-menu.css');
-@import url('components/ogx_icons.css');
+  /* Toolbars + fields */
+  --toolbar-bgcolor: var(--nt-bg) !important;
+  --toolbar-color: var(--nt-fg) !important;
+  --toolbar-field-background-color: var(--nt-bg) !important;
+  --toolbar-field-color: var(--nt-fg) !important;
+  --toolbar-field-border-color: var(--nt-line) !important;
+  --toolbar-field-focus-background-color: var(--nt-bg) !important;
+  --toolbar-field-focus-color: var(--nt-fg) !important;
+  --toolbar-field-focus-border-color: var(--nt-accent) !important;
+  --lwt-accent-color: var(--nt-bg) !important;
+  --lwt-text-color: var(--nt-fg) !important;
+  --chrome-content-separator-color: var(--nt-line) !important;
 
-/* ############## Extra Files ###############  */
+  /* Sidebar */
+  --sidebar-background-color: var(--nt-bg) !important;
+  --sidebar-text-color: var(--nt-fg) !important;
+  --sidebar-border-color: var(--nt-line) !important;
 
-@import url('components/ogx_left-sidebar.css');
-@import url('components/ogx_oneline.css');
-@import url('components/ogx_tab-shapes.css');
-@import url('components/ogx_tree-tabs.css');
-@import url('components/ogx_tree-tabs-expandOnHover.css');
-@import url('components/ogx_main-image.css');
-@import url('components/ogx_optional-features.css');
+  /* Panels, menus, popups */
+  --arrowpanel-background: var(--nt-bg) !important;
+  --arrowpanel-color: var(--nt-fg) !important;
+  --arrowpanel-border-color: var(--nt-line) !important;
+  --panel-background: var(--nt-bg) !important;
+  --panel-color: var(--nt-fg) !important;
+  --panel-border-color: var(--nt-line) !important;
+  --panel-separator-color: var(--nt-line) !important;
+  --panel-description-color: var(--nt-dim) !important;
+  --panel-banner-item-background-color: var(--nt-raised) !important;
+  --menu-background-color: var(--nt-bg) !important;
+  --menu-color: var(--nt-fg) !important;
+  --menu-border-color: var(--nt-line) !important;
+  --autocomplete-popup-background: var(--nt-bg) !important;
+  --autocomplete-popup-color: var(--nt-fg) !important;
+  --autocomplete-popup-border-color: var(--nt-line) !important;
+  --autocomplete-popup-highlight-background: var(--nt-fg) !important;
+  --autocomplete-popup-highlight-color: var(--nt-bg) !important;
+  --urlbarView-highlight-background: var(--nt-fg) !important;
+  --urlbarView-highlight-color: var(--nt-bg) !important;
+  --urlbarView-hover-background: var(--nt-hover) !important;
+  --urlbarView-separator-color: var(--nt-line) !important;
+  --tooltip-bgcolor: var(--nt-bg) !important;
+  --tooltip-color: var(--nt-fg) !important;
+  --tooltip-border-color: var(--nt-line) !important;
 
-/* ############# Your Personal File ##############  */
+  /* Buttons + focus */
+  --button-bgcolor: var(--nt-raised) !important;
+  --button-hover-bgcolor: var(--nt-hover) !important;
+  --button-active-bgcolor: var(--nt-line) !important;
+  --button-color: var(--nt-fg) !important;
+  --toolbarbutton-hover-background: var(--nt-hover) !important;
+  --toolbarbutton-active-background: var(--nt-line) !important;
+  --toolbarbutton-icon-fill: var(--nt-dim) !important;
+  --focus-outline-color: var(--nt-accent) !important;
+  --focus-outline: 1px solid var(--nt-accent) !important;
+}
 
-@import url('components/ogx_tricks.css');
+/* ---------- Global: square, flat, thin scrollbars ---------- */
+* {
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  scrollbar-color: #3a3a3a transparent;
+}
+
+/* ---------- Tabs: native strip hidden, Sidebery handles tabs ---------- */
+#TabsToolbar { display: none !important; }
+
+/* ---------- Sidebar: only Sidebery is ever visible ---------- */
+#sidebar-panel-header,
+#sidebar-header,          /* close X + panel switcher */
+#sidebar-button,          /* toolbar toggle */
+#sidebar-main {           /* new-sidebar launcher strip */
+  display: none !important;
+}
+#sidebar-box { padding-inline-start: 0px !important; background: var(--nt-bg) !important; border-inline-end: 1px solid var(--nt-line) !important; }
+#sidebar-splitter { width: 1px !important; min-width: 1px !important; background: var(--nt-line) !important; border: none !important; }
+
+/* Any other sidebar (history, bookmarks, Bitwarden...) is never shown.
+   Sidebery's id is its extension ID made widget-safe + "-sidebar-action". */
+#sidebar-box:not([sidebarcommand="_3c078156-979c-498b-8990-85f7987dd929_-sidebar-action"]),
+#sidebar-box:not([sidebarcommand="_3c078156-979c-498b-8990-85f7987dd929_-sidebar-action"]) + #sidebar-splitter {
+  display: none !important;
+}
+
+/* ---------- Frame ---------- */
+#navigator-toolbox { background: var(--nt-bg) !important; border: none !important; }
+#nav-bar { background: var(--nt-bg) !important; border-bottom: 1px solid var(--nt-line) !important; }
+#PersonalToolbar { display: none !important; }
+#browser, #appcontent, #tabbrowser-tabbox, #tabbrowser-tabpanels { background: var(--nt-bg) !important; }
+findbar { background: var(--nt-bg) !important; color: var(--nt-fg) !important; border-top: 1px solid var(--nt-line) !important; }
+
+/* ---------- URL bar ---------- */
+#urlbar-background { background: var(--nt-bg) !important; border: 1px solid var(--nt-line) !important; }
+#urlbar[focused] #urlbar-background,
+#urlbar[open] #urlbar-background { border-color: var(--nt-accent) !important; }
+#urlbar, #urlbar * { font-family: var(--nt-font) !important; font-size: 12px !important; }
+#identity-box, #tracking-protection-icon-container,
+#page-action-buttons, #star-button-box { display: none !important; }
+
+/* URL bar dropdown */
+#urlbar-results, .urlbarView, .urlbarView-body-inner { background: var(--nt-bg) !important; color: var(--nt-fg) !important; }
+.urlbarView-row[selected] > .urlbarView-row-inner,
+.urlbarView-row:hover > .urlbarView-row-inner { background: var(--nt-fg) !important; color: var(--nt-bg) !important; }
+.urlbarView-row[selected] *, .urlbarView-row:hover * { color: var(--nt-bg) !important; fill: var(--nt-bg) !important; }
+
+/* ---------- Menus, context menus, hamburger, extension panel ---------- */
+menupopup, panel, .menupopup-arrowscrollbox, #appMenu-popup, .panel-arrowcontent, #unified-extensions-panel {
+  background: var(--nt-bg) !important;
+  color: var(--nt-fg) !important;
+  border: 1px solid var(--nt-line) !important;
+}
+menuitem, menu, .subviewbutton, .panel-subview-body toolbarbutton { color: var(--nt-fg) !important; }
+menuitem[_moz-menuactive="true"], menu[_moz-menuactive="true"],
+.subviewbutton:hover:not([disabled]), .subviewbutton[_moz-menuactive] {
+  background: var(--nt-fg) !important;
+  color: var(--nt-bg) !important;
+}
+menuitem[_moz-menuactive="true"] *, menu[_moz-menuactive="true"] *,
+.subviewbutton:hover:not([disabled]) * { color: var(--nt-bg) !important; fill: var(--nt-bg) !important; }
+menuseparator, toolbarseparator { border-color: var(--nt-line) !important; background: var(--nt-line) !important; }
+
+/* ---------- Toolbar buttons: dim until hover ---------- */
+.toolbarbutton-1 { color: var(--nt-dim) !important; fill: var(--nt-dim) !important; }
+.toolbarbutton-1:hover { color: var(--nt-fg) !important; fill: var(--nt-fg) !important; background: transparent !important; }
+
+/* ==========================================================================
+   Variable overrides set DIRECTLY on the elements that define them.
+   Panels, menus and the URL bar declare their own --panel-* / --urlbar* vars,
+   so values set only on :root never reach them. Redefine them in place.
+   ========================================================================== */
+panel, menupopup, panelview, #urlbar, #searchbar {
+  --panel-background: #000000 !important;
+  --panel-color: #ffffff !important;
+  --panel-border-color: #262626 !important;
+  --panel-separator-color: #262626 !important;
+  --panel-description-color: #8a8a8a !important;
+  --arrowpanel-background: #000000 !important;
+  --arrowpanel-color: #ffffff !important;
+  --arrowpanel-border-color: #262626 !important;
+  --arrowpanel-dimmed: #141414 !important;          /* hover */
+  --arrowpanel-dimmed-further: #1c1c1c !important;  /* pressed */
+  --arrowpanel-dimmed-even-further: #262626 !important;
+  --button-hover-bgcolor: #141414 !important;
+  --button-active-bgcolor: #1c1c1c !important;
+  --menu-background-color: #000000 !important;
+  --menu-color: #ffffff !important;
+}
+
+/* The visible surface of popups lives in a shadow part */
+panel::part(content), menupopup::part(content) {
+  background: #000000 !important;
+  color: #ffffff !important;
+  border: 1px solid #262626 !important;
+}
+
+/* Hamburger menu + extensions panel + generic panel views */
+panelview, .panel-subview-body, .panel-header, .panel-footer,
+#appMenu-mainView, #unified-extensions-view, .unified-extensions-item {
+  background: #000000 !important;
+  color: #ffffff !important;
+}
+.panel-header, .panel-footer { border-color: #262626 !important; }
+.unified-extensions-item:hover, .unified-extensions-item[_moz-menuactive] { background: #141414 !important; }
+
+/* Downloads panel */
+#downloadsPanel, #downloadsPanel-mainView, #downloadsListBox, #downloadsFooter, #downloadsHistory,
+#downloadsListBox > richlistitem {
+  background: #000000 !important;
+  color: #ffffff !important;
+}
+#downloadsListBox > richlistitem:hover,
+#downloadsListBox > richlistitem[selected] { background: #141414 !important; }
+
+/* URL bar: the expanded state and its dropdown */
+#urlbar {
+  --toolbar-field-background-color: #000000 !important;
+  --toolbar-field-focus-background-color: #000000 !important;
+  --toolbar-field-color: #ffffff !important;
+  --toolbar-field-focus-color: #ffffff !important;
+  --toolbar-field-border-color: #262626 !important;
+  --toolbar-field-focus-border-color: #d71921 !important;
+  --urlbar-box-bgcolor: #000000 !important;
+  --urlbar-box-hover-bgcolor: #141414 !important;
+  --urlbar-box-focus-bgcolor: #000000 !important;
+  --urlbar-box-active-bgcolor: #1c1c1c !important;
+  --urlbar-box-text-color: #ffffff !important;
+  --urlbarView-highlight-background: #ffffff !important;
+  --urlbarView-highlight-color: #000000 !important;
+  --urlbarView-hover-background: #141414 !important;
+  --urlbarView-separator-color: #262626 !important;
+}
+#urlbar[breakout][breakout-extend] > #urlbar-background,
+#urlbar[open] > #urlbar-background {
+  background: #000000 !important;
+  border: 1px solid #d71921 !important;
+}
+.urlbarView-body-outer, .urlbarView-body-inner, .urlbarView-results,
+.search-one-offs, .search-panel-one-offs-container, .search-panel-one-offs {
+  background: #000000 !important;
+  color: #ffffff !important;
+}
