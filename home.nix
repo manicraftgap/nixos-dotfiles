@@ -35,6 +35,8 @@ in
     ./librewolf-theme.nix
     ./prism.nix
     ./kitty.nix
+    ./herdr.nix
+    ./pi.nix
     ./posh.nix
     inputs.nix-flatpak.homeManagerModules.nix-flatpak
   ];

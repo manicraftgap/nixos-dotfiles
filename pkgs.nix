@@ -41,6 +41,8 @@
     jq
     uwsm
     tmux
+    herdr
+    pi-coding-agent
     kitty
     libnotify
     findutils
@@ -84,7 +86,6 @@
     yaru-theme
     glfw3-minecraft
     jellyfin-desktop
-    opencode
     ollama
     docker
     proton-vpn
