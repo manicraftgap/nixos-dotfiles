@@ -20,8 +20,8 @@ let
     millennium = "millennium/millennium";
     yazi = "yazi";
     fastfetch = "fastfetch";
-    "gtk-3.0" = "gtk-3.0";
-    "gtk-4.0" = "gtk-4.0";
+    # "gtk-3.0" = "gtk-3.0";
+    # "gtk-4.0" = "gtk-4.0";
     "vesktop/themes" = "vesktop/themes";
   };
 in
@@ -37,6 +37,7 @@ in
     ./herdr.nix
     ./pi.nix
     ./mako.nix
+    ./gtk.nix
     ./posh.nix
     inputs.nix-flatpak.homeManagerModules.nix-flatpak
   ];
