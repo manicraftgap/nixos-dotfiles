@@ -99,7 +99,7 @@
   "network.proxy.type" = 0;
   "pdfjs.enabledCache.state" = true;
   "pdfjs.migrationVersion" = 2;
-  "permissions.default.shortcuts" = 2;
+  "permissions.default.shortcuts" = 0;
   "privacy.annotate_channels.strict_list.enabled" = true;
   "privacy.bounceTrackingProtection.mode" = 1;
   "privacy.clearOnShutdown_v2.cache" = false;
