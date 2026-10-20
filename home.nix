@@ -36,6 +36,7 @@ in
     ./prism.nix
     ./kitty.nix
     ./herdr.nix
+    ./gtk.nix
     ./pi.nix
     ./posh.nix
     inputs.nix-flatpak.homeManagerModules.nix-flatpak
