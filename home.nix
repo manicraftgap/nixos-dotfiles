@@ -15,6 +15,7 @@ let
     waywall = "waywall";
     hypr = "hypr";
     btop = "btop";
+    mako = "mako";
     swaybg = "swaybg";
     swayosd = "swayosd";
     millennium = "millennium/millennium";
@@ -36,8 +37,6 @@ in
     ./kitty.nix
     ./herdr.nix
     ./pi.nix
-    ./mako.nix
-    ./gtk.nix
     ./posh.nix
     inputs.nix-flatpak.homeManagerModules.nix-flatpak
   ];
