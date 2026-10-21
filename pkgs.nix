@@ -53,6 +53,7 @@
     ripgrep
     fd
     lazygit
+    (pkgs.callPackage ./helixnotes.nix {})
     go
     gopls
     gammastep
