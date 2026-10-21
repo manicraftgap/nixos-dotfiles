@@ -87,6 +87,10 @@ in
     recursive = true;
   };
 
+  # home.file.".local/share/Steam/steamapps/common/Hollow Knight" = {
+  #   source = "/mnt/games/SteamLibrary/steamapps/common/Hollow Knight";
+  # };
+
   xdg.dataFile."millennium/plugins" = {
     source = create_symlink "${dotfiles}/millennium/plugins";
     recursive = true;

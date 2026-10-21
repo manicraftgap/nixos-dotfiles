@@ -68,6 +68,7 @@
     steam-run
     inputs.millennium.packages."${pkgs.pkgs.stdenv.hostPlatform.system}".millennium-steam
     samrewritten
+    lumafly
     cliamp
     nautilus
     gnome-calculator
