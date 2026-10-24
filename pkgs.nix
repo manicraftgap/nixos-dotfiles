@@ -41,7 +41,6 @@
     jq
     uwsm
     tmux
-    herdr
     pi-coding-agent
     kitty
     libnotify

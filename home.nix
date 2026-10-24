@@ -35,7 +35,6 @@ in
     ./librewolf-theme.nix
     ./prism.nix
     ./kitty.nix
-    ./herdr.nix
     ./gtk.nix
     ./pi.nix
     ./posh.nix
