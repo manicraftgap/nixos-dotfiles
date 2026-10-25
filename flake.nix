@@ -28,7 +28,34 @@
       specialArgs = { inherit inputs; };
       modules = [
         { nixpkgs.hostPlatform = "x86_64-linux"; }
-        { nixpkgs.overlays = [ inputs.millennium.overlays.default ]; }
+        {
+          nixpkgs.overlays = [
+            inputs.millennium.overlays.default
+            (final: prev: {
+              learnharness = prev.callPackage (
+                { pkgs, ... }:
+                let
+                  pname = "learnharness";
+                  version = "0.3.4";
+                  src = pkgs.fetchurl {
+                    url = "https://github.com/amosblomqvist/learnharness/releases/download/v0.3.4/LearnHarness-0.3.4-x86_64.AppImage";
+                    hash = "sha256-Mz1JKFhE8M8CipALAxWDgUoXqLRRqmYsZJPomaeCe6E=";
+                  };
+                  appimageContents = pkgs.appimageTools.extract { inherit pname version src; };
+                in
+                pkgs.appimageTools.wrapType2 {
+                  inherit pname version src;
+                  extraInstallCommands = ''
+                    install -m 444 -D ${appimageContents}/${pname}.desktop $out/share/applications/${pname}.desktop
+                    substituteInPlace $out/share/applications/${pname}.desktop \
+                      --replace 'Exec=AppRun' 'Exec=${pname}'
+                    cp -r ${appimageContents}/usr/share/icons $out/share/
+                  '';
+                }
+              ) {};
+            })
+          ];
+        }
         nixos-hardware.nixosModules.asus-zephyrus-gu605my
         inputs.helium.nixosModules.default
         inputs.oledctl.nixosModules.default

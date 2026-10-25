@@ -42,6 +42,7 @@
     uwsm
     tmux
     pi-coding-agent
+    learnharness
     kitty
     libnotify
     findutils
