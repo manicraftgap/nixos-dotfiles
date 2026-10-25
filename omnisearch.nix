@@ -10,7 +10,7 @@ let
       owner = "gabrielf";
       repo = "beaker";
       rev = "master";
-      hash = "sha256-4+UWuicypc7wEuLGwY1N372X1JF162DPSbjssZlfhhY=";
+      hash = "sha256-Al/BE7uVRSmUGF/t1m0pWxF9jNgzdCVUrc5ZHkcPiQg=";
     };
 
     # Default buildPhase runs `make`, which builds build/libbeaker.{so,a}.
@@ -32,7 +32,7 @@ let
       owner = "gabrielf";
       repo = "omnisearch";
       rev = "master";
-      hash = "sha256-3l6j1mDX2UtNX9cIL9pvEnpmSDgxtr6r4dZZSRbAY0I=";
+      hash = "sha256-PWT4tezp99dc5OJh+qxt5AoGyQo5FoNaP/JWgFQwvjU=";
     };
 
     nativeBuildInputs = with pkgs; [

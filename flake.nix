@@ -18,7 +18,7 @@
     helium.url = "github:oxcl/nix-flake-helium-browser";
     millennium.url = "github:SteamClientHomebrew/Millennium/next?dir=packages/nix";
     openlogi = {
-      url = "github:AprilNEA/OpenLogi";
+      url = "github:AprilNEA/OpenLogi?dir=packaging";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
