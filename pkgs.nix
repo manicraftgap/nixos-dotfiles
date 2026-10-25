@@ -47,7 +47,6 @@
     findutils
     power-profiles-daemon
     piper
-    bottles
     jq
     ripgrep
     fd
