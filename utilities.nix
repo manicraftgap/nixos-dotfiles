@@ -112,6 +112,38 @@ let
     esac
   '';
 
+  capsCycle = pkgs.writeShellScriptBin "caps-cycle" ''
+    set -eu
+    state="''${XDG_RUNTIME_DIR:-/tmp}/caps-mode"
+
+    # Any other kb_options you always want. Don't put caps:/compose: options here.
+    base=""
+
+    cur=$(cat "$state" 2>/dev/null || echo caps)
+
+    case "$cur" in
+      caps)
+        next=compose; opt="compose:caps"
+        label="Compose"; icon="insert-text-symbolic" ;;
+      compose)
+        next=escape; opt="caps:escape"
+        label="Escape"; icon="application-exit-symbolic" ;;
+      *)
+        next=caps; opt=""
+        label="Caps Lock"; icon="input-keyboard-symbolic" ;;
+    esac
+
+    opts="$base"
+    [ -n "$opt" ] && opts="''${opts:+$opts,}$opt"
+
+    ${pkgs.hyprland}/bin/hyprctl eval "hl.config({ input = { kb_options = \"$opts\" } })" >/dev/null
+    echo "$next" > "$state"
+
+    ${pkgs.swayosd}/bin/swayosd-client \
+      --custom-icon "$icon" \
+      --custom-message "$label"
+  '';
+
   toggle-airplane-mode = pkgs.writeShellApplication {
     name = "toggle-airplane-mode";
     text = ''

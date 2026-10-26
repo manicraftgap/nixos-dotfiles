@@ -359,4 +359,4 @@ hl.bind("Caps_Lock", function()
 	end
 end)
 
-hl.bind("SHIFT + Caps_Lock", hl.dsp.send_shortcut({ mods = "", key = "Multi_key", window = "activewindow" }))
+hl.bind(mainMod .. " + CTRL + K", hl.dsp.exec_cmd("caps-cycle"))
