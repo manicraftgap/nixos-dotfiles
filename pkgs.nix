@@ -48,10 +48,8 @@
     findutils
     power-profiles-daemon
     piper
-    jq
     ripgrep
     fd
-    lazygit
     (pkgs.callPackage ./helixnotes.nix {})
     go
     gopls
@@ -65,7 +63,7 @@
     sqlite
     vesktop
     steam-run
-    inputs.millennium.packages."${pkgs.pkgs.stdenv.hostPlatform.system}".millennium-steam
+    inputs.millennium.packages.${system}.millennium-steam
     samrewritten
     lumafly
     cliamp
@@ -83,7 +81,7 @@
     mpv
     normcap
     nodejs
-    inputs.openlogi.packages.${pkgs.pkgs.stdenv.hostPlatform.system}.default
+    inputs.openlogi.packages.${system}.default
     yaru-theme
     glfw3-minecraft
     jellyfin-desktop
