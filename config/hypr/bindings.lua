@@ -305,8 +305,8 @@ hl.bind(mainMod .. " + SHIFT + ALT + COMMA", hl.dsp.exec_cmd("makoctl restore"))
 
 -- Dictation
 hl.bind(mainMod .. " + CTRL + X", hl.dsp.exec_cmd("voxtype record toggle"))
-hl.bind(mainMod .. " + F9", hl.dsp.exec_cmd("voxtype record start"))
-hl.bind(mainMod .. " + F9", hl.dsp.exec_cmd("voxtype record stop"), { release = true })
+hl.bind(mainMod .. " + SHIFT + X ", hl.dsp.exec_cmd("voxtype record start"))
+hl.bind(mainMod .. " + SHIFT + X", hl.dsp.exec_cmd("voxtype record stop"))
 
 -- Zoom
 hl.bind(mainMod .. " + CTRL + Z", function()

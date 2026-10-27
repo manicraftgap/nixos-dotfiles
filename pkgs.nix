@@ -43,6 +43,8 @@
     tmux
     pi-coding-agent
     learnharness
+    voxtype-vulkan
+    wtype
     kitty
     libnotify
     findutils

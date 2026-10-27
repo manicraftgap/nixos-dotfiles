@@ -41,6 +41,26 @@
   margin: 0 7.5px;
 }
 
+#custom-voxtype {
+  min-width: 12px;
+  margin: 0 7.5px;
+}
+
+#custom-voxtype.idle {
+  opacity: 0;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#custom-voxtype.recording {
+  color: #d71921;
+}
+
+#custom-voxtype.transcribing {
+  color: #ffffff;
+}
+
 #tray {
   margin-right: 16px;
 }

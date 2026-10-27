@@ -11,6 +11,7 @@
     "clock"
   ],
   "modules-right": [
+    "custom/voxtype",
     "group/tray-expander",
     "bluetooth",
     "network",
@@ -140,6 +141,17 @@
         ""
       ]
     }
+  },
+  "custom/voxtype": {
+    "exec": "voxtype status --follow --format json",
+    "return-type": "json",
+    "format": "{icon}",
+    "format-icons": {
+      "idle": "",
+      "recording": "\u25cf",
+      "transcribing": "\uf252"
+    },
+    "tooltip": true
   },
   "group/tray-expander": {
     "orientation": "inherit",
