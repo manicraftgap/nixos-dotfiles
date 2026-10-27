@@ -1,5 +1,8 @@
 { config, pkgs, inputs, ... }:
 
+let
+  system = pkgs.stdenv.hostPlatform.system;
+in
 {
   environment.systemPackages = with pkgs; [
     wget
@@ -41,6 +44,7 @@
     jq
     uwsm
     tmux
+    tuios
     pi-coding-agent
     learnharness
     voxtype-vulkan
@@ -55,6 +59,7 @@
     (pkgs.callPackage ./helixnotes.nix {})
     go
     gopls
+    cisco-packet-tracer_9
     gammastep
     lua-language-server
     imagemagick

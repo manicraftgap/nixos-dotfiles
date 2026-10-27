@@ -376,5 +376,6 @@ in {
     powerProfileMenu
     powerProfileCycle
     cycleAura
+    capsCycle
   ];
 }
